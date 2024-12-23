@@ -1,0 +1,67 @@
+{
+    "translation": {
+        "lngBtnLabel": "Pt-br",
+        "lngBtnTitle": "Ver em Português brasileiro",
+        "sobre": "About",
+        "habilidades": "Skills",
+        "projetos": "Projects",
+        "contato": "Contact",
+        "footerLabel": "Developed By",
+
+        "introLabel": "Developer",
+        "introDesc": "Passionate about technology and development",
+
+        "sobreTitle": "about",
+        "sobreDesc": "I consider myself a problem-solver and a fast learner who is constantly seeking to improve.",
+        "sobreDesc2": "I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, and Node.js, along with relevant knowledge in SQL, PHP, Flutter, Docker, REST API, Bootstrap, Firebase, and other technologies.",
+        "sobreBtnLabelCurriculo": "Open my CV",
+        "sobreBtnLabelEmail": "Send an email",
+
+        "experienciaTitle": "experience",
+        "boxExperienciaConectaTitle": "Jr Full Stack Developer",
+        "boxExperienciaConectaData": "September 2024 - present",
+        "boxExperienciaConectaDesc": "I contribute to the maintenance and evolution of systems used by over 200 employees and more than 16,000 external clients, helping to sustain and improve operations that directly impact the company's operations and the quality of its services.",
+        "boxExperienciaFatecTitle": "Web Developer Intern",
+        "boxExperienciaFatecData": "April 2024 - July 2024",
+        "boxExperienciaFatecDesc": "I worked on the development and planning of an initial version of a base system for a service portal aimed at centralizing requests related to the college coordination.",
+
+        "educacaoTitle": "education",
+        "educacaoLabel": "Undergraduate Program",
+        "educacaoCurso": "Technologist Degree in Systems Analysis and Development",
+        "educacaoData": "July 2021 - July 2024",
+
+        "habilidadesTitle": "skills",
+        "diferenciaisTitle": "Other Skills",
+        "diferenciaisDesign": "Design",
+        "diferenciaisUIUX": "UI/UX",
+        "diferenciaisScrum": "Scrum Methodology",
+
+        "projetosTitle": "Projects",
+        "projetosDestaques": "Highlights",
+        "projetosTodos": "All Projects",
+        "projetosBtnTitle": "See all the projects on GitHub",
+        "projetosBtnLabel": "See on GitHub",
+
+        "boxProjetos-JapaCasa-Desc": "A delivery website for a Japanese food restaurant, where users can view the menu and add items to the cart.",
+        "boxProjetos-Estudantes-title": "CRUD Students",
+        "boxProjetos-Estudantes-Desc": "A simple system that allows adding, listing, editing, and deleting student information.",
+        "boxProjetos-PortalServicos-title": "Service Portal",
+        "boxProjetos-PortalServicos-Desc": "A modular web system that manages and provides services for a public college.",
+        "boxProjetos-ContactMVC-Desc": "A web application that implements CRUD operations in a contact system linked to a database in Docker.",
+        "boxProjetos-Epp-Desc": "An Android app designed to help with programming learning using gamification.",
+        "boxProjetos-Pagamento-title": "Payment Page",
+        "boxProjetos-Pagamento-Desc": "A payment page with form validations and a mobile-first design.",
+        "boxProjetos-GerSenhas-title": "Password Manager",
+        "boxProjetos-GerSenhas-Desc": "A web application that allows the registration, generation, and management of passwords, notes, and favorites.",
+        "boxProjetos-Tarefas-title": "Task List",
+        "boxProjetos-Tarefas-Desc": "A page that displays a task list, allowing users to add tasks and mark them as completed.",
+        "boxProjetos-IMC-title": "BMI Calculator",
+        "boxProjetos-IMC-Desc": "A website that calculates the body mass index (BMI) and returns the weight range it falls into.",
+
+        "contatoTitle": "contact",
+        "contatoDesc": "I would love to discuss how I can contribute to your company's success or help transform your idea into a beautiful and efficient solution. Shall we talk? Get in touch with me and let's make it happen! Feedback is always welcome too.",
+        "contatoNomePlacehoder": "Name *",
+        "contatoMensagemPlacehoder": "Message *",
+        "contatoBtnLabel": "Send"
+    }
+}

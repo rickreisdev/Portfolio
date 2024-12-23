@@ -1,0 +1,68 @@
+{
+    "translation": {
+        "lngBtnLabel": "En",
+        "lngBtnTitle": "View in English",
+        "sobre": "Sobre",
+        "habilidades": "Habilidades",
+        "projetos": "Projetos",
+        "contato": "Contato",
+        "footerLabel": "Desenvolvido Por",
+
+        "introLabel": "Desenvolvedor",
+        "introDesc": "Apaixonado por tecnologia e desenvolvimento",
+
+        "sobreTitle": "sobre",
+        "sobreDesc": "Me considero uma pessoa com facilidade para resolver problemas e um aprendiz rápido que está constantemente buscando se aprimorar.",
+        "sobreDesc2": "Acumulo conhecimento e experiência em desenvolvimento, com habilidades sólidas em React, HTML/CSS, JavaScript/TypeScript, Sass e Node.js somadas a um conhecimento relevante em SQL, PHP, Flutter, Docker, API REST, Bootstrap, Firebase entre outras tecnologias.",
+        "sobreBtnLabelCurriculo": "Meu currículo",
+        "sobreBtnLabelEmail": "Enviar e-mail",
+
+        "experienciaTitle": "experiência",
+        "boxExperienciaConectaTitle": "Desenvolvedor Full Stack Jr.",
+        "boxExperienciaConectaData": "Setembro 2024 - presente",
+        "boxExperienciaConectaDesc": "Contribuo para a manutenção e evolução de sistemas utilizados pelos mais de 200 colaboradores e os mais de 16.000 clientes externos atendidos, ajudando a sustentar e melhorar operações que impactam diretamente na operação e na qualidade do serviço oferecido pela empresa.",
+        "boxExperienciaFatecTitle": "Desenvolvedor Web Estagiário",
+        "boxExperienciaFatecData": "Abril 2024 - Julho 2024",
+        "boxExperienciaFatecDesc": "Atuei no desenvolvimento e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade.",
+
+        "educacaoTitle": "formação",
+        "educacaoLabel": "Curso Superior",
+        "educacaoCurso": "Graduação em Análise e Desenvolvimento de Sistemas",
+        "educacaoData": "Julho 2021 - Julho 2024",
+
+        "habilidadesTitle": "habilidades",
+        "diferenciaisTitle": "Outras Habilidades",
+        "diferenciaisDesign": "Noções de Design",
+        "diferenciaisUIUX": "Noções de UI/UX",
+        "diferenciaisScrum": "Metodologia Scrum",
+
+        "projetosTitle": "Projetos",
+        "projetosDestaques": "Em Destaque",
+        "projetosTodos": "Todos os Projetos",
+        "projetosBtnTitle": "Ver todos os repositórios no GitHub",
+        "projetosBtnLabel": "Ver no GitHub",
+
+        "boxProjetos-JapaCasa-Desc": "Um site de delivery para um restaurante de comida japonesa, onde o usuário pode conferir o cardápio e adicionar produtos no carrinho.",
+        "boxProjetos-Estudantes-title":"CRUD Estudantes",
+        "boxProjetos-Estudantes-Desc": "Um sistema simples que permite adicionar, listar, editar e deletar informações de estudantes.",
+        "boxProjetos-PortalServicos-title":"Portal de Serviços",
+        "boxProjetos-PortalServicos-Desc": "Um sistema web modular que gerencia e disponibiliza serviços de uma faculdade pública.",
+        "boxProjetos-ContactMVC-Desc": "Aplicação web que implementa operações CRUD em um sistema de contatos ligado com um banco de dados em Docker.",
+        "boxProjetos-Epp-Desc": "Um app Android feito para ajudar no aprendizado de programação utilizando a gamificação.",
+        "boxProjetos-Pagamento-title":"Página de Pagamento",
+        "boxProjetos-Pagamento-Desc": "Página de pagamento com validações de formulário e design mobile-fist.",
+        "boxProjetos-GerSenhas-title":"Gerenciador de Senhas",
+        "boxProjetos-GerSenhas-Desc": "Uma aplicação web que permite o cadastro, geração e o gerenciamento de senhas, notas e favoritos.",
+        "boxProjetos-Tarefas-title":"Lista de Tarefas",
+        "boxProjetos-Tarefas-Desc": "Página que apresenta uma lista de tarefas que permite adicionar tasks e marcá-las como concluídas.",
+        "boxProjetos-IMC-title":"Calcula IMC",
+        "boxProjetos-IMC-Desc": "Site que calcula o índica de massa corporal e retorna a faixa de peso no qual o mesmo se encontra.",
+
+
+        "contatoTitle": "contato",
+        "contatoDesc": "Adoraria discutir como posso contribuir para o sucesso da sua empresa ou ajudar a transformar sua ideia em uma solução bonita e eficiente. Vamos conversar? Entre em contato comigo e vamos fazer acontecer! Feedbacks também são sempre bem-vindos.",
+        "contatoNomePlacehoder": "Nome *",
+        "contatoMensagemPlacehoder": "Mensagem *",
+        "contatoBtnLabel": "Enviar"
+    }
+}
