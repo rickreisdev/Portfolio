@@ -1,0 +1,267 @@
+@import "./vars.scss";
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    margin: 0 7%;
+    align-items: center;
+    padding: 75px 0px;
+    justify-content: center;
+    align-self: center;
+
+    .tituloxp {
+        color: $verde-secundario;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    span {
+        color: $verde-principal;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        margin-top: 5px;
+    }
+
+    .box-experiencia {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 360px;
+     
+        border-radius: 30px;
+        border: 1px solid green;
+        padding: 0 3px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        flex-grow: 1;
+        transition: 0.3s ease-in-out;
+
+        .detalhes-experiencia {
+            z-index: 1;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+
+            .nome-experiencia {
+                text-align: center;
+                color: #fff;
+                z-index: 1;
+                max-width: 80%;
+                margin: auto;
+            }
+
+            h3 {
+                margin: auto;
+            }
+
+            h4 {
+                color: $verde-principal;
+                text-align: center;
+                font-size: 0.85rem;
+                max-width: 90%;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-top: 5px;
+                z-index: 1;
+            }
+
+            p {
+                color: #fff;
+                max-width: 70%;
+                text-align: center;
+                font-size: 15.5px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-top: auto;
+                margin-bottom: auto;
+                z-index: 1;
+            }
+
+            .btns-experiencia {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                gap: 10px;
+                margin-bottom: 10px;
+                margin-top: 20px;
+
+                .btn-link-site,
+                .btn-link-git {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 1;
+                    padding: 0 10px;
+                    background-color: $verde-cinco;
+                    font-size: 1.1rem;
+                    box-shadow: none;
+                    border-radius: 30px;
+                    transition: 0.3s ease;
+                }
+                .btn-link-site:hover,
+                .btn-link-git:hover {
+                    transform: scale(1.1);
+                    box-shadow: 1px 1px 3px 1px #09090981;
+                }
+            }
+        }
+    }
+}
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    margin: 0 7%;
+    align-items: center;
+    padding: 75px 0px;
+    justify-content: center;
+    align-self: center;
+
+    .tituloxp {
+        color: $verde-secundario;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    span {
+        color: $verde-principal;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        margin-top: 5px;
+    }
+
+    .box-formacao {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 90%;
+        border-radius: 30px;
+        border: 1px solid green;
+        padding: 20px 3px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        flex-grow: 1;
+        transition: 0.3s ease-in-out;
+
+        i {
+            color: white;
+            font-size: 3.5rem;
+        }
+
+        .detalhes-formacao {
+            z-index: 1;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+
+            .nome-formacao {
+                text-align: center;
+                color: $verde-principal;
+                z-index: 1;
+                max-width: 80%;
+                margin: auto;
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+
+            h3 {
+                margin: auto;
+            }
+
+            h4 {
+                color: $verde-principal;
+                text-align: center;
+                font-size: 0.85rem;
+                max-width: 90%;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                margin-top: 5px;
+                z-index: 1;
+            }
+
+            h5 {
+                font-size: 1.1rem;
+                margin: 0;
+                color: white;
+                font-weight: 400;
+                text-align: center;
+            }
+
+            p {
+                color: #fff;
+                max-height: 120px;
+                max-width: 70%;
+                text-align: center;
+                font-size: 15.5px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-top: auto;
+                margin-bottom: auto;
+                z-index: 1;
+            }
+
+            .btns-formacao {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                gap: 10px;
+                margin-bottom: 10px;
+                margin-top: 20px;
+
+                .btn-link-site,
+                .btn-link-git {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    z-index: 1;
+                    padding: 0 10px;
+                    background-color: $verde-cinco;
+                    font-size: 1.1rem;
+                    box-shadow: none;
+                    border-radius: 30px;
+                    transition: 0.3s ease;
+                }
+                .btn-link-site:hover,
+                .btn-link-git:hover {
+                    transform: scale(1.1);
+                    box-shadow: 1px 1px 3px 1px #09090981;
+                }
+            }
+        }
+    }
+}

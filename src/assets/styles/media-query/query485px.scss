@@ -13,7 +13,7 @@
     .menu,
     .content,
     .sobre,
-    .experiencia,
+    .habilidades,
     .meus-projetos,
     .contato {
         margin: 0;
@@ -22,7 +22,7 @@
 
     .intro h1,
     .sobre .sobre-titulo .h2s,
-    .experiencia .tituloxp,
+    .habilidades .tituloxp,
     .meus-projetos h2,
     .contato h2 {
         font-size: 25px;
@@ -75,7 +75,6 @@
     .paginas {
         top: 6.8vh;
         right: -5px;
-        height: 65vh;
         width: 100vw;
         margin-left: 0;
         margin-right: 5px;
@@ -95,7 +94,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 130px;
+        margin-top: 50px;
         padding: 130px 20px;
 
         .saudacao {
@@ -107,7 +106,7 @@
             align-items: center;
             h1 {
                 text-align: center;
-                max-width: 80%;
+                max-width: 90%;
             }
 
             h2 {
@@ -164,7 +163,7 @@
         }
     }
 
-    .experiencia {
+    .habilidades {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -185,8 +184,33 @@
         }
 
         .diferenciais {
+            padding: 0;
+            gap: 35px !important;
+
             .card {
-                max-width: 400px;
+                max-width: 200px !important;
+
+                h3 {
+                    font-weight: 400 !important;
+                    letter-spacing: 0 !important;
+                }
+
+                .card-body {
+                    flex-direction: column;
+
+                    .card-icon {
+                        font-size: 2.5rem !important;
+                    }
+
+                    #scrum-icon{
+                        font-size: 3.5rem !important;
+                    }
+
+                    #design-icon{
+                        font-size: 2rem !important;
+                        margin-bottom: 5px !important;
+                    }
+                }
             }
         }
     }

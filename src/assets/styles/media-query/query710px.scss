@@ -6,6 +6,11 @@
         animation-range: none;
     }
 
+    .btnTopo {
+        bottom: 50px;
+        padding: 7px 10px;
+    }
+
     .imagem-intro img {
         display: flex;
         width: 250px;
@@ -82,5 +87,42 @@
           }
         }
       }
+    }
+
+    .meus-projetos {
+        padding-top: 80px;
+
+        .box-projeto {
+            max-height: 400px;
+            min-width: 360px !important;
+
+            p {
+                margin-bottom: none;
+            }
+
+            .detalhes-projeto {
+                width: 80% !important;
+
+                .nome-projeto{
+                    max-width: 100% !important;
+                }
+
+                p {
+                    max-width: 100% !important;
+                }
+            }
+        }
+    }
+    
+    .experiencia {
+        .box-experiencia {
+            height: 460px !important;
+
+            .detalhes-experiencia {
+                p {
+                    max-width: 90% !important;
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,25 @@
+@import "./vars.scss";
+
+.btnTopo {
+    z-index: 1;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: $verde-secundario;
+    color: #FFF; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+
+    .btnTopo-icon {
+        display: flex;
+        font-size: 1.1rem;
+    }
+
+    &:hover{
+        background-color: $verde-principal;
+    }
+}

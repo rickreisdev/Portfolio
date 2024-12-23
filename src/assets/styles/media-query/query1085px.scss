@@ -70,6 +70,7 @@
 
         .saudacao {
             padding: 15px;
+            animation: none !important;
         }
     }
 
@@ -109,7 +110,7 @@
         }
     }
 
-    .experiencia {
+    .habilidades {
         .diferenciais {
             flex-direction: column;
         }
@@ -137,13 +138,12 @@
 
             .img-projeto {
                 z-index: 1;
-                display: flex;
+                display: none !important;
                 align-items: center;
                 justify-content: center;
                 width: auto;
                 height: auto;
                 border-radius: 20px;
-                margin-top: 20px;
                 background-color: transparent;
 
                 img {
@@ -168,6 +168,7 @@
                 p {
                     font-size: 1.2rem;
                     max-height: 110px;
+                    margin-top: 0 !important;
                 }
 
                 h4 {
