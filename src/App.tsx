@@ -1,26 +1,19 @@
 import "./assets/styles/global.scss";
+import BtnTopo from "./components/BtnTopo.tsx";
 import Contato from "./sessions/Contato.tsx";
-import Experiencia from "./sessions/Habilidades.tsx";
 import Footer from "./sessions/Footer.tsx";
 import Header from "./sessions/Header.tsx";
-import Intro from "./sessions/Intro.tsx";
-import Projetos from "./sessions/Projetos.tsx";
-import Sobre from "./sessions/Sobre.tsx";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <div className="page-container">
         <Header />
-
-        <main>
-          <Intro />
-          <Sobre />
-          <Experiencia />
-          <Projetos />
-          <Contato />
-          <Footer />
-        </main>
+        <BtnTopo />
+        <Outlet/>
+        <Contato />
+        <Footer />
       </div>
     </>
   );

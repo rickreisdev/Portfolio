@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "../assets/styles/contato.scss";
 
 import {
@@ -8,27 +9,24 @@ import {
 } from "react-icons/fa";
 
 const Contato = () => {
+
+    const {t} = useTranslation()
+
     return (
         <div className="contato" id="contato">
             <h2>
-                &#123;rickreisme&#47;<span>contato</span>&#125;
+                &#123;rickreisdev&#47;<span>{t('contatoTitle')}</span>&#125;
             </h2>
 
             <div className="colunaC">
                 <div className="content-contato">
                     <h3 className="estou">
-                        Adoraria discutir como posso contribuir para o
-                        sucesso da sua empresa ou ajudar a transformar
-                        sua ideia em uma solução bonita e eficiente.{" "}
-                        <br />
-                        Vamos conversar? Entre em contato comigo e
-                        vamos fazer acontecer! Feedbacks também são
-                        sempre bem-vindos.
+                    {t('contatoDesc')}
                     </h3>
 
                     <div className="sociais">
                         <a
-                            href="https://github.com/rickreisme"
+                            href="https://github.com/rickreisdev"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -83,7 +81,7 @@ const Contato = () => {
                                 type="text"
                                 name="nome"
                                 required
-                                placeholder="Nome *"
+                                placeholder={t('contatoNomePlacehoder')}
                             />
                         </label>
 
@@ -99,7 +97,7 @@ const Contato = () => {
                         <label>
                             <textarea
                                 name="message"
-                                placeholder="Mensagem *"
+                                placeholder={t('contatoMensagemPlacehoder')}
                                 cols={30}
                                 rows={10}
                                 required
@@ -107,7 +105,7 @@ const Contato = () => {
                         </label>
 
                         <button type="submit">
-                            <h4>Enviar</h4>
+                            <h4>{t('contatoBtnLabel')}</h4>
                         </button>
                     </form>
                 </div>

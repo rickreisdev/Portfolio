@@ -1,7 +1,7 @@
 import "../assets/styles/habilidades-projetos.scss";
-import { useLocation } from "react-router-dom";
 import { RiExternalLinkFill } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 interface BoxProjetoProps {
     imagem?: string;
@@ -20,8 +20,8 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
     linkRepo,
     tecnologias,
 }) => {
-    const location = useLocation();
-    const isEnglishRoute = location.pathname === "/english";
+    const { i18n: language } = useTranslation();
+    const currentLng = language.language;
 
     return (
         <motion.div
@@ -34,7 +34,10 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
         >
             {imagem && (
                 <div className="img-projeto">
-                    <img src={imagem} alt={`${titulo} logo`} />
+                    <img
+                        src={imagem}
+                        alt={`${titulo} logo`}
+                    />
                 </div>
             )}
 
@@ -49,8 +52,8 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
                             href={linkSite}
                             target="_blank"
                             title={
-                                isEnglishRoute
-                                    ? "Visit site"
+                                currentLng !== 'pt'
+                                    ? "Visit page"
                                     : "Visitar site"
                             }
                         >
@@ -65,13 +68,13 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
                             target="_blank"
                             href={linkRepo}
                             title={
-                                isEnglishRoute
+                                currentLng !== 'pt'
                                     ? "See repository"
                                     : "Ver repositório"
                             }
                         >
                             <RiExternalLinkFill className="link-icon" />
-                            {isEnglishRoute
+                            {currentLng !== 'pt'
                                 ? "Repository"
                                 : "Repositório"}
                         </a>

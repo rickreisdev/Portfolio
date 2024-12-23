@@ -1,8 +1,14 @@
 import "../assets/styles/intro-sobre.scss";
 import { RiExternalLinkFill } from "react-icons/ri";
 import { motion } from "framer-motion";
+import Experiencia from "./Experiencia";
+import Formacao from "./Formacao";
+import { useTranslation } from "react-i18next";
 
 const Sobre = () => {
+    const { t, i18n: language } = useTranslation();
+    const currentLng = language.language;
+
     return (
         <div className="sobre-container" id="sobre">
             <motion.div
@@ -13,34 +19,32 @@ const Sobre = () => {
             >
                 <div className="sobre-titulo">
                     <h2 className="h2s">
-                        &#123;rickreisme&#47;<span>sobre</span>&#125;
+                        &#123;rickreisdev&#47;
+                        <span>{t("sobreTitle")}</span>&#125;
                     </h2>
                 </div>
 
                 <div className="paragrafo">
-                    <p>
-                        Me considero uma pessoa com facilidade para
-                        resolver problemas e um aprendiz rápido que
-                        está constantemente buscando se aprimorar.
-                    </p>
+                    <p>{t("sobreDesc")}</p>
 
-                    <p>
-                        Acumulo conhecimento e experiência em
-                        desenvolvimento, com habilidades sólidas em
-                        React, HTML/CSS/, JavaScript/TypeScript, Sass e
-                        Node.js somadas a um conhecimento relevante em
-                        SQL, PHP, Flutter, Docker, API REST,
-                        Bootstrap, Firebase entre outras tecnologias.
-                    </p>
+                    <p>{t("sobreDesc2")}</p>
 
                     <div className="btns-sobre">
                         <a
                             className="btn"
-                            href="https://drive.google.com/file/d/1JqwzlRzxOmRHyj4rFPqQ4ceiSdLMRNB5/view?usp=sharing"
+                            href={
+                                currentLng === "pt"
+                                    ? "https://drive.google.com/file/d/1JqwzlRzxOmRHyj4rFPqQ4ceiSdLMRNB5/view?usp=sharing"
+                                    : "https://drive.google.com/file/d/1l2M9wv8T3dlI6t6YFni10DVxrAKkfRBB/view?usp=drive_link"
+                            }
                             target="_blank"
                         >
                             <RiExternalLinkFill className="link-icon" />
-                            <h2>Meu currículo</h2>
+                            <h2>
+                                {t(
+                                    "sobreBtnLabelCurriculo"
+                                )}
+                            </h2>
                         </a>
 
                         <a
@@ -49,11 +53,17 @@ const Sobre = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <h2>Enviar e-mail</h2>
+                            <h2>
+                                {t("sobreBtnLabelEmail")}
+                            </h2>
                         </a>
                     </div>
                 </div>
             </motion.div>
+
+            <Experiencia />
+
+            <Formacao />
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import { Route, Routes, BrowserRouter } from "react-router-dom";
+import './lib/i18n'
 
 import "./assets/styles/global.scss"
 import "./assets/styles/media-query/query1085px.scss"
@@ -14,13 +15,24 @@ import "./assets/styles/media-query/query2560px.scss"
 import "./assets/styles/media-query/query1343-1085px.scss"
 import "./assets/styles/media-query/query-1343minpx.scss"
 import AppEnglish from './AppEnglish';
+// import Experiencia from './sessions/Experiencia';
+import Home from './sessions/Home';
+import Sobre from './sessions/Sobre';
+import Habilidades from './sessions/Habilidades';
+import Projetos from './sessions/Projetos';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/english" element={<AppEnglish />} />
+        <Route path="/" element={<App />}>
+          <Route path='/' element={<Home/>} />
+          <Route path='/sobre' element={<Sobre/>} />
+          {/* <Route path='/experiencia' element={<Experiencia />} /> */}
+          <Route path='/habilidades' element={<Habilidades/>} />
+          <Route path='/projetos' element={<Projetos/>} />
+          <Route path="/english" element={<AppEnglish />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
