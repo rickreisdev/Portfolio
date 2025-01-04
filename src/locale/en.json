@@ -11,6 +11,11 @@
         "introLabel": "Developer",
         "introDesc": "Passionate about technology and development",
 
+        "resumoDesc1": "With about three years of experience in development combining professional, academic, and personal projects, my technical skills include HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel, and SQL. I use agile methodologies, such as Scrum and Kanban, to organize tasks and demands in Azure DevOps.",
+        "resumoDesc2": "Throughout my professional journey, I contribute to the maintenance and evolution of systems that serve a large number of people, directly impacting the services provided. I highlight my ability to solve problems, learn quickly, and work as part of a team. I value quality and strive to balance it with deadlines, ensuring the best possible results.",
+        "resumoBtnSobreLabel": "Learn more about me",
+        "resumoBtnProjetosLabel": "Check out my projects",
+
         "sobreTitle": "about",
         "sobreDesc": "I consider myself a problem-solver and a fast learner who is constantly seeking to improve.",
         "sobreDesc2": "I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, and Node.js, along with relevant knowledge in SQL, PHP, Flutter, Docker, REST API, Bootstrap, Firebase, and other technologies.",
@@ -20,10 +25,10 @@
         "experienciaTitle": "experience",
         "boxExperienciaConectaTitle": "Jr Full Stack Developer",
         "boxExperienciaConectaData": "September 2024 - present",
-        "boxExperienciaConectaDesc": "I contribute to the maintenance and evolution of systems used by over 200 employees and more than 16,000 external clients, helping to sustain and improve operations that directly impact the company's operations and the quality of its services.",
+        "boxExperienciaConectaDesc": "I contribute to the maintenance and evolution of systems used by over 200 employees and more than 16,000 external clients, helping to sustain and improve operations that directly impact the company's operations and service quality. Using PHP/Laravel, Vue.js, and MySQL combined with the Scrum methodology and tools like Azure DevOps and Git to achieve the best possible results.",
         "boxExperienciaFatecTitle": "Web Developer Intern",
         "boxExperienciaFatecData": "March 2024 - July 2024",
-        "boxExperienciaFatecDesc": "I worked on the development and planning of an initial version of a base system for a service portal aimed at centralizing requests related to the college coordination.",
+        "boxExperienciaFatecDesc": "Working with React, Node.js, SCSS, Figma, Auth0, and Notion, I contributed to both Back-end and Front-end development and participated in planning an initial system base version for a service portal aimed at centralizing requests related to the college's coordination.",
 
         "educacaoTitle": "education",
         "educacaoLabel": "Undergraduate Program",

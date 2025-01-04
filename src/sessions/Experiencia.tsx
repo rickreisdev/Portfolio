@@ -17,7 +17,7 @@ const Experiencia = () => {
                 data={t("boxExperienciaConectaData")}
                 descricao={t("boxExperienciaConectaDesc")}
                 linkEmpresa="https://conecta.ind.br"
-                tecnologias="PHP - Vue - Azure DevOps - Scrum"
+                tecnologias="PHP - Laravel - Vue - MySQL - Azure DevOps - Scrum"
             />
 
             <BoxExperiencia
@@ -26,7 +26,7 @@ const Experiencia = () => {
                 data={t("boxExperienciaFatecData")}
                 descricao={t("boxExperienciaFatecDesc")}
                 linkEmpresa="http://www.fatecrp.edu.br"
-                tecnologias="React - Node.js - Auth0 - NPM - Notion"
+                tecnologias="React - Node.js - Figma - SCSS - Auth0 - Notion"
             />
         </div>
     );

@@ -11,6 +11,11 @@
         "introLabel": "Desenvolvedor",
         "introDesc": "Apaixonado por tecnologia e desenvolvimento",
 
+        "resumoDesc1": "Com cerca de três anos de experiência em desenvolvimento combinando vivências profissionais, acadêmicas e projetos pessoais, minhas habilidades técnicas incluem HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel e SQL. Utilizo metodologias ágeis, como Scrum e Kanban, para organizar tarefas e demandas no Azure DevOps.",
+        "resumoDesc2": "Em minha trajetória profissional, contribuo para a manutenção e evolução de sistemas que atendem uma grande quantidade de pessoas, impactando diretamente nos serviços oferecidos. Destaco a minha capacidade de resolver problemas, aprender rapidamente e trabalhar em equipe. Valorizo a qualidade e busco equilibrá-la com os prazos de entrega, garantindo os melhores resultados possíveis.",
+        "resumoBtnSobreLabel": "Conheça mais sobre mim",
+        "resumoBtnProjetosLabel": "Confira os meus projetos",
+
         "sobreTitle": "sobre",
         "sobreDesc": "Me considero uma pessoa com facilidade para resolver problemas e um aprendiz rápido que está constantemente buscando se aprimorar.",
         "sobreDesc2": "Acumulo conhecimento e experiência em desenvolvimento, com habilidades sólidas em React, HTML/CSS, JavaScript/TypeScript, Sass e Node.js somadas a um conhecimento relevante em SQL, PHP, Flutter, Docker, API REST, Bootstrap, Firebase entre outras tecnologias.",
@@ -20,10 +25,10 @@
         "experienciaTitle": "experiência",
         "boxExperienciaConectaTitle": "Desenvolvedor Full Stack Jr.",
         "boxExperienciaConectaData": "Setembro 2024 - presente",
-        "boxExperienciaConectaDesc": "Contribuo para a manutenção e evolução de sistemas utilizados pelos mais de 200 colaboradores e os mais de 16.000 clientes externos atendidos, ajudando a sustentar e melhorar operações que impactam diretamente na operação e na qualidade do serviço oferecido pela empresa.",
+        "boxExperienciaConectaDesc": "Contribuo para a manutenção e evolução de sistemas utilizados pelos mais de 200 colaboradores e os mais de 16.000 clientes externos atendidos, ajudando a sustentar e melhorar operações que impactam diretamente na operação e na qualidade do serviço oferecido pela empresa. Utilizando PHP/Laravel, Vue.js e MySQL combinados com a metodologia Scrum e as ferramentas Azure DevOps e Git para chegar ao melhor resultado possível.",
         "boxExperienciaFatecTitle": "Desenvolvedor Web Estagiário",
         "boxExperienciaFatecData": "Março 2024 - Julho 2024",
-        "boxExperienciaFatecDesc": "Atuei no desenvolvimento e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade.",
+        "boxExperienciaFatecDesc": "Trabalhando com React, Node.js, SCSS, Figma, Auth0 e Notion, atuei no desenvolvimento Back-end e Front-end e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade.",
 
         "educacaoTitle": "formação",
         "educacaoLabel": "Curso Superior",
