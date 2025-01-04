@@ -5,3 +5,45 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.resumo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $verde-oito;
+    border-radius: 40px;
+    margin: 0 50px;
+    padding: 10px 0;
+
+    .resumo-desc{
+        text-align: center;
+        margin: 0 50px;
+        color: white;
+        font-size: 1.15rem;
+        font-weight: 400;
+    }
+
+    .resumo-btns{
+        display: flex;
+        margin: 15px 0px;
+        align-items: center;
+        gap: 15px;
+
+        .resumo-btn-sobre, .resumo-btn-projetos {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.07rem;
+            background: $verde-sete;
+            width: 250px;
+            height: 40px;
+            border-radius: 20px;
+            transition: .5s ease;
+
+            &:hover{
+                background: $verde-oito;
+            }
+        }
+    }
+}

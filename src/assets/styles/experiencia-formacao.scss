@@ -42,7 +42,7 @@
      
         border-radius: 30px;
         border: 1px solid green;
-        padding: 0 3px;
+        padding: 10px 3px;
         margin-bottom: 20px;
         overflow: hidden;
         flex-grow: 1;
@@ -84,9 +84,8 @@
                 color: #fff;
                 max-width: 70%;
                 text-align: center;
-                font-size: 15.5px;
+                font-size: 1.05rem;
                 font-style: normal;
-                font-weight: 500;
                 line-height: normal;
                 margin-top: auto;
                 margin-bottom: auto;
@@ -102,23 +101,26 @@
                 margin-bottom: 10px;
                 margin-top: 20px;
 
-                .btn-link-site,
-                .btn-link-git {
+                .btn-link-site {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     z-index: 1;
                     padding: 0 10px;
                     background-color: $verde-cinco;
-                    font-size: 1.1rem;
+                    font-size: 1.05rem;
                     box-shadow: none;
                     border-radius: 30px;
                     transition: 0.3s ease;
-                }
-                .btn-link-site:hover,
-                .btn-link-git:hover {
-                    transform: scale(1.1);
-                    box-shadow: 1px 1px 3px 1px #09090981;
+
+                    &:hover{
+                        transform: scale(1.1);
+                        box-shadow: 1px 1px 3px 1px #09090981;
+                    }
+
+                    .link-icon {
+                        margin-right: 3px;
+                    }
                 }
             }
         }
