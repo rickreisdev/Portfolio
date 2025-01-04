@@ -35,6 +35,13 @@
         animation-range: none;
     }
 
+    .resumo-container{
+        margin: 0 25px !important;
+        .resumo-desc{
+            margin: 0 25px !important;
+        }
+    }
+
     .meus-projetos {
         animation: none;
         animation-timeline: none;
@@ -59,6 +66,10 @@
         animation: none;
         animation-timeline: none;
         animation-range: none;
+    }
+
+    .paragrafo {
+        max-width: 80%;
     }
 
     .btn2 {
@@ -116,7 +127,7 @@
     
     .experiencia {
         .box-experiencia {
-            height: 460px !important;
+            height: 660px !important;
 
             .detalhes-experiencia {
                 p {
