@@ -1,14 +1,12 @@
-// import GitHubDados from "../components/GitHubDados";
-// import HomeBtns from "../components/HomeBtns";
 import Intro from "./Intro";
 import '../assets/styles/home.scss'
+import Resumo from "../components/Resumo";
 
 const Home = () => {
     return (
         <div className="home-container">
             <Intro />
-            {/* <GitHubDados />
-            <HomeBtns /> */}
+            <Resumo />
         </div>
     );
 };
