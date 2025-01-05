@@ -25,7 +25,7 @@
         "experienciaTitle": "carreira",
         "boxExperienciaConectaTitle": "Desenvolvedor Full Stack Jr.",
         "boxExperienciaConectaData": "Setembro 2024 - presente",
-        "boxExperienciaConectaDesc": "Contribuo para a manutenção e evolução de sistemas utilizados pelos mais de 200 colaboradores e os mais de 16.000 clientes externos atendidos, ajudando a sustentar e melhorar operações que impactam diretamente na operação e na qualidade do serviço oferecido pela empresa. Utilizando PHP/Laravel, Vue.js, MySQL e análise de logs de erro para a resolução de problemas, combinados com a metodologia Scrum e as ferramentas Azure DevOps e Git para chegar ao melhor resultado possível.",
+        "boxExperienciaConectaDesc": "Contribuo para a manutenção e evolução de sistemas utilizados pelos mais de 200 colaboradores e os mais de 16.000 clientes externos atendidos, ajudando a sustentar e melhorar operações que impactam diretamente na operação e na qualidade do serviço oferecido pela empresa. Utilizando PHP/Laravel, Vue.js, MySQL e análise de logs de erro para a resolução de problemas, combinados com a metodologia Scrum e as ferramentas Azure DevOps e Git juntamente com o uso de ferramentas de IA para chegar ao melhor resultado possível.",
         "boxExperienciaFatecTitle": "Desenvolvedor Web Estagiário",
         "boxExperienciaFatecData": "Março 2024 - Julho 2024",
         "boxExperienciaFatecDesc": "Trabalhando com React, Node.js, SCSS, Figma, Auth0 e Notion, atuei no desenvolvimento Back-end e Front-end e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade.",
@@ -39,7 +39,8 @@
         "diferenciaisTitle": "Outras Habilidades",
         "diferenciaisDesign": "Noções de Design",
         "diferenciaisUIUX": "Noções de UI/UX",
-        "diferenciaisScrum": "Metodologia Scrum",
+        "diferenciaisScrum": "Scrum/Kanban",
+        "diferenciaisIA": "Ferramentas de IA",
 
         "projetosTitle": "Projetos",
         "projetosDestaques": "Em Destaque",

@@ -25,7 +25,7 @@
         "experienciaTitle": "career",
         "boxExperienciaConectaTitle": "Jr Full Stack Developer",
         "boxExperienciaConectaData": "September 2024 - present",
-        "boxExperienciaConectaDesc": "I contribute to the maintenance and evolution of systems used by over 200 employees and more than 16,000 external clients, helping to sustain and improve operations that directly impact the company's operations and service quality. Using PHP/Laravel, Vue.js, MySQL and error logs analyzing for troubleshooting combined with the Scrum methodology and tools like Azure DevOps and Git to achieve the best possible results.",
+        "boxExperienciaConectaDesc": "I contribute to the maintenance and evolution of systems used by over 200 employees and more than 16,000 external clients, helping to sustain and improve operations that directly impact the company's operations and service quality. Using PHP/Laravel, Vue.js, MySQL and error logs analyzing for troubleshooting combined with the Scrum methodology and tools like Azure DevOps and Git along with the use of AI tools to achieve the best possible results.",
         "boxExperienciaFatecTitle": "Web Developer Intern",
         "boxExperienciaFatecData": "March 2024 - July 2024",
         "boxExperienciaFatecDesc": "Working with React, Node.js, SCSS, Figma, Auth0, and Notion, I contributed to both Back-end and Front-end development and participated in planning an initial system base version for a service portal aimed at centralizing requests related to the college's coordination.",
@@ -39,7 +39,8 @@
         "diferenciaisTitle": "Other Skills",
         "diferenciaisDesign": "Design",
         "diferenciaisUIUX": "UI/UX",
-        "diferenciaisScrum": "Scrum Methodology",
+        "diferenciaisScrum": "Scrum/Kanban",
+        "diferenciaisIA": "AI Tools",
 
         "projetosTitle": "Projects",
         "projetosDestaques": "Highlights",
