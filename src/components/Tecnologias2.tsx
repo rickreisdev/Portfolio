@@ -8,26 +8,25 @@ import {
     SiCsharp,
     SiDotnet,
     SiCplusplus,
-    SiMysql,
-    SiAzuredevops,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
+import MaterialUI from "../assets/imagens/materialUI.svg";
 
 const Tecnologias2 = () => {
     return (
         <div className="habilidades">
             <HabilidadeCard
-                id="Azure DevOps"
-                className="btn2b"
-                Icon={SiAzuredevops}
-                nome="DevOps"
-             />
-
-            <HabilidadeCard
                 id="Figma"
                 className="btn2b"
                 Icon={FaFigma}
                 nome="Figma"
+            />
+
+            <HabilidadeCard
+                id="MaterialUI"
+                className="btn2"
+                iconUrl={MaterialUI}
+                nome="MaterialUI"
             />
 
             <HabilidadeCard
@@ -56,13 +55,6 @@ const Tecnologias2 = () => {
                 className="btn2b"
                 Icon={SiOracle}
                 nome="Oracle DB"
-            />
-
-            <HabilidadeCard
-                id="MySQL"
-                className="btn2b"
-                Icon={SiMysql}
-                nome="MySQL"
             />
 
             <HabilidadeCard

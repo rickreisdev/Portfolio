@@ -1,6 +1,7 @@
 import { FaPaintBrush } from "react-icons/fa";
 import { LuLayout } from "react-icons/lu";
 import { DiScrum } from "react-icons/di";
+import { AiFillOpenAI } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 
 const OutrasHabilidades = () => {
@@ -33,6 +34,16 @@ const OutrasHabilidades = () => {
 
                     <div className="card-titulo">
                         <h3>{t('diferenciaisScrum')}</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card">
+                <div className="card-body">
+                    <AiFillOpenAI className="card-icon" id="ai-icon" />
+
+                    <div className="card-titulo">
+                        <h3>{t('diferenciaisIA')}</h3>
                     </div>
                 </div>
             </div>

@@ -13,11 +13,17 @@ import {
     FaVuejs,
     FaPhp,
 } from "react-icons/fa";
-import { SiTypescript, SiAxios } from "react-icons/si";
+import {
+    SiTypescript,
+    SiAxios,
+    SiMysql,
+    SiAzuredevops,
+    SiI18Next,
+    SiLaravel,
+} from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbHttpGet } from "react-icons/tb";
 import { TbBrandVite } from "react-icons/tb";
-import MaterialUI from "../assets/imagens/materialUI.svg";
 
 const Tecnologias = () => {
     return (
@@ -53,6 +59,13 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
+                id="SCSS"
+                className="btn2"
+                Icon={FaSass}
+                nome="SCSS"
+            />
+
+            <HabilidadeCard
                 id="JavaScript"
                 className="btn2"
                 Icon={FaJs}
@@ -74,38 +87,10 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="Node"
-                className="btn2"
-                Icon={FaNodeJs}
-                nome="Node.js"
-            />
-
-            <HabilidadeCard
-                id="SCSS"
-                className="btn2"
-                Icon={FaSass}
-                nome="SCSS"
-            />
-
-            <HabilidadeCard
-                id="Bootstrap"
-                className="btn2"
-                Icon={FaBootstrap}
-                nome="Bootstrap"
-            />
-
-            <HabilidadeCard
-                id="Vue"
+                id="Vue.js"
                 className="btn2b"
                 Icon={FaVuejs}
-                nome="Vue"
-            />
-
-            <HabilidadeCard
-                id="PostgreSQL"
-                className="btn2"
-                Icon={BiLogoPostgresql}
-                nome="PostgreSQL"
+                nome="Vue.js"
             />
 
             <HabilidadeCard
@@ -116,10 +101,52 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
+                id="Laravel"
+                className="btn2"
+                Icon={SiLaravel }
+                nome="Laravel"
+            />
+
+            <HabilidadeCard
+                id="MySQL"
+                className="btn2b"
+                Icon={SiMysql}
+                nome="MySQL"
+            />
+
+            <HabilidadeCard
+                id="Azure DevOps"
+                className="btn2b"
+                Icon={SiAzuredevops}
+                nome="Azure DevOps"
+            />
+
+            <HabilidadeCard
+                id="Node.js"
+                className="btn2"
+                Icon={FaNodeJs}
+                nome="Node.js"
+            />
+
+            <HabilidadeCard
+                id="PostgreSQL"
+                className="btn2"
+                Icon={BiLogoPostgresql}
+                nome="PostgreSQL"
+            />
+
+            <HabilidadeCard
                 id="Git"
                 className="btn2"
                 Icon={FaGitAlt}
                 nome="Git/GitHub"
+            />
+
+            <HabilidadeCard
+                id="i18n"
+                className="btn2"
+                Icon={SiI18Next}
+                nome="i18n"
             />
 
             <HabilidadeCard
@@ -130,10 +157,10 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="MaterialUI"
+                id="Bootstrap"
                 className="btn2"
-                iconUrl={MaterialUI}
-                nome="MaterialUI"
+                Icon={FaBootstrap}
+                nome="Bootstrap"
             />
 
             <HabilidadeCard
