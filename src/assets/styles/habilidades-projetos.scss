@@ -48,8 +48,8 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            width: 180px;
-            height: 53px;
+            width: 205px;
+            height: 60px;
             border-radius: 30px;
             background: $verde-terciario;
             transition: $transicao-botao-hover;
@@ -83,12 +83,12 @@
                 content: "";
                 position: absolute;
                 background: $verde-seis;
-                inset: 4px;
+                inset: 3px;
                 border-radius: 30px;
             }
 
             &:hover {
-                background: $verde-darkL;
+                background: $verde-oito;
             }
 
             &:hover i {
@@ -102,8 +102,8 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            width: 180px;
-            height: 53px;
+            width: 205px;
+            height: 60px;
             border-radius: 30px;
             background: $verde-secundario;
             transition: $transicao-botao-hover;
@@ -132,12 +132,12 @@
                 content: "";
                 position: absolute;
                 background: $verde-cinco;
-                inset: 4px;
+                inset: 3px;
                 border-radius: 30px;
             }
 
             &:hover {
-                background: $verde-darkL;
+                background: $verde-oito;
             }
 
             &:hover i {
@@ -164,10 +164,11 @@
             align-items: center;
             justify-content: center;
             width: 400px;
-            height: 150px;
+            min-height: 100px;
+            max-height: 150px;
             background: $verde-quaternario;
             border-radius: 30px;
-            padding: 15px 5px;
+            padding: 15px 20px;
             flex-grow: 1;
             flex-basis: 0;
             transition: 0.3s ease-in-out;
@@ -186,8 +187,13 @@
                 justify-content: space-evenly;
 
                 .card-icon {
-                    font-size: 4rem;
+                    font-size: 3rem;
+                    margin-right: 5px;
                     color: $verde-darkL;
+                }
+
+                #scrum-icon{
+                    font-size: 4rem;
                 }
             }
 
