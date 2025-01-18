@@ -18,7 +18,7 @@
 
         "sobreTitle": "about",
         "sobreDesc": "I consider myself a problem-solver and a fast learner who is constantly seeking to improve.",
-        "sobreDesc2": "I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, and Node.js, along with relevant knowledge in SQL, PHP, Flutter, Docker, REST API, Bootstrap, Firebase, and other technologies.",
+        "sobreDesc2": "With advanced English and degree in Systems Analysis and Development, I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, and Node.js, along with relevant knowledge in SQL, PHP, Flutter, Docker, REST API, Bootstrap, Firebase, and other technologies.",
         "sobreBtnLabelCurriculo": "Open my CV",
         "sobreBtnLabelEmail": "Send an email",
 
@@ -37,6 +37,7 @@
 
         "habilidadesTitle": "skills",
         "diferenciaisTitle": "Other Skills",
+        "diferenciaisIngles": "Advanced English",
         "diferenciaisDesign": "Design",
         "diferenciaisUIUX": "UI/UX",
         "diferenciaisScrum": "Scrum/Kanban",
