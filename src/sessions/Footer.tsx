@@ -1,17 +1,59 @@
+import React from "react";
 import { useTranslation } from "react-i18next";
-import "../assets/styles/footer.scss"
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import "../assets/styles/footer.scss";
 
-const currentYear = new Date().getFullYear();
+const Footer: React.FC = () => {
+    const { t } = useTranslation();
+    const currentYear = new Date().getFullYear();
 
-const Footer = () => {
-    const {t} = useTranslation()
     return (
-        <footer>
-            <h3>{currentYear} <span>&lt;rickreis dev/&gt;</span></h3>
+        <footer className="site-footer">
+            <div className="footer-content">
+                <div className="footer-left">
+                    <div className="copyright">
+                        <span className="year">{currentYear}</span>
+                        <span className="brand-name">
+                            <span className="tag-open">&lt;</span>
+                            rickreis
+                            <span className="accent">dev</span>
+                            <span className="tag-close">/&gt;</span>
+                        </span>
+                    </div>
+                </div>
 
-            <h3>{t('footerLabel')} Rick Reis</h3>
+                <div className="footer-center">
+                    <div className="made-with">
+                        {t('footerLabel')} 
+                        <span className="author-name">Rick Reis</span>
+                    </div>
+                </div>
+
+                <div className="footer-right">
+                    <div className="social-links">
+                        <a 
+                            href="https://github.com/rickreisdev" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="GitHub"
+                            className="social-link"
+                        >
+                            <FaGithub />
+                        </a>
+                        <a 
+                            href="https://linkedin.com/in/ricksonreis" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="LinkedIn"
+                            className="social-link"
+                        >
+                            <FaLinkedin />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </footer>
-    )
-}
+    );
+};
 
-export default Footer
+export default Footer;

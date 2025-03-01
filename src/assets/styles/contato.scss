@@ -5,6 +5,9 @@
     margin: 350px 0px 50px 0px;
     padding-top: 70px;
     
+    .title-animation {
+        animation: fadeInUp 0.8s ease-out;
+    }
 
     span {
         color: $verde-principal;
@@ -17,65 +20,204 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        margin-bottom: 3rem;
     }
 
-    .colunaC {
-        flex: 1;
+    .contato-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 10px;
-        padding: 0 30px;
+        gap: 3rem;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
 
-        .content-contato {
+        @media (min-width: 768px) {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+    }
+
+    .content-contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+        }
+
+        .estou {
+            max-width: 100%;
+        }
+
+        .fade-in {
+            animation: fadeIn 1s ease-out 0.3s both;
+        }
+
+        .sociais {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            width: 300px;
+            height: 60px;
+            border-radius: 50px;
+            background: $verde-secundario;
+            padding: 10px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: translateY(-5px);
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                background: $verde-sete;
+                inset: 4px;
+                border-radius: 50px;
+                z-index: 0;
+            }
+
+            .social-icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                z-index: 1;
+                font-size: 2.8rem;
+                transition: all 0.3s ease;
+                transform: scale(1);
+                color: white;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+
+                &.github:hover { color: #f0f6fc; }
+                &.linkedin:hover { color: #0077b5; }
+                &.instagram:hover { color: #e1306c; }
+                &.behance:hover { color: #1769ff; }
+            }
+        }
+
+        .sociais-animation {
+            animation: bounceIn 0.8s ease-out 0.6s both;
+        }
+    }
+
+    .content-form {
+        flex: 1;
+        max-width: 500px;
+        width: 100%;
+        
+        .form-contato {
             display: flex;
             flex-direction: column;
-        
+            gap: 20px;
+            animation: fadeInRight 0.8s ease-out;
 
-            h3 {
-                color: #fff;
-                text-align: center;
+            .form-group {
+                width: 100%;
+            }
+
+            .input-container {
+                position: relative;
+                display: block;
+                width: 100%;
+            }
+
+            .input-icon {
+                position: absolute;
+                left: 15px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: $verde-principal;
                 font-size: 1.2rem;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
+                z-index: 1;
             }
 
-            .estou {
-                max-width: 90%;
+            .textarea-icon {
+                top: 25px;
+                transform: none;
             }
 
-            .sociais {
+            input,
+            textarea {
+                width: 100%;
+                border-radius: 15px;
+                color: black;
+                background-color: white;
+                font-size: 1rem;
+                padding: 0 45px;
+                box-sizing: border-box;
+                border: 2px solid transparent;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+                &:focus {
+                    outline: none;
+                    border-color: $verde-principal;
+                    box-shadow: 0 0 0 3px rgba($verde-principal, 0.3);
+                }
+            }
+
+            input {
+                height: 55px;
+            }
+
+            textarea {
+                padding: 15px 15px 15px 45px;
+                min-height: 150px;
+            }
+
+            input::placeholder,
+            textarea::placeholder {
+                color: rgb(100, 100, 100);
+                opacity: 0.7;
+            }
+
+            button {
                 position: relative;
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                gap: 20px;
-                width: 300px;
+                gap: 10px;
+                width: 240px;
                 height: 50px;
-                border-radius: 50px;
-                background: $verde-secundario;
-                margin-top: 40px;
-                padding: 10px 0;
+                margin-top: 15px;
+                border-radius: 25px;
+                background: $verde-principal;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                text-decoration: none;
+                overflow: hidden;
+                align-self: center;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 
-                a {
+                .send-icon {
                     z-index: 1;
+                    font-size: 1.2rem;
+                    margin-right: 5px;
+                    transition: transform 0.3s ease;
                 }
 
-                i {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    cursor: pointer;
-                    font-size: 3rem;
-                    transition: 0.3s ease-in-out;
-                    padding: 0;
-                    margin: 0;
-
-                    &:hover {
-                        color: $verde-dark;
-                    }
+                h4 {
+                    z-index: 1;
+                    color: #fff;
+                    font-size: 1.1rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-align: center;
                 }
 
                 &::after {
@@ -83,81 +225,122 @@
                     position: absolute;
                     background: $verde-sete;
                     inset: 4px;
-                    border-radius: 50px;
-                    z-index: 0;
-                }
-            }
-        }
-
-        .content-form {
-            .form-contato {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-
-                input,
-                textarea {
-                    width: 100%;
-                    border-radius: 10px;
-                    color: black;
-                    background-color: white;
-                    font-size: 1rem;
-                    padding: 0 15px;
-                    box-sizing: border-box;
+                    border-radius: 25px;
+                    transition: all 0.3s ease;
                 }
 
-                input {
-                    height: 50px;
-                }
+                &:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 
-                textarea {
-                    padding: 15px 15px;
-                }
-
-                input::placeholder,
-                textarea::placeholder {
-                    color: rgb(38, 38, 38);
-                }
-
-                button {
-                    position: relative;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 240px;
-                    height: 45px;
-                    margin-top: 15px;
-                    border-radius: 19.5px;
-                    background: $verde-principal;
-                    cursor: pointer;
-                    transition: 0.3s ease-in-out;
-                    text-decoration: none;
-
-                    h4 {
-                        z-index: 1;
-                        color: #fff;
-                        font-size: 1.1rem;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: normal;
-                        text-align: center;
+                    .send-icon {
+                        transform: translateX(5px);
                     }
 
                     &::after {
-                        content: "";
-                        position: absolute;
-                        background: $verde-sete;
-                        inset: 4px;
-                        border-radius: 25px;
+                        background: darken($verde-sete, 5%);
                     }
+                }
 
-                    &:hover {
-                        border-radius: 19.5px;
-                        background-color: $verde-oito;
-                        box-shadow: 0px 1px 1px 0px #fff;
-                    }
+                &:active {
+                    transform: translateY(0);
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                }
+
+                &.loading {
+                    opacity: 0.8;
+                    cursor: wait;
                 }
             }
         }
+
+        .success-message {
+            background: rgba($verde-secundario, 0.1);
+            border: 2px solid $verde-principal;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            animation: fadeIn 0.5s ease-out;
+
+            h3 {
+                color: white;
+                margin-bottom: 20px;
+            }
+
+            .nova-mensagem {
+                background: $verde-principal;
+                color: white;
+                border: none;
+                border-radius: 25px;
+                padding: 12px 25px;
+                font-size: 1rem;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                overflow: hidden;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background: $verde-sete;
+                    inset: 3px;
+                    border-radius: 25px;
+                    transition: all 0.3s ease;
+                    z-index: 0;
+                }
+
+                &:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+
+        .error-message {
+            color: #ff4d4d;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
     }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { 
+        opacity: 0; 
+        transform: translateY(20px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from { 
+        opacity: 0; 
+        transform: translateX(20px);
+    }
+    to { 
+        opacity: 1; 
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    70% { transform: scale(0.9); }
+    100% { transform: scale(1); }
 }

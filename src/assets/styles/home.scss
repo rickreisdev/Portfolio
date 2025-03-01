@@ -1,34 +1,107 @@
 @import "./vars.scss";
+@import "./animations.scss";
 
-.home-container{
+.home-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-.resumo-container{
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    
+    &.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.resumo-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid $verde-oito;
-    border-radius: 40px;
+    border-radius: 20px;
     margin: 0 50px;
-    padding: 10px 0;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(13, 82, 20, 0.2);
+    position: relative;
+    overflow: hidden;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, $verde-principal, transparent);
+        animation: borderGlow 3s ease-in-out infinite;
+    }
+    
+    .tech-icons {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .tech-icon {
+            padding: 5px 12px;
+            border-radius: 15px;
+            background: $verde-darkL;
+            color: white;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            
+            &:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 5px 15px rgba(15, 217, 15, 0.3);
+            }
+            
+            &.html { border-bottom: 2px solid #E44D26; }
+            &.css { border-bottom: 2px solid #264DE4; }
+            &.js { border-bottom: 2px solid #F0DB4F; }
+            &.react { border-bottom: 2px solid #61DAFB; }
+            &.node { border-bottom: 2px solid #68A063; }
+            &.php { border-bottom: 2px solid #616bfb; }
+        }
+    }
 
-    .resumo-desc{
+    .resumo-desc {
         text-align: center;
         margin: 0 50px;
         color: white;
         font-size: 1.15rem;
         font-weight: 400;
+        
+        .paragraph-animate {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s forwards;
+            
+            &.delay-1 {
+                animation-delay: 0.3s;
+            }
+        }
     }
 
-    .resumo-btns{
+    .resumo-btns {
         display: flex;
-        margin: 15px 0px;
+        margin: 25px 0px;
         align-items: center;
-        gap: 15px;
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
 
         .resumo-btn-sobre, .resumo-btn-projetos {
             display: flex;
@@ -37,13 +110,86 @@
             font-size: 1.07rem;
             background: $verde-sete;
             width: 250px;
-            height: 40px;
-            border-radius: 20px;
+            height: 45px;
+            border-radius: 10px;
             transition: .5s ease;
-
-            &:hover{
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(8, 139, 31, 0.2);
+            
+            .btn-text {
+                position: relative;
+                z-index: 1;
+                transition: transform 0.3s ease;
+            }
+            
+            .btn-icon {
+                opacity: 0;
+                position: absolute;
+                right: 15px;
+                transform: translateX(-10px);
+                transition: all 0.3s ease;
+            }
+            
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0%;
+                height: 100%;
                 background: $verde-oito;
+                transition: width 0.4s ease;
+                z-index: 0;
+            }
+            
+            &:hover, &.hovered {
+                transform: translateY(-2px);
+                box-shadow: 0 6px 20px rgba(8, 139, 31, 0.3);
+                
+                &::before {
+                    width: 100%;
+                }
+                
+                .btn-text {
+                    transform: translateX(-10px);
+                }
+                
+                .btn-icon {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
             }
         }
+    }
+}
+
+@keyframes borderGlow {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .resumo-container {
+        margin: 0 20px;
+        
+        .resumo-desc {
+            margin: 0 20px;
+        }
+    }
+    
+    .resumo-btns {
+        flex-direction: column;
     }
 }
