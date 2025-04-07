@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../assets/styles/footer.scss";
+import LogoAnimated from "../components/Logo";
 
 const Footer: React.FC = () => {
     const { t } = useTranslation();
@@ -14,10 +15,11 @@ const Footer: React.FC = () => {
                     <div className="copyright">
                         <span className="year">{currentYear}</span>
                         <span className="brand-name">
-                            <span className="tag-open">&lt;</span>
+                            {/* <span className="tag-open">&lt;</span>
                             rickreis
                             <span className="accent">dev</span>
-                            <span className="tag-close">/&gt;</span>
+                            <span className="tag-close">/&gt;</span> */}
+                            <LogoAnimated />
                         </span>
                     </div>
                 </div>

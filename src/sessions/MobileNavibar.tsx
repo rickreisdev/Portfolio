@@ -4,6 +4,7 @@ import "../assets/styles/header.scss";
 import "../assets/styles/mobile-menu.scss";
 import { IoLanguage } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
+import LogoAnimated from "../components/Logo";
 
 const MobileNavbar: React.FC = () => {
     const mobileMenuRef = useRef<HTMLDivElement>(null);
@@ -88,7 +89,7 @@ const MobileNavbar: React.FC = () => {
     return (
         <nav className="menu">
             <div className="content">
-                <a href="/" id="logo">
+                {/* <a href="/" id="logo">
                     <span className="tag1">&lt; </span>
                     <span
                         className="text"
@@ -108,7 +109,9 @@ const MobileNavbar: React.FC = () => {
                     <span className="tag2" id="close-tag">
                         /&gt;{" "}
                     </span>
-                </a>
+                </a> */}
+                {/* <Logo initial="long"/> */}
+                <LogoAnimated />
 
                 <div
                     className="mobile-menu"

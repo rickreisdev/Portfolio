@@ -2,126 +2,154 @@
 @import "./animations.scss";
 
 .mobile-menu {
-  display: none;
-  cursor: pointer;
+    display: none;
+    cursor: pointer;
 
-  div {
-    width: 32px;
-    height: 2px;
-    background: white;
-    margin: 8px;
-    transition: 0.3s;
-  }
+    div {
+        width: 32px;
+        height: 2px;
+        background: white;
+        margin: 8px;
+        transition: 0.3s;
+    }
 }
 
 .menu {
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  height: 10vh;
-  width: 100%;
-  background-color: $bg-menu;
-  backdrop-filter: blur(3px);
-  border-bottom: 1px solid $border-menu;
-
-  .content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    row-gap: 3px;
-    height: 64px;
-    width: 100%;
     position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+    width: 100%;
+    background-color: $bg-menu;
+    backdrop-filter: blur(3px);
+    border-bottom: 1px solid $border-menu;
 
-    #logo {
-      display: flex;
-      color: $verde-principal;
-      text-decoration: none;
-      font-size: 24px;
-      font-weight: 600;
-      justify-content: center;
-      align-items: center;
-      transition: color 0.5s ease;
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        row-gap: 3px;
+        height: 64px;
+        width: 100%;
+        position: fixed;
 
-      .text:visited {
-        color: $verde-principal;
-      }
+        #logo {
+            display: flex;
+            color: $verde-principal;
+            text-decoration: none;
+            // font-size: 24px;
+            font-weight: 600;
+            justify-content: center;
+            align-items: center;
+            transition: color 0.5s ease;
 
-      .text:hover,
-      .hidden-text:hover {
-        color: white;
-      }
+            img {
+                width: auto;
+                height: 3.5rem;
+                margin-right: 10px;
+            }
 
-      span {
-        color: $verde-secundario;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-      }
+            .text:visited {
+                color: $verde-principal;
+            }
 
-      .tag1 {
-        animation: moveRight 1s ease-in;
-      }
+            .text:hover,
+            .hidden-text:hover {
+                color: white;
+            }
 
-      .tag2 {
-        animation: moveLeft 1s ease-in, moveCloseTagBack 0.8s ease forwards 7s;
-        transform: translateX(-140px);
-      }
+            span {
+                color: $verde-secundario;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
 
-      .text {
-        opacity: 0;
-        font-size: 25px;
-        animation: textFadeIn 0.5s ease-in forwards 1s,
-          textFadeOut 0.5s ease-out forwards 6s;
-      }
+            .tag1 {
+                animation: moveRight 1s ease-in;
+            }
 
-      .hidden-text {
-        opacity: 0;
-        animation: textReplace 1s ease-in forwards 7s;
-        margin: 0 3px;
-      }
-    }
+            .tag2 {
+                animation: moveLeft 1s ease-in,
+                    moveCloseTagBack 0.8s ease forwards 7s;
+                transform: translateX(-140px);
+            }
 
-    .paginas {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 15px;
-      font-weight: 500;
+            .text {
+                opacity: 0;
+                font-size: 25px;
+                animation: textFadeIn 0.5s ease-in forwards
+                        1s,
+                    textFadeOut 0.5s ease-out forwards 6s;
+            }
 
-      .btn-language {
-        color: $verde-secundario !important;
-        .div-btn-language {
-          display: flex;
-          align-items: center;
+            .hidden-text {
+                opacity: 0;
+                animation: textReplace 1s ease-in forwards
+                    7s;
+                margin: 0 3px;
+            }
+        }
 
-          span{
+        .portfolio-logo {
+            height: 3.5rem;
             display: flex;
             align-items: center;
-            gap: 4px;
-          }
-
-          .icon-language{
-            font-size: 22px;
-          }
+            justify-content: center;
+            margin-right: 10px;
+            cursor: pointer;
         }
-      }
+
+        .logo-short {
+            width: 5rem;
+            height: auto;
+        }
+
+        .logo-long {
+            width: 10rem;
+            height: auto;
+        }
+
+        .paginas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            font-weight: 500;
+
+            .btn-language {
+                color: $verde-secundario !important;
+                .div-btn-language {
+                    display: flex;
+                    align-items: center;
+
+                    span {
+                        display: flex;
+                        align-items: center;
+                        gap: 4px;
+                    }
+
+                    .icon-language {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
     }
-  }
 }
 
 header span {
-  font-size: 18px;
-  font-style: normal;
-  line-height: normal;
-  transition: color 0.5s ease;
+    font-size: 18px;
+    font-style: normal;
+    line-height: normal;
+    transition: color 0.5s ease;
 }
 header span:hover {
-  color: $verde-principal;
+    color: $verde-principal;
 }
