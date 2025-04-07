@@ -19,7 +19,7 @@ const Sobre = () => {
             >
                 <div className="sobre-titulo">
                     <h2 className="h2s">
-                        &#123;rickreisdev&#47;
+                        &#123;rickreis&#47;
                         <span>{t("sobreTitle")}</span>&#125;
                     </h2>
                 </div>

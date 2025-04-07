@@ -10,7 +10,7 @@ const Habilidades = () => {
     return (
         <div className="habilidades" id="habilidades">
             <h2 className="tituloxp">
-                &#123;rickreisdev&#47;<span>{t('habilidadesTitle')}</span>&#125;
+                &#123;rickreis&#47;<span>{t('habilidadesTitle')}</span>&#125;
             </h2>
             <Tecnologias /> <br />
             <Tecnologias2 />
