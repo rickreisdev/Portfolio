@@ -14,7 +14,6 @@ import "./assets/styles/media-query/query710px.scss"
 import "./assets/styles/media-query/query2560px.scss"
 import "./assets/styles/media-query/query1343-1085px.scss"
 import "./assets/styles/media-query/query-1343minpx.scss"
-import AppEnglish from './AppEnglish';
 // import Experiencia from './sessions/Experiencia';
 import Home from './sessions/Home';
 import Sobre from './sessions/Sobre';
@@ -31,7 +30,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           {/* <Route path='/experiencia' element={<Experiencia />} /> */}
           <Route path='/habilidades' element={<Habilidades/>} />
           <Route path='/projetos' element={<Projetos/>} />
-          <Route path="/english" element={<AppEnglish />} />
         </Route>
       </Routes>
     </BrowserRouter>
