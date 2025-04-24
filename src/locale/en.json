@@ -1,5 +1,8 @@
 {
     "translation": {
+        "tituloHome": "Rick Reis | Full Stack Developer",
+        "descHome": "Rick Reis' portfolio, a full stack developer with experience in React, TypeScript, Node.js, PHP, and more. See projects, skills, and contact.",
+
         "lngBtnLabel": "Pt-br",
         "lngBtnTitle": "Ver em Português brasileiro",
         "sobre": "About",
