@@ -14,10 +14,18 @@ const Formacao = () => {
 
             <BoxFormacao
                 Icon={FaGraduationCap}
-                titulo={t('educacaoLabel')}
-                nomeCurso={t('educacaoCurso')}
-                data={t('educacaoData')}
-                nomeEscola="Faculdade de Tecnologia de Ribeirão Preto - Fatec"
+                titulo={t('educacaoLabelUSP')}
+                nomeCurso={t('educacaoCursoUSP')}
+                data={t('educacaoDataUSP')}
+                nomeEscola={t('educacaoNomeUSP')}
+            />
+
+            <BoxFormacao
+                Icon={FaGraduationCap}
+                titulo={t('educacaoLabelFatec')}
+                nomeCurso={t('educacaoCursoFatec')}
+                data={t('educacaoDataFatec')}
+                nomeEscola={t('educacaoNomeFatec')}
             />
         </div>
     );
