@@ -28,7 +28,6 @@
     }
 
     .footer-left,
-    .footer-center,
     .footer-right {
         display: flex;
         align-items: center;
@@ -54,6 +53,7 @@
             transition: transform 0.3s ease;
 
             .portfolio-logo {
+                padding-bottom: 15px;
                 height: 2.5rem;
                 display: flex;
                 align-items: center;
@@ -63,12 +63,6 @@
 
             &:hover {
                 transform: scale(1.05);
-            }
-
-            .tag-open,
-            .tag-close {
-                color: $verde-secundario;
-                font-size: 1.1rem;
             }
 
             .accent {
@@ -167,6 +161,14 @@
             .social-links {
                 margin-top: 0.5rem;
             }
+        }
+    }
+}
+
+@media (max-width: 1444px) {
+    .site-footer {
+        .footer-right {
+            padding: 0 2.5rem 0 0;
         }
     }
 }
