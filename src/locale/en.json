@@ -10,6 +10,8 @@
         "projetos": "Projects",
         "contato": "Contact",
         "footerLabel": "Developed By",
+        "contatoEnviado": "Message sent successfully!",
+        "contatoNovaMensagem": "New message",
 
         "introLabel": "Developer",
         "introDesc": "Passionate about technology and development",
