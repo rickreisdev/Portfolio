@@ -38,6 +38,7 @@ const Sobre = () => {
                                     : "https://drive.google.com/file/d/1l2M9wv8T3dlI6t6YFni10DVxrAKkfRBB/view?usp=drive_link"
                             }
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <RiExternalLinkFill className="link-icon" />
                             <h2>
@@ -51,7 +52,7 @@ const Sobre = () => {
                             className="btn"
                             href="mailto:ricksonreisamoroso@gmail.com"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                         >
                             <h2>
                                 {t("sobreBtnLabelEmail")}

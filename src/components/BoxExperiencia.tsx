@@ -46,6 +46,7 @@ const BoxExperiencia: React.FC<BoxExperienciaProps> = ({
                             className="btn-link-site"
                             href={linkEmpresa}
                             target="_blank"
+                            rel="noopener noreferrer"
                             title={
                                 currentLng === 'pt'
                                     ? "Visit site"

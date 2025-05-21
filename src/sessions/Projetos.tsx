@@ -129,7 +129,7 @@ const Projetos = () => {
                 className="btn5"
                 href="https://github.com/rickreisdev?tab=repositories"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 title={t("projetosBtnTitle")}
             >
                 <h2>{t("projetosBtnLabel")}</h2>

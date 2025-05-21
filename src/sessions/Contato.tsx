@@ -147,7 +147,7 @@ const Contato = () => {
                                 key={social.id}
                                 href={social.url}
                                 target="_blank"
-                                rel="noreferrer"
+                                rel="noopener noreferrer"
                                 className={`social-icon ${social.color}`}
                                 aria-label={social.id}
                             >

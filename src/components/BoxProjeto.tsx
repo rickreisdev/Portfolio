@@ -51,6 +51,7 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
                             className="btn-link-site"
                             href={linkSite}
                             target="_blank"
+                            rel="noopener noreferrer"
                             title={
                                 currentLng !== 'pt'
                                     ? "Visit page"
@@ -66,6 +67,7 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
                         <a
                             className="btn-link-git"
                             target="_blank"
+                            rel="noopener noreferrer"
                             href={linkRepo}
                             title={
                                 currentLng !== 'pt'
