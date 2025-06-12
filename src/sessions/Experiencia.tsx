@@ -12,6 +12,15 @@ const Experiencia = () => {
             </h2>
 
             <BoxExperiencia
+                titulo={t("boxExperienciaFairyTitle")}
+                nomeEmpresa="Fairy"
+                data={t("boxExperienciaFairyData")}
+                descricao={t("boxExperienciaFairyDesc")}
+                linkEmpresa="https://fairysolutions.co"
+                tecnologias="React - Typescript - Node - Clickup - Scrum"
+            />
+
+            <BoxExperiencia
                 titulo={t("boxExperienciaConectaTitle")}
                 nomeEmpresa="Conecta Transportes"
                 data={t("boxExperienciaConectaData")}
