@@ -5,8 +5,8 @@ import {
     SiFlutter,
     SiOracle,
     SiMicrosoftsqlserver,
-    SiCsharp,
-    SiDotnet,
+    // SiCsharp,
+    // SiDotnet,
     SiCplusplus,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
@@ -71,7 +71,7 @@ const Tecnologias2 = () => {
                 nome="SQL Server"
             />
 
-            <HabilidadeCard
+            {/* <HabilidadeCard
                 id="C#"
                 className="btn2b"
                 Icon={SiCsharp}
@@ -83,7 +83,7 @@ const Tecnologias2 = () => {
                 className="btn2b"
                 Icon={SiDotnet}
                 nome="ASP.NET"
-            />
+            /> */}
         </div>
     );
 };

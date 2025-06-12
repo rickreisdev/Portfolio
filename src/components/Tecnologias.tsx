@@ -87,10 +87,24 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="Vue.js"
-                className="btn2b"
-                Icon={FaVuejs}
-                nome="Vue.js"
+                id="Node.js"
+                className="btn2"
+                Icon={FaNodeJs}
+                nome="Node.js"
+            />
+
+            <HabilidadeCard
+                id="Axios"
+                className="btn2"
+                Icon={SiAxios}
+                nome="Axios"
+            />
+
+            <HabilidadeCard
+                id="Git"
+                className="btn2"
+                Icon={FaGitAlt}
+                nome="Git/GitHub"
             />
 
             <HabilidadeCard
@@ -103,8 +117,22 @@ const Tecnologias = () => {
             <HabilidadeCard
                 id="Laravel"
                 className="btn2"
-                Icon={SiLaravel }
+                Icon={SiLaravel}
                 nome="Laravel"
+            />
+
+            <HabilidadeCard
+                id="PostgreSQL"
+                className="btn2"
+                Icon={BiLogoPostgresql}
+                nome="PostgreSQL"
+            />
+
+            <HabilidadeCard
+                id="Vue.js"
+                className="btn2b"
+                Icon={FaVuejs}
+                nome="Vue.js"
             />
 
             <HabilidadeCard
@@ -122,38 +150,10 @@ const Tecnologias = () => {
             />
 
             <HabilidadeCard
-                id="Node.js"
-                className="btn2"
-                Icon={FaNodeJs}
-                nome="Node.js"
-            />
-
-            <HabilidadeCard
-                id="PostgreSQL"
-                className="btn2"
-                Icon={BiLogoPostgresql}
-                nome="PostgreSQL"
-            />
-
-            <HabilidadeCard
-                id="Git"
-                className="btn2"
-                Icon={FaGitAlt}
-                nome="Git/GitHub"
-            />
-
-            <HabilidadeCard
                 id="i18n"
                 className="btn2"
                 Icon={SiI18Next}
                 nome="i18n"
-            />
-
-            <HabilidadeCard
-                id="Axios"
-                className="btn2"
-                Icon={SiAxios}
-                nome="Axios"
             />
 
             <HabilidadeCard
