@@ -2,6 +2,7 @@ import "../assets/styles/habilidades-projetos.scss";
 import BoxProjeto from "../components/BoxProjeto";
 import japacasa from "../assets/imagens/japacasa.png";
 import crudEstudantes from "../assets/imagens/crudEstudantes.png";
+import eventos from "../assets/imagens/eventos.png";
 import portalServicos from "../assets/imagens/portalservicos.png";
 import epp from "../assets/imagens/epp.png";
 import pagamento from "../assets/imagens/pagamento.png";
@@ -34,6 +35,17 @@ const Projetos = () => {
                 />
 
                 <BoxProjeto
+                    imagem={eventos}
+                    titulo="EventosBR"
+                    descricao={t(
+                        "boxProjetos-EventosBR-Desc"
+                    )}
+                    linkRepo="https://github.com/rickreisdev/vivid-event-scape"
+                    linkSite="https://vivid-event-scape.vercel.app/"
+                    tecnologias="Vite React - Typescript - Lovable - Cursor - Supabase"
+                />
+
+                <BoxProjeto
                     imagem={crudEstudantes}
                     titulo={t(
                         "boxProjetos-Estudantes-title"
@@ -45,7 +57,11 @@ const Projetos = () => {
                     linkSite="https://crudestudantes.onrender.com"
                     tecnologias="Vue.js - Node.js - Express - API REST - Bootstrap - Docker - PostgreSQL"
                 />
+            </div>
 
+            <h3>{t("projetosTodos")}</h3>
+
+            <div className="projetos" id="projetos">
                 <BoxProjeto
                     imagem={portalServicos}
                     titulo={t(
@@ -57,11 +73,7 @@ const Projetos = () => {
                     linkRepo="https://github.com/rickreisdev/PortalServicos"
                     tecnologias="Vite React - Auth0 - API REST - SASS - Express"
                 />
-            </div>
 
-            <h3>{t("projetosTodos")}</h3>
-
-            <div className="projetos" id="projetos">
                 <BoxProjeto
                     titulo="ContactMVC"
                     descricao={t(

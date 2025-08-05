@@ -66,6 +66,7 @@
       "boxProjetos-JapaCasa-Desc": "Um site de delivery para um restaurante de comida japonesa, onde o usuário pode conferir o cardápio e adicionar produtos no carrinho.",
       "boxProjetos-Estudantes-title": "CRUD Estudantes",
       "boxProjetos-Estudantes-Desc": "Um sistema simples que permite adicionar, listar, editar e deletar informações de estudantes.",
+      "boxProjetos-EventosBR-Desc": "Um site para cadastro e descoberta de eventos com design moderno. Desenvolvida como estudo no uso de ferramentas de IA como Lovable e Cursor.",
       "boxProjetos-PortalServicos-title": "Portal de Serviços",
       "boxProjetos-PortalServicos-Desc": "Um sistema web modular que gerencia e disponibiliza serviços de uma faculdade pública.",
       "boxProjetos-ContactMVC-Desc": "Aplicação web que implementa operações CRUD em um sistema de contatos ligado com um banco de dados em Docker.",
