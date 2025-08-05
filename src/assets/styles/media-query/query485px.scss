@@ -28,7 +28,6 @@
         font-size: 25px;
     }
 
-    .imagem-intro img,
     .imagem-sobre img {
         width: 100%;
     }
@@ -120,16 +119,6 @@
                 text-align: center;
             }
         }
-        .imagem-intro {
-            border: none;
-
-            img {
-                display: flex;
-                width: auto;
-                height: 300px;
-                padding-top: 20px;
-            }
-        }
     }
 
     .sobre {
@@ -201,11 +190,11 @@
                         font-size: 2.5rem !important;
                     }
 
-                    #scrum-icon{
+                    #scrum-icon {
                         font-size: 3.5rem !important;
                     }
 
-                    #design-icon{
+                    #design-icon {
                         font-size: 2rem !important;
                         margin-bottom: 5px !important;
                     }

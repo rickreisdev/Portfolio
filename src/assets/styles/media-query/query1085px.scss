@@ -51,7 +51,7 @@
         }
     }
 
-    .paginas.active{
+    .paginas.active {
         background-color: $verde-dark-bg;
     }
 
@@ -62,20 +62,14 @@
     .intro {
         gap: 20px;
 
-        .imagem-intro img {
-            display: flex;
-            width: 270px;
-            height: 270px;
-        }
-
         .saudacao {
             padding: 15px;
             animation: none !important;
         }
     }
 
-    .resumo-container{
-        .resumo-btns{
+    .resumo-container {
+        .resumo-btns {
             flex-direction: column;
         }
     }
@@ -120,8 +114,8 @@
         }
     }
 
-    .experiencia{
-        .box-experiencia{
+    .experiencia {
+        .box-experiencia {
             height: 550px !important;
 
             .detalhes-experiencia {
@@ -194,9 +188,9 @@
                 }
 
                 h4 {
-                  color: $verde-principal;
-                  font-size: 0.9rem;
-              }
+                    color: $verde-principal;
+                    font-size: 0.9rem;
+                }
 
                 .btns-projeto {
                     .btn-link-site,

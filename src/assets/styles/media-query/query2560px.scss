@@ -7,7 +7,11 @@
     }
 
     body {
-        background: linear-gradient(to bottom, #000000, #033d16);
+        background: linear-gradient(
+            to bottom,
+            #000000,
+            #033d16
+        );
         overflow-x: hidden;
     }
 
@@ -128,11 +132,6 @@
         line-height: normal;
     }
 
-    .imagem-intro img {
-        width: 610px;
-        height: 610px;
-    }
-
     .sobre {
         display: flex;
         flex-direction: row;
@@ -202,8 +201,9 @@
         background: $verde-quaternario;
         box-shadow: 0px 4px 1px 0px #fff;
         cursor: pointer;
-        transition: background-color 0.5s ease, color 0.5s ease,
-            width 0.5s ease, height 0.5s ease;
+        transition: background-color 0.5s ease,
+            color 0.5s ease, width 0.5s ease,
+            height 0.5s ease;
         text-decoration: none;
     }
 

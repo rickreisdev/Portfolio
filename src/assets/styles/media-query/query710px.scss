@@ -11,13 +11,6 @@
         padding: 7px 10px;
     }
 
-    .imagem-intro img {
-        display: flex;
-        width: 250px;
-        height: 250px;
-        padding-top: 20px;
-    }
-
     .saudacao h2 {
         font-size: 25px;
     }
@@ -35,9 +28,9 @@
         animation-range: none;
     }
 
-    .resumo-container{
+    .resumo-container {
         margin: 0 25px !important;
-        .resumo-desc{
+        .resumo-desc {
             margin: 0 25px !important;
         }
     }
@@ -78,26 +71,26 @@
         animation-range: none;
     }
 
-    .contato{
-      margin: 100px 0;
+    .contato {
+        margin: 100px 0;
 
-      .colunaC{
-        padding: 0 20px;
+        .colunaC {
+            padding: 0 20px;
 
-        .content-form{
-          max-width: 500px;
+            .content-form {
+                max-width: 500px;
 
-          .form-contato{
-            width: 100%;
-            max-width: 360px;
+                .form-contato {
+                    width: 100%;
+                    max-width: 360px;
 
-            input, textarea{
-              width: 100%;
-            
+                    input,
+                    textarea {
+                        width: 100%;
+                    }
+                }
             }
-          }
         }
-      }
     }
 
     .meus-projetos {
@@ -114,7 +107,7 @@
             .detalhes-projeto {
                 width: 80% !important;
 
-                .nome-projeto{
+                .nome-projeto {
                     max-width: 100% !important;
                 }
 
@@ -124,7 +117,7 @@
             }
         }
     }
-    
+
     .experiencia {
         .box-experiencia {
             height: 660px !important;

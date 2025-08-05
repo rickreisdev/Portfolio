@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import "../assets/styles/intro-sobre.scss";
-import imgIntro from "../assets/imagens/rick-sobre3.png";
 import { useTranslation } from "react-i18next";
 
 const Intro = () => {
@@ -61,13 +60,6 @@ const Intro = () => {
                 >
                     {t("introDesc")}
                 </h5>
-            </div>
-
-            <div className="imagem-intro">
-                <div className="image-frame">
-                    <img src={imgIntro} alt="Rick Reis" />
-                    <div className="glow-effect"></div>
-                </div>
             </div>
         </div>
     );
