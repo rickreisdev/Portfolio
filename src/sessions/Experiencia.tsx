@@ -16,7 +16,6 @@ const Experiencia = () => {
                 nomeEmpresa="Fairy"
                 data={t("boxExperienciaFairyData")}
                 descricao={t("boxExperienciaFairyDesc")}
-                linkEmpresa="https://fairysolutions.co"
                 tecnologias="React - Typescript - Node - Clickup - Scrum"
             />
 
@@ -25,7 +24,6 @@ const Experiencia = () => {
                 nomeEmpresa="Conecta Transportes"
                 data={t("boxExperienciaConectaData")}
                 descricao={t("boxExperienciaConectaDesc")}
-                linkEmpresa="https://conecta.ind.br"
                 tecnologias="PHP - Laravel - Vue - MySQL - Azure DevOps - Scrum"
             />
 
@@ -34,7 +32,6 @@ const Experiencia = () => {
                 nomeEmpresa="Faculdade de Tecnologia de Ribeirão Preto"
                 data={t("boxExperienciaFatecData")}
                 descricao={t("boxExperienciaFatecDesc")}
-                linkEmpresa="http://www.fatecrp.edu.br"
                 tecnologias="React - Node.js - Figma - SCSS - Auth0 - Notion"
             />
         </div>
