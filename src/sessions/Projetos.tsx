@@ -3,6 +3,7 @@ import BoxProjeto from "../components/BoxProjeto";
 import japacasa from "../assets/imagens/japacasa.png";
 import crudEstudantes from "../assets/imagens/crudEstudantes.png";
 import eventos from "../assets/imagens/eventos.png";
+import budget from "../assets/imagens/budget.png";
 import portalServicos from "../assets/imagens/portalservicos.png";
 import epp from "../assets/imagens/epp.png";
 import pagamento from "../assets/imagens/pagamento.png";
@@ -43,6 +44,17 @@ const Projetos = () => {
                     linkRepo="https://github.com/rickreisdev/vivid-event-scape"
                     linkSite="https://vivid-event-scape.vercel.app/"
                     tecnologias="Vite React - Typescript - Lovable - Cursor - Supabase"
+                />
+
+                <BoxProjeto
+                    imagem={budget}
+                    titulo="BudgetControl"
+                    descricao={t(
+                        "boxProjetos-BudgetControl-Desc"
+                    )}
+                    linkRepo="https://github.com/rickreisdev/budget-smart-cycle"
+                    linkSite="https://budget-smart-control.vercel.app/"
+                    tecnologias="Vite React - Typescript - Lovable - Supabase"
                 />
 
                 <BoxProjeto
