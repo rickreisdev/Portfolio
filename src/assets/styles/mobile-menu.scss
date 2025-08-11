@@ -3,7 +3,6 @@
 
 .paginas.active {
     transform: translateX(0);
-    justify-content: start !important;
   }
   
   @keyframes paginasFade {
@@ -20,12 +19,15 @@
   
   .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
+    background: $verde-secundario;
   }
   
   .mobile-menu.active .line2 {
+    transform: rotate(-45deg) translate(-1px, 1px);
     opacity: 0;
   }
   
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
+    background: $verde-secundario;
   }

@@ -1,0 +1,44 @@
+@media screen and (max-width: 416px) {
+    html,
+    body {
+        width: 100% !important;
+        overflow-x: hidden !important;
+        box-sizing: border-box;
+    }
+    [class*="container"],
+    [class*="content"],
+    [class*="section"],
+    main,
+    header,
+    footer {
+        max-width: 100vw !important;
+        width: 100% !important;
+        min-width: unset !important;
+        box-sizing: border-box;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    /* Ajuste para imagens e SVGs */
+    img,
+    svg {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    /* Ajuste para botões e cards */
+    button,
+    .card,
+    .box {
+        width: 100% !important;
+        min-width: unset !important;
+        max-width: 100vw !important;
+    }
+    /* Ajuste para evitar overflow em elementos com width fixa */
+    [style*="width: 360px"],
+    [style*="min-width: 360px"] {
+        width: 100% !important;
+        min-width: unset !important;
+        max-width: 100vw !important;
+    }
+}

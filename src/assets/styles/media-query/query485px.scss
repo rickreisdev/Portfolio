@@ -28,9 +28,9 @@
         font-size: 25px;
     }
 
-    .imagem-sobre img {
-        width: 100%;
-    }
+    // .imagem-sobre img {
+    //     width: 100%;
+    // }
 
     .btn2,
     .btn2b .btn2o,
@@ -55,67 +55,34 @@
         font-size: 16px;
     }
 
-    .menu {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-right: 10%;
-        height: 10vh;
+    // .content {
+    //     .paginas {
 
-        #logo {
-            margin-left: 3%;
-        }
-
-        .mobile-menu {
-            margin-right: 3%;
-        }
-    }
-
-    .paginas {
-        top: 6.8vh;
-        right: -5px;
-        width: 100vw;
-        margin-left: 0;
-        margin-right: 5px;
-        border-bottom-left-radius: 20px;
-        justify-content: start;
-        align-items: center;
-        transform: translateX(110%);
-
-        li {
-            padding-top: 50px;
-            margin-left: 0;
-        }
-    }
+    //     }
+    // }
 
     .intro {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 50px;
-        padding: 130px 20px;
 
         .saudacao {
             display: flex;
             flex-direction: column;
-            margin-bottom: 50px;
 
             justify-content: center;
             align-items: center;
             h1 {
                 text-align: center;
-                max-width: 90%;
             }
 
             h2 {
                 font-size: 20px;
-                margin-top: 5px;
                 text-align: center;
             }
 
             h5 {
-                max-width: 80%;
                 text-align: center;
             }
         }
@@ -125,30 +92,6 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 15%;
-        margin-right: 15%;
-
-        .sobre-titulo {
-            padding-top: 0;
-
-            .h2s {
-                padding-top: 10px;
-            }
-        }
-
-        .paragrafro {
-            p {
-                max-width: 70%;
-            }
-
-            .btn {
-                width: 100px;
-
-                h2 {
-                    font-size: 18px;
-                }
-            }
-        }
     }
 
     .habilidades {

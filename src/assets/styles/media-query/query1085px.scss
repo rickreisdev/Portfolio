@@ -26,18 +26,13 @@
 
     .paginas {
         position: absolute;
-        top: 7.2vh;
-        right: 0;
-        margin-left: 0;
-        margin-right: 0;
-        width: 100vh;
+        flex-direction: column;
+        top: 6.65vh;
+        width: 100%;
         height: 75vh;
         border-bottom-left-radius: 20px;
         background-color: $bg-menu;
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        transform: translateX(100%);
+        transform: translateX(200%);
         transition: transform 0.3s ease-in;
 
         .btn-language {
@@ -46,7 +41,6 @@
 
         li {
             padding-top: 50px;
-            margin-left: 0;
             opacity: 0;
         }
     }
@@ -138,7 +132,9 @@
         animation-range: none;
 
         .box-projeto {
-            min-width: 460px;
+            width: 100% !important;
+            min-width: unset !important;
+            max-width: 100vw !important;
             height: 620px;
             padding-top: 20px;
             margin-bottom: 25px;
@@ -212,7 +208,9 @@
                 }
 
                 .sociais {
-                    width: 400px;
+                    width: 100% !important;
+                    min-width: unset !important;
+                    max-width: 100vw !important;
 
                     h3 {
                         padding-bottom: 0;

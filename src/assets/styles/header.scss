@@ -24,6 +24,7 @@
     flex-direction: row;
     height: 10vh;
     width: 100%;
+    box-sizing: border-box;
     background-color: $bg-menu;
     backdrop-filter: blur(3px);
     border-bottom: 1px solid $border-menu;
@@ -34,68 +35,8 @@
         align-items: center;
         justify-content: space-between;
         row-gap: 3px;
-        height: 64px;
         width: 100%;
         position: fixed;
-
-        #logo {
-            display: flex;
-            color: $verde-principal;
-            text-decoration: none;
-            // font-size: 24px;
-            font-weight: 600;
-            justify-content: center;
-            align-items: center;
-            transition: color 0.5s ease;
-
-            img {
-                width: auto;
-                height: 3.5rem;
-                margin-right: 10px;
-            }
-
-            .text:visited {
-                color: $verde-principal;
-            }
-
-            .text:hover,
-            .hidden-text:hover {
-                color: white;
-            }
-
-            span {
-                color: $verde-secundario;
-                font-size: 25px;
-                font-style: normal;
-                font-weight: 600;
-                line-height: normal;
-            }
-
-            .tag1 {
-                animation: moveRight 1s ease-in;
-            }
-
-            .tag2 {
-                animation: moveLeft 1s ease-in,
-                    moveCloseTagBack 0.8s ease forwards 7s;
-                transform: translateX(-140px);
-            }
-
-            .text {
-                opacity: 0;
-                font-size: 25px;
-                animation: textFadeIn 0.5s ease-in forwards
-                        1s,
-                    textFadeOut 0.5s ease-out forwards 6s;
-            }
-
-            .hidden-text {
-                opacity: 0;
-                animation: textReplace 1s ease-in forwards
-                    7s;
-                margin: 0 3px;
-            }
-        }
 
         .portfolio-logo {
             height: 3.5rem;
@@ -106,21 +47,10 @@
             cursor: pointer;
         }
 
-        .logo-short {
-            width: 5rem;
-            height: auto;
-        }
-
-        .logo-long {
-            width: 10rem;
-            height: auto;
-        }
-
         .paginas {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 15px;
             font-weight: 500;
 
             .btn-language {

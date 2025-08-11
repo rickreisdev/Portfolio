@@ -1,0 +1,170 @@
+@media screen and (max-width: 485px) {
+    @import "../vars.scss";
+    html,
+    body {
+        width: 100% !important;
+        overflow-x: hidden !important;
+        box-sizing: border-box !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    * {
+        animation: none;
+        animation-timeline: none;
+        animation-range: none;
+    }
+    [class*="container"],
+    [class*="content"],
+    [class*="section"],
+    main,
+    header,
+    footer {
+        max-width: 100vw !important;
+        width: 100% !important;
+        min-width: unset !important;
+        box-sizing: border-box;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    img,
+    svg {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box !important;
+    }
+    img,
+    svg {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    button,
+    .card,
+    .box {
+        width: 100% !important;
+        min-width: unset !important;
+        max-width: 100vw !important;
+    }
+    [style*="width: 360px"],
+    [style*="min-width: 360px"] {
+        width: 100% !important;
+        min-width: unset !important;
+        max-width: 100vw !important;
+    }
+    .box-projeto {
+        max-width: 330px !important;
+        min-height: 500px;
+    }
+    .habilidades {
+        .diferenciais {
+            .card {
+                max-width: 300px !important;
+                min-height: 300px;
+                text-align: center;
+                width: 360px;
+                .card-titulo h3 {
+                    font-size: 20px;
+                }
+                .card-body {
+                    flex-direction: column;
+                    .card-icon {
+                        font-size: 3rem;
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+    .sociais {
+        display: flex;
+        max-width: 90% !important;
+        border-radius: 30px;
+        padding-bottom: 10px;
+        h3 {
+            font-size: 17px;
+        }
+        .redes {
+            gap: 20px;
+        }
+    }
+    footer {
+        flex-direction: column;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .sobre {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        .paragrafro {
+            p {
+                font-size: 20px;
+            }
+            .btn {
+                max-width: 100%;
+            }
+        }
+    }
+    .meus-projetos {
+        .destaque-projetos {
+            .box-projeto {
+                min-width: 250px !important;
+                min-height: 350px;
+                padding-top: 0px;
+                padding: 0 10px !important;
+                p {
+                    font-size: 16px;
+                }
+                .btns-projeto {
+                    .btn-link-site,
+                    .btn-link-git {
+                        font-size: 1.3rem;
+                    }
+                }
+                h4 {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .menu,
+    .content,
+    .sobre,
+    .habilidades,
+    .meus-projetos,
+    .contato {
+        margin: 0;
+        padding: 0;
+    }
+    .intro h1,
+    .sobre .sobre-titulo .h2s,
+    .habilidades .tituloxp,
+    .meus-projetos h2,
+    .contato h2 {
+        font-size: 25px;
+    }
+    .btn2,
+    .btn2b .btn2o,
+    .btn3,
+    .btn4,
+    .btn5,
+    .btn6 {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn h2,
+    .btn2 h2,
+    .btn2b h2,
+    .btn2o h2 {
+        font-size: 20px;
+    }
+}
