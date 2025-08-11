@@ -102,18 +102,18 @@
             font-size: 12px;
         }
     }
-        .paginas.active {
-            position: fixed;
-            top: 10vh;
-            left: 0;
-            width: 100vw;
-            height: calc(100vh - 10vh);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 9998;
-            background-color: $verde-dark-bg;
-            border-radius: 0;
-        }
+    .paginas.active {
+        position: fixed;
+        top: 10vh;
+        left: 0;
+        width: 100vw;
+        height: calc(100vh - 10vh);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9998;
+        background-color: $verde-dark-bg;
+        border-radius: 0;
+    }
 }
