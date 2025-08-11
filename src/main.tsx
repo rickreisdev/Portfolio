@@ -12,7 +12,7 @@ import "./assets/styles/global.scss";
 import "./assets/styles/media-query/query1085px.scss";
 import "./assets/styles/media-query/query-375px.scss";
 import "./assets/styles/media-query/query-400px.scss";
-import "./assets/styles/media-query/query-425px.scss";
+// import "./assets/styles/media-query/query-425px.scss";
 import "./assets/styles/media-query/query485px.scss";
 import "./assets/styles/media-query/query710px.scss";
 import "./assets/styles/media-query/query2560px.scss";
