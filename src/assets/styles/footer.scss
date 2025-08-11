@@ -44,6 +44,7 @@
 
         .year {
             opacity: 0.9;
+            color: $verde-principal;
         }
 
         .brand-name {
@@ -53,17 +54,14 @@
             font-weight: 600;
             transition: transform 0.3s ease;
 
-            .portfolio-logo {
-                padding-bottom: 15px;
-                height: 2.5rem;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
+            img {
+                height: 2rem;
+                width: auto;
+                transition: transform 0.3s ease;
             }
 
             &:hover {
-                transform: scale(1.05);
+                transform: scale(1.03);
             }
 
             .accent {

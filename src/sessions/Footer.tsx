@@ -1,12 +1,12 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-// import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "../assets/styles/footer.scss";
-import LogoAnimated from "../components/Logo";
+import logo from "../assets/imagens/logo-rickreis-white.png";
 
 const Footer: React.FC = () => {
     const { t } = useTranslation();
     const currentYear = new Date().getFullYear();
+    // const logo
 
     return (
         <footer className="site-footer">
@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                     <div className="copyright">
                         <span className="year">{currentYear}</span>
                         <span className="brand-name">
-                            <LogoAnimated />
+                            <img src={logo} alt="logo rickreis" />
                         </span>
                     </div>
                 </div>
