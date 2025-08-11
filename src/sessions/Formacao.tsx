@@ -8,24 +8,23 @@ const Formacao = () => {
     return (
         <div className="formacao">
             <h2 className="tituloxp">
-                &#123;rickreis&#47;
-                <span>{t('educacaoTitle')}</span>&#125;
+                &lt;<span>{t("educacaoTitle")}</span>/&gt;
             </h2>
 
             <BoxFormacao
                 Icon={FaGraduationCap}
-                titulo={t('educacaoLabelUSP')}
-                nomeCurso={t('educacaoCursoUSP')}
-                data={t('educacaoDataUSP')}
-                nomeEscola={t('educacaoNomeUSP')}
+                titulo={t("educacaoLabelUSP")}
+                nomeCurso={t("educacaoCursoUSP")}
+                data={t("educacaoDataUSP")}
+                nomeEscola={t("educacaoNomeUSP")}
             />
 
             <BoxFormacao
                 Icon={FaGraduationCap}
-                titulo={t('educacaoLabelFatec')}
-                nomeCurso={t('educacaoCursoFatec')}
-                data={t('educacaoDataFatec')}
-                nomeEscola={t('educacaoNomeFatec')}
+                titulo={t("educacaoLabelFatec")}
+                nomeCurso={t("educacaoCursoFatec")}
+                data={t("educacaoDataFatec")}
+                nomeEscola={t("educacaoNomeFatec")}
             />
         </div>
     );

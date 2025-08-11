@@ -22,13 +22,13 @@
       "resumoBtnSobreLabel": "Conheça mais sobre mim",
       "resumoBtnProjetosLabel": "Confira os meus projetos",
   
-      "sobreTitle": "sobre",
+      "sobreTitle": "Sobre",
       "sobreDesc": "Me considero uma pessoa com facilidade para resolver problemas e um aprendiz rápido que está constantemente buscando se aprimorar.",
       "sobreDesc2": "Com inglês avançado e graduação em Análise e Desenvolvimento de Sistema, acumulo conhecimento e experiência em desenvolvimento, com habilidades sólidas em React, HTML/CSS, JavaScript/TypeScript, Sass e Node.js somadas a um conhecimento relevante em SQL, PHP, Flutter, Docker, API REST, Bootstrap, Firebase entre outras tecnologias.",
       "sobreBtnLabelCurriculo": "Meu currículo",
       "sobreBtnLabelEmail": "Enviar e-mail",
   
-      "experienciaTitle": "carreira",
+      "experienciaTitle": "Carreira",
       "boxExperienciaFairyTitle": "Desenvolvedor Full Stack Jr.",
       "boxExperienciaFairyData": "Junho 2025 - Agosto 2025",
       "boxExperienciaFairyDesc": "Com foco em frontend, atuei em projetos diversos com diferentes regras de negócio utilizando diariamente ferramentas de IA generativa e IDEs inteligentes como o Cursor para otimizar o desenvolvimento, contribuindo com soluções voltadas à experiência do usuário, integração entre sistemas e arquitetura de interfaces, em um ambiente dinâmico e inovador.",
@@ -39,7 +39,7 @@
       "boxExperienciaFatecData": "Março 2024 - Julho 2024",
       "boxExperienciaFatecDesc": "Trabalhando com React, Node.js, SCSS, Figma, Auth0 e Notion, atuei no desenvolvimento Back-end e Front-end e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade.",
   
-      "educacaoTitle": "formação",
+      "educacaoTitle": "Formação",
       "educacaoLabelFatec": "Curso Superior",
       "educacaoLabelUSP": "Pós-Graduação",
       "educacaoCursoFatec": "Graduação em Análise e Desenvolvimento de Sistemas",
@@ -49,7 +49,7 @@
       "educacaoDataFatec": "Julho 2021 - Julho 2024",
       "educacaoDataUSP": "Maio 2025 - Em andamento",
   
-      "habilidadesTitle": "habilidades",
+      "habilidadesTitle": "Habilidades",
       "diferenciaisTitle": "Outras Habilidades",
       "diferenciaisIngles": "Inglês Avançado",
       "diferenciaisDesign": "Noções de Design",
@@ -81,7 +81,7 @@
       "boxProjetos-IMC-title": "Calcula IMC",
       "boxProjetos-IMC-Desc": "Site que calcula o índica de massa corporal e retorna a faixa de peso no qual o mesmo se encontra.",
   
-      "contatoTitle": "contato",
+      "contatoTitle": "Contato",
       "contatoDesc": "Adoraria discutir como posso contribuir para o sucesso da sua empresa ou ajudar a transformar sua ideia em uma solução bonita e eficiente. Vamos conversar? Entre em contato comigo e vamos fazer acontecer! Feedbacks também são sempre bem-vindos.",
       "contatoNomePlacehoder": "Nome *",
       "contatoMensagemPlacehoder": "Mensagem *",

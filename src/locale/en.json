@@ -21,13 +21,13 @@
         "resumoBtnSobreLabel": "Learn more about me",
         "resumoBtnProjetosLabel": "Check out my projects",
 
-        "sobreTitle": "about",
+        "sobreTitle": "About",
         "sobreDesc": "I consider myself a problem-solver and a fast learner who is constantly seeking to improve.",
         "sobreDesc2": "With advanced English and degree in Systems Analysis and Development, I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, and Node.js, along with relevant knowledge in SQL, PHP, Flutter, Docker, REST API, Bootstrap, Firebase, and other technologies.",
         "sobreBtnLabelCurriculo": "Open my CV",
         "sobreBtnLabelEmail": "Send an email",
 
-        "experienciaTitle": "career",
+        "experienciaTitle": "Career",
         "boxExperienciaFairyTitle": "Jr. Full Stack Developer",
         "boxExperienciaFairyData": "June 2025 - August 2025",
         "boxExperienciaFairyDesc": "With a focus on frontend, I worked on diverse projects with different business rules, using generative AI tools and intelligent IDEs like Cursor on a daily basis to optimize development. I contribute with solutions focused on user experience, system integration, and interface architecture in a dynamic and innovative environment.",        "boxExperienciaConectaTitle": "Jr Full Stack Developer",
@@ -37,7 +37,7 @@
         "boxExperienciaFatecData": "March 2024 - July 2024",
         "boxExperienciaFatecDesc": "Working with React, Node.js, SCSS, Figma, Auth0, and Notion, I contributed to both Back-end and Front-end development and participated in planning an initial system base version for a service portal aimed at centralizing requests related to the college's coordination.",
 
-        "educacaoTitle": "education",
+        "educacaoTitle": "Education",
         "educacaoLabelFatec": "Undergraduate Program",
         "educacaoLabelUSP": "Postgraduate Program",
         "educacaoCursoFatec": "Technologist Degree in Systems Analysis and Development",
@@ -47,7 +47,7 @@
         "educacaoDataFatec": "July 2021 - July 2024",
         "educacaoDataUSP": "May 2025 - Ongoing",
 
-        "habilidadesTitle": "skills",
+        "habilidadesTitle": "Skills",
         "diferenciaisTitle": "Other Skills",
         "diferenciaisIngles": "Advanced English",
         "diferenciaisDesign": "Design",
@@ -79,7 +79,7 @@
         "boxProjetos-IMC-title": "BMI Calculator",
         "boxProjetos-IMC-Desc": "A website that calculates the body mass index (BMI) and returns the weight range it falls into.",
 
-        "contatoTitle": "contact",
+        "contatoTitle": "Contact",
         "contatoDesc": "I would love to discuss how I can contribute to your company's success or help transform your idea into a beautiful and efficient solution. Shall we talk? Get in touch with me and let's make it happen! Feedback is always welcome too.",
         "contatoNomePlacehoder": "Name *",
         "contatoMensagemPlacehoder": "Message *",

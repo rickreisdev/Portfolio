@@ -7,8 +7,7 @@ const Experiencia = () => {
     return (
         <div className="experiencia">
             <h2 className="tituloxp">
-                &#123;rickreis&#47;
-                <span>{t("experienciaTitle")}</span>&#125;
+                 &lt;<span>{t("experienciaTitle")}</span>/&gt;
             </h2>
 
             <BoxExperiencia

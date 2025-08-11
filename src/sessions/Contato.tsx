@@ -131,8 +131,7 @@ const Contato = () => {
     return (
         <div className="contato" id="contato">
             <h2 className="title-animation">
-                &#123;rickreis&#47;
-                <span>{t("contatoTitle")}</span>&#125;
+                &lt;<span>{t("contatoTitle")}</span>/&gt;
             </h2>
 
             <div className="contato-container">

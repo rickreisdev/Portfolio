@@ -17,8 +17,7 @@ const Projetos = () => {
     return (
         <div className="meus-projetos" id="meus-projetos">
             <h2 id="projeto-titulo">
-                &#123;rickreis&#47;
-                <span>{t("projetosTitle")}</span>&#125;
+                &lt;<span>{t("projetosTitle")}</span>/&gt;
             </h2>
 
             <h3>{t("projetosDestaques")}</h3>
