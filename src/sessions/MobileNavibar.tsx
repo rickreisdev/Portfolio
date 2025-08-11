@@ -89,28 +89,6 @@ const MobileNavbar: React.FC = () => {
     return (
         <nav className="menu">
             <div className="content">
-                {/* <a href="/" id="logo">
-                    <span className="tag1">&lt; </span>
-                    <span
-                        className="text"
-                        id="initial-text"
-                    >
-                        rr
-                    </span>
-                    <span
-                        className="hidden-text"
-                        id="final-text"
-                    >
-                        rickreis
-                        <span className="hidden-text">
-                            dev
-                        </span>
-                    </span>
-                    <span className="tag2" id="close-tag">
-                        /&gt;{" "}
-                    </span>
-                </a> */}
-                {/* <Logo initial="long"/> */}
                 <LogoAnimated />
 
                 <div
@@ -123,6 +101,7 @@ const MobileNavbar: React.FC = () => {
                 </div>
 
                 <ul className="paginas" ref={paginasRef}>
+                    {/* <h1 style={{color: "white"}}>aqui</h1> */}
                     <li>
                         <a href="/sobre" id="link-pags">
                             <span>
@@ -130,12 +109,6 @@ const MobileNavbar: React.FC = () => {
                             </span>
                         </a>
                     </li>
-
-                    {/* <li>
-            <a href="/experiencia" id='link-pags'>
-              <span>&lt;Experiência/&gt;</span>
-            </a>
-          </li> */}
 
                     <li>
                         <a
