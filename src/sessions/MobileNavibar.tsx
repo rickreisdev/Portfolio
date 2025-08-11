@@ -105,7 +105,7 @@ const MobileNavbar: React.FC = () => {
                     <li>
                         <a href="/sobre" id="link-pags">
                             <span>
-                                &lt;{t("sobre")}/&gt;
+                                {t("sobre")}
                             </span>
                         </a>
                     </li>
@@ -116,7 +116,7 @@ const MobileNavbar: React.FC = () => {
                             id="link-pags"
                         >
                             <span>
-                                &lt;{t("habilidades")}/&gt;
+                                {t("habilidades")}
                             </span>
                         </a>
                     </li>
@@ -124,7 +124,7 @@ const MobileNavbar: React.FC = () => {
                     <li>
                         <a href="/projetos" id="link-pags">
                             <span>
-                                &lt;{t("projetos")}/&gt;
+                                {t("projetos")}
                             </span>
                         </a>
                     </li>
@@ -132,7 +132,7 @@ const MobileNavbar: React.FC = () => {
                     <li>
                         <a href="#contato" id="link-pags">
                             <span>
-                                &lt;{t("contato")}/&gt;
+                                {t("contato")}
                             </span>
                         </a>
                     </li>
