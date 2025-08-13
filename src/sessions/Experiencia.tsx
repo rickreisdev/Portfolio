@@ -20,7 +20,7 @@ const Experiencia = () => {
 
             <BoxExperiencia
                 titulo={t("boxExperienciaConectaTitle")}
-                nomeEmpresa="Conecta Transportes"
+                nomeEmpresa="Connect Direct"
                 data={t("boxExperienciaConectaData")}
                 descricao={t("boxExperienciaConectaDesc")}
                 tecnologias="PHP - Laravel - Vue - MySQL - Azure DevOps - Scrum"
