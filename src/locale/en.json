@@ -66,6 +66,8 @@
         "boxProjetos-Estudantes-Desc": "A simple system that allows adding, listing, editing, and deleting student information.",
         "boxProjetos-EventosBR-Desc": "A website for event registration and discovery with a modern design. Developed as a study in the use of AI tools such as Lovable and Cursor.",
         "boxProjetos-BudgetControl-Desc": "A modern web application for personal expense tracking. Developed as a study in the use of AI tools such as Lovable.",
+        "boxProjetos-Notificador-title": "Notification Queue",
+        "boxProjetos-Notificador-Desc": "A simple web application that sends and processes notifications using RabbitMQ queues.",
         "boxProjetos-PortalServicos-title": "Service Portal",
         "boxProjetos-PortalServicos-Desc": "A modular web system that manages and provides services for a public college.",
         "boxProjetos-ContactMVC-Desc": "A web application that implements CRUD operations in a contact system linked to a database in Docker.",

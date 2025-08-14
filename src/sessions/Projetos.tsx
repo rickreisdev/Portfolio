@@ -4,6 +4,7 @@ import japacasa from "../assets/imagens/japacasa.png";
 import crudEstudantes from "../assets/imagens/crudEstudantes.png";
 import eventos from "../assets/imagens/eventos.png";
 import budget from "../assets/imagens/budget.png";
+import notificador from "../assets/imagens/notificador.png";
 import portalServicos from "../assets/imagens/portalservicos.png";
 import epp from "../assets/imagens/epp.png";
 import pagamento from "../assets/imagens/pagamento.png";
@@ -73,6 +74,18 @@ const Projetos = () => {
             <h3>{t("projetosTodos")}</h3>
 
             <div className="projetos" id="projetos">
+                <BoxProjeto
+                    imagem={notificador}
+                    titulo={t(
+                        "boxProjetos-Notificador-title"
+                    )}
+                    descricao={t(
+                        "boxProjetos-Notificador-Desc"
+                    )}
+                    linkRepo="https://github.com/rickreisdev/notification-queue"
+                    tecnologias="Angular - NestJs - RabbitMQ - Jest - Jasmine - Karma"
+                />
+                
                 <BoxProjeto
                     imagem={portalServicos}
                     titulo={t(
