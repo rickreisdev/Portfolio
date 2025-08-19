@@ -85,7 +85,7 @@ const Projetos = () => {
                     linkRepo="https://github.com/rickreisdev/notification-queue"
                     tecnologias="Angular - NestJs - RabbitMQ - Jest - Jasmine - Karma"
                 />
-                
+
                 <BoxProjeto
                     imagem={portalServicos}
                     titulo={t(
@@ -96,15 +96,6 @@ const Projetos = () => {
                     )}
                     linkRepo="https://github.com/rickreisdev/PortalServicos"
                     tecnologias="Vite React - Auth0 - API REST - SASS - Express"
-                />
-
-                <BoxProjeto
-                    titulo="ContactMVC"
-                    descricao={t(
-                        "boxProjetos-ContactMVC-Desc"
-                    )}
-                    linkRepo="https://github.com/rickreisdev/ContactMVC"
-                    tecnologias="ASP.NET - HTML - CSS - Javascript - Docker - PostgreSQL"
                 />
 
                 <BoxProjeto
@@ -158,6 +149,15 @@ const Projetos = () => {
                     linkSite="https://rickreisdev.github.io/CalculaIMC/"
                     linkRepo="https://github.com/rickreisdev/CalculaIMC"
                     tecnologias="HTML - CSS - Javascript"
+                />
+
+                <BoxProjeto
+                    titulo="ContactMVC"
+                    descricao={t(
+                        "boxProjetos-ContactMVC-Desc"
+                    )}
+                    linkRepo="https://github.com/rickreisdev/ContactMVC"
+                    tecnologias="ASP.NET - HTML - CSS - Javascript - Docker - PostgreSQL"
                 />
             </div>
 
