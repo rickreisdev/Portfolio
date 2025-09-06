@@ -1,4 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 import "../assets/styles/habilidades-projetos.scss";
+
 import BoxProjeto from "../components/BoxProjeto";
 import japacasa from "../assets/imagens/japacasa.png";
 import crudEstudantes from "../assets/imagens/crudEstudantes.png";
@@ -11,7 +14,7 @@ import pagamento from "../assets/imagens/pagamento.png";
 import gerSenhas from "../assets/imagens/senha.png";
 import tarefas from "../assets/imagens/tarefas.png";
 import imc from "../assets/imagens/imc.png";
-import { useTranslation } from "react-i18next";
+import insany from "../assets/imagens/insany.png";
 
 const Projetos = () => {
     const { t } = useTranslation();
@@ -36,6 +39,17 @@ const Projetos = () => {
                 />
 
                 <BoxProjeto
+                    imagem={insany}
+                    titulo="InsanyShop"
+                    descricao={t(
+                        "boxProjetos-Insany-Desc"
+                    )}
+                    linkRepo="https://github.com/rickreisdev/insanyshop"
+                    linkSite="https://insanyshop.vercel.app"
+                    tecnologias="NextJs - Typescript - Styled Components - API REST"
+                />
+
+                <BoxProjeto
                     imagem={eventos}
                     titulo="EventosBR"
                     descricao={t(
@@ -56,7 +70,11 @@ const Projetos = () => {
                     linkSite="https://budget-smart-control.vercel.app/"
                     tecnologias="Vite React - Typescript - Lovable - Supabase"
                 />
+            </div>
 
+            <h3>{t("projetosTodos")}</h3>
+
+            <div className="projetos" id="projetos">
                 <BoxProjeto
                     imagem={crudEstudantes}
                     titulo={t(
@@ -69,11 +87,7 @@ const Projetos = () => {
                     linkSite="https://crudestudantes.onrender.com"
                     tecnologias="Vue.js - Node.js - Express - API REST - Bootstrap - Docker - PostgreSQL"
                 />
-            </div>
 
-            <h3>{t("projetosTodos")}</h3>
-
-            <div className="projetos" id="projetos">
                 <BoxProjeto
                     imagem={notificador}
                     titulo={t(
