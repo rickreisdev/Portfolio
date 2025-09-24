@@ -6,8 +6,7 @@ import logo from "../assets/imagens/logo-rickreis-white.png";
 const Footer: React.FC = () => {
     const { t } = useTranslation();
     const currentYear = new Date().getFullYear();
-    // const logo
-
+    
     return (
         <footer className="site-footer">
             <div className="footer-content">
