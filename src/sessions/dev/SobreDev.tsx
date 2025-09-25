@@ -1,11 +1,11 @@
-import "../assets/styles/intro-sobre.scss";
+import "../../assets/styles/intro-sobre.scss";
 import { RiExternalLinkFill } from "react-icons/ri";
 import { motion } from "framer-motion";
-import Experiencia from "./Experiencia";
-import Formacao from "./Formacao";
+import Experiencia from "./ExperienciaDev";
+import Formacao from "./FormacaoDev";
 import { useTranslation } from "react-i18next";
 
-const Sobre = () => {
+const SobreDev = () => {
     const { t, i18n: language } = useTranslation();
     const currentLng = language.language;
 
@@ -68,4 +68,4 @@ const Sobre = () => {
     );
 };
 
-export default Sobre;
+export default SobreDev;

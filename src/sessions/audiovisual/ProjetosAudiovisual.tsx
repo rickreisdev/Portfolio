@@ -1,22 +1,22 @@
 import { useTranslation } from "react-i18next";
 
-import "../assets/styles/habilidades-projetos.scss";
+import "../../assets/styles/habilidades-projetos.scss";
 
-import BoxProjeto from "../components/BoxProjeto";
-import japacasa from "../assets/imagens/japacasa.png";
-import crudEstudantes from "../assets/imagens/crudEstudantes.png";
-import eventos from "../assets/imagens/eventos.png";
-import budget from "../assets/imagens/budget.png";
-import notificador from "../assets/imagens/notificador.png";
-import portalServicos from "../assets/imagens/portalservicos.png";
-import epp from "../assets/imagens/epp.png";
-import pagamento from "../assets/imagens/pagamento.png";
-import gerSenhas from "../assets/imagens/senha.png";
-import tarefas from "../assets/imagens/tarefas.png";
-import imc from "../assets/imagens/imc.png";
-import insany from "../assets/imagens/insany.png";
+import BoxProjeto from "../../components/BoxProjeto";
+import japacasa from "../../assets/imagens/japacasa.png";
+import crudEstudantes from "../../assets/imagens/crudEstudantes.png";
+import eventos from "../../assets/imagens/eventos.png";
+import budget from "../../assets/imagens/budget.png";
+import notificador from "../../assets/imagens/notificador.png";
+import portalServicos from "../../assets/imagens/portalservicos.png";
+import epp from "../../assets/imagens/epp.png";
+import pagamento from "../../assets/imagens/pagamento.png";
+import gerSenhas from "../../assets/imagens/senha.png";
+import tarefas from "../../assets/imagens/tarefas.png";
+import imc from "../../assets/imagens/imc.png";
+import insany from "../../assets/imagens/insany.png";
 
-const Projetos = () => {
+const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
     return (
         <div className="meus-projetos" id="meus-projetos">
@@ -41,9 +41,7 @@ const Projetos = () => {
                 <BoxProjeto
                     imagem={insany}
                     titulo="InsanyShop"
-                    descricao={t(
-                        "boxProjetos-Insany-Desc"
-                    )}
+                    descricao={t("boxProjetos-Insany-Desc")}
                     linkRepo="https://github.com/rickreisdev/insanyshop"
                     linkSite="https://insanyshop.vercel.app"
                     tecnologias="NextJs - Typescript - Styled Components - API REST"
@@ -188,4 +186,4 @@ const Projetos = () => {
     );
 };
 
-export default Projetos;
+export default ProjetosAudiovisual;

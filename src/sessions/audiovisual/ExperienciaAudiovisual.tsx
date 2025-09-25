@@ -1,13 +1,14 @@
 import { useTranslation } from "react-i18next";
-import "../assets/styles/experiencia-formacao.scss";
-import BoxExperiencia from "../components/BoxExperiencia";
+import "../../assets/styles/experiencia-formacao.scss";
+import BoxExperiencia from "../../components/BoxExperiencia";
 
-const Experiencia = () => {
+const ExperienciaAudiovisual = () => {
     const { t } = useTranslation();
     return (
         <div className="experiencia">
             <h2 className="tituloxp">
-                 &lt;<span>{t("experienciaTitle")}</span>/&gt;
+                &lt;<span>{t("experienciaTitle")}</span>
+                /&gt;
             </h2>
 
             <BoxExperiencia
@@ -37,4 +38,4 @@ const Experiencia = () => {
     );
 };
 
-export default Experiencia;
+export default ExperienciaAudiovisual;

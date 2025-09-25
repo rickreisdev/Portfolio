@@ -5,6 +5,10 @@
       "descHome": "Portfólio de Rick Reis, desenvolvedor full stack com experiência em React, TypeScript, Node.js, PHP e mais. Veja projetos, habilidades e contato.",
       "lngBtnLabel": "En",
       "lngBtnTitle": "View in English",
+
+      
+      "headerOptionDev": "Desenvolvimento",
+      "headerOptionAudiovisual": "Audiovisual",
   
       "sobre": "Sobre",
       "habilidades": "Habilidades",
@@ -14,19 +18,34 @@
       "contatoEnviado": "Mensagem enviada com sucesso!",
       "contatoNovaMensagem": "Nova mensagem",
   
-      "introLabel": "Desenvolvedor",
-      "introDesc": "Apaixonado por tecnologia",
+      "introLabel": "Desenvolvedor & Criador Audiovisual",
+      "introLabelDev": "Desenvolvedor",
+      "introLabelAudiovisual": "Criador Audiovisual",
+      "introDesc": "Criatividade e tecnologia",
+      "introDescDev": "Apaixonado por tecnologia",
+      "introDescAudiovisual": "Apaixonado por criatividade e arte",
+
+      "resumoDesc1": "Sou Rick Reis, desenvolvedor e criador de conteúdo audiovisual, com experiência em software e projetos visuais, apresentados aqui em áreas separadas.",
   
-      "resumoDesc1": "Com experiência em projetos profissionais, acadêmicos e pessoais, minhas habilidades técnicas incluem HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel e SQL. Utilizo metodologias ágeis, como Scrum e Kanban, para organizar tarefas e demandas no Azure DevOps.",
-      "resumoDesc2": "Em minha trajetória profissional, contribuo para a manutenção e evolução de sistemas que atendem uma grande quantidade de pessoas, impactando diretamente nos serviços oferecidos. Destaco a minha capacidade de resolver problemas, aprender rapidamente e trabalhar em equipe. Valorizo a qualidade e busco equilibrá-la com os prazos de entrega, garantindo os melhores resultados possíveis.",
+      "resumoDescDev1": "Com experiência em projetos profissionais, acadêmicos e pessoais, minhas habilidades técnicas incluem HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel e SQL. Utilizo metodologias ágeis, como Scrum e Kanban, para organizar tarefas e demandas no Azure DevOps.",
+      "resumoDescDev2": "Em minha trajetória profissional, contribuo para a manutenção e evolução de sistemas que atendem uma grande quantidade de pessoas, impactando diretamente nos serviços oferecidos. Destaco a minha capacidade de resolver problemas, aprender rapidamente e trabalhar em equipe. Valorizo a qualidade e busco equilibrá-la com os prazos de entrega, garantindo os melhores resultados possíveis.",
+
+      "resumoDescAudiovisual1": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma, HitFilm Express e Cinema 4D, aplicando criatividade e técnica para transformar ideias em conteúdos envolventes.",
+
       "resumoBtnSobreLabel": "Conheça mais sobre mim",
       "resumoBtnProjetosLabel": "Confira os meus projetos",
+
+      "resumoBtnSobreDevLabel": "Desenvolvimento",
+      "resumoBtnSobreAudiovisualLabel": "Audiovisual",
   
       "sobreTitle": "Sobre",
       "sobreDesc": "Me considero uma pessoa com facilidade para resolver problemas e um aprendiz rápido que está constantemente buscando se aprimorar.",
       "sobreDesc2": "Com inglês avançado e graduação em Análise e Desenvolvimento de Sistema, acumulo conhecimento e experiência em desenvolvimento, com habilidades sólidas em React, HTML/CSS, JavaScript/TypeScript, Sass, Node.js e SQL, somadas a um conhecimento relevante em Docker, PHP, API REST, Flutter, Bootstrap entre outras tecnologias.",
       "sobreBtnLabelCurriculo": "Meu currículo",
       "sobreBtnLabelEmail": "Enviar e-mail",
+
+      "sobreDescAudiovisual1": "Sou uma pessoa criativa, com facilidade para aprender rapidamente e constantemente buscando aprimorar minhas habilidades.",
+      "sobreDescAudiovisual2": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma, HitFilm Express e Cinema 4D, aplicando técnica e criatividade para desenvolver conteúdos envolventes.",
   
       "experienciaTitle": "Carreira",
       "boxExperienciaFairyTitle": "Desenvolvedor Full Stack Jr.",
@@ -50,12 +69,16 @@
       "educacaoDataUSP": "Maio 2025 - Em andamento",
   
       "habilidadesTitle": "Habilidades",
+      "habilidadesTitleAudiovisual": "Habilidades e Ferramentas",
       "diferenciaisTitle": "Outras Habilidades",
       "diferenciaisIngles": "Inglês Avançado",
       "diferenciaisDesign": "Noções de Design",
       "diferenciaisUIUX": "Noções de UI/UX",
       "diferenciaisScrum": "Scrum/Kanban",
       "diferenciaisIA": "Ferramentas de IA",
+      "diferenciaisIntros": "Intros e Vinhetas",
+      "diferenciaisMotion": "Motion Graphics",
+      "diferenciaisEdição": "Edição de Vídeos",
   
       "projetosTitle": "Projetos",
       "projetosDestaques": "Em Destaque",

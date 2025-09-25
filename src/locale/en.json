@@ -5,6 +5,10 @@
 
         "lngBtnLabel": "Pt-br",
         "lngBtnTitle": "Ver em Português brasileiro",
+
+        "headerOptionDev": "Development",
+        "headerOptionAudiovisual": "Audiovisual",
+      
         "sobre": "About",
         "habilidades": "Skills",
         "projetos": "Projects",
@@ -13,19 +17,34 @@
         "contatoEnviado": "Message sent successfully!",
         "contatoNovaMensagem": "New message",
 
-        "introLabel": "Developer",
-        "introDesc": "Passionate about technology",
+        "introLabel": "Developer & Audiovisual Creator",
+        "introLabelDev": "Developer",
+        "introLabelAudiovisual": "Audiovisual Creator",
+        "introDesc": "Creativity and, technology",
+        "introDescDev": "Passionate about technology",
+        "introDescAudiovisual": "Passionate about creativity and art",
 
-        "resumoDesc1": "With experience in professional, academic, and personal projects, my technical skills include HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel, and SQL. I use agile methodologies, such as Scrum and Kanban, to organize tasks and demands in Azure DevOps.",
-        "resumoDesc2": "Throughout my professional journey, I contribute to the maintenance and evolution of systems that serve a large number of people, directly impacting the services provided. I highlight my ability to solve problems, learn quickly, and work as part of a team. I value quality and strive to balance it with deadlines, ensuring the best possible results.",
+        "resumoDesc1": "I am Rick Reis, a developer and audiovisual creator, with experience in software and visual projects, presented here in separate areas.",
+
+        "resumoDescDev1": "With experience in professional, academic, and personal projects, my technical skills include HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel, and SQL. I use agile methodologies, such as Scrum and Kanban, to organize tasks and demands in Azure DevOps.",
+        "resumoDescDev2": "Throughout my professional journey, I contribute to the maintenance and evolution of systems that serve a large number of people, directly impacting the services provided. I highlight my ability to solve problems, learn quickly, and work as part of a team. I value quality and strive to balance it with deadlines, ensuring the best possible results.",
+        
+        "resumoDescAudiovisual1": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma, HitFilm Express, and Cinema 4D, applying creativity and technique to transform ideas into engaging content.",
+
         "resumoBtnSobreLabel": "Learn more about me",
         "resumoBtnProjetosLabel": "Check out my projects",
+
+        "resumoBtnSobreDevLabel": "Development",
+        "resumoBtnSobreAudiovisualLabel": "Audiovisual",
 
         "sobreTitle": "About",
         "sobreDesc": "I consider myself a problem-solver and a fast learner who is constantly seeking to improve.",
         "sobreDesc2": "With advanced English and degree in Systems Analysis and Development, I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, Node.js and SQL, along with relevant knowledge in PHP, Docker, REST API, Flutter, Bootstrap, and other technologies.",
         "sobreBtnLabelCurriculo": "Open my CV",
-        "sobreBtnLabelEmail": "Send an email",
+        "sobreBtnLabelEmail": "Send me an email",
+
+        "sobreDescAudiovisual1": "I am a creative person, with the ability to learn quickly and constantly seeking to improve my skills.",
+        "sobreDescAudiovisual2": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma, HitFilm Express, and Cinema 4D, applying technique and creativity to develop engaging content.",
 
         "experienciaTitle": "Career",
         "boxExperienciaFairyTitle": "Jr. Full Stack Developer",
@@ -48,12 +67,16 @@
         "educacaoDataUSP": "May 2025 - Ongoing",
 
         "habilidadesTitle": "Skills",
+        "habilidadesTitleAudiovisual": "Skills & Tools",
         "diferenciaisTitle": "Other Skills",
         "diferenciaisIngles": "Advanced English",
         "diferenciaisDesign": "Design",
         "diferenciaisUIUX": "UI/UX",
         "diferenciaisScrum": "Scrum/Kanban",
         "diferenciaisIA": "AI Tools",
+        "diferenciaisIntros": "Intro Creation",
+        "diferenciaisMotion": "Motion Graphics",
+        "diferenciaisEdição": "Video Editing",
 
         "projetosTitle": "Projects",
         "projetosDestaques": "Highlights",

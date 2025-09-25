@@ -1,9 +1,9 @@
-import "../assets/styles/experiencia-formacao.scss";
+import "../../assets/styles/experiencia-formacao.scss";
 import { FaGraduationCap } from "react-icons/fa";
-import BoxFormacao from "../components/BoxFormacao";
+import BoxFormacao from "../../components/BoxFormacao";
 import { useTranslation } from "react-i18next";
 
-const Formacao = () => {
+const FormacaoDev = () => {
     const { t } = useTranslation();
     return (
         <div className="formacao">
@@ -30,4 +30,4 @@ const Formacao = () => {
     );
 };
 
-export default Formacao;
+export default FormacaoDev;

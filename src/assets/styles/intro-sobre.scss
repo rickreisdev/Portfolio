@@ -80,19 +80,20 @@
         .typing-container {
             display: flex;
             align-items: center;
-            height: 40px;
+            height: auto;
 
             .typing-text {
                 color: $verde-principal;
-                font-size: 35px;
+                font-size: 1.5rem;
                 font-weight: 500;
                 margin: 0;
                 text-transform: uppercase;
             }
 
             .typing-cursor {
+                display: none;
                 color: $verde-principal;
-                font-size: 35px;
+                font-size: 1.5rem;
                 font-weight: 500;
                 margin-left: 2px;
 
