@@ -83,7 +83,9 @@
         "projetosTodos": "All Projects",
         "projetosBtnTitle": "See all the projects on GitHub",
         "projetosBtnLabel": "View all on GitHub",
-
+        
+        "boxProjetos-videoPlayer-Loading": "Loading...",
+        
         "boxProjetos-JapaCasa-Desc": "A delivery website for a Japanese food restaurant, where users can view the menu and add items to the cart.",
         "boxProjetos-Estudantes-title": "Students CRUD",
         "boxProjetos-Estudantes-Desc": "A simple system that allows adding, listing, editing, and deleting student information.",

@@ -85,6 +85,8 @@
       "projetosTodos": "Todos os Projetos",
       "projetosBtnTitle": "Ver todos os repositórios no GitHub",
       "projetosBtnLabel": "Ver todos no GitHub",
+
+      "boxProjetos-videoPlayer-Loading": "Carregando...",
   
       "boxProjetos-JapaCasa-Desc": "Um site de delivery para um restaurante de comida japonesa, onde o usuário pode conferir o cardápio e adicionar produtos no carrinho.",
       "boxProjetos-Estudantes-title": "CRUD Estudantes",
@@ -113,6 +115,6 @@
       "contatoMensagemPlacehoder": "Mensagem *",
       "contatoBtnLabel": "Enviar",
       "contatoEnviando": "Enviando..."
-  
+
     }
   }  
