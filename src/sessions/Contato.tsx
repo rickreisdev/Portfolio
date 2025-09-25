@@ -8,9 +8,13 @@ import {
     FaInstagram,
 } from "react-icons/fa";
 import ContactForm from "../components/ContactForm";
+import { useLocation } from "react-router-dom";
 
 const Contato = () => {
     const { t } = useTranslation();
+
+    const location = useLocation();
+    const { pathname } = location;
 
     const socialLinks = [
         {
@@ -42,7 +46,14 @@ const Contato = () => {
     return (
         <div className="contato" id="contato">
             <h2 className="title-animation">
-                &lt;<span>{t("contatoTitle")}</span>/&gt;
+                {pathname.startsWith("/dev") ? (
+                    <>
+                        &lt;<span>{t("contatoTitle")}</span>
+                        /&gt;
+                    </>
+                ) : (
+                    <span>{t("contatoTitle")}</span>
+                )}
             </h2>
 
             <div className="contato-container">
