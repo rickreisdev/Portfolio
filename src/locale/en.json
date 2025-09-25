@@ -106,9 +106,10 @@
         "boxProjetos-Insany-Desc": "Simple e-commerce for various products with paginated listings, category filters, search functionality, and a working shopping cart.",
 
         "contatoTitle": "Contact",
-        "contatoDesc": "I would love to discuss how I can contribute to your company's success or help transform your idea into a beautiful and efficient solution. Shall we talk? Get in touch with me and let's make it happen! Feedback is always welcome too.",
+        "contatoDesc": "I would love to hear about your project, idea, or opportunity. Get in touch and let's talk!",
         "contatoNomePlacehoder": "Name *",
         "contatoMensagemPlacehoder": "Message *",
-        "contatoBtnLabel": "Send"
+        "contatoBtnLabel": "Send",
+        "contatoEnviando": "Sending..."
     }
 }
