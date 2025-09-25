@@ -21,7 +21,7 @@ const ProjetosAudiovisual = () => {
     return (
         <div className="meus-projetos" id="meus-projetos">
             <h2 id="projeto-titulo">
-                &lt;<span>{t("projetosTitle")}</span>/&gt;
+                <span>{t("projetosTitle")}</span>
             </h2>
 
             <h3>{t("projetosDestaques")}</h3>

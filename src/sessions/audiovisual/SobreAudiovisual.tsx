@@ -19,7 +19,7 @@ const SobreAudiovisual = () => {
             >
                 <div className="sobre-titulo">
                     <h2 className="h2s">
-                        {t("sobreTitle")}
+                        <span>{t("sobreTitle")}</span>
                     </h2>
                 </div>
 
