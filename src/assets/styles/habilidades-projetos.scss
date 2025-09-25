@@ -192,7 +192,7 @@
                     color: $verde-darkL;
                 }
 
-                #scrum-icon{
+                #scrum-icon {
                     font-size: 4rem;
                 }
             }
@@ -272,6 +272,24 @@
 
                 &:hover {
                     transform: scale(1.05);
+                }
+            }
+
+            .play-icon-overlay {
+                position: absolute;
+                top: 50%;
+                left: 28%;
+                transform: translate(-50%, -50%);
+                font-size: 3rem;
+                color: white;
+                pointer-events: none;
+                text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+                transition: transform 0.2s ease,
+                    opacity 0.2s ease;
+
+                &:hover {
+                    transform: translate(-50%, -50%)
+                        scale(1.1);
                 }
             }
         }
