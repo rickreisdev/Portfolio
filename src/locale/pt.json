@@ -1,8 +1,13 @@
 {
     "translation": {
   
-      "tituloHome": "Rick Reis | Desenvolvedor",
-      "descHome": "Portfólio de Rick Reis, desenvolvedor full stack com experiência em React, TypeScript, Node.js, PHP e mais. Veja projetos, habilidades e contato.",
+      "tituloHome": "Rick Reis | Desenvolvedor & Criador Audiovisual",
+      "tituloHomeDev": "Rick Reis | Desenvolvedor",
+      "tituloHomeAudiovisual": "Rick Reis | Criador Audiovisual",
+      "descHome": "Portfólio de Rick Reis, desenvolvedor de software e criador audiovisual. Veja projetos, currículo, habilidades e contato.",
+      "descHomeDev": "Portfólio de Rick Reis, desenvolvedor de software com experiência em React, TypeScript, Node.js, PHP e mais. Veja projetos, currículo, habilidades e contato.",
+      "descHomeAudiovisual": "Portfólio de Rick Reis, criador de conteúdo audiovisual com experiência em edição de vídeos, motion graphics, vinhetas e mais. Veja projetos, habilidades e contato.",
+      
       "lngBtnLabel": "En",
       "lngBtnTitle": "View in English",
 
