@@ -47,7 +47,7 @@ const ProjetosAudiovisual = () => {
                 />
             </div>
 
-            <a
+            {/* <a
                 className="btn5"
                 href="https://github.com/rickreisdev?tab=repositories"
                 target="_blank"
@@ -55,7 +55,7 @@ const ProjetosAudiovisual = () => {
                 title={t("projetosBtnTitle")}
             >
                 <h2>{t("projetosBtnLabel")}</h2>
-            </a>
+            </a> */}
         </div>
     );
 };
