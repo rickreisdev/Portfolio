@@ -11,8 +11,7 @@ interface BoxProjetoProps {
     videoUrl?: string;
     titulo: string;
     descricao: string;
-    linkSite?: string;
-    linkRepo?: string;
+    linkVideo?: string;
     tecnologias: string;
 }
 
@@ -21,8 +20,7 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
     videoUrl,
     titulo,
     descricao,
-    linkSite,
-    linkRepo,
+    linkVideo,
     tecnologias,
 }) => {
     const { i18n: language } = useTranslation();
@@ -63,39 +61,17 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
                     </h2>
                     <p>{descricao}</p>
                     <div className="btns-projeto">
-                        {linkSite && (
+                        {linkVideo && (
                             <a
                                 className="btn-link-site"
-                                href={linkSite}
+                                href={videoUrl}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                title={
-                                    currentLng !== "pt"
-                                        ? "Visit page"
-                                        : "Visitar site"
-                                }
-                            >
-                                <RiExternalLinkFill className="link-icon" />
-                                Site
-                            </a>
-                        )}
-
-                        {linkRepo && (
-                            <a
-                                className="btn-link-git"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href={linkRepo}
-                                title={
-                                    currentLng !== "pt"
-                                        ? "See repository"
-                                        : "Ver repositório"
-                                }
                             >
                                 <RiExternalLinkFill className="link-icon" />
                                 {currentLng !== "pt"
-                                    ? "Repository"
-                                    : "Repositório"}
+                                    ? "Watch Video"
+                                    : "Ver Vídeo"}
                             </a>
                         )}
                     </div>

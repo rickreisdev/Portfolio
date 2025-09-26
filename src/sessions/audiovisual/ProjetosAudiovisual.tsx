@@ -20,12 +20,11 @@ const ProjetosAudiovisual = () => {
                 <BoxProjetoAudiovisual
                     imagem={japacasa}
                     videoUrl="https://www.youtube.com/watch?v=IUpJIBrsBdY"
-                    titulo="JapaCasa!"
+                    titulo="RickReis Reel"
                     descricao={t(
-                        "boxProjetos-JapaCasa-Desc"
+                        "box-Projetos-RickReisReel-Desc"
                     )}
-                    linkRepo="https://github.com/rickreisdev/JapaCasa"
-                    linkSite="https://japacasa.vercel.app"
+                    linkVideo="https://japacasa.vercel.app"
                     tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
                 />
             </div>
@@ -41,8 +40,7 @@ const ProjetosAudiovisual = () => {
                     descricao={t(
                         "boxProjetos-Estudantes-Desc"
                     )}
-                    linkRepo="https://github.com/rickreisdev/CrudEstudantes"
-                    linkSite="https://crudestudantes.onrender.com"
+                    linkVideo="https://crudestudantes.onrender.com"
                     tecnologias="Vue.js - Node.js - Express - API REST - Bootstrap - Docker - PostgreSQL"
                 />
             </div>

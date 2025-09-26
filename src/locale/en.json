@@ -1,6 +1,6 @@
 {
     "translation": {
-        
+
         "tituloHome": "Rick Reis | Developer & Audiovisual Creator",
         "tituloHomeDev": "Rick Reis | Developer",
         "tituloHomeAudiovisual": "Rick Reis | Audiovisual Creator",
@@ -112,6 +112,8 @@
         "boxProjetos-IMC-title": "BMI Calculator",
         "boxProjetos-IMC-Desc": "A website that calculates the body mass index (BMI) and returns the weight range it falls into.",
         "boxProjetos-Insany-Desc": "Simple e-commerce for various products with paginated listings, category filters, search functionality, and a working shopping cart.",
+
+        "box-Projetos-RickReisReel-Desc": "My showreel, showcasing a selection of my best works in video editing, motion graphics, and intros.",
 
         "contatoTitle": "Contact",
         "contatoDesc": "I would love to hear about your project, idea, or opportunity. Get in touch and let's talk!",
