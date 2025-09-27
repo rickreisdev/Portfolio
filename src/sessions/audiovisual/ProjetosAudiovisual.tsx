@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
 
 import "../../assets/styles/habilidades-projetos.scss";
+import BoxProjetoAudiovisual from "../../components/BoxProjetoAudiovisual";
 
 import japacasa from "../../assets/imagens/japacasa.png";
-import crudEstudantes from "../../assets/imagens/crudEstudantes.png";
-import BoxProjetoAudiovisual from "../../components/BoxProjetoAudiovisual";
+import seashore from "../../assets/imagens/seashore.jpg";
+import titanic from "../../assets/imagens/titanic.png";
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
@@ -24,8 +25,15 @@ const ProjetosAudiovisual = () => {
                     descricao={t(
                         "box-Projetos-RickReisReel-Desc"
                     )}
-                    linkVideo="https://japacasa.vercel.app"
-                    tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
+                    tecnologias={
+                        "Vlog" +
+                        " - " +
+                        t("box-Projetos-tag-edicao") +
+                        " - " +
+                        t("box-Projetos-tag-vlogViagem") +
+                        " - " +
+                        "Adobe Premiere"
+                    }
                 />
             </div>
 
@@ -33,15 +41,41 @@ const ProjetosAudiovisual = () => {
 
             <div className="projetos" id="projetos">
                 <BoxProjetoAudiovisual
-                    imagem={crudEstudantes}
-                    titulo={t(
-                        "boxProjetos-Estudantes-title"
-                    )}
+                    imagem={seashore}
+                    videoUrl="https://www.youtube.com/watch?v=yEevkBzwt8c"
+                    titulo="MSC Seashore Vlog"
                     descricao={t(
-                        "boxProjetos-Estudantes-Desc"
+                        "box-Projetos-VlogSeashore-Desc"
                     )}
-                    linkVideo="https://crudestudantes.onrender.com"
-                    tecnologias="Vue.js - Node.js - Express - API REST - Bootstrap - Docker - PostgreSQL"
+                    tecnologias={
+                        "Reel" +
+                        " - " +
+                        t("box-Projetos-tag-edicao") +
+                        " - " +
+                        t("box-Projetos-tag-animacao") +
+                        " - " +
+                        t("box-Projetos-tag-vinheta") +
+                        " - " +
+                        "HitFilm Express"
+                    }
+                />
+
+                <BoxProjetoAudiovisual
+                    imagem={titanic}
+                    videoUrl="https://www.youtube.com/watch?v=rQaELZsSNr0"
+                    titulo="The Sinking of Titanic - Minecraft Animation"
+                    descricao={t(
+                        "box-Projetos-TitanicAnimation-Desc"
+                    )}
+                    tecnologias={
+                        t("box-Projetos-tag-animacao") +
+                        " - " +
+                        t("box-Projetos-tag-edicao") +
+                        " - " +
+                        "Cinema 4D" +
+                        " - " +
+                        "Adobe Premiere"
+                    }
                 />
             </div>
 
