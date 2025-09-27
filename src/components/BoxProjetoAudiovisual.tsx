@@ -11,7 +11,6 @@ interface BoxProjetoProps {
     videoUrl?: string;
     titulo: string;
     descricao: string;
-    linkVideo?: string;
     tecnologias: string;
 }
 
@@ -20,7 +19,6 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
     videoUrl,
     titulo,
     descricao,
-    linkVideo,
     tecnologias,
 }) => {
     const { i18n: language } = useTranslation();
@@ -61,7 +59,7 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
                     </h2>
                     <p>{descricao}</p>
                     <div className="btns-projeto">
-                        {linkVideo && (
+                        {videoUrl && (
                             <a
                                 className="btn-link-site"
                                 href={videoUrl}
