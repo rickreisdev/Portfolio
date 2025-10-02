@@ -2,7 +2,7 @@ import "../../assets/styles/intro-sobre.scss";
 // import { RiExternalLinkFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-// import ExperienciaAudiovisual from "./ExperienciaAudiovisual";
+import ExperienciaAudiovisual from "./ExperienciaAudiovisual";
 // import FormacaoAudiovisual from "./FormacaoAudiovisual";
 
 const SobreAudiovisual = () => {
@@ -61,7 +61,7 @@ const SobreAudiovisual = () => {
                 </div>
             </motion.div>
 
-            {/* <ExperienciaAudiovisual /> */}
+            <ExperienciaAudiovisual />
 
             {/* <FormacaoAudiovisual /> */}
         </div>

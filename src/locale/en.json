@@ -61,6 +61,15 @@
         "boxExperienciaFatecData": "March 2024 - July 2024",
         "boxExperienciaFatecDesc": "Working with React, Node.js, SCSS, Figma, Auth0, and Notion, I contributed to both Back-end and Front-end development and participated in planning an initial system base version for a service portal aimed at centralizing requests related to the college's coordination.",
 
+        "boxExperienciaRickReisTitle": "Video Editor & Content Creator",
+        "boxExperienciaRickReisData": "June 2015 - January 2023",
+        "boxExperienciaRickReisDesc": "I Produced videos on curiosities, vlogs, and animations, applying narrative, rhythm, and dynamic cuts. Created intros, vignettes, and motion graphics elements for different channel segments. Developed complete visual identity packages, including call-to-action and end screens. Published content that reached over 620 thousand views, maintaining aesthetic and creative consistency.",
+
+        "boxExperienciaProjetosPessoaisTitle": "Video Editor & Content Creator",
+        "boxExperienciaProjetosPessoaisCompany": "Personal and Collaborative Projects",
+        "boxExperienciaProjetosPessoaisData": "June 2015 - April 2020",
+        "boxExperienciaProjetosPessoaisDesc": "Modeled and animated objects in Cinema 4D, creating motion graphics and animations for personal videos, academic projects, and collaborations. Integrated visual effects into YouTube edits, exploring narrative and music synchronization. Recreated TV vignettes with attention to movement, color, and rhythm details. Produced fictional commercials and motion design experiments to consolidate visual style. Developed visual identities inspired by professional productions, applying editing and animation techniques.",
+        
         "educacaoTitle": "Education",
         "educacaoLabelFatec": "Undergraduate Program",
         "educacaoLabelUSP": "Postgraduate Program",

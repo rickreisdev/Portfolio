@@ -7,32 +7,23 @@ const ExperienciaAudiovisual = () => {
     return (
         <div className="experiencia">
             <h2 className="tituloxp">
-                &lt;<span>{t("experienciaTitle")}</span>
-                /&gt;
+                <span>{t("experienciaTitle")}</span>
             </h2>
 
             <BoxExperiencia
-                titulo={t("boxExperienciaFairyTitle")}
-                nomeEmpresa="Fairy"
-                data={t("boxExperienciaFairyData")}
-                descricao={t("boxExperienciaFairyDesc")}
-                tecnologias="React - Typescript - Node - Clickup - Scrum"
+                titulo={t("boxExperienciaRickReisTitle")}
+                nomeEmpresa="RickReis (YouTube)"
+                data={t("boxExperienciaRickReisData")}
+                descricao={t("boxExperienciaRickReisDesc")}
+                tecnologias="Premiere - Photoshop - Cinema 4D - HitFilm - Vegas Pro"
             />
 
             <BoxExperiencia
-                titulo={t("boxExperienciaConectaTitle")}
-                nomeEmpresa="Connect Direct"
-                data={t("boxExperienciaConectaData")}
-                descricao={t("boxExperienciaConectaDesc")}
-                tecnologias="PHP - Laravel - Vue - MySQL - Azure DevOps - Scrum"
-            />
-
-            <BoxExperiencia
-                titulo={t("boxExperienciaFatecTitle")}
-                nomeEmpresa="Faculdade de Tecnologia de Ribeirão Preto"
-                data={t("boxExperienciaFatecData")}
-                descricao={t("boxExperienciaFatecDesc")}
-                tecnologias="React - Node.js - Figma - SCSS - Auth0 - Notion"
+                titulo={t("boxExperienciaProjetosPessoaisTitle")}
+                nomeEmpresa={t("boxExperienciaProjetosPessoaisCompany")}
+                data={t("boxExperienciaProjetosPessoaisData")}
+                descricao={t("boxExperienciaProjetosPessoaisDesc")}
+                tecnologias="Premiere - Photoshop - Illustrator - Cinema 4D - HitFilm - Vegas Pro"
             />
         </div>
     );
