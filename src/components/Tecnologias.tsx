@@ -197,7 +197,7 @@ const Tecnologias = () => {
                         id="HitFilm"
                         className="btn2"
                         iconUrl={hitfilm}
-                        nome="HitFilm"
+                        nome="HitFilm (legacy)"
                     />
 
                     <HabilidadeCard
