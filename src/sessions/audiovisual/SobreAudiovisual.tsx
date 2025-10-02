@@ -1,13 +1,16 @@
 import "../../assets/styles/intro-sobre.scss";
-// import { RiExternalLinkFill } from "react-icons/ri";
+import { RiExternalLinkFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import ExperienciaAudiovisual from "./ExperienciaAudiovisual";
 import FormacaoAudiovisual from "./FormacaoAudiovisual";
 
 const SobreAudiovisual = () => {
-    const { t } = useTranslation();
-    // const currentLng = language.language;
+    const { t, i18n: language } = useTranslation();
+    const currentLng = language.language;
+
+    const urlCV = import.meta.env.VITE_AV_CV_URL;
+    const urlResume = import.meta.env.VITE_AV_RESUME_URL;
 
     return (
         <div className="sobre-container" id="sobre">
@@ -29,12 +32,12 @@ const SobreAudiovisual = () => {
                     <p>{t("sobreDescAudiovisual2")}</p>
 
                     <div className="btns-sobre">
-                        {/* <a
+                        <a
                             className="btn"
                             href={
                                 currentLng === "pt"
-                                    ? "https://drive.google.com/file/d/1JqwzlRzxOmRHyj4rFPqQ4ceiSdLMRNB5/view?usp=sharing"
-                                    : "https://drive.google.com/file/d/1l2M9wv8T3dlI6t6YFni10DVxrAKkfRBB/view?usp=drive_link"
+                                    ? urlCV
+                                    : urlResume
                             }
                             target="_blank"
                             rel="noopener noreferrer"
@@ -45,7 +48,7 @@ const SobreAudiovisual = () => {
                                     "sobreBtnLabelCurriculo"
                                 )}
                             </h2>
-                        </a> */}
+                        </a>
 
                         <a
                             className="btn"
