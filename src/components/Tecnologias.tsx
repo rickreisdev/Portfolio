@@ -194,13 +194,6 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="HitFilm"
-                        className="btn2"
-                        iconUrl={hitfilm}
-                        nome="HitFilm (legacy)"
-                    />
-
-                    <HabilidadeCard
                         id="C4D"
                         className="btn2"
                         iconUrl={c4d}
@@ -220,6 +213,13 @@ const Tecnologias = () => {
                         iconUrl={photoshop}
                         nome="Photoshop"
                         title="Adobe Photoshop"
+                    />
+
+                    <HabilidadeCard
+                        id="HitFilm"
+                        className="btn2"
+                        iconUrl={hitfilm}
+                        nome="HitFilm (legacy)"
                     />
                 </div>
             )}
