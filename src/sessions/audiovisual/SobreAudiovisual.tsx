@@ -3,7 +3,7 @@ import "../../assets/styles/intro-sobre.scss";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import ExperienciaAudiovisual from "./ExperienciaAudiovisual";
-// import FormacaoAudiovisual from "./FormacaoAudiovisual";
+import FormacaoAudiovisual from "./FormacaoAudiovisual";
 
 const SobreAudiovisual = () => {
     const { t } = useTranslation();
@@ -63,7 +63,7 @@ const SobreAudiovisual = () => {
 
             <ExperienciaAudiovisual />
 
-            {/* <FormacaoAudiovisual /> */}
+            <FormacaoAudiovisual />
         </div>
     );
 };

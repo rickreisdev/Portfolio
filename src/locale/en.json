@@ -69,7 +69,7 @@
         "boxExperienciaProjetosPessoaisCompany": "Personal and Collaborative Projects",
         "boxExperienciaProjetosPessoaisData": "June 2015 - April 2020",
         "boxExperienciaProjetosPessoaisDesc": "Modeled and animated objects in Cinema 4D, creating motion graphics and animations for personal videos, academic projects, and collaborations. Integrated visual effects into YouTube edits, exploring narrative and music synchronization. Recreated TV vignettes with attention to movement, color, and rhythm details. Produced fictional commercials and motion design experiments to consolidate visual style. Developed visual identities inspired by professional productions, applying editing and animation techniques.",
-        
+
         "educacaoTitle": "Education",
         "educacaoLabelFatec": "Undergraduate Program",
         "educacaoLabelUSP": "Postgraduate Program",
@@ -79,6 +79,10 @@
         "educacaoNomeUSP": "University of São Paulo - USP",
         "educacaoDataFatec": "July 2021 - July 2024",
         "educacaoDataUSP": "May 2025 - Ongoing",
+
+        "educacaoLabelWorkshopAv": "Workshop",
+        "educacaoCursoWorkshopAv": "Workshop on Cinematography with João Castelo Branco",
+        "educacaoDataWorkshopAv": "2020",
 
         "habilidadesTitle": "Skills",
         "habilidadesTitleAudiovisual": "Skills & Tools",

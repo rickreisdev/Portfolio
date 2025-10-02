@@ -1,5 +1,6 @@
 import "../../assets/styles/experiencia-formacao.scss";
 import { FaGraduationCap } from "react-icons/fa";
+import { GrWorkshop } from "react-icons/gr";
 import BoxFormacao from "../../components/BoxFormacao";
 import { useTranslation } from "react-i18next";
 
@@ -8,8 +9,16 @@ const FormacaoAudiovisual = () => {
     return (
         <div className="formacao">
             <h2 className="tituloxp">
-                &lt;<span>{t("educacaoTitle")}</span>/&gt;
+                <span>{t("educacaoTitle")}</span>
             </h2>
+
+            <BoxFormacao
+                Icon={GrWorkshop}
+                titulo={t("educacaoLabelWorkshopAv")}
+                nomeCurso={t("educacaoCursoWorkshopAv")}
+                data={t("educacaoDataWorkshopAv")}
+                nomeEscola="AvMakers"
+            />
 
             <BoxFormacao
                 Icon={FaGraduationCap}
