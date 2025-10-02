@@ -3,9 +3,10 @@ import { useTranslation } from "react-i18next";
 import "../../assets/styles/habilidades-projetos.scss";
 import BoxProjetoAudiovisual from "../../components/BoxProjetoAudiovisual";
 
-import japacasa from "../../assets/imagens/japacasa.png";
 import seashore from "../../assets/imagens/seashore.jpg";
 import titanic from "../../assets/imagens/titanic.png";
+import rio from "../../assets/imagens/rio.jpg";
+import showreel from "../../assets/imagens/showreel.png";
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
@@ -19,18 +20,20 @@ const ProjetosAudiovisual = () => {
 
             <div className="destaque-projetos">
                 <BoxProjetoAudiovisual
-                    imagem={japacasa}
-                    videoUrl="https://www.youtube.com/watch?v=IUpJIBrsBdY"
-                    titulo="RickReis Reel"
+                    imagem={showreel}
+                    videoUrl="https://www.youtube.com/watch?v=1ihE3BB1YWg"
+                    titulo={t("box-Projetos-RickReisReel-title")}
                     descricao={t(
                         "box-Projetos-RickReisReel-Desc"
                     )}
                     tecnologias={
-                        "Vlog" +
+                        "Showreel" +
                         " - " +
                         t("box-Projetos-tag-edicao") +
                         " - " +
-                        t("box-Projetos-tag-vlogViagem") +
+                        t("box-Projetos-tag-animacao") +
+                        " - " +
+                        t("box-Projetos-tag-vinheta") +
                         " - " +
                         "Adobe Premiere"
                     }
@@ -41,6 +44,22 @@ const ProjetosAudiovisual = () => {
 
             <div className="projetos" id="projetos">
                 <BoxProjetoAudiovisual
+                    imagem={rio}
+                    videoUrl="https://www.youtube.com/watch?v=LsOkxqUQFsg"
+                    titulo="Rio 2025"
+                    descricao={t(
+                        "box-Projetos-Rio2025-Desc"
+                    )}
+                    tecnologias={
+                        t("box-Projetos-tag-vlogViagem") +
+                        " - " +
+                        t("box-Projetos-tag-edicao") +
+                        " - " +
+                        "Adobe Premiere"
+                    }
+                />
+
+                <BoxProjetoAudiovisual
                     imagem={seashore}
                     videoUrl="https://www.youtube.com/watch?v=yEevkBzwt8c"
                     titulo="MSC Seashore Vlog"
@@ -48,13 +67,9 @@ const ProjetosAudiovisual = () => {
                         "box-Projetos-VlogSeashore-Desc"
                     )}
                     tecnologias={
-                        "Reel" +
+                        t("box-Projetos-tag-vlogViagem") +
                         " - " +
                         t("box-Projetos-tag-edicao") +
-                        " - " +
-                        t("box-Projetos-tag-animacao") +
-                        " - " +
-                        t("box-Projetos-tag-vinheta") +
                         " - " +
                         "HitFilm Express"
                     }

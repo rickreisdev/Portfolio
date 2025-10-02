@@ -68,8 +68,8 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
                             >
                                 <RiExternalLinkFill className="link-icon" />
                                 {currentLng !== "pt"
-                                    ? "Watch Video"
-                                    : "Ver Vídeo"}
+                                    ? "Watch on YouTube"
+                                    : "Ver no YouTube"}
                             </a>
                         )}
                     </div>
