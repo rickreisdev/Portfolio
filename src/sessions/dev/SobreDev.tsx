@@ -9,6 +9,9 @@ const SobreDev = () => {
     const { t, i18n: language } = useTranslation();
     const currentLng = language.language;
 
+    const urlCV = import.meta.env.VITE_DEV_CV_URL;
+    const urlResume = import.meta.env.VITE_DEV_RESUME_URL;
+
     return (
         <div className="sobre-container" id="sobre">
             <motion.div
@@ -33,8 +36,8 @@ const SobreDev = () => {
                             className="btn"
                             href={
                                 currentLng === "pt"
-                                    ? "https://drive.google.com/file/d/1JqwzlRzxOmRHyj4rFPqQ4ceiSdLMRNB5/view?usp=sharing"
-                                    : "https://drive.google.com/file/d/1l2M9wv8T3dlI6t6YFni10DVxrAKkfRBB/view?usp=drive_link"
+                                    ? urlCV
+                                    : urlResume
                             }
                             target="_blank"
                             rel="noopener noreferrer"
