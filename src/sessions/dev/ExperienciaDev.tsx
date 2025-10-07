@@ -12,6 +12,14 @@ const ExperienciaDev = () => {
             </h2>
 
             <BoxExperiencia
+                titulo={t("boxExperienciaInsanyTitle")}
+                nomeEmpresa="Insany"
+                data={t("boxExperienciaInsanyData")}
+                descricao={t("boxExperienciaInsanyDesc")}
+                tecnologias="React - Figma - Clickup - Scrum"
+            />
+
+            <BoxExperiencia
                 titulo={t("boxExperienciaFairyTitle")}
                 nomeEmpresa="Fairy"
                 data={t("boxExperienciaFairyData")}
