@@ -16,7 +16,7 @@ const ExperienciaDev = () => {
                 nomeEmpresa="Insany"
                 data={t("boxExperienciaInsanyData")}
                 descricao={t("boxExperienciaInsanyDesc")}
-                tecnologias="React - Figma - Clickup - Scrum"
+                tecnologias="React - Styled Components - Figma - Clickup - Scrum"
             />
 
             <BoxExperiencia
