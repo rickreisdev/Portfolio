@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 import "../assets/styles/header.scss";
@@ -80,14 +80,9 @@ const MobileNavbar: React.FC = () => {
         i18n: { changeLanguage, language },
     } = useTranslation();
 
-    const [currentLanguage, setCurrentLanguage] =
-        useState(language);
-
     const handleChangeLanguage = () => {
-        const newLanguage =
-            currentLanguage === "en" ? "pt" : "en";
+        const newLanguage = language === "en" ? "pt" : "en";
         changeLanguage(newLanguage);
-        setCurrentLanguage(newLanguage);
     };
 
     return (
@@ -104,17 +99,16 @@ const MobileNavbar: React.FC = () => {
                     <div className="line3"></div>
                 </div>
 
-                {pathname === '/' && (
+                {pathname === "/" && (
                     <ul
                         className="paginas"
                         ref={paginasRef}
                     >
                         <li>
-                            <a
-                                href="/dev"
-                                id="link-pags"
-                            >
-                                <span>{t("headerOptionDev")}</span>
+                            <a href="/dev" id="link-pags">
+                                <span>
+                                    {t("headerOptionDev")}
+                                </span>
                             </a>
                         </li>
 
@@ -124,7 +118,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                             >
                                 <span>
-                                    {t("headerOptionAudiovisual")}
+                                    {t(
+                                        "headerOptionAudiovisual"
+                                    )}
                                 </span>
                             </a>
                         </li>
