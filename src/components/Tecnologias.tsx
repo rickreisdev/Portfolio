@@ -8,23 +8,20 @@ import {
     FaJs,
     FaReact,
     FaGitAlt,
-    FaSass,
+    // FaSass,
     FaNodeJs,
-    FaBootstrap,
-    FaVuejs,
+    FaFigma,
     FaPhp,
 } from "react-icons/fa";
 import {
-    SiTypescript,
-    SiAxios,
+    // SiTypescript,
     SiMysql,
-    SiAzuredevops,
     SiI18Next,
     SiLaravel,
 } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbHttpGet } from "react-icons/tb";
-import { TbBrandVite } from "react-icons/tb";
 import premiere from "../assets/SVGs/premiere-pro.svg";
 import hitfilm from "../assets/SVGs/hitFilm.svg";
 import photoshop from "../assets/SVGs/photoshop.svg";
@@ -48,14 +45,6 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="Vite"
-                        className="btn2"
-                        Icon={TbBrandVite}
-                        nome="Vite"
-                        title="Vite"
-                    />
-
-                    <HabilidadeCard
                         id="HTML"
                         className="btn2"
                         Icon={FaHtml5}
@@ -63,32 +52,32 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="CSS"
+                        id="CSS/SCSS"
                         className="btn2"
                         Icon={FaCss3Alt}
-                        nome="CSS"
+                        nome="CSS/SCSS"
                     />
 
-                    <HabilidadeCard
+                    {/* <HabilidadeCard
                         id="SCSS"
                         className="btn2"
                         Icon={FaSass}
                         nome="SCSS"
-                    />
+                    /> */}
 
                     <HabilidadeCard
-                        id="JavaScript"
+                        id="JavaScript/TypeScript"
                         className="btn2"
                         Icon={FaJs}
-                        nome="JavaScript"
+                        nome="JS/TS"
                     />
 
-                    <HabilidadeCard
+                    {/* <HabilidadeCard
                         id="TypeScript"
                         className="btn2"
                         Icon={SiTypescript}
                         nome="TypeScript"
-                    />
+                    /> */}
 
                     <HabilidadeCard
                         id="API"
@@ -105,10 +94,10 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="Axios"
+                        id="Next.js"
                         className="btn2"
-                        Icon={SiAxios}
-                        nome="Axios"
+                        Icon={RiNextjsFill}
+                        nome="Next.js"
                     />
 
                     <HabilidadeCard
@@ -140,13 +129,6 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="Vue.js"
-                        className="btn2b"
-                        Icon={FaVuejs}
-                        nome="Vue.js"
-                    />
-
-                    <HabilidadeCard
                         id="MySQL"
                         className="btn2b"
                         Icon={SiMysql}
@@ -154,10 +136,10 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="Azure DevOps"
+                        id="Figma"
                         className="btn2b"
-                        Icon={SiAzuredevops}
-                        nome="Azure DevOps"
+                        Icon={FaFigma}
+                        nome="Figma"
                     />
 
                     <HabilidadeCard
@@ -165,13 +147,6 @@ const Tecnologias = () => {
                         className="btn2"
                         Icon={SiI18Next}
                         nome="i18n"
-                    />
-
-                    <HabilidadeCard
-                        id="Bootstrap"
-                        className="btn2"
-                        Icon={FaBootstrap}
-                        nome="Bootstrap"
                     />
 
                     <HabilidadeCard
