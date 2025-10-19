@@ -15,6 +15,7 @@ import gerSenhas from "../../assets/imagens/senha.png";
 import tarefas from "../../assets/imagens/tarefas.png";
 import imc from "../../assets/imagens/imc.png";
 import insany from "../../assets/imagens/insany.png";
+import portfolioLais from "../../assets/imagens/portfolioLais.png";
 
 const ProjetosDev = () => {
     const { t } = useTranslation();
@@ -35,7 +36,15 @@ const ProjetosDev = () => {
                     )}
                     linkRepo="https://github.com/rickreisdev/JapaCasa"
                     linkSite="https://japacasa.vercel.app"
-                    tecnologias="Vite React - Bootstrap - SASS - API REST - Node.js - Express"
+                    tecnologias="React - Bootstrap - SASS - API REST - Node.js - Express"
+                />
+
+                <BoxProjeto
+                    imagem={portfolioLais}
+                    titulo={t("boxProjetos-PortfolioLais-Title")}
+                    descricao={t("boxProjetos-PortfolioLais-Desc")}
+                    linkSite="https://laisamoroso.com.br"
+                    tecnologias="React - Typescript - Lovable - shadcn-ui - Tailwind"
                 />
 
                 <BoxProjeto
@@ -48,17 +57,6 @@ const ProjetosDev = () => {
                 />
 
                 <BoxProjeto
-                    imagem={eventos}
-                    titulo="EventosBR"
-                    descricao={t(
-                        "boxProjetos-EventosBR-Desc"
-                    )}
-                    linkRepo="https://github.com/rickreisdev/vivid-event-scape"
-                    linkSite="https://vivid-event-scape.vercel.app/"
-                    tecnologias="Vite React - Typescript - Lovable - Cursor - Supabase"
-                />
-
-                <BoxProjeto
                     imagem={budget}
                     titulo="BudgetControl"
                     descricao={t(
@@ -66,13 +64,24 @@ const ProjetosDev = () => {
                     )}
                     linkRepo="https://github.com/rickreisdev/budget-smart-cycle"
                     linkSite="https://budget-smart-control.vercel.app/"
-                    tecnologias="Vite React - Typescript - Lovable - Supabase"
+                    tecnologias="React - Typescript - Lovable - Supabase"
                 />
             </div>
 
             <h3>{t("projetosTodos")}</h3>
 
             <div className="projetos" id="projetos">
+                <BoxProjeto
+                    imagem={eventos}
+                    titulo="EventosBR"
+                    descricao={t(
+                        "boxProjetos-EventosBR-Desc"
+                    )}
+                    linkRepo="https://github.com/rickreisdev/vivid-event-scape"
+                    linkSite="https://vivid-event-scape.vercel.app/"
+                    tecnologias="React - Typescript - Lovable - Cursor - Supabase"
+                />
+
                 <BoxProjeto
                     imagem={crudEstudantes}
                     titulo={t(
@@ -107,7 +116,7 @@ const ProjetosDev = () => {
                         "boxProjetos-PortalServicos-Desc"
                     )}
                     linkRepo="https://github.com/rickreisdev/PortalServicos"
-                    tecnologias="Vite React - Auth0 - API REST - SASS - Express"
+                    tecnologias="React - Auth0 - API REST - SASS - Express"
                 />
 
                 <BoxProjeto
@@ -128,7 +137,7 @@ const ProjetosDev = () => {
                     )}
                     linkSite="https://desafio-front-end-woovi.vercel.app"
                     linkRepo="https://github.com/rickreisdev/DesafioFrontEndWoovi"
-                    tecnologias="Vite React - MUI - CSS in TS - Typescript - Figma - Vitest"
+                    tecnologias="React - MUI - CSS in TS - Typescript - Figma - Vitest"
                 />
 
                 <BoxProjeto
@@ -140,7 +149,7 @@ const ProjetosDev = () => {
                         "boxProjetos-GerSenhas-Desc"
                     )}
                     linkRepo="https://github.com/rickreisdev/GerenciadorSenhas"
-                    tecnologias="Vite React - Python - SASS - Javascript - Docker - PostgreSQL"
+                    tecnologias="React - Python - SASS - Javascript - Docker - PostgreSQL"
                 />
 
                 <BoxProjeto
