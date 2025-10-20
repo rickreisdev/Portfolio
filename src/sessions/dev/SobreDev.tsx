@@ -22,7 +22,7 @@ const SobreDev = () => {
             >
                 <div className="sobre-titulo">
                     <h2 className="h2s">
-                         &lt;<span>{t("sobreTitle")}</span>/&gt;
+                         &lt;<span>{t("about.sobreTitle")}</span>/&gt;
                     </h2>
                 </div>
 
