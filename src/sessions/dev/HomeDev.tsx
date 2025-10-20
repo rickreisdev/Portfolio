@@ -59,7 +59,7 @@ const HomeDev = () => {
                 }`}
             >
                 <Intro
-                    typingText={t("introLabelDev")}
+                    typingText={t("intro.introLabelDev")}
                     content={t("intro.introDescDev")}
                 />
             </div>
