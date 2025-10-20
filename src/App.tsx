@@ -21,19 +21,19 @@ function App() {
             <Helmet>
                 <title>
                     {rotaDev
-                        ? t("tituloHomeDev")
+                        ? t("metadata.tituloHomeDev")
                         : rotaAudiovisual
-                        ? t("tituloHomeAudiovisual")
-                        : t("tituloHome")}
+                        ? t("metadata.tituloHomeAudiovisual")
+                        : t("metadata.tituloHome")}
                 </title>
                 <meta
                     name="description"
                     content={
                         rotaDev
-                            ? t("descHomeDev")
+                            ? t("metadata.descHomeDev")
                             : rotaAudiovisual
-                            ? t("descHomeAudiovisual")
-                            : t("descHome")
+                            ? t("metadata.descHomeAudiovisual")
+                            : t("metadata.descHome")
                     }
                 />
             </Helmet>
