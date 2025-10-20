@@ -1,154 +1,221 @@
 {
-    "translation": {
-  
+  "translation": {
+    "metadata": {
       "tituloHome": "Rick Reis | Desenvolvedor & Criador Audiovisual",
       "tituloHomeDev": "Rick Reis | Desenvolvedor",
       "tituloHomeAudiovisual": "Rick Reis | Criador Audiovisual",
       "descHome": "Portfólio de Rick Reis, desenvolvedor de software e criador audiovisual. Veja projetos, currículo, habilidades e contato.",
       "descHomeDev": "Portfólio de Rick Reis, desenvolvedor de software com experiência em React, TypeScript, Node.js, PHP e mais. Veja projetos, currículo, habilidades e contato.",
-      "descHomeAudiovisual": "Portfólio de Rick Reis, criador de conteúdo audiovisual com experiência em edição de vídeos, motion graphics, vinhetas e mais. Veja projetos, habilidades e contato.",
-      
+      "descHomeAudiovisual": "Portfólio de Rick Reis, criador de conteúdo audiovisual com experiência em edição de vídeos, motion graphics, vinhetas e mais. Veja projetos, habilidades e contato."
+    },
+    "language": {
       "lngBtnLabel": "En",
-      "lngBtnTitle": "View in English",
-
-      
+      "lngBtnTitle": "View in English"
+    },
+    "header": {
       "headerOptionDev": "Desenvolvimento",
       "headerOptionAudiovisual": "Audiovisual",
-  
       "sobre": "Sobre",
       "habilidades": "Habilidades",
       "projetos": "Projetos",
-      "contato": "Contato",
-      "footerLabel": "Desenvolvido Por",
-      "contatoEnviado": "Mensagem enviada com sucesso!",
-      "contatoNovaMensagem": "Nova mensagem",
-  
+      "contato": "Contato"
+    },
+    "footer": {
+      "footerLabel": "Desenvolvido Por"
+    },
+    "intro": {
       "introLabel": "Desenvolvedor & Criador Audiovisual",
       "introLabelDev": "Desenvolvedor",
       "introLabelAudiovisual": "Criador Audiovisual",
       "introDesc": "Criatividade e tecnologia",
       "introDescDev": "Apaixonado por tecnologia",
       "introDescAudiovisual": "Apaixonado por criatividade e arte",
-
       "resumoDesc1": "Sou Rick Reis, desenvolvedor e criador de conteúdo audiovisual, com experiência em software e projetos visuais, apresentados aqui em áreas separadas.",
-  
       "resumoDescDev1": "Com experiência em projetos profissionais, acadêmicos e pessoais, minhas habilidades técnicas incluem HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel e SQL. Utilizo metodologias ágeis, como Scrum e Kanban, para organizar tarefas e demandas no Azure DevOps.",
       "resumoDescDev2": "Em minha trajetória profissional, contribuo para a manutenção e evolução de sistemas que atendem uma grande quantidade de pessoas, impactando diretamente nos serviços oferecidos. Destaco a minha capacidade de resolver problemas, aprender rapidamente e trabalhar em equipe. Valorizo a qualidade e busco equilibrá-la com os prazos de entrega, garantindo os melhores resultados possíveis.",
-
       "resumoDescAudiovisual1": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma e Cinema 4D, aplicando criatividade e técnica para transformar ideias em conteúdos envolventes.",
-
       "resumoBtnSobreLabel": "Conheça mais sobre mim",
       "resumoBtnProjetosLabel": "Confira os meus projetos",
-
       "resumoBtnSobreDevLabel": "Desenvolvimento",
-      "resumoBtnSobreAudiovisualLabel": "Audiovisual",
-  
+      "resumoBtnSobreAudiovisualLabel": "Audiovisual"
+    },
+    "about": {
       "sobreTitle": "Sobre",
       "sobreDesc": "Me considero uma pessoa com facilidade para resolver problemas e um aprendiz rápido que está constantemente buscando se aprimorar.",
       "sobreDesc2": "Com inglês avançado e graduação em Análise e Desenvolvimento de Sistema, acumulo conhecimento e experiência em desenvolvimento, com habilidades sólidas em React, HTML/CSS, JavaScript/TypeScript, Sass, Node.js e SQL, somadas a um conhecimento relevante em Docker, PHP, API REST, Flutter, Bootstrap entre outras tecnologias.",
       "sobreBtnLabelCurriculo": "Meu currículo",
       "sobreBtnLabelEmail": "Enviar e-mail",
-
       "sobreDescAudiovisual1": "Sou uma pessoa criativa, com facilidade para aprender rapidamente e constantemente buscando aprimorar minhas habilidades.",
-      "sobreDescAudiovisual2": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma, HitFilm Express e Cinema 4D, aplicando técnica e criatividade para desenvolver conteúdos envolventes.",
-  
-      "experienciaTitle": "Carreira",
-      "boxExperienciaInsanyTitle": "Desenvolvedor Front End Jr.",
-      "boxExperienciaInsanyData": "Outubro 2025 - Atualmente",
-      "boxExperienciaInsanyDesc": "Atuo desenvolvendo interfaces a partir das telas dos times de UI e UX, garantindo fidelidade ao design e aos comportamentos aprovados pelos clientes em padrão pixel perfect. Trabalho em projetos de diferentes segmentos, colaborando com designers e desenvolvedores para entregar experiências visuais consistentes. Utilizo principalmente React e Figma, com eventual atuação em Webflow e WordPress, além de realizar manutenções e melhorias em código existente, contribuindo para a evolução e eficiência dos projetos.",
-      "boxExperienciaFairyTitle": "Desenvolvedor Full Stack Jr.",
-      "boxExperienciaFairyData": "Junho 2025 - Agosto 2025",
-      "boxExperienciaFairyDesc": "Com foco em frontend, atuei em projetos diversos com diferentes regras de negócio utilizando diariamente ferramentas de IA generativa e IDEs inteligentes como o Cursor para otimizar o desenvolvimento, contribuindo com soluções voltadas à experiência do usuário, integração entre sistemas e arquitetura de interfaces, em um ambiente dinâmico e inovador.",
-      "boxExperienciaConectaTitle": "Desenvolvedor Full Stack Jr.",
-      "boxExperienciaConectaData": "Setembro 2024 - Junho 2025",
-      "boxExperienciaConectaDesc": "Contribuí para a manutenção e evolução de sistemas utilizados por centenas de usuários internos e clientes externos, ajudando a sustentar e melhorar operações que impactavam diretamente a operação e a qualidade do serviço oferecido pela empresa. Utilizava PHP/Laravel, Vue.js, MySQL e análise de logs para a resolução de problemas, combinando esses recursos com a metodologia Scrum, as ferramentas Azure DevOps e Git, além do uso de ferramentas de IA para alcançar o melhor resultado possível.",
-      "boxExperienciaFatecTitle": "Desenvolvedor Web Estagiário",
-      "boxExperienciaFatecData": "Março 2024 - Julho 2024",
-      "boxExperienciaFatecDesc": "Trabalhando com React, Node.js, SCSS, Figma, Auth0 e Notion, atuei no desenvolvimento Back-end e Front-end e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade.",
-
-      "boxExperienciaRickReisTitle": "Editor de Vídeo & Criador de Conteúdo",
-      "boxExperienciaRickReisData": "Junho 2015 - Janeiro 2023",
-      "boxExperienciaRickReisDesc": "Produzia vídeos de curiosidades, vlogs e animações, aplicando narrativa, ritmo e cortes dinâmicos. Criava intros, vinhetas e elementos de motion graphics para diferentes quadros do canal. Desenvolvia pacotes completos de identidade visual, incluindo call-to-action e telas finais. Publicava conteúdos que chegaram a alcançar mais de 620 mil visualizações, mantendo consistência estética e criativa.",
-  
-      "boxExperienciaProjetosPessoaisTitle": "Editor de Vídeo & Criador de Conteúdo",
-      "boxExperienciaProjetosPessoaisCompany": "Projetos Pessoais e Colaborativos",
-      "boxExperienciaProjetosPessoaisData": "Junho 2015 - Abril 2020",
-      "boxExperienciaProjetosPessoaisDesc": "Modelava e animava objetos em Cinema 4D, criando motion graphics e animações para vídeos próprios, projetos acadêmicos e colaborações. Integrava efeitos visuais em edições para YouTube, explorando narrativa e sincronismo com música. Recriava vinhetas de TV com atenção a detalhes de movimento, cores e ritmo. Produzia comerciais fictícios e experimentações em motion design para consolidar estilo visual. Desenvolvia identidades visuais inspiradas em produções profissionais, aplicando técnicas de edição e animação.",
-
-      "educacaoTitle": "Formação",
-      "educacaoLabelFatec": "Curso Superior",
-      "educacaoLabelUSP": "Pós-Graduação",
-      "educacaoCursoFatec": "Graduação em Análise e Desenvolvimento de Sistemas",
-      "educacaoNomeFatec": "Faculdade de Tecnologia de Ribeirão Preto - Fatec",
-      "educacaoCursoUSP": "MBA em Engenharia de Software",
-      "educacaoNomeUSP": "Universidade de São Paulo - USP/Esalq",
-      "educacaoDataFatec": "Julho 2021 - Julho 2024",
-      "educacaoDataUSP": "Maio 2025 - Em andamento",
-
-      "educacaoLabelWorkshopAv": "Workshop",
-      "educacaoCursoWorkshopAv": "Workshop de Direção de Fotografia com João Castelo Branco",
-      "educacaoDataWorkshopAv": "2020",
-  
-      "habilidadesTitle": "Habilidades",
-      "habilidadesTitleAudiovisual": "Habilidades e Ferramentas",
-      "diferenciaisTitle": "Outras Habilidades",
-      "diferenciaisIngles": "Inglês Avançado",
-      "diferenciaisDesign": "Noções de Design",
-      "diferenciaisUIUX": "Noções de UI/UX",
-      "diferenciaisScrum": "Scrum/Kanban",
-      "diferenciaisIA": "Ferramentas de IA",
-      "diferenciaisIntros": "Intros e Vinhetas",
-      "diferenciaisMotion": "Motion Graphics",
-      "diferenciaisEdição": "Edição de Vídeos",
-  
-      "projetosTitle": "Projetos",
-      "projetosDestaques": "Em Destaque",
-      "projetosTodos": "Todos os Projetos",
-      "projetosBtnTitle": "Ver todos os repositórios no GitHub",
-      "projetosBtnLabel": "Ver todos no GitHub",
-
-      "boxProjetos-videoPlayer-Loading": "Carregando...",
-      "modalVideo-iframe-title": "Vídeo do projeto",
-  
-      "boxProjetos-JapaCasa-Desc": "Um site de delivery para um restaurante de comida japonesa, onde o usuário pode conferir o cardápio e adicionar produtos no carrinho.",
-      "boxProjetos-Estudantes-title": "CRUD Estudantes",
-      "boxProjetos-Estudantes-Desc": "Um sistema simples que permite adicionar, listar, editar e deletar informações de estudantes.",
-      "boxProjetos-EventosBR-Desc": "Um site para cadastro e descoberta de eventos com design moderno. Desenvolvida como estudo no uso de ferramentas de IA como Lovable e Cursor.",
-      "boxProjetos-BudgetControl-Desc": "Uma aplicação web moderna para controle de gastos pessoais, Desenvolvida como estudo no uso de ferramentas de IA como Lovable.",
-      "boxProjetos-Notificador-title": "Fila de Notificações",
-      "boxProjetos-Notificador-Desc": "Aplicação web simples que envia e processa notificações usando filas do RabbitMQ.",
-      "boxProjetos-PortalServicos-title": "Portal de Serviços",
-      "boxProjetos-PortalServicos-Desc": "Um sistema web modular que gerencia e disponibiliza serviços de uma faculdade pública.",
-      "boxProjetos-ContactMVC-Desc": "Aplicação web que implementa operações CRUD em um sistema de contatos ligado com um banco de dados em Docker.",
-      "boxProjetos-Epp-Desc": "Um app Android feito para ajudar no aprendizado de programação utilizando a gamificação.",
-      "boxProjetos-Pagamento-title": "Página de Pagamento",
-      "boxProjetos-Pagamento-Desc": "Página de pagamento com validações de formulário e design mobile-fist.",
-      "boxProjetos-GerSenhas-title": "Gerenciador de Senhas",
-      "boxProjetos-GerSenhas-Desc": "Uma aplicação web que permite o cadastro, geração e o gerenciamento de senhas, notas e favoritos.",
-      "boxProjetos-Tarefas-title": "Lista de Tarefas",
-      "boxProjetos-Tarefas-Desc": "Página que apresenta uma lista de tarefas que permite adicionar tasks e marcá-las como concluídas.",
-      "boxProjetos-IMC-title": "Calcula IMC",
-      "boxProjetos-IMC-Desc": "Site que calcula o índica de massa corporal e retorna a faixa de peso no qual o mesmo se encontra.",
-      "boxProjetos-Insany-Desc": "E-commerce simples de produtos diversos com lista paginada, filtros por categoria, busca por termos e carrinho funcional.",
-      "boxProjetos-PortfolioLais-Title": "Portfólio Laís Amoroso",
-      "boxProjetos-PortfolioLais-Desc": "Portfólio de Laís Amoroso, uma profissional em Estruturação de Crédito e Análise de Dados Financeiros",
-
-      "box-Projetos-RickReisReel-title": "Showreel RickReis 2025",
-      "box-Projetos-RickReisReel-Desc": "Meu showreel, apresentando uma seleção dos meus melhores trabalhos em edição de vídeos, motion graphics e vinhetas.",
-      "box-Projetos-VlogSeashore-Desc": "Vídeo mostrando o meu cruzeiro em 2022, com cenas da viagem, o navio e os destinos visitados.",
-      "box-Projetos-TitanicAnimation-Desc": "Animação 3D no estilo Minecraft retratando o naufrágio do Titanic.",
-      "box-Projetos-Rio2025-Desc": "Vídeo mostrando as belezas e paisagens do Rio de Janeiro durante a minha viagem em abril de 2025.",
-
-      "box-Projetos-tag-edicao": "Edição de Vídeo",
-      "box-Projetos-tag-vlogViagem": "Vlog de Viagem",
-      "box-Projetos-tag-vinheta": "Vinheta",
-      "box-Projetos-tag-animacao": "Animação",
-  
-      "contatoTitle": "Contato",
-      "contatoDesc": "Adoraria ouvir sobre seu projeto, ideia ou oportunidade. Entre em contato e vamos conversar!",
-      "contatoNomePlacehoder": "Nome *",
-      "contatoMensagemPlacehoder": "Mensagem *",
-      "contatoBtnLabel": "Enviar",
-      "contatoEnviando": "Enviando..."
+      "sobreDescAudiovisual2": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma, HitFilm Express e Cinema 4D, aplicando técnica e criatividade para desenvolver conteúdos envolventes."
+    },
+    "experience": {
+      "careerTitle": "Carreira",
+      "insany": {
+        "title": "Desenvolvedor Front End Jr.",
+        "date": "Outubro 2025 - Atualmente",
+        "description": "Atuo desenvolvendo interfaces a partir das telas dos times de UI e UX, garantindo fidelidade ao design e aos comportamentos aprovados pelos clientes em padrão pixel perfect. Trabalho em projetos de diferentes segmentos, colaborando com designers e desenvolvedores para entregar experiências visuais consistentes. Utilizo principalmente React e Figma, com eventual atuação em Webflow e WordPress, além de realizar manutenções e melhorias em código existente, contribuindo para a evolução e eficiência dos projetos."
+      },
+      "fairy": {
+        "title": "Desenvolvedor Full Stack Jr.",
+        "date": "Junho 2025 - Agosto 2025",
+        "description": "Com foco em frontend, atuei em projetos diversos com diferentes regras de negócio utilizando diariamente ferramentas de IA generativa e IDEs inteligentes como o Cursor para otimizar o desenvolvimento, contribuindo com soluções voltadas à experiência do usuário, integração entre sistemas e arquitetura de interfaces, em um ambiente dinâmico e inovador."
+      },
+      "conecta": {
+        "title": "Desenvolvedor Full Stack Jr.",
+        "date": "Setembro 2024 - Junho 2025",
+        "description": "Contribuí para a manutenção e evolução de sistemas utilizados por centenas de usuários internos e clientes externos, ajudando a sustentar e melhorar operações que impactavam diretamente a operação e a qualidade do serviço oferecido pela empresa. Utilizava PHP/Laravel, Vue.js, MySQL e análise de logs para a resolução de problemas, combinando esses recursos com a metodologia Scrum, as ferramentas Azure DevOps e Git, além do uso de ferramentas de IA para alcançar o melhor resultado possível."
+      },
+      "fatec": {
+        "title": "Desenvolvedor Web Estagiário",
+        "date": "Março 2024 - Julho 2024",
+        "description": "Trabalhando com React, Node.js, SCSS, Figma, Auth0 e Notion, atuei no desenvolvimento Back-end e Front-end e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade."
+      },
+      "rickReis": {
+        "title": "Editor de Vídeo & Criador de Conteúdo",
+        "date": "Junho 2015 - Janeiro 2023",
+        "description": "Produzia vídeos de curiosidades, vlogs e animações, aplicando narrativa, ritmo e cortes dinâmicos. Criava intros, vinhetas e elementos de motion graphics para diferentes quadros do canal. Desenvolvia pacotes completos de identidade visual, incluindo call-to-action e telas finais. Publicava conteúdos que chegaram a alcançar mais de 620 mil visualizações, mantendo consistência estética e criativa."
+      },
+      "personalProjects": {
+        "title": "Editor de Vídeo & Criador de Conteúdo",
+        "company": "Projetos Pessoais e Colaborativos",
+        "date": "Junho 2015 - Abril 2020",
+        "description": "Modelava e animava objetos em Cinema 4D, criando motion graphics e animações para vídeos próprios, projetos acadêmicos e colaborações. Integrava efeitos visuais em edições para YouTube, explorando narrativa e sincronismo com música. Recriava vinhetas de TV com atenção a detalhes de movimento, cores e ritmo. Produzia comerciais fictícios e experimentações em motion design para consolidar estilo visual. Desenvolvia identidades visuais inspiradas em produções profissionais, aplicando técnicas de edição e animação."
+      }
+    },
+    "education": {
+      "educationTitle": "Formação",
+      "fatec": {
+        "label": "Curso Superior",
+        "course": "Graduação em Análise e Desenvolvimento de Sistemas",
+        "institution": "Faculdade de Tecnologia de Ribeirão Preto - Fatec",
+        "date": "Julho 2021 - Julho 2024"
+      },
+      "mbaUSP": {
+        "label": "Pós-Graduação",
+        "course": "MBA em Engenharia de Software",
+        "institution": "Universidade de São Paulo - USP/Esalq",
+        "date": "Maio 2025 - Em andamento"
+      },
+      "workshopAv": {
+        "label": "Workshop",
+        "course": "Workshop de Direção de Fotografia com João Castelo Branco",
+        "date": "2020"
+      }
+    },
+    "skills": {
+      "skillsTitle": "Habilidades",
+      "audiovisualSkillsTitle": "Habilidades e Ferramentas",
+      "differentials": {
+        "title": "Outras Habilidades",
+        "advancedEnglish": "Inglês Avançado",
+        "designKnowledge": "Noções de Design",
+        "uiuxKnowledge": "Noções de UI/UX",
+        "scrumn": "Scrum",
+        "aiTools": "Ferramentas de IA",
+        "introCreation": "Intros e Vinhetas",
+        "motionGraphics": "Motion Graphics",
+        "videoEditing": "Edição de Vídeos"
+      }
+    },
+    "projects": {
+      "projectsTitle": "Projetos",
+      "highlights": "Em Destaque",
+      "allProjects": "Todos os Projetos",
+      "githubBtnTitle": "Ver todos os repositórios no GitHub",
+      "githubBtnLabel": "Ver todos no GitHub",
+      "videoPlayerLoading": "Carregando...",
+      "modalVideoTitle": "Vídeo do projeto",
+      "tags": {
+        "videoEditing": "Edição de Vídeos",
+        "animation": "Animação",
+        "travelVlog": "Vlog de Viagem",
+        "intro": "Intro",
+        "vinheta": "Vinheta",
+        "motionGraphics": "Motion Graphics"
+      },
+      "japaCasa": {
+        "title": "JapaCasa!",
+        "description": "Um site de delivery para um restaurante de comida japonesa, onde o usuário pode conferir o cardápio e adicionar produtos no carrinho."
+      },
+      "crudStudents": {
+        "title": "CRUD Estudantes",
+        "description": "Um sistema simples que permite adicionar, listar, editar e deletar informações de estudantes."
+      },
+      "eventosBR": {
+        "title": "EventosBR",
+        "description": "Um site para cadastro e descoberta de eventos com design moderno. Desenvolvida como estudo no uso de ferramentas de IA como Lovable e Cursor."
+      },
+      "budgetControl": {
+        "title": "BudgetControl",
+        "description": "Uma aplicação web moderna para controle de gastos pessoais, Desenvolvida como estudo no uso de ferramentas de IA como Lovable."
+      },
+      "notificationQueue": {
+        "title": "Fila de Notificações",
+        "description": "Aplicação web simples que envia e processa notificações usando filas do RabbitMQ."
+      },
+      "portalServices": {
+        "title": "Portal de Serviços",
+        "description": "Um sistema web modular que gerencia e disponibiliza serviços de uma faculdade pública."
+      },
+      "contactMVC": {
+        "title": "ContactMVC",
+        "description": "Aplicação web que implementa operações CRUD em um sistema de contatos ligado com um banco de dados em Docker."
+      },
+      "eppApp": {
+        "title": "Epp",
+        "description": "Um app Android feito para ajudar no aprendizado de programação utilizando a gamificação."
+      },
+      "paymentPage": {
+        "title": "Página de Pagamento",
+        "description": "Página de pagamento com validações de formulário e design mobile-fist."
+      },
+      "passwordManager": {
+        "title": "Gerenciador de Senhas",
+        "description": "Uma aplicação web que permite o cadastro, geração e o gerenciamento de senhas, notas e favoritos."
+      },
+      "taskList": {
+        "title": "Lista de Tarefas",
+        "description": "Página que apresenta uma lista de tarefas que permite adicionar tasks e marcá-las como concluídas."
+      },
+      "calculateBMI": {
+        "title": "Calcula IMC",
+        "description": "Site que calcula o índica de massa corporal e retorna a faixa de peso no qual o mesmo se encontra."
+      },
+      "insanyEcommerce": {
+        "title": "InsanyShop",
+        "description": "E-commerce simples de produtos diversos com lista paginada, filtros por categoria, busca por termos e carrinho funcional."
+      },
+      "portfolioLais": {
+        "title": "Portfólio Laís Amoroso",
+        "description": "Portfólio de Laís Amoroso, uma profissional em Estruturação de Crédito e Análise de Dados Financeiros"
+      },
+      "rickReisReel": {
+        "title": "Showreel RickReis 2025",
+        "description": "Meu showreel, apresentando uma seleção dos meus melhores trabalhos em edição de vídeos, motion graphics e vinhetas."
+      },
+      "vlogSeashore": {
+        "title": "Vlog Seashore",
+        "description": "Vídeo mostrando o meu cruzeiro em 2022, com cenas da viagem, o navio e os destinos visitados."
+      },
+      "titanicAnimation": {
+        "title": "Titanic Animation",
+        "description": "Animação 3D no estilo Minecraft retratando o naufrágio do Titanic."
+      },
+      "rio2025": {
+        "title": "Rio 2025",
+        "description": "Vídeo mostrando as belezas e paisagens do Rio de Janeiro durante a minha viagem em abril de 2025."
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "desc": "Adoraria ouvir sobre seu projeto, ideia ou oportunidade. Entre em contato e vamos conversar!",
+      "namePlaceholder": "Nome *",
+      "messagePlaceholder": "Mensagem *",
+      "btnLabel": "Enviar",
+      "sending": "Enviando...",
+      "successMessage": "Mensagem enviada com sucesso!",
+      "newMessage": "Enviar nova mensagem",
+      "error": "Ocorreu um erro. Tente novamente."
     }
-  }  
+  }
+}

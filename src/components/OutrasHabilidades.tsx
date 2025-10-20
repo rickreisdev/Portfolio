@@ -26,7 +26,7 @@ const OutrasHabilidades = () => {
 
                         <div className="card-titulo">
                             <h3>
-                                {t("diferenciaisIngles")}
+                                {t("skills.differentials.advancedEnglish")}
                             </h3>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const OutrasHabilidades = () => {
 
                         <div className="card-titulo">
                             <h3>
-                                {t("diferenciaisEdição")}
+                                {t("skills.differentials.videoEditing")}
                             </h3>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const OutrasHabilidades = () => {
                     />
 
                     <div className="card-titulo">
-                        <h3>{t("diferenciaisDesign")}</h3>
+                        <h3>{t("skills.differentials.designKnowledge")}</h3>
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@ const OutrasHabilidades = () => {
                         />
 
                         <div className="card-titulo">
-                            <h3>{t("diferenciaisUIUX")}</h3>
+                            <h3>{t("skills.differentials.uiuxKnowledge")}</h3>
                         </div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const OutrasHabilidades = () => {
 
                         <div className="card-titulo">
                             <h3>
-                                {t("diferenciaisScrum")}
+                                {t("skills.differentials.scrum")}
                             </h3>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ const OutrasHabilidades = () => {
                         />
 
                         <div className="card-titulo">
-                            <h3>{t("diferenciaisIA")}</h3>
+                            <h3>{t("skills.differentials.aiTools")}</h3>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ const OutrasHabilidades = () => {
 
                         <div className="card-titulo">
                             <h3>
-                                {t("diferenciaisIntros")}
+                                {t("skills.differentials.introCreation")}
                             </h3>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ const OutrasHabilidades = () => {
 
                         <div className="card-titulo">
                             <h3>
-                                {t("diferenciaisMotion")}
+                                {t("skills.differentials.motionGraphics")}
                             </h3>
                         </div>
                     </div>

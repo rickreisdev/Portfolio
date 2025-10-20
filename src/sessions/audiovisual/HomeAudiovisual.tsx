@@ -59,8 +59,8 @@ const HomeAudiovisual = () => {
                 }`}
             >
                 <Intro
-                    typingText={t("introLabelAudiovisual")}
-                    content={t("introDescAudiovisual")}
+                    typingText={t("intro.introLabelAudiovisual")}
+                    content={t("intro.introDescAudiovisual")}
                 />
             </div>
             <div
@@ -70,9 +70,9 @@ const HomeAudiovisual = () => {
                 }`}
             >
                 <Resumo
-                    resumoDesc1={t("resumoDescAudiovisual1")}
-                    btnSobreLabel={t("resumoBtnSobreLabel")}
-                    btnProjetosLabel={t("resumoBtnProjetosLabel")}
+                    resumoDesc1={t("intro.resumoDescAudiovisual1")}
+                    btnSobreLabel={t("intro.resumoBtnSobreLabel")}
+                    btnProjetosLabel={t("intro.resumoBtnProjetosLabel")}
                     showSkills={false}
                     showProjectsButton={true}
                     showAboutButton={true}

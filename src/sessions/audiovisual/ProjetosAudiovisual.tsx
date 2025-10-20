@@ -13,34 +13,36 @@ const ProjetosAudiovisual = () => {
     return (
         <div className="meus-projetos" id="meus-projetos">
             <h2 id="projeto-titulo">
-                <span>{t("projetosTitle")}</span>
+                <span>{t("projects.projectsTitle")}</span>
             </h2>
 
-            <h3>{t("projetosDestaques")}</h3>
+            <h3>{t("projects.highlights")}</h3>
 
             <div className="destaque-projetos">
                 <BoxProjetoAudiovisual
                     imagem={showreel}
                     videoUrl="https://www.youtube.com/watch?v=1ihE3BB1YWg"
-                    titulo={t("box-Projetos-RickReisReel-title")}
+                    titulo={t(
+                        "projects.rickReisReel.title"
+                    )}
                     descricao={t(
-                        "box-Projetos-RickReisReel-Desc"
+                        "projects.rickReisReel.description"
                     )}
                     tecnologias={
                         "Showreel" +
                         " - " +
-                        t("box-Projetos-tag-edicao") +
+                        t("projects.tags.videoEditing") +
                         " - " +
-                        t("box-Projetos-tag-animacao") +
+                        t("projects.tags.animation") +
                         " - " +
-                        t("box-Projetos-tag-vinheta") +
+                        t("projects.tags.intro") +
                         " - " +
                         "Adobe Premiere"
                     }
                 />
             </div>
 
-            <h3>{t("projetosTodos")}</h3>
+            <h3>{t("projects.allProjects")}</h3>
 
             <div className="projetos" id="projetos">
                 <BoxProjetoAudiovisual
@@ -48,12 +50,12 @@ const ProjetosAudiovisual = () => {
                     videoUrl="https://www.youtube.com/watch?v=LsOkxqUQFsg"
                     titulo="Rio 2025"
                     descricao={t(
-                        "box-Projetos-Rio2025-Desc"
+                        "projects.rio2025.description"
                     )}
                     tecnologias={
-                        t("box-Projetos-tag-vlogViagem") +
+                        t("projects.tags.travelVlog") +
                         " - " +
-                        t("box-Projetos-tag-edicao") +
+                        t("projects.tags.videoEditing") +
                         " - " +
                         "Adobe Premiere"
                     }
@@ -64,12 +66,12 @@ const ProjetosAudiovisual = () => {
                     videoUrl="https://www.youtube.com/watch?v=yEevkBzwt8c"
                     titulo="MSC Seashore Vlog"
                     descricao={t(
-                        "box-Projetos-VlogSeashore-Desc"
+                        "projects.vlogSeashore.description"
                     )}
                     tecnologias={
-                        t("box-Projetos-tag-vlogViagem") +
+                        t("projects.tags.travelVlog") +
                         " - " +
-                        t("box-Projetos-tag-edicao") +
+                        t("projects.tags.videoEditing") +
                         " - " +
                         "HitFilm Express"
                     }
@@ -80,12 +82,12 @@ const ProjetosAudiovisual = () => {
                     videoUrl="https://www.youtube.com/watch?v=rQaELZsSNr0"
                     titulo="The Sinking of Titanic - Minecraft Animation"
                     descricao={t(
-                        "box-Projetos-TitanicAnimation-Desc"
+                        "projects.titanicAnimation.description"
                     )}
                     tecnologias={
-                        t("box-Projetos-tag-animacao") +
+                        t("projects.tags.animation") +
                         " - " +
-                        t("box-Projetos-tag-edicao") +
+                        t("projects.tags.videoEditing") +
                         " - " +
                         "Cinema 4D" +
                         " - " +
@@ -99,9 +101,9 @@ const ProjetosAudiovisual = () => {
                 href="https://github.com/rickreisdev?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
-                title={t("projetosBtnTitle")}
+                title={t("projects.githubBtnTitle")}
             >
-                <h2>{t("projetosBtnLabel")}</h2>
+                <h2>{t("projects.githubBtnLabel")}</h2>
             </a> */}
         </div>
     );

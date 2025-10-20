@@ -59,8 +59,8 @@ const HomePage = () => {
                 }`}
             >
                 <Intro
-                    typingText={t("introLabel")}
-                    content={t("introDesc")}
+                    typingText={t("intro.introLabel")}
+                    content={t("intro.introDesc")}
                 />
             </div>
             <div
@@ -70,9 +70,9 @@ const HomePage = () => {
                 }`}
             >
                 <Resumo
-                    resumoDesc1={t("resumoDesc1")}
-                    btnSobreLabel={t("resumoBtnSobreLabel")}
-                    btnProjetosLabel={t("resumoBtnProjetosLabel")}
+                    resumoDesc1={t("intro.resumoDesc1")}
+                    btnSobreLabel={t("intro.btnSobreLabel")}
+                    btnProjetosLabel={t("intro.btnProjetosLabel")}
                     showSkills={false}
                     showProjectsButton={false}
                     showAboutButton={false}

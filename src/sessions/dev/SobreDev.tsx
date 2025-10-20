@@ -27,9 +27,9 @@ const SobreDev = () => {
                 </div>
 
                 <div className="paragrafo">
-                    <p>{t("sobreDesc")}</p>
+                    <p>{t("about.sobreDesc")}</p>
 
-                    <p>{t("sobreDesc2")}</p>
+                    <p>{t("about.sobreDesc2")}</p>
 
                     <div className="btns-sobre">
                         <a
@@ -45,7 +45,7 @@ const SobreDev = () => {
                             <RiExternalLinkFill className="link-icon" />
                             <h2>
                                 {t(
-                                    "sobreBtnLabelCurriculo"
+                                    "about.sobreBtnLabelCurriculo"
                                 )}
                             </h2>
                         </a>
@@ -57,7 +57,7 @@ const SobreDev = () => {
                             rel="noopener noreferrer"
                         >
                             <h2>
-                                {t("sobreBtnLabelEmail")}
+                                {t("about.sobreBtnLabelEmail")}
                             </h2>
                         </a>
                     </div>

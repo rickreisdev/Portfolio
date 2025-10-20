@@ -7,22 +7,22 @@ const ExperienciaAudiovisual = () => {
     return (
         <div className="experiencia">
             <h2 className="tituloxp">
-                <span>{t("experienciaTitle")}</span>
+                <span>{t("experience.careerTitle")}</span>
             </h2>
 
             <BoxExperiencia
-                titulo={t("boxExperienciaRickReisTitle")}
+                titulo={t("experience.rickReis.title")}
                 nomeEmpresa="RickReis (YouTube)"
-                data={t("boxExperienciaRickReisData")}
-                descricao={t("boxExperienciaRickReisDesc")}
+                data={t("experience.rickReis.date")}
+                descricao={t("experience.rickReis.description")}
                 tecnologias="Premiere - Photoshop - Cinema 4D - HitFilm - Vegas Pro"
             />
 
             <BoxExperiencia
-                titulo={t("boxExperienciaProjetosPessoaisTitle")}
-                nomeEmpresa={t("boxExperienciaProjetosPessoaisCompany")}
-                data={t("boxExperienciaProjetosPessoaisData")}
-                descricao={t("boxExperienciaProjetosPessoaisDesc")}
+                titulo={t("experience.personalProjects.title")}
+                nomeEmpresa={t("experience.personalProjects.company")}
+                data={t("experience.personalProjects.date")}
+                descricao={t("experience.personalProjects.description")}
                 tecnologias="Premiere - Photoshop - Illustrator - Cinema 4D - HitFilm - Vegas Pro"
             />
         </div>

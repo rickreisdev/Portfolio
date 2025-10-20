@@ -107,7 +107,7 @@ const MobileNavbar: React.FC = () => {
                         <li>
                             <a href="/dev" id="link-pags">
                                 <span>
-                                    {t("headerOptionDev")}
+                                    {t("header.headerOptionDev")}
                                 </span>
                             </a>
                         </li>
@@ -119,7 +119,7 @@ const MobileNavbar: React.FC = () => {
                             >
                                 <span>
                                     {t(
-                                        "headerOptionAudiovisual"
+                                        "header.headerOptionAudiovisual"
                                     )}
                                 </span>
                             </a>
@@ -130,7 +130,7 @@ const MobileNavbar: React.FC = () => {
                                 href="#contato"
                                 id="link-pags"
                             >
-                                <span>{t("contato")}</span>
+                                <span>{t("header.contato")}</span>
                             </a>
                         </li>
 
@@ -142,10 +142,10 @@ const MobileNavbar: React.FC = () => {
                                 onClick={
                                     handleChangeLanguage
                                 }
-                                title={t("lngBtnTitle")}
+                                title={t("language.lngBtnTitle")}
                             >
                                 <span>
-                                    {t("lngBtnLabel")}{" "}
+                                    {t("language.lngBtnLabel")}{" "}
                                     <IoLanguage className="icon-language" />
                                 </span>
                             </button>
@@ -163,7 +163,7 @@ const MobileNavbar: React.FC = () => {
                                 href="/dev/sobre"
                                 id="link-pags"
                             >
-                                <span>{t("sobre")}</span>
+                                <span>{t("header.sobre")}</span>
                             </a>
                         </li>
 
@@ -173,7 +173,7 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                             >
                                 <span>
-                                    {t("habilidades")}
+                                    {t("header.habilidades")}
                                 </span>
                             </a>
                         </li>
@@ -183,7 +183,7 @@ const MobileNavbar: React.FC = () => {
                                 href="/dev/projetos"
                                 id="link-pags"
                             >
-                                <span>{t("projetos")}</span>
+                                <span>{t("header.projetos")}</span>
                             </a>
                         </li>
 
@@ -192,7 +192,7 @@ const MobileNavbar: React.FC = () => {
                                 href="#contato"
                                 id="link-pags"
                             >
-                                <span>{t("contato")}</span>
+                                <span>{t("header.contato")}</span>
                             </a>
                         </li>
 
@@ -204,10 +204,10 @@ const MobileNavbar: React.FC = () => {
                                 onClick={
                                     handleChangeLanguage
                                 }
-                                title={t("lngBtnTitle")}
+                                title={t("language.lngBtnTitle")}
                             >
                                 <span>
-                                    {t("lngBtnLabel")}{" "}
+                                    {t("language.lngBtnLabel")}{" "}
                                     <IoLanguage className="icon-language" />
                                 </span>
                             </button>
@@ -225,7 +225,7 @@ const MobileNavbar: React.FC = () => {
                                 href="/audiovisual/sobre"
                                 id="link-pags"
                             >
-                                <span>{t("sobre")}</span>
+                                <span>{t("header.sobre")}</span>
                             </a>
                         </li>
 
@@ -235,7 +235,7 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                             >
                                 <span>
-                                    {t("habilidades")}
+                                    {t("header.habilidades")}
                                 </span>
                             </a>
                         </li>
@@ -245,7 +245,7 @@ const MobileNavbar: React.FC = () => {
                                 href="/audiovisual/projetos"
                                 id="link-pags"
                             >
-                                <span>{t("projetos")}</span>
+                                <span>{t("header.projetos")}</span>
                             </a>
                         </li>
 
@@ -254,7 +254,7 @@ const MobileNavbar: React.FC = () => {
                                 href="#contato"
                                 id="link-pags"
                             >
-                                <span>{t("contato")}</span>
+                                <span>{t("header.contato")}</span>
                             </a>
                         </li>
 
@@ -266,10 +266,10 @@ const MobileNavbar: React.FC = () => {
                                 onClick={
                                     handleChangeLanguage
                                 }
-                                title={t("lngBtnTitle")}
+                                title={t("language.lngBtnTitle")}
                             >
                                 <span>
-                                    {t("lngBtnLabel")}{" "}
+                                    {t("language.lngBtnLabel")}{" "}
                                     <IoLanguage className="icon-language" />
                                 </span>
                             </button>

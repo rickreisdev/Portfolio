@@ -22,17 +22,19 @@ const ProjetosDev = () => {
     return (
         <div className="meus-projetos" id="meus-projetos">
             <h2 id="projeto-titulo">
-                &lt;<span>{t("projetosTitle")}</span>/&gt;
+                &lt;
+                <span>{t("projects.projectsTitle")}</span>
+                /&gt;
             </h2>
 
-            <h3>{t("projetosDestaques")}</h3>
+            <h3>{t("projects.highlights")}</h3>
 
             <div className="destaque-projetos">
                 <BoxProjeto
                     imagem={japacasa}
                     titulo="JapaCasa!"
                     descricao={t(
-                        "boxProjetos-JapaCasa-Desc"
+                        "projects.japaCasa.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/JapaCasa"
                     linkSite="https://japacasa.vercel.app"
@@ -41,8 +43,12 @@ const ProjetosDev = () => {
 
                 <BoxProjeto
                     imagem={portfolioLais}
-                    titulo={t("boxProjetos-PortfolioLais-Title")}
-                    descricao={t("boxProjetos-PortfolioLais-Desc")}
+                    titulo={t(
+                        "projects.portfolioLais.title"
+                    )}
+                    descricao={t(
+                        "projects.portfolioLais.description"
+                    )}
                     linkSite="https://laisamoroso.com.br"
                     tecnologias="React - Typescript - Lovable - shadcn-ui - Tailwind"
                 />
@@ -50,7 +56,9 @@ const ProjetosDev = () => {
                 <BoxProjeto
                     imagem={insany}
                     titulo="InsanyShop"
-                    descricao={t("boxProjetos-Insany-Desc")}
+                    descricao={t(
+                        "projects.insanyEcommerce.description"
+                    )}
                     linkRepo="https://github.com/rickreisdev/insanyshop"
                     linkSite="https://insanyshop.vercel.app"
                     tecnologias="NextJs - Typescript - Styled Components - API REST"
@@ -60,7 +68,7 @@ const ProjetosDev = () => {
                     imagem={budget}
                     titulo="BudgetControl"
                     descricao={t(
-                        "boxProjetos-BudgetControl-Desc"
+                        "projects.budgetControl.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/budget-smart-cycle"
                     linkSite="https://budget-smart-control.vercel.app/"
@@ -68,14 +76,14 @@ const ProjetosDev = () => {
                 />
             </div>
 
-            <h3>{t("projetosTodos")}</h3>
+            <h3>{t("projects.allProjects")}</h3>
 
             <div className="projetos" id="projetos">
                 <BoxProjeto
                     imagem={eventos}
                     titulo="EventosBR"
                     descricao={t(
-                        "boxProjetos-EventosBR-Desc"
+                        "projects.eventosBR.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/vivid-event-scape"
                     linkSite="https://vivid-event-scape.vercel.app/"
@@ -85,10 +93,10 @@ const ProjetosDev = () => {
                 <BoxProjeto
                     imagem={crudEstudantes}
                     titulo={t(
-                        "boxProjetos-Estudantes-title"
+                        "projects.crudStudents.title"
                     )}
                     descricao={t(
-                        "boxProjetos-Estudantes-Desc"
+                        "projects.crudStudents.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/CrudEstudantes"
                     linkSite="https://crudestudantes.onrender.com"
@@ -98,10 +106,10 @@ const ProjetosDev = () => {
                 <BoxProjeto
                     imagem={notificador}
                     titulo={t(
-                        "boxProjetos-Notificador-title"
+                        "projects.notificationQueue.title"
                     )}
                     descricao={t(
-                        "boxProjetos-Notificador-Desc"
+                        "projects.notificationQueue.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/notification-queue"
                     tecnologias="Angular - NestJs - RabbitMQ - Jest - Jasmine - Karma"
@@ -110,10 +118,10 @@ const ProjetosDev = () => {
                 <BoxProjeto
                     imagem={portalServicos}
                     titulo={t(
-                        "boxProjetos-PortalServicos-title"
+                        "projects.portalServices.title"
                     )}
                     descricao={t(
-                        "boxProjetos-PortalServicos-Desc"
+                        "projects.portalServices.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/PortalServicos"
                     tecnologias="React - Auth0 - API REST - SASS - Express"
@@ -122,18 +130,18 @@ const ProjetosDev = () => {
                 <BoxProjeto
                     imagem={epp}
                     titulo="E++"
-                    descricao={t("boxProjetos-Epp-Desc")}
+                    descricao={t(
+                        "projects.eppApp.description"
+                    )}
                     linkRepo="https://github.com/rickreisdev/Epp"
                     tecnologias="Flutter - Firebase - Figma"
                 />
 
                 <BoxProjeto
                     imagem={pagamento}
-                    titulo={t(
-                        "boxProjetos-Pagamento-title"
-                    )}
+                    titulo={t("projects.paymentPage.title")}
                     descricao={t(
-                        "boxProjetos-Pagamento-Desc"
+                        "projects.paymentPage.description"
                     )}
                     linkSite="https://desafio-front-end-woovi.vercel.app"
                     linkRepo="https://github.com/rickreisdev/DesafioFrontEndWoovi"
@@ -143,10 +151,10 @@ const ProjetosDev = () => {
                 <BoxProjeto
                     imagem={gerSenhas}
                     titulo={t(
-                        "boxProjetos-GerSenhas-title"
+                        "projects.passwordManager.title"
                     )}
                     descricao={t(
-                        "boxProjetos-GerSenhas-Desc"
+                        "projects.passwordManager.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/GerenciadorSenhas"
                     tecnologias="React - Python - SASS - Javascript - Docker - PostgreSQL"
@@ -154,9 +162,9 @@ const ProjetosDev = () => {
 
                 <BoxProjeto
                     imagem={tarefas}
-                    titulo={t("boxProjetos-Tarefas-title")}
+                    titulo={t("projects.taskList.title")}
                     descricao={t(
-                        "boxProjetos-Tarefas-Desc"
+                        "projects.taskList.description"
                     )}
                     linkSite="https://lista-de-tarefas-zeta-ivory.vercel.app"
                     linkRepo="https://github.com/rickreisdev/ListaDeTarefas"
@@ -165,8 +173,12 @@ const ProjetosDev = () => {
 
                 <BoxProjeto
                     imagem={imc}
-                    titulo={t("boxProjetos-IMC-title")}
-                    descricao={t("boxProjetos-IMC-Desc")}
+                    titulo={t(
+                        "projects.calculateBMI.title"
+                    )}
+                    descricao={t(
+                        "projects.calculateBMI.description"
+                    )}
                     linkSite="https://rickreisdev.github.io/CalculaIMC/"
                     linkRepo="https://github.com/rickreisdev/CalculaIMC"
                     tecnologias="HTML - CSS - Javascript"
@@ -175,7 +187,7 @@ const ProjetosDev = () => {
                 <BoxProjeto
                     titulo="ContactMVC"
                     descricao={t(
-                        "boxProjetos-ContactMVC-Desc"
+                        "projects.contactMVC.description"
                     )}
                     linkRepo="https://github.com/rickreisdev/ContactMVC"
                     tecnologias="ASP.NET - HTML - CSS - Javascript - Docker - PostgreSQL"
@@ -187,9 +199,9 @@ const ProjetosDev = () => {
                 href="https://github.com/rickreisdev?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
-                title={t("projetosBtnTitle")}
+                title={t("projects.githubBtnTitle")}
             >
-                <h2>{t("projetosBtnLabel")}</h2>
+                <h2>{t("projects.githubBtnLabel")}</h2>
             </a>
         </div>
     );

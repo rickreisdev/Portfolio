@@ -101,7 +101,7 @@ const ContactForm = () => {
             {formStatus.submitted ? (
                 <div className="success-message">
                     <h3>
-                        {t("contatoEnviado") ||
+                        {t("contact.successMessage") ||
                             "Mensagem enviada com sucesso!"}
                     </h3>
                     <button
@@ -115,7 +115,7 @@ const ContactForm = () => {
                         className="nova-mensagem"
                     >
                         <span className="btn-text">
-                            {t("contatoNovaMensagem") ||
+                            {t("contact.newMessage") ||
                                 "Enviar nova mensagem"}
                         </span>
                     </button>
@@ -136,7 +136,7 @@ const ContactForm = () => {
                                 onChange={handleInputChange}
                                 required
                                 placeholder={t(
-                                    "contatoNomePlacehoder"
+                                    "contact.namePlaceholder"
                                 )}
                             />
                         </label>
@@ -164,7 +164,7 @@ const ContactForm = () => {
                                 value={formData.message}
                                 onChange={handleInputChange}
                                 placeholder={t(
-                                    "contatoMensagemPlacehoder"
+                                    "contact.messagePlaceholder"
                                 )}
                                 cols={30}
                                 rows={10}
@@ -185,15 +185,15 @@ const ContactForm = () => {
                         <FiSend className="send-icon" />
                         <h4>
                             {formStatus.loading
-                                ? t("contatoEnviando") ||
-                                  "Enviando..."
-                                : t("contatoBtnLabel")}
+                                ? t("contact.sending") ||
+                                  "Sending..."
+                                : t("contact.btnLabel")}
                         </h4>
                     </button>
 
                     {formStatus.error && (
                         <p className="error-message">
-                            {t("contatoErro") ||
+                            {t("contact.error") ||
                                 "Ocorreu um erro. Tente novamente."}
                         </p>
                     )}

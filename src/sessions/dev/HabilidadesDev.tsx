@@ -10,13 +10,13 @@ const HabilidadesDev = () => {
     return (
         <div className="habilidades" id="habilidades">
             <h2 className="tituloxp">
-                &lt;<span>{t("habilidadesTitle")}</span>
+                &lt;<span>{t("skills.skillsTitle")}</span>
                 /&gt;
             </h2>
             <Tecnologias /> <br />
             <Tecnologias2 />
             <h3 className="diferenciais-titulo">
-                {t("diferenciaisTitle")}
+                {t("skills.differentials.title")}
             </h3>
             <OutrasHabilidades />
         </div>

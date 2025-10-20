@@ -7,39 +7,39 @@ const ExperienciaDev = () => {
     return (
         <div className="experiencia">
             <h2 className="tituloxp">
-                &lt;<span>{t("experienciaTitle")}</span>
+                &lt;<span>{t("experience.careerTitle")}</span>
                 /&gt;
             </h2>
 
             <BoxExperiencia
-                titulo={t("boxExperienciaInsanyTitle")}
+                titulo={t("experience.insany.title")}
                 nomeEmpresa="Insany"
-                data={t("boxExperienciaInsanyData")}
-                descricao={t("boxExperienciaInsanyDesc")}
+                data={t("experience.insany.date")}
+                descricao={t("experience.insany.description")}
                 tecnologias="React - Styled Components - Figma - Clickup - Scrum"
             />
 
             <BoxExperiencia
-                titulo={t("boxExperienciaFairyTitle")}
+                titulo={t("experience.fairy.title")}
                 nomeEmpresa="Fairy"
-                data={t("boxExperienciaFairyData")}
-                descricao={t("boxExperienciaFairyDesc")}
+                data={t("experience.fairy.date")}
+                descricao={t("experience.fairy.description")}
                 tecnologias="React - Typescript - Node - Clickup - Scrum"
             />
 
             <BoxExperiencia
-                titulo={t("boxExperienciaConectaTitle")}
+                titulo={t("experience.conecta.title")}
                 nomeEmpresa="Connect Direct"
-                data={t("boxExperienciaConectaData")}
-                descricao={t("boxExperienciaConectaDesc")}
+                data={t("experience.conecta.date")}
+                descricao={t("experience.conecta.description")}
                 tecnologias="PHP - Laravel - Vue - MySQL - Azure DevOps - Scrum"
             />
 
             <BoxExperiencia
-                titulo={t("boxExperienciaFatecTitle")}
+                titulo={t("experience.fatec.title")}
                 nomeEmpresa="Faculdade de Tecnologia de Ribeirão Preto"
-                data={t("boxExperienciaFatecData")}
-                descricao={t("boxExperienciaFatecDesc")}
+                data={t("experience.fatec.date")}
+                descricao={t("experience.fatec.description")}
                 tecnologias="React - Node.js - Figma - SCSS - Auth0 - Notion"
             />
         </div>

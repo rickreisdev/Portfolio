@@ -11,7 +11,7 @@ const HabilidadesAudiovisual = () => {
     return (
         <div className="habilidades" id="habilidades">
             <h2 className="tituloxp">
-                <span>{t("habilidadesTitleAudiovisual")}</span>
+                <span>{t("skills.audiovisualSkillsTitle")}</span>
             </h2>
             <Tecnologias />
 

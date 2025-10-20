@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
 
                 <div className="footer-right">
                     <div className="made-with">
-                        {t('footerLabel')} 
+                        {t('footer.footerLabel')} 
                         <span className="author-name">Rick Reis</span>
                     </div>
                 </div>

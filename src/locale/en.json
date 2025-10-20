@@ -1,153 +1,221 @@
 {
     "translation": {
-
-        "tituloHome": "Rick Reis | Developer & Audiovisual Creator",
-        "tituloHomeDev": "Rick Reis | Developer",
-        "tituloHomeAudiovisual": "Rick Reis | Audiovisual Creator",
-        "descHome": "Rick Reis' portfolio, a software developer and audiovisual content creator. See projects, resume, skills, and contact.",
-        "descHomeDev": "Rick Reis' portfolio, a full stack developer with experience in React, TypeScript, Node.js, PHP, and more. See projects, resume, skills, and contact.",
-        "descHomeAudiovisual": "Rick Reis' portfolio, an audiovisual content creator with experience in video editing, motion graphics, intros, and more. See projects, skills, and contact.",
-
-        "lngBtnLabel": "Pt-br",
-        "lngBtnTitle": "Ver em Português brasileiro",
-
-        "headerOptionDev": "Development",
-        "headerOptionAudiovisual": "Audiovisual",
-      
-        "sobre": "About",
-        "habilidades": "Skills",
-        "projetos": "Projects",
-        "contato": "Contact",
-        "footerLabel": "Developed By",
-        "contatoEnviado": "Message sent successfully!",
-        "contatoNovaMensagem": "New message",
-
-        "introLabel": "Developer & Audiovisual Creator",
-        "introLabelDev": "Developer",
-        "introLabelAudiovisual": "Audiovisual Creator",
-        "introDesc": "Creativity and, technology",
-        "introDescDev": "Passionate about technology",
-        "introDescAudiovisual": "Passionate about creativity and art",
-
-        "resumoDesc1": "I am Rick Reis, a developer and audiovisual creator, with experience in software and visual projects, presented here in separate areas.",
-
-        "resumoDescDev1": "With experience in professional, academic, and personal projects, my technical skills include HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel, and SQL. I use agile methodologies, such as Scrum and Kanban, to organize tasks and demands in Azure DevOps.",
-        "resumoDescDev2": "Throughout my professional journey, I contribute to the maintenance and evolution of systems that serve a large number of people, directly impacting the services provided. I highlight my ability to solve problems, learn quickly, and work as part of a team. I value quality and strive to balance it with deadlines, ensuring the best possible results.",
-        
-        "resumoDescAudiovisual1": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma and Cinema 4D, applying creativity and technique to transform ideas into engaging content.",
-
-        "resumoBtnSobreLabel": "Learn more about me",
-        "resumoBtnProjetosLabel": "Check out my projects",
-
-        "resumoBtnSobreDevLabel": "Development",
-        "resumoBtnSobreAudiovisualLabel": "Audiovisual",
-
-        "sobreTitle": "About",
-        "sobreDesc": "I consider myself a problem-solver and a fast learner who is constantly seeking to improve.",
-        "sobreDesc2": "With advanced English and degree in Systems Analysis and Development, I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, Node.js and SQL, along with relevant knowledge in PHP, Docker, REST API, Flutter, Bootstrap, and other technologies.",
-        "sobreBtnLabelCurriculo": "Open my CV",
-        "sobreBtnLabelEmail": "Send me an email",
-
-        "sobreDescAudiovisual1": "I am a creative person, with the ability to learn quickly and constantly seeking to improve my skills.",
-        "sobreDescAudiovisual2": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma, HitFilm Express, and Cinema 4D, applying technique and creativity to develop engaging content.",
-
-        "experienciaTitle": "Career",
-        "boxExperienciaInsanyTitle": "Jr. Front End Developer",
-        "boxExperienciaInsanyDesc": "I develop interfaces based on UI and UX designs, ensuring fidelity to approved visuals and behaviors with a pixel-perfect standard. I work on projects across different industries, collaborating with designers and developers to deliver consistent user experiences. I primarily use React and Figma, occasionally working with Webflow and WordPress, and also handle maintenance and improvements of existing code to support project evolution and efficiency.",
-        "boxExperienciaInsanyData": "October 2025 - Ongoing",
-        "boxExperienciaFairyTitle": "Jr. Full Stack Developer",
-        "boxExperienciaFairyData": "June 2025 - August 2025",
-        "boxExperienciaFairyDesc": "With a focus on frontend, I worked on diverse projects with different business rules, using generative AI tools and intelligent IDEs like Cursor on a daily basis to optimize development. I contribute with solutions focused on user experience, system integration, and interface architecture in a dynamic and innovative environment.",
-        "boxExperienciaConectaTitle": "Jr Full Stack Developer",
-        "boxExperienciaConectaData": "September 2024 - June 2025",
-        "boxExperienciaConectaDesc": "I contributed to the maintenance and evolution of systems used by hundreds of internal users and external clients, helping to sustain and improve processes that directly impacted the company's operational activities and the quality of the services provided. I used PHP/Laravel, Vue.js, MySQL, and log analysis for troubleshooting, combining these with the Scrum methodology and tools like Azure DevOps and Git, along with AI tools to achieve the best possible results.",
-        "boxExperienciaFatecTitle": "Web Developer Intern",
-        "boxExperienciaFatecData": "March 2024 - July 2024",
-        "boxExperienciaFatecDesc": "Working with React, Node.js, SCSS, Figma, Auth0, and Notion, I contributed to both Back-end and Front-end development and participated in planning an initial system base version for a service portal aimed at centralizing requests related to the college's coordination.",
-
-        "boxExperienciaRickReisTitle": "Video Editor & Content Creator",
-        "boxExperienciaRickReisData": "June 2015 - January 2023",
-        "boxExperienciaRickReisDesc": "I Produced videos on curiosities, vlogs, and animations, applying narrative, rhythm, and dynamic cuts. Created intros, vignettes, and motion graphics elements for different channel segments. Developed complete visual identity packages, including call-to-action and end screens. Published content that reached over 620 thousand views, maintaining aesthetic and creative consistency.",
-
-        "boxExperienciaProjetosPessoaisTitle": "Video Editor & Content Creator",
-        "boxExperienciaProjetosPessoaisCompany": "Personal and Collaborative Projects",
-        "boxExperienciaProjetosPessoaisData": "June 2015 - April 2020",
-        "boxExperienciaProjetosPessoaisDesc": "Modeled and animated objects in Cinema 4D, creating motion graphics and animations for personal videos, academic projects, and collaborations. Integrated visual effects into YouTube edits, exploring narrative and music synchronization. Recreated TV vignettes with attention to movement, color, and rhythm details. Produced fictional commercials and motion design experiments to consolidate visual style. Developed visual identities inspired by professional productions, applying editing and animation techniques.",
-
-        "educacaoTitle": "Education",
-        "educacaoLabelFatec": "Undergraduate Program",
-        "educacaoLabelUSP": "Postgraduate Program",
-        "educacaoCursoFatec": "Technologist Degree in Systems Analysis and Development",
-        "educacaoNomeFatec": "São Paulo State Faculty of Technology - Fatec Ribeirão Preto",
-        "educacaoCursoUSP": "MBA in Software Engineering", 
-        "educacaoNomeUSP": "University of São Paulo - USP",
-        "educacaoDataFatec": "July 2021 - July 2024",
-        "educacaoDataUSP": "May 2025 - Ongoing",
-
-        "educacaoLabelWorkshopAv": "Workshop",
-        "educacaoCursoWorkshopAv": "Workshop on Cinematography with João Castelo Branco",
-        "educacaoDataWorkshopAv": "2020",
-
-        "habilidadesTitle": "Skills",
-        "habilidadesTitleAudiovisual": "Skills & Tools",
-        "diferenciaisTitle": "Other Skills",
-        "diferenciaisIngles": "Advanced English",
-        "diferenciaisDesign": "Design",
-        "diferenciaisUIUX": "UI/UX",
-        "diferenciaisScrum": "Scrum/Kanban",
-        "diferenciaisIA": "AI Tools",
-        "diferenciaisIntros": "Intro Creation",
-        "diferenciaisMotion": "Motion Graphics",
-        "diferenciaisEdição": "Video Editing",
-
-        "projetosTitle": "Projects",
-        "projetosDestaques": "Highlights",
-        "projetosTodos": "All Projects",
-        "projetosBtnTitle": "See all the projects on GitHub",
-        "projetosBtnLabel": "View all on GitHub",
-        
-        "boxProjetos-videoPlayer-Loading": "Loading...",
-        "modalVideo-iframe-title": "Project video",
-
-        "boxProjetos-JapaCasa-Desc": "A delivery website for a Japanese food restaurant, where users can view the menu and add items to the cart.",
-        "boxProjetos-Estudantes-title": "Students CRUD",
-        "boxProjetos-Estudantes-Desc": "A simple system that allows adding, listing, editing, and deleting student information.",
-        "boxProjetos-EventosBR-Desc": "A website for event registration and discovery with a modern design. Developed as a study in the use of AI tools such as Lovable and Cursor.",
-        "boxProjetos-BudgetControl-Desc": "A modern web application for personal expense tracking. Developed as a study in the use of AI tools such as Lovable.",
-        "boxProjetos-Notificador-title": "Notification Queue",
-        "boxProjetos-Notificador-Desc": "A simple web application that sends and processes notifications using RabbitMQ queues.",
-        "boxProjetos-PortalServicos-title": "Service Portal",
-        "boxProjetos-PortalServicos-Desc": "A modular web system that manages and provides services for a public college.",
-        "boxProjetos-ContactMVC-Desc": "A web application that implements CRUD operations in a contact system linked to a database in Docker.",
-        "boxProjetos-Epp-Desc": "An Android app designed to help with programming learning using gamification.",
-        "boxProjetos-Pagamento-title": "Payment Page",
-        "boxProjetos-Pagamento-Desc": "A payment page with form validations and a mobile-first design.",
-        "boxProjetos-GerSenhas-title": "Password Manager",
-        "boxProjetos-GerSenhas-Desc": "A web application that allows the registration, generation, and management of passwords, notes, and favorites.",
-        "boxProjetos-Tarefas-title": "Task List",
-        "boxProjetos-Tarefas-Desc": "A page that displays a task list, allowing users to add tasks and mark them as completed.",
-        "boxProjetos-IMC-title": "BMI Calculator",
-        "boxProjetos-IMC-Desc": "A website that calculates the body mass index (BMI) and returns the weight range it falls into.",
-        "boxProjetos-Insany-Desc": "Simple e-commerce for various products with paginated listings, category filters, search functionality, and a working shopping cart.",
-        "boxProjetos-PortfolioLais-Title": "Laís Amoroso's Portfolio",
-        "boxProjetos-PortfolioLais-Desc": "Portfolio for Laís Amoroso, a professional in Credit Structuring and Financial Data Analysis",
-
-        "box-Projetos-RickReisReel-title": "RickReis Showreel 2025",
-        "box-Projetos-RickReisReel-Desc": "My showreel, showcasing a selection of my best works in video editing, motion graphics, and intros.",
-        "box-Projetos-VlogSeashore-Desc": "Video showcasing my 2022 cruise, featuring scenes from the trip, the ship, and the destinations visited.",
-        "box-Projetos-TitanicAnimation-Desc": "3D animation in Minecraft style portraying the Titanic sinking.",
-        "box-Projetos-Rio2025-Desc": "Video showcasing the beauties and landscapes of Rio de Janeiro during my trip in April 2025.",
-
-        "box-Projetos-tag-edicao": "Video Editing",
-        "box-Projetos-tag-vlogViagem": "Travel Vlog",
-        "box-Projetos-tag-vinheta": "Intro",
-        "box-Projetos-tag-animacao": "Animation",
-
-        "contatoTitle": "Contact",
-        "contatoDesc": "I would love to hear about your project, idea, or opportunity. Get in touch and let's talk!",
-        "contatoNomePlacehoder": "Name *",
-        "contatoMensagemPlacehoder": "Message *",
-        "contatoBtnLabel": "Send",
-        "contatoEnviando": "Sending..."
+        "metadata": {
+            "tituloHome": "Rick Reis | Developer & Audiovisual Creator",
+            "tituloHomeDev": "Rick Reis | Developer",
+            "tituloHomeAudiovisual": "Rick Reis | Audiovisual Creator",
+            "descHome": "Rick Reis' portfolio, a software developer and audiovisual content creator. See projects, resume, skills, and contact.",
+            "descHomeDev": "Rick Reis' portfolio, a full stack developer with experience in React, TypeScript, Node.js, PHP, and more. See projects, resume, skills, and contact.",
+            "descHomeAudiovisual": "Rick Reis' portfolio, an audiovisual content creator with experience in video editing, motion graphics, intros, and more. See projects, skills, and contact."
+        },
+        "language": {
+            "lngBtnLabel": "Pt-br",
+            "lngBtnTitle": "Ver em Português brasileiro"
+        },
+        "header": {
+            "headerOptionDev": "Development",
+            "headerOptionAudiovisual": "Audiovisual",
+            "sobre": "About",
+            "habilidades": "Skills",
+            "projetos": "Projects",
+            "contato": "Contact"
+        },
+        "footer": {
+            "footerLabel": "Developed By"
+        },
+        "intro": {
+            "introLabel": "Developer & Audiovisual Creator",
+            "introLabelDev": "Developer",
+            "introLabelAudiovisual": "Audiovisual Creator",
+            "introDesc": "Creativity and, technology",
+            "introDescDev": "Passionate about technology",
+            "introDescAudiovisual": "Passionate about creativity and art",
+            "resumoDesc1": "I am Rick Reis, a developer and audiovisual creator, with experience in software and visual projects, presented here in separate areas.",
+            "resumoDescDev1": "With experience in professional, academic, and personal projects, my technical skills include HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel, and SQL. I use agile methodologies, such as Scrum and Kanban, to organize tasks and demands in Azure DevOps.",
+            "resumoDescDev2": "Throughout my professional journey, I contribute to the maintenance and evolution of systems that serve a large number of people, directly impacting the services provided. I highlight my ability to solve problems, learn quickly, and work as part of a team. I value quality and strive to balance it with deadlines, ensuring the best possible results.",
+            "resumoDescAudiovisual1": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma and Cinema 4D, applying creativity and technique to transform ideas into engaging content.",
+            "resumoBtnSobreLabel": "Learn more about me",
+            "resumoBtnProjetosLabel": "Check out my projects",
+            "resumoBtnSobreDevLabel": "Development",
+            "resumoBtnSobreAudiovisualLabel": "Audiovisual"
+        },
+        "about": {
+            "sobreTitle": "About",
+            "sobreDesc": "I consider myself a problem-solver and a fast learner who is constantly seeking to improve.",
+            "sobreDesc2": "With advanced English and degree in Systems Analysis and Development, I have accumulated knowledge and experience in development, with solid skills in React, HTML/CSS, JavaScript/TypeScript, Sass, Node.js and SQL, along with relevant knowledge in PHP, Docker, REST API, Flutter, Bootstrap, and other technologies.",
+            "sobreBtnLabelCurriculo": "Open my CV",
+            "sobreBtnLabelEmail": "Send me an email",
+            "sobreDescAudiovisual1": "I am a creative person, with the ability to learn quickly and constantly seeking to improve my skills.",
+            "sobreDescAudiovisual2": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma, HitFilm Express, and Cinema 4D, applying technique and creativity to develop engaging content."
+        },
+        "experience": {
+            "careerTitle": "Career",
+            "insany": {
+                "title": "Jr. Front End Developer",
+                "date": "October 2025 - Ongoing",
+                "description": "I develop interfaces based on UI and UX designs, ensuring fidelity to approved visuals and behaviors with a pixel-perfect standard. I work on projects across different industries, collaborating with designers and developers to deliver consistent user experiences. I primarily use React and Figma, occasionally working with Webflow and WordPress, and also handle maintenance and improvements of existing code to support project evolution and efficiency."
+            },
+            "fairy": {
+                "title": "Jr. Full Stack Developer",
+                "date": "June 2025 - August 2025",
+                "description": "With a focus on frontend, I worked on diverse projects with different business rules, using generative AI tools and intelligent IDEs like Cursor on a daily basis to optimize development. I contribute with solutions focused on user experience, system integration, and interface architecture in a dynamic and innovative environment."
+            },
+            "conecta": {
+                "title": "Jr Full Stack Developer",
+                "date": "September 2024 - June 2025",
+                "description": "I contributed to the maintenance and evolution of systems used by hundreds of internal users and external clients, helping to sustain and improve processes that directly impacted the company's operational activities and the quality of the services provided. I used PHP/Laravel, Vue.js, MySQL, and log analysis for troubleshooting, combining these with the Scrum methodology and tools like Azure DevOps and Git, along with AI tools to achieve the best possible results."
+            },
+            "fatec": {
+                "title": "Web Developer Intern",
+                "date": "March 2024 - July 2024",
+                "description": "Working with React, Node.js, SCSS, Figma, Auth0, and Notion, I contributed to both Back-end and Front-end development and participated in planning an initial system base version for a service portal aimed at centralizing requests related to the college's coordination."
+            },
+            "rickReis": {
+                "title": "Video Editor & Content Creator",
+                "date": "June 2015 - January 2023",
+                "description": "I Produced videos on curiosities, vlogs, and animations, applying narrative, rhythm, and dynamic cuts. Created intros, vignettes, and motion graphics elements for different channel segments. Developed complete visual identity packages, including call-to-action and end screens. Published content that reached over 620 thousand views, maintaining aesthetic and creative consistency."
+            },
+            "personalProjects": {
+                "title": "Video Editor & Content Creator",
+                "company": "Personal and Collaborative Projects",
+                "date": "June 2015 - April 2020",
+                "description": "Modeled and animated objects in Cinema 4D, creating motion graphics and animations for personal videos, academic projects, and collaborations. Integrated visual effects into YouTube edits, exploring narrative and music synchronization. Recreated TV vignettes with attention to movement, color, and rhythm details. Produced fictional commercials and motion design experiments to consolidate visual style. Developed visual identities inspired by professional productions, applying editing and animation techniques."
+            }
+        },
+        "education": {
+            "educationTitle": "Education",
+            "fatec": {
+                "label": "Undergraduate Program",
+                "course": "Technologist Degree in Systems Analysis and Development",
+                "institution": "São Paulo State Faculty of Technology - Fatec Ribeirão Preto",
+                "date": "July 2021 - July 2024"
+            },
+            "mbaUSP": {
+                "label": "Postgraduate Program",
+                "course": "MBA in Software Engineering",
+                "institution": "University of São Paulo - USP",
+                "date": "May 2025 - Ongoing"
+            },
+            "workshopAv": {
+                "label": "Workshop",
+                "course": "Workshop on Cinematography with João Castelo Branco",
+                "date": "2020"
+            }
+        },
+        "skills": {
+            "skillsTitle": "Skills",
+            "audiovisualSkillsTitle": "Skills & Tools",
+            "differentials": {
+                "title": "Other Skills",
+                "advancedEnglish": "Advanced English",
+                "designKnowledge": "Design",
+                "uiuxKnowledge": "UI/UX",
+                "scrum": "Scrum",
+                "aiTools": "AI Tools",
+                "introCreation": "Intro Creation",
+                "motionGraphics": "Motion Graphics",
+                "videoEditing": "Video Editing"
+            }
+        },
+        "projects": {
+            "projectsTitle": "Projects",
+            "highlights": "Highlights",
+            "allProjects": "All Projects",
+            "githubBtnTitle": "See all the projects on GitHub",
+            "githubBtnLabel": "View all on GitHub",
+            "videoPlayerLoading": "Loading...",
+            "modalVideoTitle": "Project video",
+            "tags": {
+                "videoEditing": "Video Editing",
+                "animation": "Animation",
+                "travelVlog": "Travel Vlog",
+                "intro": "Intro",
+                "vinheta": "ID Intro",
+                "motionGraphics": "Motion Graphics"
+            },
+            "japaCasa": {
+                "title": "JapaCasa!",
+                "description": "A delivery website for a Japanese food restaurant, where users can view the menu and add items to the cart."
+            },
+            "crudStudents": {
+                "title": "Students CRUD",
+                "description": "A simple system that allows adding, listing, editing, and deleting student information."
+            },
+            "eventosBR": {
+                "title": "EventosBR",
+                "description": "A website for event registration and discovery with a modern design. Developed as a study in the use of AI tools such as Lovable and Cursor."
+            },
+            "budgetControl": {
+                "title": "BudgetControl",
+                "description": "A modern web application for personal expense tracking. Developed as a study in the use of AI tools such as Lovable."
+            },
+            "notificationQueue": {
+                "title": "Notification Queue",
+                "description": "A simple web application that sends and processes notifications using RabbitMQ queues."
+            },
+            "portalServices": {
+                "title": "Service Portal",
+                "description": "A modular web system that manages and provides services for a public college."
+            },
+            "contactMVC": {
+                "title": "ContactMVC",
+                "description": "A web application that implements CRUD operations in a contact system linked to a database in Docker."
+            },
+            "eppApp": {
+                "title": "Epp",
+                "description": "An Android app designed to help with programming learning using gamification."
+            },
+            "paymentPage": {
+                "title": "Payment Page",
+                "description": "A payment page with form validations and a mobile-first design."
+            },
+            "passwordManager": {
+                "title": "Password Manager",
+                "description": "A web application that allows the registration, generation, and management of passwords, notes, and favorites."
+            },
+            "taskList": {
+                "title": "Task List",
+                "description": "A page that displays a task list, allowing users to add tasks and mark them as completed."
+            },
+            "calculateBMI": {
+                "title": "BMI Calculator",
+                "description": "A website that calculates the body mass index (BMI) and returns the weight range it falls into."
+            },
+            "insanyEcommerce": {
+                "title": "InsanyShop",
+                "description": "Simple e-commerce for various products with paginated listings, category filters, search functionality, and a working shopping cart."
+            },
+            "portfolioLais": {
+                "title": "Laís Amoroso's Portfolio",
+                "description": "Portfolio for Laís Amoroso, a professional in Credit Structuring and Financial Data Analysis"
+            },
+            "rickReisReel": {
+                "title": "RickReis Showreel 2025",
+                "description": "My showreel, showcasing a selection of my best works in video editing, motion graphics, and intros."
+            },
+            "vlogSeashore": {
+                "title": "Vlog Seashore",
+                "description": "Video showcasing my 2022 cruise, featuring scenes from the trip, the ship, and the destinations visited."
+            },
+            "titanicAnimation": {
+                "title": "Titanic Animation",
+                "description": "3D animation in Minecraft style portraying the Titanic sinking."
+            },
+            "rio2025": {
+                "title": "Rio 2025",
+                "description": "Video showcasing the beauties and landscapes of Rio de Janeiro during my trip in April 2025."
+            }
+        },
+        "contact": {
+            "title": "Contact",
+            "desc": "I would love to hear about your project, idea, or opportunity. Get in touch and let's talk!",
+            "namePlaceholder": "Name *",
+            "messagePlaceholder": "Message *",
+            "btnLabel": "Send",
+            "sending": "Sending...",
+            "successMessage": "Message sent successfully!",
+            "newMessage": "Send new message",
+            "error": "An error occurred. Please try again."
+        }
     }
 }

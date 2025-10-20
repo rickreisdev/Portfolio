@@ -87,7 +87,7 @@ const Resumo: React.FC<ResumoProps> = ({
                         }
                     >
                         <span className="btn-text">
-                            {t("resumoBtnSobreDevLabel")}
+                            {t("intro.resumoBtnSobreDevLabel")}
                         </span>
                     </a>
                 )}
@@ -109,7 +109,7 @@ const Resumo: React.FC<ResumoProps> = ({
                     >
                         <span className="btn-text">
                             {t(
-                                "resumoBtnSobreAudiovisualLabel"
+                                "intro.resumoBtnSobreAudiovisualLabel"
                             )}
                         </span>
                     </a>

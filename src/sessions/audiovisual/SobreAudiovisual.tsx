@@ -22,14 +22,14 @@ const SobreAudiovisual = () => {
             >
                 <div className="sobre-titulo">
                     <h2 className="h2s">
-                        <span>{t("sobreTitle")}</span>
+                        <span>{t("about.sobreTitle")}</span>
                     </h2>
                 </div>
 
                 <div className="paragrafo">
-                    <p>{t("sobreDescAudiovisual1")}</p>
+                    <p>{t("about.sobreDescAudiovisual1")}</p>
 
-                    <p>{t("sobreDescAudiovisual2")}</p>
+                    <p>{t("about.sobreDescAudiovisual2")}</p>
 
                     <div className="btns-sobre">
                         <a
@@ -45,7 +45,7 @@ const SobreAudiovisual = () => {
                             <RiExternalLinkFill className="link-icon" />
                             <h2>
                                 {t(
-                                    "sobreBtnLabelCurriculo"
+                                    "about.sobreBtnLabelCurriculo"
                                 )}
                             </h2>
                         </a>
@@ -57,7 +57,7 @@ const SobreAudiovisual = () => {
                             rel="noopener noreferrer"
                         >
                             <h2>
-                                {t("sobreBtnLabelEmail")}
+                                {t("about.sobreBtnLabelEmail")}
                             </h2>
                         </a>
                     </div>

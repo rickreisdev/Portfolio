@@ -48,18 +48,18 @@ const Contato = () => {
             <h2 className="title-animation">
                 {pathname.startsWith("/dev") ? (
                     <>
-                        &lt;<span>{t("contatoTitle")}</span>
+                        &lt;<span>{t("contact.title")}</span>
                         /&gt;
                     </>
                 ) : (
-                    <span>{t("contatoTitle")}</span>
+                    <span>{t("contact.title")}</span>
                 )}
             </h2>
 
             <div className="contato-container">
                 <div className="content-contato">
                     <h3 className="estou fade-in">
-                        {t("contatoDesc")}
+                        {t("contact.desc")}
                     </h3>
 
                     <div className="sociais sociais-animation">

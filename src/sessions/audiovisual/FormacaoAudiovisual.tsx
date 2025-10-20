@@ -9,31 +9,31 @@ const FormacaoAudiovisual = () => {
     return (
         <div className="formacao">
             <h2 className="tituloxp">
-                <span>{t("educacaoTitle")}</span>
+                <span>{t("education.educationTitle")}</span>
             </h2>
 
             <BoxFormacao
                 Icon={GrWorkshop}
-                titulo={t("educacaoLabelWorkshopAv")}
-                nomeCurso={t("educacaoCursoWorkshopAv")}
-                data={t("educacaoDataWorkshopAv")}
+                titulo={t("education.workshopAv.label")}
+                nomeCurso={t("education.workshopAv.course")}
+                data={t("education.workshopAv.date")}
                 nomeEscola="AvMakers"
             />
 
             <BoxFormacao
                 Icon={FaGraduationCap}
-                titulo={t("educacaoLabelUSP")}
-                nomeCurso={t("educacaoCursoUSP")}
-                data={t("educacaoDataUSP")}
-                nomeEscola={t("educacaoNomeUSP")}
+                titulo={t("education.mbaUSP.label")}
+                nomeCurso={t("education.mbaUSP.course")}
+                data={t("education.mbaUSP.date")}
+                nomeEscola={t("education.mbaUSP.institution")}
             />
 
             <BoxFormacao
                 Icon={FaGraduationCap}
-                titulo={t("educacaoLabelFatec")}
-                nomeCurso={t("educacaoCursoFatec")}
-                data={t("educacaoDataFatec")}
-                nomeEscola={t("educacaoNomeFatec")}
+                titulo={t("education.fatec.label")}
+                nomeCurso={t("education.fatec.course")}
+                data={t("education.fatec.date")}
+                nomeEscola={t("education.fatec.institution")}
             />
         </div>
     );
