@@ -43,6 +43,7 @@ const BtnTopo: React.FC = () => {
                     : { opacity: 0, scale: 0.8 }
             }
             transition={{ duration: 0.3 }}
+            aria-label="Voltar ao topo"
         >
             <FaArrowUp
                 className="btnTopo-icon"

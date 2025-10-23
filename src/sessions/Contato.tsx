@@ -22,24 +22,28 @@ const Contato = () => {
             icon: <FaGithub />,
             url: "https://github.com/rickreisdev",
             color: "github",
+            alt: "GitHub",
         },
         {
             id: "linkedin",
             icon: <FaLinkedin />,
             url: "https://www.linkedin.com/in/ricksonreis/",
             color: "linkedin",
-        },
+            alt: "LinkedIn",
+            },
         {
             id: "instagram",
             icon: <FaInstagram />,
             url: "https://www.instagram.com/rickreisme/",
             color: "instagram",
+            alt: "Instagram",
         },
         {
             id: "behance",
             icon: <FaBehanceSquare />,
             url: "https://www.behance.net/rickreis1",
             color: "behance",
+            alt: "Behance",
         },
     ];
 
@@ -71,6 +75,7 @@ const Contato = () => {
                                 rel="noopener noreferrer"
                                 className={`social-icon ${social.color}`}
                                 aria-label={social.id}
+                                title={social.alt}
                             >
                                 {social.icon}
                             </a>

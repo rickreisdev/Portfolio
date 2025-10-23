@@ -105,7 +105,7 @@ const MobileNavbar: React.FC = () => {
                         ref={paginasRef}
                     >
                         <li>
-                            <a href="/dev" id="link-pags">
+                            <a href="/dev" id="link-pags" aria-label="Link para a página de Desenvolvimento">
                                 <span>
                                     {t("header.headerOptionDev")}
                                 </span>
@@ -116,6 +116,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="/audiovisual"
                                 id="link-pags"
+                                aria-label="Link para a página de Audiovisual"
                             >
                                 <span>
                                     {t(
@@ -129,6 +130,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="#contato"
                                 id="link-pags"
+                                aria-label="Link para a seção de Contato"
                             >
                                 <span>{t("header.contato")}</span>
                             </a>
@@ -143,6 +145,7 @@ const MobileNavbar: React.FC = () => {
                                     handleChangeLanguage
                                 }
                                 title={t("language.lngBtnTitle")}
+                                aria-label={t("language.lngBtnTitle")}
                             >
                                 <span>
                                     {t("language.lngBtnLabel")}{" "}
@@ -162,6 +165,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="/dev/sobre"
                                 id="link-pags"
+                                aria-label="Link para a página de Sobre"
                             >
                                 <span>{t("header.sobre")}</span>
                             </a>
@@ -171,6 +175,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="/dev/habilidades"
                                 id="link-pags"
+                                aria-label="Link para a página de Habilidades"
                             >
                                 <span>
                                     {t("header.habilidades")}
@@ -182,6 +187,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="/dev/projetos"
                                 id="link-pags"
+                                aria-label="Link para a página de Projetos"
                             >
                                 <span>{t("header.projetos")}</span>
                             </a>
@@ -191,6 +197,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="#contato"
                                 id="link-pags"
+                                aria-label="Link para a seção de Contato"
                             >
                                 <span>{t("header.contato")}</span>
                             </a>
@@ -205,6 +212,7 @@ const MobileNavbar: React.FC = () => {
                                     handleChangeLanguage
                                 }
                                 title={t("language.lngBtnTitle")}
+                                aria-label={t("language.lngBtnTitle")}
                             >
                                 <span>
                                     {t("language.lngBtnLabel")}{" "}
@@ -224,6 +232,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="/audiovisual/sobre"
                                 id="link-pags"
+                                aria-label="Link para a página de Sobre"
                             >
                                 <span>{t("header.sobre")}</span>
                             </a>
@@ -233,6 +242,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="/audiovisual/habilidades"
                                 id="link-pags"
+                                aria-label="Link para a página de Habilidades"
                             >
                                 <span>
                                     {t("header.habilidades")}
@@ -244,6 +254,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="/audiovisual/projetos"
                                 id="link-pags"
+                                aria-label="Link para a página de Projetos"
                             >
                                 <span>{t("header.projetos")}</span>
                             </a>
@@ -253,6 +264,7 @@ const MobileNavbar: React.FC = () => {
                             <a
                                 href="#contato"
                                 id="link-pags"
+                                aria-label="Link para a seção de Contato"
                             >
                                 <span>{t("header.contato")}</span>
                             </a>
@@ -267,6 +279,7 @@ const MobileNavbar: React.FC = () => {
                                     handleChangeLanguage
                                 }
                                 title={t("language.lngBtnTitle")}
+                                aria-label={t("language.lngBtnTitle")}
                             >
                                 <span>
                                     {t("language.lngBtnLabel")}{" "}
