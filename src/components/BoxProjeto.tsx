@@ -37,7 +37,7 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
                 viewport={{ once: true }}
             >
                 {imagem && (
-                    <div className="img-projeto">
+                    <div className="img-projeto" aria-label="Imagem do projeto">
                         <img
                             src={imagem}
                             alt={`Imagem do projeto ${titulo}`}
@@ -45,7 +45,6 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
                             onClick={() =>
                                 setModalOpen(true)
                             }
-                            role="button"
                         />
                     </div>
                 )}
