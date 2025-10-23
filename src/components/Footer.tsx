@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
                     <div className="copyright">
                         <span className="year">{currentYear}</span>
                         <span className="brand-name">
-                            <img src={logo} alt="logo RickReis" />
+                            <img src={logo} alt="RickReis" />
                         </span>
                     </div>
                 </div>
