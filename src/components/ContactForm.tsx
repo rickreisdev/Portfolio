@@ -97,7 +97,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="content-form">
+        <div className="content-form" aria-label="Formulário de contato">
             {formStatus.submitted ? (
                 <div className="success-message">
                     <h3>
@@ -138,6 +138,7 @@ const ContactForm = () => {
                                 placeholder={t(
                                     "contact.namePlaceholder"
                                 )}
+                                aria-label={t("contact.namePlaceholder")}
                             />
                         </label>
                     </div>
@@ -152,6 +153,7 @@ const ContactForm = () => {
                                 onChange={handleInputChange}
                                 required
                                 placeholder="Email *"
+                                aria-label={t("contact.emailPlaceholder") || "Email"}
                             />
                         </label>
                     </div>
@@ -169,6 +171,7 @@ const ContactForm = () => {
                                 cols={30}
                                 rows={10}
                                 required
+                                aria-label={t("contact.messagePlaceholder")}
                             ></textarea>
                         </label>
                     </div>
