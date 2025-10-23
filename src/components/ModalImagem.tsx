@@ -24,6 +24,9 @@ const ModalImagem: React.FC<ModalImagemProps> = ({
                 className="modal-imagem-content"
                 onClick={(e) => e.stopPropagation()}
                 role="dialog"
+                aria-modal="true"
+                aria-labelledby="modal-imagem-title"
+                aria-describedby="modal-imagem-description"
             >
                 <button
                     className="modal-imagem-close"
