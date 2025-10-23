@@ -40,11 +40,12 @@ const BoxProjeto: React.FC<BoxProjetoProps> = ({
                     <div className="img-projeto">
                         <img
                             src={imagem}
-                            alt={`${titulo} logo`}
+                            alt={`Imagem do projeto ${titulo}`}
                             style={{ cursor: "pointer" }}
                             onClick={() =>
                                 setModalOpen(true)
                             }
+                            role="button"
                         />
                     </div>
                 )}

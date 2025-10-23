@@ -23,10 +23,12 @@ const ModalImagem: React.FC<ModalImagemProps> = ({
             <div
                 className="modal-imagem-content"
                 onClick={(e) => e.stopPropagation()}
+                role="dialog"
             >
                 <button
                     className="modal-imagem-close"
                     onClick={onClose}
+                    aria-label="Fechar modal"
                 >
                     &times;
                 </button>
