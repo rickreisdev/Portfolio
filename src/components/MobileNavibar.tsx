@@ -88,7 +88,7 @@ const MobileNavbar: React.FC = () => {
     return (
         <nav className="menu">
             <div className="content">
-                <LogoAnimated />
+                <LogoAnimated aria-label="RickReis" />
 
                 <div
                     className="mobile-menu"
