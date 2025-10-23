@@ -50,7 +50,7 @@ const LogoAnimated = () => {
         <a href="/">
             <img
                 src={sortedFrames[index]}
-                alt="Logo RickReis animado"
+                alt="Site de RickReis"
                 style={{
                     objectFit: "contain",
                     cursor: "pointer",
