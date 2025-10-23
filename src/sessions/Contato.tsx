@@ -66,7 +66,7 @@ const Contato = () => {
                         {t("contact.desc")}
                     </h3>
 
-                    <div className="sociais sociais-animation">
+                    <div className="sociais sociais-animation" aria-label="Links para redes sociais">
                         {socialLinks.map((social) => (
                             <a
                                 key={social.id}
