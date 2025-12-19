@@ -4,8 +4,8 @@ import "../assets/styles/contato.scss";
 import {
     FaGithub,
     FaLinkedin,
-    FaBehanceSquare,
     FaInstagram,
+    FaWhatsapp,
 } from "react-icons/fa";
 import ContactForm from "../components/ContactForm";
 import { useLocation } from "react-router-dom";
@@ -16,6 +16,14 @@ const Contato = () => {
     const location = useLocation();
     const { pathname } = location;
 
+    const whatsappMessage = pathname.startsWith("/dev")
+        ? "Olá! Vim do seu site e gostaria de saber mais sobre o seu trabalho como desenvolvedor!"
+        : "Olá! Vim do seu site e gostaria de saber mais sobre o seu trabalho como editor de vídeos!";
+
+    const encodedMessage =
+        encodeURIComponent(whatsappMessage);
+
+    console.log(whatsappMessage);
     const socialLinks = [
         {
             id: "github",
@@ -30,7 +38,7 @@ const Contato = () => {
             url: "https://www.linkedin.com/in/ricksonreis/",
             color: "linkedin",
             alt: "LinkedIn",
-            },
+        },
         {
             id: "instagram",
             icon: <FaInstagram />,
@@ -39,11 +47,11 @@ const Contato = () => {
             alt: "Instagram",
         },
         {
-            id: "behance",
-            icon: <FaBehanceSquare />,
-            url: "https://www.behance.net/rickreis1",
-            color: "behance",
-            alt: "Behance",
+            id: "whatsapp",
+            icon: <FaWhatsapp />,
+            url: `https://api.whatsapp.com/send/?phone=5516993943494&text=${encodedMessage}`,
+            color: "whatsapp",
+            alt: "Whatsapp",
         },
     ];
 
@@ -52,7 +60,8 @@ const Contato = () => {
             <h2 className="title-animation">
                 {pathname.startsWith("/dev") ? (
                     <>
-                        &lt;<span>{t("contact.title")}</span>
+                        &lt;
+                        <span>{t("contact.title")}</span>
                         /&gt;
                     </>
                 ) : (
@@ -66,7 +75,10 @@ const Contato = () => {
                         {t("contact.desc")}
                     </h3>
 
-                    <div className="sociais sociais-animation" aria-label="Links para redes sociais">
+                    <div
+                        className="sociais sociais-animation"
+                        aria-label="Links para redes sociais"
+                    >
                         {socialLinks.map((social) => (
                             <a
                                 key={social.id}
