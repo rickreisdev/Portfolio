@@ -31,8 +31,8 @@
       "introDescDev": "Apaixonado por tecnologia",
       "introDescAudiovisual": "Apaixonado por criatividade e arte",
       "resumoDesc1": "Sou Rick Reis, desenvolvedor e criador de conteúdo audiovisual, com experiência em software e projetos visuais, apresentados aqui em áreas separadas.",
-      "resumoDescDev1": "Com experiência em projetos profissionais, acadêmicos e pessoais, minhas habilidades técnicas incluem HTML/CSS, JavaScript/TypeScript, React, Vue.js, Node.js, PHP/Laravel e SQL. Utilizo metodologias ágeis, como Scrum e Kanban, para organizar tarefas e demandas no Azure DevOps.",
-      "resumoDescDev2": "Em minha trajetória profissional, contribuo para a manutenção e evolução de sistemas que atendem uma grande quantidade de pessoas, impactando diretamente nos serviços oferecidos. Destaco a minha capacidade de resolver problemas, aprender rapidamente e trabalhar em equipe. Valorizo a qualidade e busco equilibrá-la com os prazos de entrega, garantindo os melhores resultados possíveis.",
+      "resumoDescDev1": "Com experiência em projetos profissionais, acadêmicos e pessoais, minhas habilidades técnicas incluem HTML/CSS/SCSS, JavaScript/TypeScript, React, Next.js, Node.js, PHP/Laravel e SQL. Utilizo metodologias ágeis, como Scrum e Kanban e tenho vivência com plataformas como Azure DevOps e Clickup.",
+      "resumoDescDev2": "Em minha trajetória profissional, tenho contribuído para a manutenção e evolução de sistemas que atendem uma grande quantidade de pessoas, impactando diretamente nos serviços oferecidos. Destaco a minha capacidade de resolver problemas, aprender rapidamente e trabalhar em equipe. Valorizo a qualidade e busco equilibrá-la com os prazos de entrega, garantindo os melhores resultados possíveis.",
       "resumoDescAudiovisual1": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma e Cinema 4D, aplicando criatividade e técnica para transformar ideias em conteúdos envolventes.",
       "resumoBtnSobreLabel": "Conheça mais sobre mim",
       "resumoBtnProjetosLabel": "Confira os meus projetos",
@@ -42,7 +42,7 @@
     "about": {
       "sobreTitle": "Sobre",
       "sobreDesc": "Me considero uma pessoa com facilidade para resolver problemas e um aprendiz rápido que está constantemente buscando se aprimorar.",
-      "sobreDesc2": "Com inglês avançado e graduação em Análise e Desenvolvimento de Sistema, acumulo conhecimento e experiência em desenvolvimento, com habilidades sólidas em React, HTML/CSS, JavaScript/TypeScript, Sass, Node.js e SQL, somadas a um conhecimento relevante em Docker, PHP, API REST, Flutter, Bootstrap entre outras tecnologias.",
+      "sobreDesc2": "Com inglês avançado e graduação em Análise e Desenvolvimento de Sistema, acumulo conhecimento e experiência em desenvolvimento, com habilidades em React, Next.js, HTML/CSS/SCSS, JavaScript/TypeScript, Node.js, API REST e SQL, somadas a um conhecimento relevante em Docker, PHP, Webflow entre outras tecnologias.",
       "sobreBtnLabelCurriculo": "Meu currículo",
       "sobreBtnLabelEmail": "Enviar e-mail",
       "sobreDescAudiovisual1": "Sou uma pessoa criativa, com facilidade para aprender rapidamente e constantemente buscando aprimorar minhas habilidades.",
@@ -186,8 +186,8 @@
         "description": "E-commerce simples de produtos diversos com lista paginada, filtros por categoria, busca por termos e carrinho funcional."
       },
       "portfolioLais": {
-        "title": "Portfólio Laís Amoroso",
-        "description": "Portfólio de Laís Amoroso, uma profissional em Estruturação de Crédito e Análise de Dados Financeiros"
+        "title": "Portfólio Estruturação de Crédito",
+        "description": "Portfólio para uma profissional em Estruturação de Crédito e Análise de Dados Financeiros"
       },
       "rickReisReel": {
         "title": "Showreel RickReis 2025",
