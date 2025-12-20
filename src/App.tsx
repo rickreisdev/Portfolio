@@ -23,7 +23,9 @@ function App() {
                     {rotaDev
                         ? t("metadata.tituloHomeDev")
                         : rotaAudiovisual
-                        ? t("metadata.tituloHomeAudiovisual")
+                        ? t(
+                              "metadata.tituloHomeAudiovisual"
+                          )
                         : t("metadata.tituloHome")}
                 </title>
                 <meta
@@ -32,7 +34,9 @@ function App() {
                         rotaDev
                             ? t("metadata.descHomeDev")
                             : rotaAudiovisual
-                            ? t("metadata.descHomeAudiovisual")
+                            ? t(
+                                  "metadata.descHomeAudiovisual"
+                              )
                             : t("metadata.descHome")
                     }
                 />

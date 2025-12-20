@@ -1,19 +1,19 @@
 {
   "translation": {
     "metadata": {
-      "tituloHome": "Rick Reis | Desenvolvedor & Criador Audiovisual",
-      "tituloHomeDev": "Rick Reis | Desenvolvedor",
+      "tituloHome": "Rick Reis | Analista de Suporte de TI & Criador Audiovisual",
+      "tituloHomeDev": "Rick Reis | Tecnologia e Sistemas",
       "tituloHomeAudiovisual": "Rick Reis | Criador Audiovisual",
-      "descHome": "Portfólio de Rick Reis, desenvolvedor de software e criador audiovisual. Veja projetos, currículo, habilidades e contato.",
-      "descHomeDev": "Portfólio de Rick Reis, desenvolvedor de software com experiência em React, TypeScript, Node.js, PHP e mais. Veja projetos, currículo, habilidades e contato.",
-      "descHomeAudiovisual": "Portfólio de Rick Reis, criador de conteúdo audiovisual com experiência em edição de vídeos, motion graphics, vinhetas e mais. Veja projetos, habilidades e contato."
+      "descHome": "Portfólio de Rick Reis, analista de suporte de TI com base em tecnologia de sistemas e atuação em projetos audiovisuais. Conheça experiências, projetos e formas de contato.",
+      "descHomeDev": "Portfólio de Rick Reis com foco em tecnologia e sistemas web, incluindo suporte a sistemas, manutenção, análise de problemas e projetos técnicos.",
+      "descHomeAudiovisual": "Portfólio de Rick Reis na área audiovisual, com foco em edição de vídeo, identidade visual e projetos criativos para ambientes digitais."
     },
     "language": {
       "lngBtnLabel": "En",
       "lngBtnTitle": "View in English"
     },
     "header": {
-      "headerOptionDev": "Desenvolvimento",
+      "headerOptionDev": "Tecnologia & Sistemas",
       "headerOptionAudiovisual": "Audiovisual",
       "sobre": "Sobre",
       "habilidades": "Habilidades",
@@ -24,25 +24,35 @@
       "footerLabel": "Desenvolvido Por"
     },
     "intro": {
-      "introLabel": "Desenvolvedor & Criador Audiovisual",
-      "introLabelDev": "Desenvolvedor",
+      "introLabel": "Analista de Suporte de TI & Criador Audiovisual",
+      "introLabelDev": "Tecnologia e Sistemas",
       "introLabelAudiovisual": "Criador Audiovisual",
-      "introDesc": "Criatividade e tecnologia",
-      "introDescDev": "Apaixonado por tecnologia",
+      "introDesc": "Tecnologia, suporte e criatividade aplicados a projetos digitais",
+      "introDescDev": "Soluções técnicas, sistemas web e suporte tecnológico",
       "introDescAudiovisual": "Apaixonado por criatividade e arte",
-      "resumoDesc1": "Sou Rick Reis, desenvolvedor e criador de conteúdo audiovisual, com experiência em software e projetos visuais, apresentados aqui em áreas separadas.",
-      "resumoDescDev1": "Com experiência em projetos profissionais, acadêmicos e pessoais, minhas habilidades técnicas incluem HTML/CSS/SCSS, JavaScript/TypeScript, React, Next.js, Node.js, PHP/Laravel e SQL. Utilizo metodologias ágeis, como Scrum e Kanban e tenho vivência com plataformas como Azure DevOps e Clickup.",
-      "resumoDescDev2": "Em minha trajetória profissional, tenho contribuído para a manutenção e evolução de sistemas que atendem uma grande quantidade de pessoas, impactando diretamente nos serviços oferecidos. Destaco a minha capacidade de resolver problemas, aprender rapidamente e trabalhar em equipe. Valorizo a qualidade e busco equilibrá-la com os prazos de entrega, garantindo os melhores resultados possíveis.",
+      "resumoDesc1": "Sou profissional de tecnologia com formação em Análise e Desenvolvimento de Sistemas e experiência em suporte a sistemas, resolução de problemas e atendimento técnico. Ao longo da minha trajetória, atuei em ambientes diversos, lidando com sistemas web, análise de erros, manutenção de soluções e colaboração com equipes multidisciplinares.",
+      "resumoDesc2": "Paralelamente, desenvolvo projetos na área de audiovisual, com foco em edição de vídeo e identidade visual para projetos digitais. Essa combinação entre tecnologia e criatividade me permite comunicar ideias de forma clara, estruturar soluções e construir experiências que unem funcionalidade e estética.",
+      "resumoDesc3": "Neste site, você encontra minhas experiências organizadas por área, refletindo um perfil versátil, técnico e orientado à resolução de problemas.",
+      "resumoDescDev1": "Com experiência em projetos profissionais, acadêmicos e pessoais, atuo com tecnologia aplicada a sistemas web, manutenção de aplicações e suporte técnico. Possuo base em HTML, CSS, JavaScript, React, Next.js, PHP e SQL, com foco na leitura, manutenção e evolução de sistemas existentes.",
+      "resumoDescDev2": "Ao longo da minha trajetória profissional, contribuí para a sustentação e evolução de sistemas utilizados por um grande volume de usuários, apoiando a estabilidade, eficiência e qualidade dos serviços. Destaco minha capacidade de resolver problemas, aprender rapidamente e colaborar com equipes multidisciplinares, sempre equilibrando qualidade técnica e prazos de entrega.",
       "resumoDescAudiovisual1": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma e Cinema 4D, aplicando criatividade e técnica para transformar ideias em conteúdos envolventes.",
       "resumoBtnSobreLabel": "Conheça mais sobre mim",
+      "resumoBtnSobreLabelDev": "Experiência técnica",
       "resumoBtnProjetosLabel": "Confira os meus projetos",
-      "resumoBtnSobreDevLabel": "Desenvolvimento",
-      "resumoBtnSobreAudiovisualLabel": "Audiovisual"
+      "resumoBtnProjetosLabelDev": "Projetos em tecnologia",
+      "resumoBtnSobreDevLabel": "Tecnologia & Sistemas",
+      "resumoBtnSobreAudiovisualLabel": "Audiovisual",
+      "devTags": {
+        "support": "Suporte",
+        "troubleshooting": "Troubleshooting",
+        "documentation": "Documentação",
+        "versioning": "Versionamento"
+      }
     },
     "about": {
       "sobreTitle": "Sobre",
-      "sobreDesc": "Me considero uma pessoa com facilidade para resolver problemas e um aprendiz rápido que está constantemente buscando se aprimorar.",
-      "sobreDesc2": "Com inglês avançado e graduação em Análise e Desenvolvimento de Sistema, acumulo conhecimento e experiência em desenvolvimento, com habilidades em React, Next.js, HTML/CSS/SCSS, JavaScript/TypeScript, Node.js, API REST e SQL, somadas a um conhecimento relevante em Docker, PHP, Webflow entre outras tecnologias.",
+      "sobreDesc": "Tenho perfil analítico, facilidade para resolver problemas e rápida adaptação a novos contextos técnicos, atuando com foco em sistemas, suporte e melhoria contínua.",
+      "sobreDesc2": "Com inglês avançado e formação em Análise e Desenvolvimento de Sistemas, construí base técnica em sistemas web, manutenção de aplicações e suporte técnico. Ao longo da minha trajetória, atuei com leitura e evolução de código, análise de erros, APIs e bancos de dados, colaborando com diferentes equipes e tecnologias.",
       "sobreBtnLabelCurriculo": "Meu currículo",
       "sobreBtnLabelEmail": "Enviar e-mail",
       "sobreDescAudiovisual1": "Sou uma pessoa criativa, com facilidade para aprender rapidamente e constantemente buscando aprimorar minhas habilidades.",
@@ -51,24 +61,34 @@
     "experience": {
       "careerTitle": "Carreira",
       "insany": {
-        "title": "Desenvolvedor Front End Jr.",
-        "date": "Outubro 2025 - Atualmente",
-        "description": "Atuo desenvolvendo interfaces a partir das telas dos times de UI e UX, garantindo fidelidade ao design e aos comportamentos aprovados pelos clientes em padrão pixel perfect. Trabalho em projetos de diferentes segmentos, colaborando com designers e desenvolvedores para entregar experiências visuais consistentes. Utilizo principalmente React e Figma, com eventual atuação em Webflow e WordPress, além de realizar manutenções e melhorias em código existente, contribuindo para a evolução e eficiência dos projetos."
+        "title": "Desenvolvedor Front-End Jr. / Suporte a Sistemas",
+        "date": "Outubro 2025 - Dezembro 2025",
+        "description": "Atuei no suporte e evolução de interfaces de sistemas web, garantindo fidelidade funcional e visual conforme especificações de UI e UX. Colaborei com designers e desenvolvedores na manutenção e melhoria de código existente, apoiando a estabilidade e eficiência dos projetos.",
+        "skills": "Sistemas Web – Manutenção de Código – UI/UX – Scrum"
       },
       "fairy": {
-        "title": "Desenvolvedor Full Stack Jr.",
+        "title": "Desenvolvedor Full Stack Jr. / Suporte a Sistemas",
         "date": "Junho 2025 - Agosto 2025",
-        "description": "Com foco em frontend, atuei em projetos diversos com diferentes regras de negócio utilizando diariamente ferramentas de IA generativa e IDEs inteligentes como o Cursor para otimizar o desenvolvimento, contribuindo com soluções voltadas à experiência do usuário, integração entre sistemas e arquitetura de interfaces, em um ambiente dinâmico e inovador."
+        "description": "Atuei no apoio ao desenvolvimento e sustentação de sistemas utilizados por clientes externos, auxiliando na análise e resolução de problemas técnicos. Utilizei ferramentas de IA e IDEs inteligentes para otimizar diagnósticos, contribuindo para a evolução das interfaces e integração entre sistemas em ambiente dinâmico.",
+        "skills": "Suporte – Análise de Problemas – Sistemas Web – Scrum"
       },
       "conecta": {
-        "title": "Desenvolvedor Full Stack Jr.",
+        "title": "Desenvolvedor Full Stack Jr. / Analista de Suporte a Sistemas",
         "date": "Setembro 2024 - Junho 2025",
-        "description": "Contribuí para a manutenção e evolução de sistemas utilizados por centenas de usuários internos e clientes externos, ajudando a sustentar e melhorar operações que impactavam diretamente a operação e a qualidade do serviço oferecido pela empresa. Utilizava PHP/Laravel, Vue.js, MySQL e análise de logs para a resolução de problemas, combinando esses recursos com a metodologia Scrum, as ferramentas Azure DevOps e Git, além do uso de ferramentas de IA para alcançar o melhor resultado possível."
+        "description": "Atuei na sustentação e evolução de sistemas utilizados por usuários internos e clientes externos, realizando análise de logs, identificação de falhas e correção de bugs. Contribuí para a estabilidade dos serviços em ambiente ágil, utilizando metodologias Scrum e ferramentas de versionamento e gestão.",
+        "skills": "Sustentação – Análise de Logs – Bancos de Dados – Azure DevOps – Scrum"
       },
       "fatec": {
-        "title": "Desenvolvedor Web Estagiário",
+        "title": "Estagiário em Sistemas Web",
         "date": "Março 2024 - Julho 2024",
-        "description": "Trabalhando com React, Node.js, SCSS, Figma, Auth0 e Notion, atuei no desenvolvimento Back-end e Front-end e no planejamento de uma versão inicial de sistema base para um portal de serviços que tinha como objetivo, centralizar as solicitações relacionadas à coordenação da faculdade."
+        "description": "Atuei no apoio ao desenvolvimento e organização de um sistema base para portal de serviços, colaborando no planejamento, manutenção e evolução de funcionalidades voltadas à centralização de solicitações internas.",
+        "skills": "Sistemas Web – Apoio a Desenvolvimento – Documentação – Organização de Sistemas"
+      },
+      "brasilCenter": {
+        "title": "Atendente de Suporte Técnico / Backoffice",
+        "date": "Fevereiro 2021 - Dezembro 2022",
+        "description": "Atuei no backoffice prestando suporte técnico e administrativo a clientes de serviços de telefonia, internet e TV. Realizei diagnóstico de problemas técnicos simples, tratamento de demandas financeiras, registro de ocorrências e abertura de chamados técnicos e financeiros, com acompanhamento e escalonamento conforme procedimentos e SLAs.",
+        "skills": "Atendimento Técnico – Troubleshooting – Suporte ao Usuário – Análise de Problemas"
       },
       "rickReis": {
         "title": "Editor de Vídeo & Criador de Conteúdo",
@@ -121,7 +141,7 @@
       "projectsTitle": "Projetos",
       "highlights": "Em Destaque",
       "allProjects": "Todos os Projetos",
-      "githubBtnTitle": "Ver todos os repositórios no GitHub",
+      "githubBtnTitle": "Ver todos os projetos no GitHub",
       "githubBtnLabel": "Ver todos no GitHub",
       "videoPlayerLoading": "Carregando...",
       "modalVideoTitle": "Vídeo do projeto",
@@ -135,7 +155,15 @@
       },
       "japaCasa": {
         "title": "JapaCasa!",
-        "description": "Um site de delivery para um restaurante de comida japonesa, onde o usuário pode conferir o cardápio e adicionar produtos ao carrinho."
+        "description": "Site de delivery conceitual para um restaurante de comida japonesa, permitindo a visualização do cardápio e a adição de produtos ao carrinho, com foco na experiência do usuário e no fluxo de pedidos."
+      },
+      "insanyEcommerce": {
+        "title": "InsanyShop",
+        "description": "Aplicação web de e-commerce conceitual, com listagem paginada de produtos, filtros por categoria, busca por termos e carrinho funcional, desenvolvida para demonstrar fluxos de usuário e regras básicas de negócio."
+      },
+      "portalServices": {
+        "title": "Portal de Serviços",
+        "description": "Prova de conceito de um sistema web modular para centralização de solicitações internas. O projeto foca na arquitetura inicial, organização do código e funcionalidades essenciais."
       },
       "crudStudents": {
         "title": "CRUD Estudantes",
@@ -152,10 +180,6 @@
       "notificationQueue": {
         "title": "Fila de Notificações",
         "description": "Aplicação web simples que envia e processa notificações usando filas do RabbitMQ."
-      },
-      "portalServices": {
-        "title": "Portal de Serviços",
-        "description": "Um sistema web modular que gerencia e disponibiliza serviços de uma faculdade pública."
       },
       "contactMVC": {
         "title": "ContactMVC",
@@ -181,10 +205,6 @@
         "title": "Calcula IMC",
         "description": "Site que calcula o índica de massa corporal e retorna a faixa de peso no qual o mesmo se encontra."
       },
-      "insanyEcommerce": {
-        "title": "InsanyShop",
-        "description": "E-commerce simples de produtos diversos com lista paginada, filtros por categoria, busca por termos e carrinho funcional."
-      },
       "portfolioLais": {
         "title": "Portfólio Estruturação de Crédito",
         "description": "Portfólio para uma profissional em Estruturação de Crédito e Análise de Dados Financeiros"
@@ -208,14 +228,18 @@
     },
     "contact": {
       "title": "Contato",
-      "desc": "Adoraria ouvir sobre seu projeto, ideia ou oportunidade. Entre em contato e vamos conversar!",
+      "desc": "Fico à disposição para conversar sobre projetos, oportunidades profissionais ou parcerias. Entre em contato e vamos conversar.",
       "namePlaceholder": "Nome *",
       "messagePlaceholder": "Mensagem *",
       "btnLabel": "Enviar",
       "sending": "Enviando...",
       "successMessage": "Mensagem enviada com sucesso!",
       "newMessage": "Enviar nova mensagem",
-      "error": "Ocorreu um erro. Tente novamente."
+      "error": "Ocorreu um erro. Tente novamente.",
+      "whatsappMessage": {
+        "default": "Olá! Vim do seu site e gostaria de entrar em contato sobre uma oportunidade!",
+        "audiovisual": "Olá! Vim do seu site e gostaria de saber mais sobre o seu trabalho como editor de vídeos!"
+      }
     }
   }
 }

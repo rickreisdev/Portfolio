@@ -68,12 +68,10 @@
                 box-shadow: 0 5px 15px rgba(15, 217, 15, 0.3);
             }
             
-            &.html { border-bottom: 2px solid #E44D26; }
-            &.css { border-bottom: 2px solid #264DE4; }
-            &.js { border-bottom: 2px solid #F0DB4F; }
-            &.react { border-bottom: 2px solid #61DAFB; }
-            &.node { border-bottom: 2px solid #68A063; }
-            &.php { border-bottom: 2px solid #616bfb; }
+            &.support { border-bottom: 2px solid #E44D26; }
+            &.troubleshooting { border-bottom: 2px solid #264DE4; }
+            &.documentation { border-bottom: 2px solid #F0DB4F; }
+            &.versioning { border-bottom: 2px solid #61DAFB; }
         }
     }
 

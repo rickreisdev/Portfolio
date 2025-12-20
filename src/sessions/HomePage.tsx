@@ -71,6 +71,8 @@ const HomePage = () => {
             >
                 <Resumo
                     resumoDesc1={t("intro.resumoDesc1")}
+                    resumoDesc2={t("intro.resumoDesc2")}
+                    resumoDesc3={t("intro.resumoDesc3")}
                     btnSobreLabel={t("intro.btnSobreLabel")}
                     btnProjetosLabel={t("intro.btnProjetosLabel")}
                     showSkills={false}

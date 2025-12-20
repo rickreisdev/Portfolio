@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom";
 interface ResumoProps {
     resumoDesc1: string;
     resumoDesc2?: string;
+    resumoDesc3?: string;
     btnSobreLabel: string;
     btnProjetosLabel: string;
     showSkills?: boolean;
@@ -16,6 +17,7 @@ interface ResumoProps {
 const Resumo: React.FC<ResumoProps> = ({
     resumoDesc1,
     resumoDesc2,
+    resumoDesc3,
     btnSobreLabel,
     btnProjetosLabel,
     showSkills = true,
@@ -32,29 +34,21 @@ const Resumo: React.FC<ResumoProps> = ({
 
     const { t } = useTranslation();
 
-    // if(pathname.startsWith('/dev')){
-
-    // }
-
     return (
         <div className="resumo-container">
             {showSkills && (
                 <div className="tech-icons">
-                    <div className="tech-icon react">
-                        React
+                    <div className="tech-icon support">
+                        {t("intro.devTags.support")}
                     </div>
-                    <div className="tech-icon html">
-                        HTML
+                    <div className="tech-icon troubleshooting">
+                        {t("intro.devTags.troubleshooting")}
                     </div>
-                    <div className="tech-icon css">
-                        CSS/SCSS
+                    <div className="tech-icon documentation">
+                        {t("intro.devTags.documentation")}
                     </div>
-                    <div className="tech-icon js">
-                        JS/TS
-                    </div>
-                    <div className="tech-icon php">PHP</div>
-                    <div className="tech-icon node">
-                        Node
+                    <div className="tech-icon versioning">
+                        {t("intro.devTags.versioning")}
                     </div>
                 </div>
             )}
@@ -66,6 +60,11 @@ const Resumo: React.FC<ResumoProps> = ({
                 {resumoDesc2 && (
                     <p className="paragraph-animate delay-1">
                         {resumoDesc2}
+                    </p>
+                )}
+                {resumoDesc3 && (
+                    <p className="paragraph-animate delay-2">
+                        {resumoDesc3}
                     </p>
                 )}
             </div>
@@ -87,7 +86,9 @@ const Resumo: React.FC<ResumoProps> = ({
                         }
                     >
                         <span className="btn-text">
-                            {t("intro.resumoBtnSobreDevLabel")}
+                            {t(
+                                "intro.resumoBtnSobreDevLabel"
+                            )}
                         </span>
                     </a>
                 )}
@@ -117,7 +118,11 @@ const Resumo: React.FC<ResumoProps> = ({
 
                 {showAboutButton && !showModesButtons && (
                     <a
-                        href={pathname.startsWith("/dev") ? "/dev/sobre" : "/audiovisual/sobre"}
+                        href={
+                            pathname.startsWith("/dev")
+                                ? "/dev/sobre"
+                                : "/audiovisual/sobre"
+                        }
                         className={`resumo-btn-sobre ${
                             hoveredButton === "sobre"
                                 ? "hovered"
@@ -138,7 +143,11 @@ const Resumo: React.FC<ResumoProps> = ({
 
                 {showProjectsButton && (
                     <a
-                        href={pathname.startsWith("/dev") ? "/dev/projetos" : "/audiovisual/projetos"}
+                        href={
+                            pathname.startsWith("/dev")
+                                ? "/dev/projetos"
+                                : "/audiovisual/projetos"
+                        }
                         className={`resumo-btn-projetos ${
                             hoveredButton === "projetos"
                                 ? "hovered"

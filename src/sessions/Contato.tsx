@@ -17,20 +17,15 @@ const Contato = () => {
     const { pathname } = location;
 
     const whatsappMessage = pathname.startsWith("/dev")
-        ? "Olá! Vim do seu site e gostaria de saber mais sobre o seu trabalho como desenvolvedor!"
-        : "Olá! Vim do seu site e gostaria de saber mais sobre o seu trabalho como editor de vídeos!";
+        ? t("contact.whatsappMessage.default")
+        : pathname.startsWith("/audiovisual")
+        ? t("contact.whatsappMessage.audiovisual")
+        : t("contact.whatsappMessage.default");
 
     const encodedMessage =
         encodeURIComponent(whatsappMessage);
 
     const socialLinks = [
-        {
-            id: "github",
-            icon: <FaGithub />,
-            url: "https://github.com/rickreisdev",
-            color: "github",
-            alt: "GitHub",
-        },
         {
             id: "linkedin",
             icon: <FaLinkedin />,
@@ -39,18 +34,25 @@ const Contato = () => {
             alt: "LinkedIn",
         },
         {
-            id: "instagram",
-            icon: <FaInstagram />,
-            url: "https://www.instagram.com/rickreisme/",
-            color: "instagram",
-            alt: "Instagram",
-        },
-        {
             id: "whatsapp",
             icon: <FaWhatsapp />,
             url: `https://api.whatsapp.com/send/?phone=5516993943494&text=${encodedMessage}`,
             color: "whatsapp",
             alt: "Whatsapp",
+        },
+        {
+            id: "instagram",
+            icon: <FaInstagram />,
+            url: "https://www.instagram.com/rickreisav/",
+            color: "instagram",
+            alt: "Instagram",
+        },
+        {
+            id: "github",
+            icon: <FaGithub />,
+            url: "https://github.com/rickreisdev",
+            color: "github",
+            alt: "GitHub",
         },
     ];
 

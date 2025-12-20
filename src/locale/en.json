@@ -1,19 +1,19 @@
 {
     "translation": {
         "metadata": {
-            "tituloHome": "Rick Reis | Developer & Audiovisual Creator",
-            "tituloHomeDev": "Rick Reis | Developer",
+            "tituloHome": "Rick Reis | IT Support Analyst & Audiovisual Creator",
+            "tituloHomeDev": "Rick Reis | Technology & Systems",
             "tituloHomeAudiovisual": "Rick Reis | Audiovisual Creator",
-            "descHome": "Rick Reis' portfolio, a software developer and audiovisual content creator. See projects, resume, skills, and contact.",
-            "descHomeDev": "Rick Reis' portfolio, a full stack developer with experience in React, TypeScript, Node.js, PHP, and more. See projects, resume, skills, and contact.",
-            "descHomeAudiovisual": "Rick Reis' portfolio, an audiovisual content creator with experience in video editing, motion graphics, intros, and more. See projects, skills, and contact."
+            "descHome": "Portfolio of Rick Reis, an IT support analyst with a background in systems technology and experience in audiovisual projects. Explore experiences, projects, and contact information.",
+            "descHomeDev": "Portfolio of Rick Reis focused on technology and web systems, including system support, maintenance, problem analysis, and technical projects.",
+            "descHomeAudiovisual": "Portfolio of Rick Reis in the audiovisual field, focusing on video editing, visual identity, and creative projects for digital environments."
         },
         "language": {
             "lngBtnLabel": "Pt-br",
             "lngBtnTitle": "Ver em Português brasileiro"
         },
         "header": {
-            "headerOptionDev": "Development",
+            "headerOptionDev": "Technology & Systems",
             "headerOptionAudiovisual": "Audiovisual",
             "sobre": "About",
             "habilidades": "Skills",
@@ -24,20 +24,30 @@
             "footerLabel": "Developed By"
         },
         "intro": {
-            "introLabel": "Developer & Audiovisual Creator",
-            "introLabelDev": "Developer",
+            "introLabel": "System Support Analyst & Audiovisual Creator",
+            "introLabelDev": "Technology & Systems",
             "introLabelAudiovisual": "Audiovisual Creator",
-            "introDesc": "Creativity and, technology",
-            "introDescDev": "Passionate about technology",
+            "introDesc": "Technology, support, and creativity applied to digital projects",
+            "introDescDev": "Technical solutions, web systems and technology support.",
             "introDescAudiovisual": "Passionate about creativity and art",
-            "resumoDesc1": "I am Rick Reis, a developer and audiovisual creator, with experience in software and visual projects, presented here in separate areas.",
-            "resumoDescDev1": "With experience in professional, academic, and personal projects, my technical skills include HTML/CSS/SCSS, JavaScript/TypeScript, React, Next.js, Node.js, PHP/Laravel, and SQL. I use agile methodologies, such as Scrum and Kanban, to organize tasks and demands and I've worked with platforms such as Azure DevOps and Clickup.",
-            "resumoDescDev2": "Throughout my professional journey, I've been contributing to the maintenance and evolution of systems that serve a large number of people, directly impacting the services provided. I highlight my ability to solve problems, learn quickly, and work as part of a team. I value quality and strive to balance it with deadlines, ensuring the best possible results.",
+            "resumoDesc1": "I am a technology professional with a degree in Systems Analysis and Development and experience in system support, problem-solving, and technical support. Throughout my career, I have worked in diverse environments, dealing with web systems, error analysis, solution maintenance, and collaboration with multidisciplinary teams.",
+            "resumoDesc2": "In parallel, I develop projects in the audiovisual field, focusing on video editing and visual identity for digital projects. This combination of technology and creativity allows me to communicate ideas clearly, structure solutions, and build experiences that combine functionality and aesthetics.",
+            "resumoDesc3": "On this website, you will find my experiences organized by area, reflecting a versatile, technical, and problem-solving-oriented profile.",
+            "resumoDescDev1": "With experience in professional, academic, and personal projects, I work with technology applied to web systems, application maintenance, and technical support. I have a foundation in HTML, CSS, JavaScript, React, Next.js, PHP, and SQL, focusing on reading, maintaining, and evolving existing systems.",
+            "resumoDescDev2": "Throughout my professional career, I have contributed to the maintenance and evolution of systems used by a large number of users, supporting the stability, efficiency, and quality of services. I highlight my ability to solve problems, learn quickly, and collaborate with multidisciplinary teams, always balancing technical quality and delivery deadlines.",
             "resumoDescAudiovisual1": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma and Cinema 4D, applying creativity and technique to transform ideas into engaging content.",
             "resumoBtnSobreLabel": "Learn more about me",
+            "resumoBtnSobreLabelDev": "Technical experience",
             "resumoBtnProjetosLabel": "Check out my projects",
-            "resumoBtnSobreDevLabel": "Development",
-            "resumoBtnSobreAudiovisualLabel": "Audiovisual"
+            "resumoBtnSobreDevLabel": "Technology & Systems",
+            "resumoBtnProjetosLabelDev": "Technology projects",
+            "resumoBtnSobreAudiovisualLabel": "Audiovisual",
+            "devTags": {
+                "support": "Support",
+                "troubleshooting": "Troubleshooting",
+                "documentation": "Documentation",
+                "versioning": "Versioning"
+            }
         },
         "about": {
             "sobreTitle": "About",
@@ -51,24 +61,34 @@
         "experience": {
             "careerTitle": "Career",
             "insany": {
-                "title": "Jr. Front End Developer",
-                "date": "October 2025 - Ongoing",
-                "description": "I develop interfaces based on UI and UX designs, ensuring fidelity to approved visuals and behaviors with a pixel-perfect standard. I work on projects across different industries, collaborating with designers and developers to deliver consistent user experiences. I primarily use React and Figma, occasionally working with Webflow and WordPress, and also handle maintenance and improvements of existing code to support project evolution and efficiency."
+                "title": "Junior Front-End Developer / Systems Support",
+                "date": "October 2025 - December 2025",
+                "description": "Worked on the support and evolution of web system interfaces, ensuring functional and visual accuracy according to UI and UX specifications. Collaborated with designers and developers on the maintenance and improvement of existing code, supporting project stability and efficiency.",
+                "skills": "Web Systems – Code Maintenance – UI/UX – Scrum"
             },
             "fairy": {
-                "title": "Jr. Full Stack Developer",
+                "title": "Junior Full Stack Developer / Systems Support",
                 "date": "June 2025 - August 2025",
-                "description": "With a focus on frontend, I worked on diverse projects with different business rules, using generative AI tools and intelligent IDEs like Cursor on a daily basis to optimize development. I contribute with solutions focused on user experience, system integration, and interface architecture in a dynamic and innovative environment."
+                "description": "Worked in supporting the development and maintenance of systems used by external clients, assisting in the analysis and resolution of technical issues. Used AI tools and intelligent IDEs to optimize diagnostics, contributing to interface evolution and system integrations in a dynamic environment.",
+                "skills": "Support – Problem Analysis – Web Systems – Scrum"
             },
             "conecta": {
-                "title": "Jr Full Stack Developer",
+                "title": "Junior Full Stack Developer / Systems Support Analyst",
                 "date": "September 2024 - June 2025",
-                "description": "I contributed to the maintenance and evolution of systems used by hundreds of internal users and external clients, helping to sustain and improve processes that directly impacted the company's operational activities and the quality of the services provided. I used PHP/Laravel, Vue.js, MySQL, and log analysis for troubleshooting, combining these with the Scrum methodology and tools like Azure DevOps and Git, along with AI tools to achieve the best possible results."
+                "description": "Worked on the maintenance and evolution of systems used by internal users and external clients, performing log analysis, issue identification, and bug fixes. Contributed to service stability in an agile environment, using Scrum methodologies and version control and management tools.",
+                "skills": "System Maintenance – Log Analysis – Databases – Azure DevOps – Scrum"
             },
             "fatec": {
-                "title": "Web Developer Intern",
+                "title": "Web Systems Intern",
                 "date": "March 2024 - July 2024",
-                "description": "Working with React, Node.js, SCSS, Figma, Auth0, and Notion, I contributed to both Back-end and Front-end development and participated in planning an initial system base version for a service portal aimed at centralizing requests related to the college's coordination."
+                "description": "Supported the development and organization of a base system for a services portal, collaborating on the planning, maintenance, and evolution of features aimed at centralizing internal requests.",
+                "skills": "Web Systems – Development Support – Documentation – Systems Organization"
+            },
+            "brasilCenter": {
+                "title": "Technical Support Representative / Back Office",
+                "date": "February 2021 - December 2022",
+                "description": "Worked in a back-office role providing technical and administrative support to customers of telephony, internet, and TV services. Performed basic technical troubleshooting, handled billing-related requests, registered incidents, and opened technical and financial tickets, including follow-up and escalation in accordance with procedures and SLAs.",
+                "skills": "Technical Support – Troubleshooting – User Support – Problem Analysis"
             },
             "rickReis": {
                 "title": "Video Editor & Content Creator",
@@ -135,7 +155,15 @@
             },
             "japaCasa": {
                 "title": "JapaCasa!",
-                "description": "A delivery website for a Japanese food restaurant, where users can view the menu and add items to the cart."
+                "description": "Conceptual food delivery website for a Japanese restaurant, allowing users to browse the menu and add items to the cart, with a focus on user experience and order flow."
+            },
+            "insanyEcommerce": {
+                "title": "InsanyShop",
+                "description": "Conceptual e-commerce web application featuring paginated product listings, category filters, keyword search, and a functional shopping cart, designed to demonstrate user flows and basic business rules."
+            },
+            "portalServices": {
+                "title": "Service Portal",
+                "description": "Proof of concept of a modular web system designed to centralize internal service requests. The project focuses on initial architecture, code organization, and core features."
             },
             "crudStudents": {
                 "title": "Students CRUD",
@@ -152,10 +180,6 @@
             "notificationQueue": {
                 "title": "Notification Queue",
                 "description": "A simple web application that sends and processes notifications using RabbitMQ queues."
-            },
-            "portalServices": {
-                "title": "Service Portal",
-                "description": "A modular web system that manages and provides services for a public college."
             },
             "contactMVC": {
                 "title": "ContactMVC",
@@ -181,10 +205,6 @@
                 "title": "BMI Calculator",
                 "description": "A website that calculates the body mass index (BMI) and returns the weight range it falls into."
             },
-            "insanyEcommerce": {
-                "title": "InsanyShop",
-                "description": "Simple e-commerce for various products with paginated listings, category filters, search functionality, and a working shopping cart."
-            },
             "portfolioLais": {
                 "title": "Credit Structuring Portfolio",
                 "description": "Portfolio for a professional in Credit Structuring and Financial Data Analysis"
@@ -208,14 +228,18 @@
         },
         "contact": {
             "title": "Contact",
-            "desc": "I would love to hear about your project, idea, or opportunity. Get in touch and let's talk!",
+            "desc": "I am available to discuss projects, professional opportunities, or partnerships. Get in touch and let's talk.",
             "namePlaceholder": "Name *",
             "messagePlaceholder": "Message *",
             "btnLabel": "Send",
             "sending": "Sending...",
             "successMessage": "Message sent successfully!",
             "newMessage": "Send new message",
-            "error": "An error occurred. Please try again."
+            "error": "An error occurred. Please try again.",
+            "whatsappMessage": {
+                "default": "Hello! I came from your website and would like to get in touch about an opportunity!",
+                "audiovisual": "Hello! I came from your website and would like to know more about your work as a video editor!"
+            }
         }
     }
 }

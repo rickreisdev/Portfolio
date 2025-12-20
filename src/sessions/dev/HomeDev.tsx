@@ -72,8 +72,8 @@ const HomeDev = () => {
                 <Resumo
                     resumoDesc1={t("intro.resumoDescDev1")}
                     resumoDesc2={t("intro.resumoDescDev2")}
-                    btnSobreLabel={t("intro.resumoBtnSobreLabel")}
-                    btnProjetosLabel={t("intro.resumoBtnProjetosLabel")}
+                    btnSobreLabel={t("intro.resumoBtnSobreLabelDev")}
+                    btnProjetosLabel={t("intro.resumoBtnProjetosLabelDev")}
                     showSkills={true}
                     showProjectsButton={true}
                     showAboutButton={true}
