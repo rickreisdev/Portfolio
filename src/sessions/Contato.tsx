@@ -23,7 +23,6 @@ const Contato = () => {
     const encodedMessage =
         encodeURIComponent(whatsappMessage);
 
-    console.log(whatsappMessage);
     const socialLinks = [
         {
             id: "github",
