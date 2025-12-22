@@ -64,7 +64,7 @@ const ExperienciaDev = () => {
                 nomeEmpresa="Brasil Center Comunicações"
                 data={t("experience.brasilCenter.date")}
                 descricao={t(
-                    "experience.brasilCenter.skills"
+                    "experience.brasilCenter.description"
                 )}
                 tecnologias={t(
                     "experience.brasilCenter.skills"
