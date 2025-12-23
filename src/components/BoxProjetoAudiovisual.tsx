@@ -12,6 +12,7 @@ interface BoxProjetoProps {
     titulo: string;
     descricao: string;
     tecnologias: string;
+    isVideoVertical: boolean;
 }
 
 const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
@@ -20,6 +21,7 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
     titulo,
     descricao,
     tecnologias,
+    isVideoVertical,
 }) => {
     const { i18n: language } = useTranslation();
     const currentLng = language.language;
@@ -81,6 +83,7 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
                     src={youtubeToEmbed(videoUrl)}
                     alt={`${titulo} thumbnail`}
                     isOpen={modalOpen}
+                    isVertical={isVideoVertical}
                     onClose={() => setModalOpen(false)}
                 />
             )}

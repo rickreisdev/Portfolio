@@ -39,6 +39,7 @@ const ProjetosAudiovisual = () => {
                         " - " +
                         "Adobe Premiere"
                     }
+                    isVideoVertical={false}
                 />
             </div>
 
@@ -59,6 +60,7 @@ const ProjetosAudiovisual = () => {
                         " - " +
                         "Adobe Premiere"
                     }
+                    isVideoVertical={false}
                 />
 
                 <BoxProjetoAudiovisual
@@ -75,6 +77,7 @@ const ProjetosAudiovisual = () => {
                         " - " +
                         "HitFilm Express"
                     }
+                    isVideoVertical={false}
                 />
 
                 <BoxProjetoAudiovisual
@@ -93,6 +96,7 @@ const ProjetosAudiovisual = () => {
                         " - " +
                         "Adobe Premiere"
                     }
+                    isVideoVertical={false}
                 />
             </div>
 

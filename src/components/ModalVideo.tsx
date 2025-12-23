@@ -6,6 +6,7 @@ interface ModalVideoProps {
     src: string;
     alt?: string;
     isOpen: boolean;
+    isVertical: boolean;
     onClose: () => void;
 }
 
@@ -13,6 +14,7 @@ const ModalVideo: React.FC<ModalVideoProps> = ({
     src,
     alt,
     isOpen,
+    isVertical,
     onClose,
 }) => {
     const [loading, setLoading] = useState(true);
@@ -46,13 +48,19 @@ const ModalVideo: React.FC<ModalVideoProps> = ({
                     </button>
                 )}
 
-                <div className="video-wrapper">
+                <div
+                    className={`video-wrapper ${
+                        isVertical
+                            ? "vertical"
+                            : "horizontal"
+                    }`}
+                >
                     {loading && (
                         <div className="video-loading">
                             <div className="spinner" />
                             <span>
                                 {t(
-                                    "boxProjetos-videoPlayer-Loading"
+                                    "projects.videoPlayerLoading"
                                 )}
                             </span>
                         </div>
@@ -61,7 +69,10 @@ const ModalVideo: React.FC<ModalVideoProps> = ({
                     <iframe
                         key={iframeKey}
                         src={src}
-                        title={alt || t("modalVideo-iframe-title")}
+                        title={
+                            alt ||
+                            t("modalVideo-iframe-title")
+                        }
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen

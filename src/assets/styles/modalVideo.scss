@@ -46,10 +46,23 @@
         .video-wrapper {
             position: relative;
             width: 100%;
-            padding-bottom: 56.25%;
             height: 0;
 
+            &.horizontal {
+                padding-bottom: 56.25%;
+            }
+
+            &.vertical {
+                padding-bottom: 177.78%;
+                max-width: 40rem;
+                margin: 0 auto;
+            }
+
             .video-loading {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%);
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -57,7 +70,6 @@
                 color: #fff;
                 font-size: 1rem;
                 gap: 10px;
-                
 
                 .spinner {
                     width: 40px;
