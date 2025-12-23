@@ -7,6 +7,8 @@ import seashore from "../../assets/imagens/seashore.jpg";
 import titanic from "../../assets/imagens/titanic.png";
 import rio from "../../assets/imagens/rio.jpg";
 import showreel from "../../assets/imagens/showreel.png";
+import gemeos from "../../assets/imagens/gemeos.jpg"
+import { normalizeYoutubeUrl } from "../../utils/helpers";
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
@@ -49,7 +51,7 @@ const ProjetosAudiovisual = () => {
                 <BoxProjetoAudiovisual
                     imagem={rio}
                     videoUrl="https://www.youtube.com/watch?v=LsOkxqUQFsg"
-                    titulo="Rio 2025"
+                    titulo={t("projects.rio2025.title")}
                     descricao={t(
                         "projects.rio2025.description"
                     )}
@@ -66,7 +68,9 @@ const ProjetosAudiovisual = () => {
                 <BoxProjetoAudiovisual
                     imagem={seashore}
                     videoUrl="https://www.youtube.com/watch?v=yEevkBzwt8c"
-                    titulo="MSC Seashore Vlog"
+                    titulo={t(
+                        "projects.vlogSeashore.title"
+                    )}
                     descricao={t(
                         "projects.vlogSeashore.description"
                     )}
@@ -81,9 +85,32 @@ const ProjetosAudiovisual = () => {
                 />
 
                 <BoxProjetoAudiovisual
+                    imagem={gemeos}
+                    videoUrl={normalizeYoutubeUrl("https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt")}
+                    titulo={t("projects.gemeos2025.title")}
+                    descricao={t(
+                        "projects.gemeos2025.description"
+                    )}
+                    tecnologias={
+                        t("projects.tags.videoEditing") +
+                        " - " +
+                        t("projects.tags.cinematic") +
+                        " - " +
+                        t("projects.tags.birthdayFilm") +
+                        " - " +
+                        "Kdenlive" +
+                        " - " +
+                        "Microsoft Clipchamp"
+                    }
+                    isVideoVertical={true}
+                />
+
+                <BoxProjetoAudiovisual
                     imagem={titanic}
                     videoUrl="https://www.youtube.com/watch?v=rQaELZsSNr0"
-                    titulo="The Sinking of Titanic - Minecraft Animation"
+                    titulo={t(
+                        "projects.titanicAnimation.title"
+                    )}
                     descricao={t(
                         "projects.titanicAnimation.description"
                     )}

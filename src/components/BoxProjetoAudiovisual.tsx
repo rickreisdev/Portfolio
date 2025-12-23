@@ -4,7 +4,7 @@ import { RiExternalLinkFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import ModalVideo from "./ModalVideo";
-import { youtubeToEmbed } from "../utils/helpers";
+import { normalizeYoutubeUrl } from "../utils/helpers";
 
 interface BoxProjetoProps {
     imagem?: string;
@@ -80,7 +80,7 @@ const BoxProjetoAudiovisual: React.FC<BoxProjetoProps> = ({
             </motion.div>
             {videoUrl && (
                 <ModalVideo
-                    src={youtubeToEmbed(videoUrl)}
+                    src={normalizeYoutubeUrl(videoUrl)}
                     alt={`${titulo} thumbnail`}
                     isOpen={modalOpen}
                     isVertical={isVideoVertical}

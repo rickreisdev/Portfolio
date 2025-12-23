@@ -154,7 +154,9 @@
         "travelVlog": "Vlog de Viagem",
         "intro": "Intro",
         "vinheta": "Vinheta",
-        "motionGraphics": "Motion Graphics"
+        "motionGraphics": "Motion Graphics",
+        "cinematic": "Cinematográfico",
+        "birthdayFilm": "Filme de Aniversário"
       },
       "japaCasa": {
         "title": "JapaCasa!",
@@ -217,16 +219,20 @@
         "description": "Meu showreel, apresentando uma seleção dos meus melhores trabalhos em edição de vídeos, motion graphics e vinhetas."
       },
       "vlogSeashore": {
-        "title": "Vlog Seashore",
+        "title": "MSC Seashore Vlog",
         "description": "Vídeo mostrando o meu cruzeiro em 2022, com cenas da viagem, o navio e os destinos visitados."
       },
       "titanicAnimation": {
-        "title": "Titanic Animation",
+        "title": "The Sinking of Titanic - Minecraft Animation",
         "description": "Animação 3D no estilo Minecraft retratando o naufrágio do Titanic."
       },
       "rio2025": {
         "title": "Rio 2025",
         "description": "Vídeo mostrando as belezas e paisagens do Rio de Janeiro durante a minha viagem em abril de 2025."
+      },
+      "gemeos2025": {
+        "title": "Aniversário de Gêmeos | 3 Anos — Vídeo Cinematográfico",
+        "description": "Registro cinematográfico do aniversário de 3 anos de gêmeos, realizado em um salão de festas."
       }
     },
     "contact": {

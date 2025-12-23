@@ -36,7 +36,9 @@ const ModalVideo: React.FC<ModalVideoProps> = ({
             onClick={onClose}
         >
             <div
-                className="modal-imagem-content"
+                className={`modal-imagem-content ${
+                    isVertical ? "vertical" : ""
+                }`}
                 onClick={(e) => e.stopPropagation()}
             >
                 {!loading && (

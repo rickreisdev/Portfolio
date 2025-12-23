@@ -154,7 +154,9 @@
                 "travelVlog": "Travel Vlog",
                 "intro": "Intro",
                 "vinheta": "ID Intro",
-                "motionGraphics": "Motion Graphics"
+                "motionGraphics": "Motion Graphics",
+                "cinematic": "Cinematic",
+                "birthdayFilm": "Birthday Film"
             },
             "japaCasa": {
                 "title": "JapaCasa!",
@@ -217,16 +219,20 @@
                 "description": "My showreel, showcasing a selection of my best works in video editing, motion graphics, and intros."
             },
             "vlogSeashore": {
-                "title": "Vlog Seashore",
+                "title": "MSC Seashore Vlog",
                 "description": "Video showcasing my 2022 cruise, featuring scenes from the trip, the ship, and the destinations visited."
             },
             "titanicAnimation": {
-                "title": "Titanic Animation",
+                "title": "The Sinking of Titanic - Minecraft Animation",
                 "description": "3D animation in Minecraft style portraying the Titanic sinking."
             },
             "rio2025": {
                 "title": "Rio 2025",
                 "description": "Video showcasing the beauties and landscapes of Rio de Janeiro during my trip in April 2025."
+            },
+            "gemeos2025": {
+                "title": "Twins' 3rd Birthday | Cinematic Kids Birthday Film",
+                "description": "A cinematic record of twins' 3rd birthday party, held in a party hall."
             }
         },
         "contact": {

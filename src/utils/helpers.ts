@@ -1,19 +1,17 @@
-export function youtubeToEmbed(url: string): string {
-  try {
-    const urlObj = new URL(url);
-    let videoId = "";
-
-    // caso o link seja do formato youtu.be/XXXX
-    if (urlObj.hostname.includes("youtu.be")) {
-      videoId = urlObj.pathname.slice(1); // remove a /
-    } else {
-      // padrão youtube.com/watch?v=XXXX
-      videoId = urlObj.searchParams.get("v") || "";
+export const normalizeYoutubeUrl = (url: string) => {
+    if (url.includes("youtube.com/shorts/")) {
+        return url.replace(
+            "youtube.com/shorts/",
+            "youtube.com/embed/"
+        );
     }
 
-    return `https://www.youtube.com/embed/${videoId}`;
-  } catch (err) {
-    console.error("URL do YouTube inválida:", url);
-    return url; // retorna original caso algo dê errado
-  }
-}
+    if (url.includes("watch?v=")) {
+        const videoId = url
+            .split("watch?v=")[1]
+            .split("&")[0];
+        return `https://www.youtube.com/embed/${videoId}`;
+    }
+
+    return url;
+};

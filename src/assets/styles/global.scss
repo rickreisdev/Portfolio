@@ -7,6 +7,7 @@
 }
 
 html {
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
@@ -56,46 +57,46 @@ input[type="submit"] {
 
 input,
 textarea {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  background: none;
-  box-shadow: none;
-  appearance: none;
-  resize: none;
-
-  &::placeholder {
-    color: inherit;
-    opacity: 1;
-  }
-
-  &[type="search"]::-webkit-search-decoration,
-  &[type="search"]::-webkit-search-cancel-button,
-  &[type="search"]::-webkit-search-results-button,
-  &[type="search"]::-webkit-search-results-decoration {
-    display: none;
-  }
-  
-  &[type="number"] {
-    &::-webkit-inner-spin-button,
-    &::-webkit-outer-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-    }
-    -moz-appearance: textfield;
-
-    appearance: textfield;
-  }
-
-  &[type="date"],
-  &[type="time"],
-  &[type="datetime-local"],
-  &[type="month"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    box-shadow: none;
     appearance: none;
-  }
+    resize: none;
+
+    &::placeholder {
+        color: inherit;
+        opacity: 1;
+    }
+
+    &[type="search"]::-webkit-search-decoration,
+    &[type="search"]::-webkit-search-cancel-button,
+    &[type="search"]::-webkit-search-results-button,
+    &[type="search"]::-webkit-search-results-decoration {
+        display: none;
+    }
+
+    &[type="number"] {
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        -moz-appearance: textfield;
+
+        appearance: textfield;
+    }
+
+    &[type="date"],
+    &[type="time"],
+    &[type="datetime-local"],
+    &[type="month"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
 }
 
 ::-webkit-scrollbar {
