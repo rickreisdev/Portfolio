@@ -135,6 +135,9 @@
                 "introCreation": "Intro Creation",
                 "motionGraphics": "Motion Graphics",
                 "videoEditing": "Video Editing"
+            },
+            "technologies": {
+                "title": "Technologies"
             }
         },
         "projects": {

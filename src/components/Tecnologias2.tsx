@@ -4,32 +4,59 @@ import {
     FaPython,
     FaBootstrap,
     FaVuejs,
+    FaFigma,
 } from "react-icons/fa";
 import {
-    SiFlutter,
-    SiOracle,
-    SiMicrosoftsqlserver,
     SiAxios,
-    SiAzuredevops
+    SiI18Next,
+    SiLaravel,
 } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import MaterialUI from "../assets/imagens/materialUI.svg";
 
 const Tecnologias2 = () => {
     return (
-        <div className="habilidades">
-            <HabilidadeCard
-                id="MaterialUI"
-                className="btn2"
-                iconUrl={MaterialUI}
-                nome="MaterialUI"
-            />
-
+        <div className="habilidades-wrapper tecnology-2">
             <HabilidadeCard
                 id="Axios"
                 className="btn2"
                 Icon={SiAxios}
                 nome="Axios"
+            />
+
+            <HabilidadeCard
+                id="Firebase"
+                className="btn2b"
+                Icon={IoLogoFirebase}
+                nome="Firebase"
+            />
+
+            <HabilidadeCard
+                id="Laravel"
+                className="btn2"
+                Icon={SiLaravel}
+                nome="Laravel"
+            />
+
+            <HabilidadeCard
+                id="i18n"
+                className="btn2"
+                Icon={SiI18Next}
+                nome="i18n"
+            />
+
+            <HabilidadeCard
+                id="Figma"
+                className="btn2b"
+                Icon={FaFigma}
+                nome="Figma"
+            />
+
+            <HabilidadeCard
+                id="MaterialUI"
+                className="btn2"
+                iconUrl={MaterialUI}
+                nome="MaterialUI"
             />
 
             <HabilidadeCard
@@ -47,45 +74,10 @@ const Tecnologias2 = () => {
             />
 
             <HabilidadeCard
-                id="Azure DevOps"
-                className="btn2b"
-                Icon={SiAzuredevops}
-                nome="Azure DevOps"
-            />
-
-            <HabilidadeCard
                 id="Python"
                 className="btn2b"
                 Icon={FaPython}
                 nome="Python"
-            />
-
-            <HabilidadeCard
-                id="Oracle"
-                className="btn2b"
-                Icon={SiOracle}
-                nome="Oracle DB"
-            />
-
-            <HabilidadeCard
-                id="SQL Server"
-                className="btn2b"
-                Icon={SiMicrosoftsqlserver}
-                nome="SQL Server"
-            />
-
-            <HabilidadeCard
-                id="Flutter"
-                className="btn2b"
-                Icon={SiFlutter}
-                nome="Flutter"
-            />
-
-            <HabilidadeCard
-                id="Firebase"
-                className="btn2b"
-                Icon={IoLogoFirebase}
-                nome="Firebase"
             />
         </div>
     );

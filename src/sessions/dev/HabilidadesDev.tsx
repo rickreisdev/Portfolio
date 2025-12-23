@@ -2,8 +2,9 @@ import "../../assets/styles/habilidades-projetos.scss";
 
 import Tecnologias from "../../components/Tecnologias";
 import Tecnologias2 from "../../components/Tecnologias2";
-import OutrasHabilidades from "../../components/OutrasHabilidades";
+import Habilidades from "../../components/Habilidades";
 import { useTranslation } from "react-i18next";
+import OutrasHabilidades from "../../components/OutrasHabilidades";
 
 const HabilidadesDev = () => {
     const { t } = useTranslation();
@@ -13,8 +14,12 @@ const HabilidadesDev = () => {
                 &lt;<span>{t("skills.skillsTitle")}</span>
                 /&gt;
             </h2>
+            <Habilidades /> <br />
+            <h3 className="diferenciais-titulo">
+                {t("skills.technologies.title")}
+            </h3>
             <Tecnologias /> <br />
-            <Tecnologias2 />
+            <Tecnologias2 /> <br />
             <h3 className="diferenciais-titulo">
                 {t("skills.differentials.title")}
             </h3>

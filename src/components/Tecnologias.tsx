@@ -8,16 +8,14 @@ import {
     FaJs,
     FaReact,
     FaGitAlt,
-    // FaSass,
     FaNodeJs,
-    FaFigma,
     FaPhp,
 } from "react-icons/fa";
 import {
-    // SiTypescript,
     SiMysql,
-    SiI18Next,
-    SiLaravel,
+    SiAzuredevops,
+    SiOracle,
+    SiMicrosoftsqlserver,
 } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -35,15 +33,7 @@ const Tecnologias = () => {
     return (
         <>
             {pathname.startsWith("/dev") && (
-                <div className="habilidades">
-                    <HabilidadeCard
-                        id="React"
-                        className="btn2"
-                        Icon={FaReact}
-                        nome="React"
-                        title="React Router, React Hooks, Context API"
-                    />
-
+                <div className="habilidades-wrapper">
                     <HabilidadeCard
                         id="HTML"
                         className="btn2"
@@ -58,13 +48,6 @@ const Tecnologias = () => {
                         nome="CSS/SCSS"
                     />
 
-                    {/* <HabilidadeCard
-                        id="SCSS"
-                        className="btn2"
-                        Icon={FaSass}
-                        nome="SCSS"
-                    /> */}
-
                     <HabilidadeCard
                         id="JavaScript/TypeScript"
                         className="btn2"
@@ -72,25 +55,12 @@ const Tecnologias = () => {
                         nome="JS/TS"
                     />
 
-                    {/* <HabilidadeCard
-                        id="TypeScript"
-                        className="btn2"
-                        Icon={SiTypescript}
-                        nome="TypeScript"
-                    /> */}
-
                     <HabilidadeCard
-                        id="API"
+                        id="React"
                         className="btn2"
-                        Icon={TbHttpGet}
-                        nome="RESTful API"
-                    />
-
-                    <HabilidadeCard
-                        id="Node.js"
-                        className="btn2"
-                        Icon={FaNodeJs}
-                        nome="Node.js"
+                        Icon={FaReact}
+                        nome="React"
+                        title="React Router, React Hooks, Context API"
                     />
 
                     <HabilidadeCard
@@ -98,6 +68,20 @@ const Tecnologias = () => {
                         className="btn2"
                         Icon={RiNextjsFill}
                         nome="Next.js"
+                    />
+
+                    <HabilidadeCard
+                        id="API"
+                        className="btn2"
+                        Icon={TbHttpGet}
+                        nome="RESTful APIs"
+                    />
+
+                    <HabilidadeCard
+                        id="Node.js"
+                        className="btn2"
+                        Icon={FaNodeJs}
+                        nome="Node.js"
                     />
 
                     <HabilidadeCard
@@ -115,13 +99,6 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="Laravel"
-                        className="btn2"
-                        Icon={SiLaravel}
-                        nome="Laravel"
-                    />
-
-                    <HabilidadeCard
                         id="PostgreSQL"
                         className="btn2"
                         Icon={BiLogoPostgresql}
@@ -136,17 +113,24 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
-                        id="Figma"
+                        id="Oracle"
                         className="btn2b"
-                        Icon={FaFigma}
-                        nome="Figma"
+                        Icon={SiOracle}
+                        nome="Oracle DB"
                     />
 
                     <HabilidadeCard
-                        id="i18n"
-                        className="btn2"
-                        Icon={SiI18Next}
-                        nome="i18n"
+                        id="SQL Server"
+                        className="btn2b"
+                        Icon={SiMicrosoftsqlserver}
+                        nome="SQL Server"
+                    />
+
+                    <HabilidadeCard
+                        id="Azure DevOps"
+                        className="btn2b"
+                        Icon={SiAzuredevops}
+                        nome="Azure DevOps"
                     />
 
                     <HabilidadeCard
@@ -159,7 +143,7 @@ const Tecnologias = () => {
             )}
 
             {pathname.startsWith("/audiovisual") && (
-                <div className="habilidades">
+                <div className="habilidades-wrapper">
                     <HabilidadeCard
                         id="Premiere"
                         className="btn2"
