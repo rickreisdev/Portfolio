@@ -6,6 +6,7 @@ import {
     FaLinkedin,
     FaInstagram,
     FaWhatsapp,
+    FaYoutube,
 } from "react-icons/fa";
 import ContactForm from "../components/ContactForm";
 import { useLocation } from "react-router-dom";
@@ -46,6 +47,13 @@ const Contato = () => {
             url: "https://www.instagram.com/rickreisav/",
             color: "instagram",
             alt: "Instagram",
+        },
+        {
+            id: "youtube",
+            icon: <FaYoutube />,
+            url: "https://www.youtube.com/RickReis10/",
+            color: "youtube",
+            alt: "YouTube",
         },
         {
             id: "github",
