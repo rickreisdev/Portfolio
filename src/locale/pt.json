@@ -146,6 +146,7 @@
       "allProjects": "Todos os Projetos",
       "githubBtnTitle": "Ver todos os projetos no GitHub",
       "githubBtnLabel": "Ver todos no GitHub",
+      "youtubeBtnLabel": "Acessar canal no YouTube",
       "videoPlayerLoading": "Carregando...",
       "modalVideoTitle": "Vídeo do projeto",
       "tags": {
@@ -156,7 +157,8 @@
         "vinheta": "Vinheta",
         "motionGraphics": "Motion Graphics",
         "cinematic": "Cinematográfico",
-        "birthdayFilm": "Filme de Aniversário"
+        "birthdayFilm": "Filme de Aniversário",
+        "cityFilm": "Filme de Cidade"
       },
       "japaCasa": {
         "title": "JapaCasa!",
@@ -233,6 +235,10 @@
       "gemeos2025": {
         "title": "Aniversário de Gêmeos | 3 Anos — Vídeo Cinematográfico",
         "description": "Registro cinematográfico do aniversário de 3 anos de gêmeos, realizado em um salão de festas."
+      },
+      "natalCravinhos2025": {
+        "title": "Natal em Cravinhos (SP) 2025 - Vídeo Cinematográfico",
+        "description": "Registro cinematográfico da decoração de Natal de 2025 da cidade de Cravinhos - SP."
       }
     },
     "contact": {

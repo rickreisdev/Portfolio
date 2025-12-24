@@ -2,13 +2,14 @@ import { useTranslation } from "react-i18next";
 
 import "../../assets/styles/habilidades-projetos.scss";
 import BoxProjetoAudiovisual from "../../components/BoxProjetoAudiovisual";
+import { normalizeYoutubeUrl } from "../../utils/helpers";
 
 import seashore from "../../assets/imagens/seashore.jpg";
 import titanic from "../../assets/imagens/titanic.png";
 import rio from "../../assets/imagens/rio.jpg";
 import showreel from "../../assets/imagens/showreel.png";
-import gemeos from "../../assets/imagens/gemeos.jpg"
-import { normalizeYoutubeUrl } from "../../utils/helpers";
+import gemeos from "../../assets/imagens/gemeos.jpg";
+import cravinhosNatal from "../../assets/imagens/cravinhosNatal.png";
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
@@ -86,7 +87,9 @@ const ProjetosAudiovisual = () => {
 
                 <BoxProjetoAudiovisual
                     imagem={gemeos}
-                    videoUrl={normalizeYoutubeUrl("https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt")}
+                    videoUrl={normalizeYoutubeUrl(
+                        "https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt"
+                    )}
                     titulo={t("projects.gemeos2025.title")}
                     descricao={t(
                         "projects.gemeos2025.description"
@@ -125,17 +128,40 @@ const ProjetosAudiovisual = () => {
                     }
                     isVideoVertical={false}
                 />
+
+                <BoxProjetoAudiovisual
+                    imagem={cravinhosNatal}
+                    videoUrl={normalizeYoutubeUrl(
+                        "https://youtube.com/shorts/zP-0ken1cqg?si=QmYclXZq3WlwbVrY"
+                    )}
+                    titulo={t("projects.natalCravinhos2025.title")}
+                    descricao={t(
+                        "projects.natalCravinhos2025.description"
+                    )}
+                    tecnologias={
+                        t("projects.tags.videoEditing") +
+                        " - " +
+                        t("projects.tags.cinematic") +
+                        " - " +
+                        t("projects.tags.cityFilm") +
+                        " - " +
+                        "Kdenlive" +
+                        " - " +
+                        "Microsoft Clipchamp"
+                    }
+                    isVideoVertical={true}
+                />
             </div>
 
-            {/* <a
+            <a
                 className="btn5"
-                href="https://github.com/rickreisdev?tab=repositories"
+                href="https://www.youtube.com/@RickReis10/"
                 target="_blank"
                 rel="noopener noreferrer"
-                title={t("projects.githubBtnTitle")}
+                title={t("projects.youtubeBtnLabel")}
             >
-                <h2>{t("projects.githubBtnLabel")}</h2>
-            </a> */}
+                <h2>{t("projects.youtubeBtnLabel")}</h2>
+            </a>
         </div>
     );
 };

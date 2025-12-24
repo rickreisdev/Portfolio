@@ -146,6 +146,7 @@
             "allProjects": "All Projects",
             "githubBtnTitle": "See all the projects on GitHub",
             "githubBtnLabel": "View all on GitHub",
+            "youtubeBtnLabel": "Go to YouTube channel",
             "videoPlayerLoading": "Loading...",
             "modalVideoTitle": "Project video",
             "tags": {
@@ -156,7 +157,8 @@
                 "vinheta": "ID Intro",
                 "motionGraphics": "Motion Graphics",
                 "cinematic": "Cinematic",
-                "birthdayFilm": "Birthday Film"
+                "birthdayFilm": "Birthday Film",
+                "cityFilm": "City Film"
             },
             "japaCasa": {
                 "title": "JapaCasa!",
@@ -233,6 +235,10 @@
             "gemeos2025": {
                 "title": "Twins' 3rd Birthday | Cinematic Kids Birthday Film",
                 "description": "A cinematic record of twins' 3rd birthday party, held in a party hall."
+            },
+            "natalCravinhos2025": {
+                "title": "Christmas in Cravinhos (SP, Brazil) 2025 | Cinematic Video",
+                "description": "Cinematic showcase of the 2025 Christmas decorations in the city of Cravinhos, São Paulo, Brazil."
             }
         },
         "contact": {
