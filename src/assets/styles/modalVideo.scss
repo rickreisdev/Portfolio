@@ -37,7 +37,7 @@
             position: absolute;
             top: 5px;
             right: 10px;
-            font-size: 2.5rem;
+            font-size: 4rem;
             background: transparent;
             border: none;
             color: $verde-principal;
@@ -46,7 +46,7 @@
 
             &:hover {
                 color: lighten($verde-principal, 20%);
-                font-size: 2.7rem;
+                font-size: 4.3rem;
             }
         }
 
@@ -77,7 +77,7 @@
                 align-items: center;
                 justify-content: center;
                 color: #fff;
-                font-size: 1rem;
+                font-size: 1.6rem;
                 gap: 10px;
 
                 .spinner {

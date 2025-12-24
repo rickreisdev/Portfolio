@@ -38,7 +38,7 @@
         display: flex;
         align-items: center;
         gap: 6px;
-        font-size: 1rem;
+        font-size: 1.6rem;
         color: white;
         font-weight: 500;
 
@@ -55,7 +55,7 @@
             transition: transform 0.3s ease;
 
             img {
-                height: 2rem;
+                height: 3.2rem;
                 width: auto;
                 transition: transform 0.3s ease;
             }
@@ -74,7 +74,7 @@
         display: flex;
         align-items: center;
         gap: 6px;
-        font-size: 1rem;
+        font-size: 1.6rem;
         color: white;
         font-weight: 500;
 
@@ -111,33 +111,6 @@
                 transform: scaleX(1);
             }
         }
-
-        .heart-icon {
-            color: #ff3366;
-            font-size: 0.9rem;
-            animation: pulse 1.5s infinite;
-            margin-left: 4px;
-        }
-    }
-
-    .social-links {
-        display: flex;
-        align-items: center;
-        gap: 15px;
-
-        .social-link {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: $verde-secundario;
-            font-size: 1.2rem;
-            transition: all 0.3s ease;
-
-            &:hover {
-                color: $verde-principal;
-                transform: translateY(-3px);
-            }
-        }
     }
 }
 
@@ -153,7 +126,6 @@
     }
 }
 
-// Responsividade
 @media (max-width: 768px) {
     .site-footer {
         .footer-content {

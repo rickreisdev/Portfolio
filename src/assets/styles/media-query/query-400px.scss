@@ -32,9 +32,8 @@
         .destaque-projetos {
             .box-projeto {
                 min-width: 250px !important;
-                min-height: 350px;
                 padding-top: 0px;
-                padding: 0 10px !important;
+                padding: 1rem !important;
 
                 p {
                     font-size: 16px;
@@ -43,21 +42,19 @@
                 .btns-projeto {
                     .btn-link-site,
                     .btn-link-git {
-                        font-size: 1.3rem;
+                        font-size: 2rem;
                     }
                 }
 
                 h4 {
-                    font-size: 12px;
+                    font-size: 1.2rem;
                 }
             }
         }
 
         .projetos {
             .box-projeto {
-                padding: 0 10px !important;
                 min-width: 250px !important;
-                min-height: 350px;
                 padding-top: 0px;
 
                 p {

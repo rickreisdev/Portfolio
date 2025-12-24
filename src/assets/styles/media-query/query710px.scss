@@ -45,7 +45,6 @@
             flex-direction: column !important;
             align-items: center;
             justify-content: center;
-            height: 500px;
         }
     }
 
@@ -112,7 +111,8 @@
         padding-top: 80px;
 
         .box-projeto {
-            max-height: 400px;
+            height: auto !important;
+            padding: 1.6rem !important;
             min-width: 360px !important;
 
             p {
@@ -120,14 +120,19 @@
             }
 
             .detalhes-projeto {
-                width: 80% !important;
+                width: 100% !important;
 
                 .nome-projeto {
                     max-width: 100% !important;
+                    font-size: 1.75rem !important;
                 }
 
                 p {
                     max-width: 100% !important;
+                }
+
+                .btn-link-site {
+                    width: 100%;
                 }
             }
         }
