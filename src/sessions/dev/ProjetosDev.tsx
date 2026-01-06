@@ -19,7 +19,7 @@ import portfolioLais from "../../assets/imagens/portfolioLais.png";
 
 const ProjetosDev = () => {
     const { t } = useTranslation();
-    const showAllProjects = false;
+    const showAllProjects = true;
 
     return (
         <div className="meus-projetos" id="meus-projetos">
