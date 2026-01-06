@@ -10,6 +10,7 @@ import rio from "../../assets/imagens/rio.jpg";
 import showreel from "../../assets/imagens/showreel.png";
 import gemeos from "../../assets/imagens/gemeos.jpg";
 import cravinhosNatal from "../../assets/imagens/cravinhosNatal.png";
+import introAP from "../../assets/imagens/introAP.png";
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
@@ -67,6 +68,29 @@ const ProjetosAudiovisual = () => {
                 />
 
                 <BoxProjetoAudiovisual
+                    imagem={gemeos}
+                    videoUrl={normalizeYoutubeUrl(
+                        "https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt"
+                    )}
+                    titulo={t("projects.gemeos2025.title")}
+                    descricao={t(
+                        "projects.gemeos2025.description"
+                    )}
+                    tecnologias={
+                        t("projects.tags.videoEditing") +
+                        " - " +
+                        t("projects.tags.cinematic") +
+                        " - " +
+                        t("projects.tags.birthdayFilm") +
+                        " - " +
+                        "Kdenlive" +
+                        " - " +
+                        "Microsoft Clipchamp"
+                    }
+                    isVideoVertical={true}
+                />
+
+                <BoxProjetoAudiovisual
                     imagem={seashore}
                     videoUrl="https://www.youtube.com/watch?v=yEevkBzwt8c"
                     titulo={t(
@@ -86,20 +110,43 @@ const ProjetosAudiovisual = () => {
                 />
 
                 <BoxProjetoAudiovisual
-                    imagem={gemeos}
-                    videoUrl={normalizeYoutubeUrl(
-                        "https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt"
-                    )}
-                    titulo={t("projects.gemeos2025.title")}
+                    imagem={introAP}
+                    videoUrl={
+                        "https://www.youtube.com/watch?v=Ots8SDvPsc8"
+                    }
+                    titulo={t("projects.introAP.title")}
                     descricao={t(
-                        "projects.gemeos2025.description"
+                        "projects.introAP.description"
+                    )}
+                    tecnologias={
+                        t("projects.tags.intro") +
+                        " - " +
+                        t("projects.tags.motionGraphics") +
+                        " - " +
+                        t("projects.tags.videoEditing") +
+                        " - " +
+                        "Kdenlive"
+                    }
+                    isVideoVertical={false}
+                />
+
+                <BoxProjetoAudiovisual
+                    imagem={cravinhosNatal}
+                    videoUrl={
+                        "https://youtube.com/shorts/zP-0ken1cqg?si=QmYclXZq3WlwbVrY"
+                    }
+                    titulo={t(
+                        "projects.natalCravinhos2025.title"
+                    )}
+                    descricao={t(
+                        "projects.natalCravinhos2025.description"
                     )}
                     tecnologias={
                         t("projects.tags.videoEditing") +
                         " - " +
                         t("projects.tags.cinematic") +
                         " - " +
-                        t("projects.tags.birthdayFilm") +
+                        t("projects.tags.cityFilm") +
                         " - " +
                         "Kdenlive" +
                         " - " +
@@ -127,29 +174,6 @@ const ProjetosAudiovisual = () => {
                         "Adobe Premiere"
                     }
                     isVideoVertical={false}
-                />
-
-                <BoxProjetoAudiovisual
-                    imagem={cravinhosNatal}
-                    videoUrl={normalizeYoutubeUrl(
-                        "https://youtube.com/shorts/zP-0ken1cqg?si=QmYclXZq3WlwbVrY"
-                    )}
-                    titulo={t("projects.natalCravinhos2025.title")}
-                    descricao={t(
-                        "projects.natalCravinhos2025.description"
-                    )}
-                    tecnologias={
-                        t("projects.tags.videoEditing") +
-                        " - " +
-                        t("projects.tags.cinematic") +
-                        " - " +
-                        t("projects.tags.cityFilm") +
-                        " - " +
-                        "Kdenlive" +
-                        " - " +
-                        "Microsoft Clipchamp"
-                    }
-                    isVideoVertical={true}
                 />
             </div>
 
