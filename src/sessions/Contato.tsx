@@ -11,6 +11,17 @@ import {
 import ContactForm from "../components/ContactForm";
 import { useLocation } from "react-router-dom";
 
+type RouteContext = "dev" | "audiovisual" | null;
+
+type SocialLink = {
+    id: string;
+    icon: JSX.Element;
+    url: string;
+    color: string;
+    alt: string;
+    visibleOn: Exclude<RouteContext, null>[];
+};
+
 const Contato = () => {
     const { t } = useTranslation();
 
@@ -26,13 +37,14 @@ const Contato = () => {
     const encodedMessage =
         encodeURIComponent(whatsappMessage);
 
-    const socialLinks = [
+    const socialLinks: SocialLink[] = [
         {
             id: "linkedin",
             icon: <FaLinkedin />,
             url: "https://www.linkedin.com/in/ricksonreis/",
             color: "linkedin",
             alt: "LinkedIn",
+            visibleOn: ["dev", "audiovisual"],
         },
         {
             id: "whatsapp",
@@ -40,6 +52,7 @@ const Contato = () => {
             url: `https://api.whatsapp.com/send/?phone=5516993943494&text=${encodedMessage}`,
             color: "whatsapp",
             alt: "Whatsapp",
+            visibleOn: ["dev", "audiovisual"],
         },
         {
             id: "instagram",
@@ -47,6 +60,7 @@ const Contato = () => {
             url: "https://www.instagram.com/rickreisav/",
             color: "instagram",
             alt: "Instagram",
+            visibleOn: ["audiovisual"],
         },
         {
             id: "youtube",
@@ -54,6 +68,7 @@ const Contato = () => {
             url: "https://www.youtube.com/RickReis10/",
             color: "youtube",
             alt: "YouTube",
+            visibleOn: ["audiovisual"],
         },
         {
             id: "github",
@@ -61,8 +76,17 @@ const Contato = () => {
             url: "https://github.com/rickreisdev",
             color: "github",
             alt: "GitHub",
+            visibleOn: ["dev"],
         },
     ];
+
+    const context: RouteContext = pathname.startsWith(
+        "/dev"
+    )
+        ? "dev"
+        : pathname.startsWith("/audiovisual")
+        ? "audiovisual"
+        : null;
 
     return (
         <div className="contato" id="contato">
@@ -88,19 +112,27 @@ const Contato = () => {
                         className="sociais sociais-animation"
                         aria-label="Links para redes sociais"
                     >
-                        {socialLinks.map((social) => (
-                            <a
-                                key={social.id}
-                                href={social.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className={`social-icon ${social.color}`}
-                                aria-label={social.id}
-                                title={social.alt}
-                            >
-                                {social.icon}
-                            </a>
-                        ))}
+                        {socialLinks
+                            .filter(
+                                (social) =>
+                                    context &&
+                                    social.visibleOn.includes(
+                                        context
+                                    )
+                            )
+                            .map((social) => (
+                                <a
+                                    key={social.id}
+                                    href={social.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={`social-icon ${social.color}`}
+                                    aria-label={social.id}
+                                    title={social.alt}
+                                >
+                                    {social.icon}
+                                </a>
+                            ))}
                     </div>
                 </div>
 

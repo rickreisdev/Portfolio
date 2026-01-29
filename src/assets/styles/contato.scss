@@ -93,14 +93,19 @@
                 align-items: center;
                 justify-content: center;
                 z-index: 1;
-                font-size: 4.4rem;
-                transition: all 0.3s ease;
+                font-size: 4rem;
+                transition: all 0.3s ease-in-out;
                 transform: scale(1);
                 color: white;
 
                 &:hover {
-                    transform: scale(1.2);
+                    color: $verde-oito;
                 }
+            }
+
+            @media (max-width: 720px) {
+                width: 90%;
+                height: auto;
             }
         }
 
