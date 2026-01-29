@@ -16,15 +16,16 @@ import {
     SiAzuredevops,
     SiOracle,
     SiMicrosoftsqlserver,
+    SiKdenlive,
 } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { TbHttpGet } from "react-icons/tb";
 import premiere from "../assets/SVGs/premiere-pro.svg";
-import hitfilm from "../assets/SVGs/hitFilm.svg";
 import photoshop from "../assets/SVGs/photoshop.svg";
 import c4d from "../assets/SVGs/C4D.svg";
 import figma from "../assets/SVGs/Figma.svg";
+import capcut from "../assets/imagens/Capcut-icon.png";
 
 const Tecnologias = () => {
     const location = useLocation();
@@ -153,6 +154,21 @@ const Tecnologias = () => {
                     />
 
                     <HabilidadeCard
+                        id="CapCut"
+                        className="btn2"
+                        iconUrl={capcut}
+                        nome="Capcut"
+                        title="CapCut"
+                    />
+
+                    <HabilidadeCard
+                        id="Kdenlive"
+                        className="btn2"
+                        Icon={SiKdenlive}
+                        nome="Kdenlive"
+                    />
+
+                    <HabilidadeCard
                         id="C4D"
                         className="btn2"
                         iconUrl={c4d}
@@ -172,13 +188,6 @@ const Tecnologias = () => {
                         iconUrl={photoshop}
                         nome="Photoshop"
                         title="Adobe Photoshop"
-                    />
-
-                    <HabilidadeCard
-                        id="HitFilm"
-                        className="btn2"
-                        iconUrl={hitfilm}
-                        nome="HitFilm (legacy)"
                     />
                 </div>
             )}
