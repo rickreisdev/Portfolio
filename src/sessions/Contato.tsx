@@ -11,7 +11,7 @@ import {
 import ContactForm from "../components/ContactForm";
 import { useLocation } from "react-router-dom";
 
-type RouteContext = "dev" | "audiovisual" | null;
+type RouteContext = |"home" | "dev" | "audiovisual";
 
 type SocialLink = {
     id: string;
@@ -44,7 +44,7 @@ const Contato = () => {
             url: "https://www.linkedin.com/in/ricksonreis/",
             color: "linkedin",
             alt: "LinkedIn",
-            visibleOn: ["dev", "audiovisual"],
+            visibleOn: ["home", "dev", "audiovisual"],
         },
         {
             id: "whatsapp",
@@ -52,7 +52,7 @@ const Contato = () => {
             url: `https://api.whatsapp.com/send/?phone=5516993943494&text=${encodedMessage}`,
             color: "whatsapp",
             alt: "Whatsapp",
-            visibleOn: ["dev", "audiovisual"],
+            visibleOn: ["home", "dev", "audiovisual"],
         },
         {
             id: "instagram",
@@ -60,7 +60,7 @@ const Contato = () => {
             url: "https://www.instagram.com/rickreisav/",
             color: "instagram",
             alt: "Instagram",
-            visibleOn: ["audiovisual"],
+            visibleOn: ["home", "audiovisual"],
         },
         {
             id: "youtube",
@@ -86,7 +86,7 @@ const Contato = () => {
         ? "dev"
         : pathname.startsWith("/audiovisual")
         ? "audiovisual"
-        : null;
+        : "home";
 
     return (
         <div className="contato" id="contato">
