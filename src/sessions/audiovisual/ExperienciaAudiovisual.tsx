@@ -11,18 +11,36 @@ const ExperienciaAudiovisual = () => {
             </h2>
 
             <BoxExperiencia
+                titulo={t("experience.nicnet.title")}
+                nomeEmpresa="Nicnet"
+                data={t("experience.nicnet.date")}
+                descricao={t(
+                    "experience.nicnet.description",
+                )}
+                tecnologias="Premiere"
+            />
+
+            <BoxExperiencia
                 titulo={t("experience.rickReis.title")}
                 nomeEmpresa="RickReis (YouTube)"
                 data={t("experience.rickReis.date")}
-                descricao={t("experience.rickReis.description")}
+                descricao={t(
+                    "experience.rickReis.description",
+                )}
                 tecnologias="Premiere - Photoshop - Cinema 4D - HitFilm - Vegas Pro"
             />
 
             <BoxExperiencia
-                titulo={t("experience.personalProjects.title")}
-                nomeEmpresa={t("experience.personalProjects.company")}
+                titulo={t(
+                    "experience.personalProjects.title",
+                )}
+                nomeEmpresa={t(
+                    "experience.personalProjects.company",
+                )}
                 data={t("experience.personalProjects.date")}
-                descricao={t("experience.personalProjects.description")}
+                descricao={t(
+                    "experience.personalProjects.description",
+                )}
                 tecnologias="Premiere - Photoshop - Illustrator - Cinema 4D - HitFilm - Vegas Pro"
             />
         </div>
