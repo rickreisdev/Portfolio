@@ -37,21 +37,4 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rickreis.com.br/dev/sobre</loc>
-    <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://rickreis.com.br/dev/habilidades</loc>
-    <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://rickreis.com.br/dev/projetos</loc>
-    <lastmod>2025-10-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
 </urlset>
