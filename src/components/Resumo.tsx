@@ -72,29 +72,6 @@ const Resumo: React.FC<ResumoProps> = ({
             <div className="resumo-btns">
                 {showModesButtons && (
                     <a
-                        href="/dev"
-                        className={`resumo-btn-sobre ${
-                            hoveredButton === "dev"
-                                ? "hovered"
-                                : ""
-                        }`}
-                        onMouseEnter={() =>
-                            setHoveredButton("dev")
-                        }
-                        onMouseLeave={() =>
-                            setHoveredButton(null)
-                        }
-                    >
-                        <span className="btn-text">
-                            {t(
-                                "intro.resumoBtnSobreDevLabel"
-                            )}
-                        </span>
-                    </a>
-                )}
-
-                {showModesButtons && (
-                    <a
                         href="/audiovisual"
                         className={`resumo-btn-sobre ${
                             hoveredButton === "audiovisual"
@@ -110,7 +87,30 @@ const Resumo: React.FC<ResumoProps> = ({
                     >
                         <span className="btn-text">
                             {t(
-                                "intro.resumoBtnSobreAudiovisualLabel"
+                                "intro.resumoBtnSobreAudiovisualLabel",
+                            )}
+                        </span>
+                    </a>
+                )}
+
+                {showModesButtons && (
+                    <a
+                        href="/dev"
+                        className={`resumo-btn-sobre ${
+                            hoveredButton === "dev"
+                                ? "hovered"
+                                : ""
+                        }`}
+                        onMouseEnter={() =>
+                            setHoveredButton("dev")
+                        }
+                        onMouseLeave={() =>
+                            setHoveredButton(null)
+                        }
+                    >
+                        <span className="btn-text btn-dev">
+                            {t(
+                                "intro.resumoBtnSobreDevLabel",
                             )}
                         </span>
                     </a>

@@ -21,10 +21,10 @@ const MobileNavbar: React.FC = () => {
                 mobileMenuRef.current
             ) {
                 paginasRef.current.classList.toggle(
-                    "active"
+                    "active",
                 );
                 mobileMenuRef.current.classList.toggle(
-                    "active"
+                    "active",
                 );
                 animateLinks();
             }
@@ -34,7 +34,7 @@ const MobileNavbar: React.FC = () => {
             if (paginasRef.current) {
                 const navLinks =
                     paginasRef.current.querySelectorAll(
-                        "li"
+                        "li",
                     );
                 navLinks.forEach((link, index) => {
                     link.style.animation
@@ -49,7 +49,7 @@ const MobileNavbar: React.FC = () => {
         if (mobileMenuRef.current) {
             mobileMenuRef.current.addEventListener(
                 "click",
-                handleClick
+                handleClick,
             );
         }
 
@@ -63,13 +63,13 @@ const MobileNavbar: React.FC = () => {
             if (mobileMenuRef.current) {
                 mobileMenuRef.current.removeEventListener(
                     "click",
-                    handleClick
+                    handleClick,
                 );
             }
             navLinks?.forEach((link) => {
                 link.removeEventListener(
                     "click",
-                    handleClick
+                    handleClick,
                 );
             });
         };
@@ -105,14 +105,6 @@ const MobileNavbar: React.FC = () => {
                         ref={paginasRef}
                     >
                         <li>
-                            <a href="/dev" id="link-pags" aria-label="Link para a página de Desenvolvimento">
-                                <span>
-                                    {t("header.headerOptionDev")}
-                                </span>
-                            </a>
-                        </li>
-
-                        <li>
                             <a
                                 href="/audiovisual"
                                 id="link-pags"
@@ -120,11 +112,25 @@ const MobileNavbar: React.FC = () => {
                             >
                                 <span>
                                     {t(
-                                        "header.headerOptionAudiovisual"
+                                        "header.headerOptionAudiovisual",
                                     )}
                                 </span>
                             </a>
                         </li>
+
+                        {/* <li>
+                            <a
+                                href="/dev"
+                                id="link-pags"
+                                aria-label="Link para a página de Desenvolvimento"
+                            >
+                                <span>
+                                    {t(
+                                        "header.headerOptionDev",
+                                    )}
+                                </span>
+                            </a>
+                        </li> */}
 
                         <li>
                             <a
@@ -132,7 +138,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                                 aria-label="Link para a seção de Contato"
                             >
-                                <span>{t("header.contato")}</span>
+                                <span>
+                                    {t("header.contato")}
+                                </span>
                             </a>
                         </li>
 
@@ -144,11 +152,17 @@ const MobileNavbar: React.FC = () => {
                                 onClick={
                                     handleChangeLanguage
                                 }
-                                title={t("language.lngBtnTitle")}
-                                aria-label={t("language.lngBtnTitle")}
+                                title={t(
+                                    "language.lngBtnTitle",
+                                )}
+                                aria-label={t(
+                                    "language.lngBtnTitle",
+                                )}
                             >
                                 <span>
-                                    {t("language.lngBtnLabel")}{" "}
+                                    {t(
+                                        "language.lngBtnLabel",
+                                    )}{" "}
                                     <IoLanguage className="icon-language" />
                                 </span>
                             </button>
@@ -167,7 +181,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                                 aria-label="Link para a página de Sobre"
                             >
-                                <span>{t("header.sobre")}</span>
+                                <span>
+                                    {t("header.sobre")}
+                                </span>
                             </a>
                         </li>
 
@@ -178,7 +194,9 @@ const MobileNavbar: React.FC = () => {
                                 aria-label="Link para a página de Habilidades"
                             >
                                 <span>
-                                    {t("header.habilidades")}
+                                    {t(
+                                        "header.habilidades",
+                                    )}
                                 </span>
                             </a>
                         </li>
@@ -189,7 +207,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                                 aria-label="Link para a página de Projetos"
                             >
-                                <span>{t("header.projetos")}</span>
+                                <span>
+                                    {t("header.projetos")}
+                                </span>
                             </a>
                         </li>
 
@@ -199,7 +219,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                                 aria-label="Link para a seção de Contato"
                             >
-                                <span>{t("header.contato")}</span>
+                                <span>
+                                    {t("header.contato")}
+                                </span>
                             </a>
                         </li>
 
@@ -211,11 +233,17 @@ const MobileNavbar: React.FC = () => {
                                 onClick={
                                     handleChangeLanguage
                                 }
-                                title={t("language.lngBtnTitle")}
-                                aria-label={t("language.lngBtnTitle")}
+                                title={t(
+                                    "language.lngBtnTitle",
+                                )}
+                                aria-label={t(
+                                    "language.lngBtnTitle",
+                                )}
                             >
                                 <span>
-                                    {t("language.lngBtnLabel")}{" "}
+                                    {t(
+                                        "language.lngBtnLabel",
+                                    )}{" "}
                                     <IoLanguage className="icon-language" />
                                 </span>
                             </button>
@@ -234,7 +262,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                                 aria-label="Link para a página de Sobre"
                             >
-                                <span>{t("header.sobre")}</span>
+                                <span>
+                                    {t("header.sobre")}
+                                </span>
                             </a>
                         </li>
 
@@ -245,7 +275,9 @@ const MobileNavbar: React.FC = () => {
                                 aria-label="Link para a página de Habilidades"
                             >
                                 <span>
-                                    {t("header.habilidades")}
+                                    {t(
+                                        "header.habilidades",
+                                    )}
                                 </span>
                             </a>
                         </li>
@@ -256,7 +288,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                                 aria-label="Link para a página de Projetos"
                             >
-                                <span>{t("header.projetos")}</span>
+                                <span>
+                                    {t("header.projetos")}
+                                </span>
                             </a>
                         </li>
 
@@ -266,7 +300,9 @@ const MobileNavbar: React.FC = () => {
                                 id="link-pags"
                                 aria-label="Link para a seção de Contato"
                             >
-                                <span>{t("header.contato")}</span>
+                                <span>
+                                    {t("header.contato")}
+                                </span>
                             </a>
                         </li>
 
@@ -278,11 +314,17 @@ const MobileNavbar: React.FC = () => {
                                 onClick={
                                     handleChangeLanguage
                                 }
-                                title={t("language.lngBtnTitle")}
-                                aria-label={t("language.lngBtnTitle")}
+                                title={t(
+                                    "language.lngBtnTitle",
+                                )}
+                                aria-label={t(
+                                    "language.lngBtnTitle",
+                                )}
                             >
                                 <span>
-                                    {t("language.lngBtnLabel")}{" "}
+                                    {t(
+                                        "language.lngBtnLabel",
+                                    )}{" "}
                                     <IoLanguage className="icon-language" />
                                 </span>
                             </button>

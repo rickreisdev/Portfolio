@@ -1,10 +1,10 @@
 {
     "translation": {
         "metadata": {
-            "tituloHome": "Rick Reis | IT Support Analyst & Audiovisual Creator",
+            "tituloHome": "Rick Reis | Video Editor and Audiovisual Creator",
             "tituloHomeDev": "Rick Reis | Technology & Systems",
-            "tituloHomeAudiovisual": "Rick Reis | Audiovisual Creator",
-            "descHome": "Portfolio of Rick Reis, an IT support analyst with a background in systems technology and experience in audiovisual projects. Explore experiences, projects, and contact information.",
+            "tituloHomeAudiovisual": "Rick Reis | Video Editor and Audiovisual Creator",
+            "descHome": "Portfolio of Rick Reis focused on video editing and audiovisual projects for digital platforms. Also has knowledge in technology and system development.",
             "descHomeDev": "Portfolio of Rick Reis focused on technology and web systems, including system support, maintenance, problem analysis, and technical projects.",
             "descHomeAudiovisual": "Portfolio of Rick Reis in the audiovisual field, focusing on video editing, visual identity, and creative projects for digital environments."
         },
@@ -13,8 +13,8 @@
             "lngBtnTitle": "Ver em Português brasileiro"
         },
         "header": {
-            "headerOptionDev": "Technology & Systems",
-            "headerOptionAudiovisual": "Audiovisual",
+            "headerOptionDev": "Technology",
+            "headerOptionAudiovisual": "Check out my work",
             "sobre": "About",
             "habilidades": "Skills",
             "projetos": "Projects",
@@ -24,24 +24,24 @@
             "footerLabel": "Developed by"
         },
         "intro": {
-            "introLabel": "System Support Analyst & Audiovisual Creator",
+            "introLabel": "Video Editor & Audiovisual Creator",
             "introLabelDev": "Technology & Systems",
             "introLabelAudiovisual": "Audiovisual Creator",
-            "introDesc": "Technology, support, and creativity applied to digital projects",
+            "introDesc": "Creativity, video editing, and technology applied to digital projects",
             "introDescDev": "Technical solutions, web systems and technology support.",
             "introDescAudiovisual": "Passionate about creativity and art",
-            "resumoDesc1": "I am a technology professional with a degree in Systems Analysis and Development and experience in system support, problem-solving, and technical support. Throughout my career, I have worked in diverse environments, dealing with web systems, error analysis, solution maintenance, and collaboration with multidisciplinary teams.",
-            "resumoDesc2": "In parallel, I develop projects in the audiovisual field, focusing on video editing and visual identity for digital projects. This combination of technology and creativity allows me to communicate ideas clearly, structure solutions, and build experiences that combine functionality and aesthetics.",
-            "resumoDesc3": "On this website, you will find my experiences organized by area, reflecting a versatile, technical, and problem-solving-oriented profile.",
+            "resumoDesc1": "I am a video editor and audiovisual creator with a degree in Systems Analysis and Development and knowledge in technology. My background combines technical thinking with creative expression to develop digital projects with structure, clarity, and attention to detail.",
+            "resumoDesc2": "I develop projects in the audiovisual field focusing on video editing, visual identity, and digital content. This combination of creativity and technology allows me to structure ideas, tell visual stories, and create experiences that balance aesthetics and communication.",
+            "resumoDesc3": "On this website, you will find my projects and experiences, reflecting a creative, technical, and visually driven profile.",
             "resumoDescDev1": "With experience in professional, academic, and personal projects, I work with technology applied to web systems, application maintenance, and technical support. I have a foundation in HTML, CSS, JavaScript, React, Next.js, PHP, and SQL, focusing on reading, maintaining, and evolving existing systems.",
             "resumoDescDev2": "Throughout my professional career, I have contributed to the maintenance and evolution of systems used by a large number of users, supporting the stability, efficiency, and quality of services. I highlight my ability to solve problems, learn quickly, and collaborate with multidisciplinary teams, always balancing technical quality and delivery deadlines.",
-            "resumoDescAudiovisual1": "I have experience in video editing, creating motion graphics, vignettes, and visual elements using tools like Premiere, Photoshop, Figma and Cinema 4D, applying creativity and technique to transform ideas into engaging content.",
+            "resumoDescAudiovisual1": "I have experience in video editing, motion graphics, title sequences, and visual elements using tools such as Premiere, Photoshop, Figma and Cinema 4D, applying creativity and technique to transform ideas into engaging visual content.",
             "resumoBtnSobreLabel": "Learn more about me",
             "resumoBtnSobreLabelDev": "Technical experience",
             "resumoBtnProjetosLabel": "Check out my projects",
-            "resumoBtnSobreDevLabel": "Technology & Systems",
+            "resumoBtnSobreDevLabel": "My experience in technology",
             "resumoBtnProjetosLabelDev": "Technology projects",
-            "resumoBtnSobreAudiovisualLabel": "Audiovisual",
+            "resumoBtnSobreAudiovisualLabel": "Check out my work",
             "devTags": {
                 "support": "Support",
                 "troubleshooting": "Troubleshooting",

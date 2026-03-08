@@ -53,7 +53,7 @@ const TypingIntro: React.FC<TypingIntroProps> = ({ typingText: fullText, content
           </div>
         )}
 
-        <h5 className={`fade-in ${isTypingComplete ? "visible" : ""}`}>
+        <h5 className={`desc-text fade-in ${isTypingComplete ? "visible" : ""}`}>
           {content}
         </h5>
       </div>
