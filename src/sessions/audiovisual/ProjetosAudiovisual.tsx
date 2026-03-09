@@ -11,6 +11,7 @@ import showreel from "../../assets/imagens/showreel.png";
 import gemeos from "../../assets/imagens/gemeos.jpg";
 import cravinhosNatal from "../../assets/imagens/cravinhosNatal.png";
 import introAP from "../../assets/imagens/introAP.png";
+import mulheresFibra from "../../assets/imagens/mulheresDeFibrajpg.jpg";
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
@@ -27,10 +28,10 @@ const ProjetosAudiovisual = () => {
                     imagem={showreel}
                     videoUrl="https://www.youtube.com/watch?v=1ihE3BB1YWg"
                     titulo={t(
-                        "projects.rickReisReel.title"
+                        "projects.rickReisReel.title",
                     )}
                     descricao={t(
-                        "projects.rickReisReel.description"
+                        "projects.rickReisReel.description",
                     )}
                     tecnologias={
                         "Showreel" +
@@ -51,11 +52,32 @@ const ProjetosAudiovisual = () => {
 
             <div className="projetos" id="projetos">
                 <BoxProjetoAudiovisual
+                    imagem={mulheresFibra}
+                    videoUrl="https://www.youtube.com/watch?v=LVmWN4tQHqo"
+                    titulo={t(
+                        "projects.mulheresNicnet.title",
+                    )}
+                    descricao={t(
+                        "projects.mulheresNicnet.description",
+                    )}
+                    tecnologias={
+                        t("projects.tags.videoEditing") +
+                        " - " +
+                        "Motion Graphics" +
+                        " - " +
+                        "Adobe Premiere" +
+                        " - " +
+                        "Adobe After Effects"
+                    }
+                    isVideoVertical={false}
+                />
+
+                <BoxProjetoAudiovisual
                     imagem={rio}
                     videoUrl="https://www.youtube.com/watch?v=LsOkxqUQFsg"
                     titulo={t("projects.rio2025.title")}
                     descricao={t(
-                        "projects.rio2025.description"
+                        "projects.rio2025.description",
                     )}
                     tecnologias={
                         t("projects.tags.travelVlog") +
@@ -68,13 +90,34 @@ const ProjetosAudiovisual = () => {
                 />
 
                 <BoxProjetoAudiovisual
+                    imagem={introAP}
+                    videoUrl={
+                        "https://www.youtube.com/watch?v=Ots8SDvPsc8"
+                    }
+                    titulo={t("projects.introAP.title")}
+                    descricao={t(
+                        "projects.introAP.description",
+                    )}
+                    tecnologias={
+                        t("projects.tags.intro") +
+                        " - " +
+                        t("projects.tags.motionGraphics") +
+                        " - " +
+                        t("projects.tags.videoEditing") +
+                        " - " +
+                        "Kdenlive"
+                    }
+                    isVideoVertical={false}
+                />
+
+                <BoxProjetoAudiovisual
                     imagem={gemeos}
                     videoUrl={normalizeYoutubeUrl(
-                        "https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt"
+                        "https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt",
                     )}
                     titulo={t("projects.gemeos2025.title")}
                     descricao={t(
-                        "projects.gemeos2025.description"
+                        "projects.gemeos2025.description",
                     )}
                     tecnologias={
                         t("projects.tags.videoEditing") +
@@ -94,10 +137,10 @@ const ProjetosAudiovisual = () => {
                     imagem={seashore}
                     videoUrl="https://www.youtube.com/watch?v=yEevkBzwt8c"
                     titulo={t(
-                        "projects.vlogSeashore.title"
+                        "projects.vlogSeashore.title",
                     )}
                     descricao={t(
-                        "projects.vlogSeashore.description"
+                        "projects.vlogSeashore.description",
                     )}
                     tecnologias={
                         t("projects.tags.travelVlog") +
@@ -110,36 +153,15 @@ const ProjetosAudiovisual = () => {
                 />
 
                 <BoxProjetoAudiovisual
-                    imagem={introAP}
-                    videoUrl={
-                        "https://www.youtube.com/watch?v=Ots8SDvPsc8"
-                    }
-                    titulo={t("projects.introAP.title")}
-                    descricao={t(
-                        "projects.introAP.description"
-                    )}
-                    tecnologias={
-                        t("projects.tags.intro") +
-                        " - " +
-                        t("projects.tags.motionGraphics") +
-                        " - " +
-                        t("projects.tags.videoEditing") +
-                        " - " +
-                        "Kdenlive"
-                    }
-                    isVideoVertical={false}
-                />
-
-                <BoxProjetoAudiovisual
                     imagem={cravinhosNatal}
                     videoUrl={
                         "https://youtube.com/shorts/zP-0ken1cqg?si=QmYclXZq3WlwbVrY"
                     }
                     titulo={t(
-                        "projects.natalCravinhos2025.title"
+                        "projects.natalCravinhos2025.title",
                     )}
                     descricao={t(
-                        "projects.natalCravinhos2025.description"
+                        "projects.natalCravinhos2025.description",
                     )}
                     tecnologias={
                         t("projects.tags.videoEditing") +
@@ -159,10 +181,10 @@ const ProjetosAudiovisual = () => {
                     imagem={titanic}
                     videoUrl="https://www.youtube.com/watch?v=rQaELZsSNr0"
                     titulo={t(
-                        "projects.titanicAnimation.title"
+                        "projects.titanicAnimation.title",
                     )}
                     descricao={t(
-                        "projects.titanicAnimation.description"
+                        "projects.titanicAnimation.description",
                     )}
                     tecnologias={
                         t("projects.tags.animation") +

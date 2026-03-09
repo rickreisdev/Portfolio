@@ -26,6 +26,7 @@ import photoshop from "../assets/SVGs/photoshop.svg";
 import c4d from "../assets/SVGs/C4D.svg";
 import figma from "../assets/SVGs/Figma.svg";
 import capcut from "../assets/imagens/Capcut-icon.png";
+import afterEffects from "../assets/imagens/after-effects.png"
 
 const Tecnologias = () => {
     const location = useLocation();
@@ -173,6 +174,13 @@ const Tecnologias = () => {
                         className="btn2"
                         iconUrl={c4d}
                         nome="Cinema 4D"
+                    />
+
+                    <HabilidadeCard
+                        id="AfterEffects"
+                        className="btn2"
+                        iconUrl={afterEffects}
+                        nome="Adobe After Effects"
                     />
 
                     <HabilidadeCard

@@ -59,6 +59,12 @@
             text-decoration: none;
             overflow: hidden;
 
+            @media screen and (min-width: 1085px) {
+                min-width: 250px;
+                height: 55px;
+                padding: 0 3rem;
+            }
+
             i {
                 display: flex;
                 font-size: 3.6rem;
@@ -291,7 +297,8 @@
                 color: $verde-principal;
                 pointer-events: none;
                 text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-                transition: transform 0.2s ease,
+                transition:
+                    transform 0.2s ease,
                     opacity 0.2s ease;
 
                 &:hover {
