@@ -12,6 +12,7 @@ import gemeos from "../../assets/imagens/gemeos.jpg";
 import cravinhosNatal from "../../assets/imagens/cravinhosNatal.png";
 import introAP from "../../assets/imagens/introAP.png";
 import mulheresFibra from "../../assets/imagens/mulheresDeFibrajpg.jpg";
+import ibiLogo from "../../assets/imagens/ibi.png";
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
@@ -68,6 +69,23 @@ const ProjetosAudiovisual = () => {
                         "Adobe Premiere" +
                         " - " +
                         "Adobe After Effects"
+                    }
+                    isVideoVertical={false}
+                />
+
+                <BoxProjetoAudiovisual
+                    imagem={ibiLogo}
+                    videoUrl="https://www.youtube.com/watch?v=lATSMNC58as"
+                    titulo={t("projects.ibiLogo.title")}
+                    descricao={t(
+                        "projects.ibiLogo.description",
+                    )}
+                    tecnologias={
+                        "Motion Graphics" +
+                        " - " +
+                        "Adobe After Effects" +
+                        " - " +
+                        "Logo Reveal"
                     }
                     isVideoVertical={false}
                 />

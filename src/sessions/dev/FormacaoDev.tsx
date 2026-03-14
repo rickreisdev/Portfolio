@@ -10,15 +10,6 @@ const FormacaoDev = () => {
             <h2 className="tituloxp">
                 &lt;<span>{t("education.educationTitle")}</span>/&gt;
             </h2>
-
-            <BoxFormacao
-                Icon={FaGraduationCap}
-                titulo={t("education.mbaUSP.label")}
-                nomeCurso={t("education.mbaUSP.course")}
-                data={t("education.mbaUSP.date")}
-                nomeEscola={t("education.mbaUSP.institution")}
-            />
-
             <BoxFormacao
                 Icon={FaGraduationCap}
                 titulo={t("education.fatec.label")}

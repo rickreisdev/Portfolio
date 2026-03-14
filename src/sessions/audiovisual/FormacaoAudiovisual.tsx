@@ -22,14 +22,6 @@ const FormacaoAudiovisual = () => {
 
             <BoxFormacao
                 Icon={FaGraduationCap}
-                titulo={t("education.mbaUSP.label")}
-                nomeCurso={t("education.mbaUSP.course")}
-                data={t("education.mbaUSP.date")}
-                nomeEscola={t("education.mbaUSP.institution")}
-            />
-
-            <BoxFormacao
-                Icon={FaGraduationCap}
                 titulo={t("education.fatec.label")}
                 nomeCurso={t("education.fatec.course")}
                 data={t("education.fatec.date")}
