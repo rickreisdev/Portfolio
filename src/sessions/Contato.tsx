@@ -7,11 +7,12 @@ import {
     FaInstagram,
     FaWhatsapp,
     FaYoutube,
+    FaBehance,
 } from "react-icons/fa";
 import ContactForm from "../components/ContactForm";
 import { useLocation } from "react-router-dom";
 
-type RouteContext = |"home" | "dev" | "audiovisual";
+type RouteContext = "home" | "dev" | "audiovisual";
 
 type SocialLink = {
     id: string;
@@ -31,8 +32,8 @@ const Contato = () => {
     const whatsappMessage = pathname.startsWith("/dev")
         ? t("contact.whatsappMessage.default")
         : pathname.startsWith("/audiovisual")
-        ? t("contact.whatsappMessage.audiovisual")
-        : t("contact.whatsappMessage.default");
+          ? t("contact.whatsappMessage.audiovisual")
+          : t("contact.whatsappMessage.default");
 
     const encodedMessage =
         encodeURIComponent(whatsappMessage);
@@ -68,7 +69,7 @@ const Contato = () => {
             url: "https://www.youtube.com/RickReis10/",
             color: "youtube",
             alt: "YouTube",
-            visibleOn: ["audiovisual"],
+            visibleOn: ["home", "audiovisual"],
         },
         {
             id: "github",
@@ -78,15 +79,23 @@ const Contato = () => {
             alt: "GitHub",
             visibleOn: ["dev"],
         },
+        {
+            id: "behance",
+            icon: <FaBehance />,
+            url: "https://www.behance.net/rickreis1",
+            color: "behance",
+            alt: "Behance",
+            visibleOn: ["home", "audiovisual"],
+        },
     ];
 
     const context: RouteContext = pathname.startsWith(
-        "/dev"
+        "/dev",
     )
         ? "dev"
         : pathname.startsWith("/audiovisual")
-        ? "audiovisual"
-        : "home";
+          ? "audiovisual"
+          : "home";
 
     return (
         <div className="contato" id="contato">
@@ -117,8 +126,8 @@ const Contato = () => {
                                 (social) =>
                                     context &&
                                     social.visibleOn.includes(
-                                        context
-                                    )
+                                        context,
+                                    ),
                             )
                             .map((social) => (
                                 <a
