@@ -6,12 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 100px;
+    padding: 50px 100px;
     position: relative;
     min-height: 100vh;
 
     @media (min-width: 768px) {
-        padding: 150px 100px;
+        padding: 40px 100px;
     }
 
     h1 {
@@ -55,6 +55,13 @@
         text-align: center;
         max-width: 800px;
 
+        .logo-cachos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 60%;
+        }
+
         .name-container {
             position: relative;
             margin-bottom: 15px;
@@ -84,7 +91,7 @@
 
             .typing-text {
                 color: $verde-principal;
-                font-size: 1.9rem;
+                font-size: 2.3rem;
                 font-weight: 500;
                 margin: 0;
                 text-transform: uppercase;
@@ -93,7 +100,7 @@
             .typing-cursor {
                 display: none;
                 color: $verde-principal;
-                font-size: 1.9rem;
+                font-size: 2.3rem;
                 font-weight: 500;
                 margin-left: 2px;
 
@@ -107,10 +114,11 @@
             color: $verde-quaternario;
             font-size: 2.2rem;
             font-weight: 500;
-            margin-top: 20px;
+            margin: 0;
             opacity: 0;
             transform: translateY(10px);
-            transition: opacity 0.5s ease,
+            transition:
+                opacity 0.5s ease,
                 transform 0.5s ease;
 
             &.visible {

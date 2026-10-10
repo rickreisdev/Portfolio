@@ -99,77 +99,6 @@ const MobileNavbar: React.FC = () => {
                     <div className="line3"></div>
                 </div>
 
-                {pathname === "/" && (
-                    <ul
-                        className="paginas"
-                        ref={paginasRef}
-                    >
-                        <li>
-                            <a
-                                href="/audiovisual"
-                                id="link-pags"
-                                aria-label="Link para a página de Audiovisual"
-                            >
-                                <span>
-                                    {t(
-                                        "header.headerOptionAudiovisual",
-                                    )}
-                                </span>
-                            </a>
-                        </li>
-
-                        {/* <li>
-                            <a
-                                href="/dev"
-                                id="link-pags"
-                                aria-label="Link para a página de Desenvolvimento"
-                            >
-                                <span>
-                                    {t(
-                                        "header.headerOptionDev",
-                                    )}
-                                </span>
-                            </a>
-                        </li> */}
-
-                        <li>
-                            <a
-                                href="#contato"
-                                id="link-pags"
-                                aria-label="Link para a seção de Contato"
-                            >
-                                <span>
-                                    {t("header.contato")}
-                                </span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <button
-                                type="button"
-                                className="btn-language"
-                                id="link-pags"
-                                onClick={
-                                    handleChangeLanguage
-                                }
-                                title={t(
-                                    "language.lngBtnTitle",
-                                )}
-                                aria-label={t(
-                                    "language.lngBtnTitle",
-                                )}
-                            >
-                                <span>
-                                    {t(
-                                        "language.lngBtnLabel",
-                                    )}{" "}
-                                    <IoLanguage className="icon-language" />
-                                </span>
-                            </button>
-                        </li>
-                    </ul>
-                )}
-
                 {pathname.startsWith("/dev") && (
                     <ul
                         className="paginas"
@@ -251,7 +180,7 @@ const MobileNavbar: React.FC = () => {
                     </ul>
                 )}
 
-                {pathname.startsWith("/audiovisual") && (
+                {pathname.startsWith("/audiovisual") || pathname === '/' && (
                     <ul
                         className="paginas"
                         ref={paginasRef}

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useRef, useState } from "react";
 import Intro from "../../components/Intro";
 import Resumo from "../../components/Resumo";

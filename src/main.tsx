@@ -19,7 +19,7 @@ import "./assets/styles/media-query/query2560px.scss";
 import "./assets/styles/media-query/query1343-1085px.scss";
 import "./assets/styles/media-query/query-1343minpx.scss";
 
-import HomePage from "./sessions/HomePage";
+// import HomePage from "./sessions/HomePage";
 import HomeDev from "./sessions/dev/HomeDev";
 import SobreDev from "./sessions/dev/SobreDev";
 import HabilidadesDev from "./sessions/dev/HabilidadesDev";
@@ -40,7 +40,7 @@ ReactDOM.createRoot(
                     <Route path="/" element={<App />}>
                         <Route
                             index
-                            element={<HomePage />}
+                            element={<HomeAudiovisual />}
                         />
 
                         <Route path="dev">
@@ -62,7 +62,7 @@ ReactDOM.createRoot(
                             />
                         </Route>
 
-                        <Route path="audiovisual">
+                        <Route path="/audiovisual">
                             <Route
                                 index
                                 element={<HomeAudiovisual />}
