@@ -154,6 +154,7 @@
       "youtubeBtnLabel": "Acessar canal no YouTube",
       "videoPlayerLoading": "Carregando...",
       "modalVideoTitle": "Vídeo do projeto",
+      "filterProjects": "Filtrar projetos",
       "tags": {
         "videoEditing": "Edição de Vídeos",
         "animation": "Animação",
@@ -161,6 +162,7 @@
         "intro": "Intro",
         "vinheta": "Vinheta",
         "motionGraphics": "Motion Graphics",
+        "threeDAnimation": "3D Animation",
         "cinematic": "Cinematográfico",
         "birthdayFilm": "Filme de Aniversário",
         "cityFilm": "Filme de Cidade"

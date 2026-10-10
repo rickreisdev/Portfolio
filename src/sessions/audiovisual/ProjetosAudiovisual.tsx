@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 import "../../assets/styles/habilidades-projetos.scss";
@@ -19,6 +19,12 @@ import rib170 from "../../assets/imagens/ribeirao170.jpg";
 import vdnreel from "../../assets/imagens/vdn.jpg";
 import cabonnetlogo from "../../assets/imagens/cabonnet.jpg";
 
+type ProjectFilter =
+    | "all"
+    | "motionGraphics"
+    | "videoEditing"
+    | "threeDAnimation";
+
 interface ProjectData {
     imagem: string;
     videoUrl: string;
@@ -26,212 +32,288 @@ interface ProjectData {
     descricao: string;
     tecnologias: string;
     isVideoVertical: boolean;
+    filtros: Exclude<ProjectFilter, "all">[];
 }
 
 const ProjetosAudiovisual = () => {
     const { t } = useTranslation();
     const [selectedProject, setSelectedProject] =
         useState<ProjectData | null>(null);
+    const [activeFilter, setActiveFilter] =
+        useState<ProjectFilter>("all");
 
-    const projetos: ProjectData[] = [
-        {
-            imagem: vdnreel,
-            videoUrl: "https://www.youtube.com/watch?v=GZpuNkwGRO4",
-            titulo: t("projects.vdnreel.title"),
-            descricao: t("projects.vdnreel.description"),
-            tecnologias:
-                t("projects.tags.videoEditing") +
-                " - " +
-                "Motion Graphics" +
-                " - " +
-                "Adobe Premiere" +
-                " - " +
-                "Adobe After Effects",
-            isVideoVertical: false,
-        },
-        {
-            imagem: cabonnetlogo,
-            videoUrl: "https://www.youtube.com/watch?v=1HG4N6sBueM",
-            titulo: t("projects.cabonnetlogo.title"),
-            descricao: t("projects.cabonnetlogo.description"),
-            tecnologias:
-                "Motion Graphics" +
-                " - " +
-                "Adobe Premiere" +
-                " - " +
-                "Adobe After Effects",
-            isVideoVertical: false,
-        },
-        {
-            imagem: mulheresFibra,
-            videoUrl:
-                "https://www.youtube.com/watch?v=LVmWN4tQHqo",
-            titulo: t("projects.mulheresNicnet.title"),
-            descricao: t(
-                "projects.mulheresNicnet.description",
-            ),
-            tecnologias:
-                t("projects.tags.videoEditing") +
-                " - " +
-                "Motion Graphics" +
-                " - " +
-                "Adobe Premiere" +
-                " - " +
-                "Adobe After Effects",
-            isVideoVertical: false,
-        },
-        {
-            imagem: grupoNicnet,
-            videoUrl:
-                "https://www.youtube.com/watch?v=zQpzY8lM6Zw",
-            titulo: t("projects.grupoNicnet.title"),
-            descricao: t(
-                "projects.grupoNicnet.description",
-            ),
-            tecnologias:
-                "Motion Graphics" +
-                " - " +
-                "Adobe After Effects" +
-                " - " +
-                "Logo Reveal" +
-                " - " +
-                "3D Animation",
-            isVideoVertical: false,
-        },
-        {
-            imagem: ibiLogo,
-            videoUrl:
-                "https://www.youtube.com/watch?v=lATSMNC58as",
-            titulo: t("projects.ibiLogo.title"),
-            descricao: t("projects.ibiLogo.description"),
-            tecnologias:
-                "Motion Graphics" +
-                " - " +
-                "Adobe After Effects" +
-                " - " +
-                "Logo Reveal",
-            isVideoVertical: false,
-        },
-        {
-            imagem: rib170,
-            videoUrl:
-                "https://www.youtube.com/watch?v=sjuzn5re97Y",
-            titulo: t("projects.rib170.title"),
-            descricao: t("projects.rib170.description"),
-            tecnologias:
-                t("projects.tags.videoEditing") +
-                " - " +
-                "Adobe Premiere" +
-                " - " +
-                "Motion Graphics" +
-                " - " +
-                "Adobe After Effects",
-            isVideoVertical: false,
-        },
-        {
-            imagem: rio,
-            videoUrl:
-                "https://www.youtube.com/watch?v=LsOkxqUQFsg",
-            titulo: t("projects.rio2025.title"),
-            descricao: t("projects.rio2025.description"),
-            tecnologias:
-                t("projects.tags.travelVlog") +
-                " - " +
-                t("projects.tags.videoEditing") +
-                " - " +
-                "Adobe Premiere",
-            isVideoVertical: false,
-        },
-        {
-            imagem: introAP,
-            videoUrl:
-                "https://www.youtube.com/watch?v=Ots8SDvPsc8",
-            titulo: t("projects.introAP.title"),
-            descricao: t("projects.introAP.description"),
-            tecnologias:
-                t("projects.tags.intro") +
-                " - " +
-                t("projects.tags.motionGraphics") +
-                " - " +
-                t("projects.tags.videoEditing") +
-                " - " +
-                "Kdenlive",
-            isVideoVertical: false,
-        },
-        {
-            imagem: gemeos,
-            videoUrl: normalizeYoutubeUrl(
-                "https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt",
-            ),
-            titulo: t("projects.gemeos2025.title"),
-            descricao: t("projects.gemeos2025.description"),
-            tecnologias:
-                t("projects.tags.videoEditing") +
-                " - " +
-                t("projects.tags.cinematic") +
-                " - " +
-                t("projects.tags.birthdayFilm") +
-                " - " +
-                "Kdenlive" +
-                " - " +
-                "Microsoft Clipchamp",
-            isVideoVertical: true,
-        },
-        {
-            imagem: seashore,
-            videoUrl:
-                "https://www.youtube.com/watch?v=yEevkBzwt8c",
-            titulo: t("projects.vlogSeashore.title"),
-            descricao: t(
-                "projects.vlogSeashore.description",
-            ),
-            tecnologias:
-                t("projects.tags.travelVlog") +
-                " - " +
-                t("projects.tags.videoEditing") +
-                " - " +
-                "HitFilm Express",
-            isVideoVertical: false,
-        },
-        {
-            imagem: cravinhosNatal,
-            videoUrl:
-                "https://youtube.com/shorts/zP-0ken1cqg?si=QmYclXZq3WlwbVrY",
-            titulo: t("projects.natalCravinhos2025.title"),
-            descricao: t(
-                "projects.natalCravinhos2025.description",
-            ),
-            tecnologias:
-                t("projects.tags.videoEditing") +
-                " - " +
-                t("projects.tags.cinematic") +
-                " - " +
-                t("projects.tags.cityFilm") +
-                " - " +
-                "Kdenlive" +
-                " - " +
-                "Microsoft Clipchamp",
-            isVideoVertical: true,
-        },
-        {
-            imagem: titanic,
-            videoUrl:
-                "https://www.youtube.com/watch?v=rQaELZsSNr0",
-            titulo: t("projects.titanicAnimation.title"),
-            descricao: t(
-                "projects.titanicAnimation.description",
-            ),
-            tecnologias:
-                t("projects.tags.animation") +
-                " - " +
-                t("projects.tags.videoEditing") +
-                " - " +
-                "Cinema 4D" +
-                " - " +
-                "Adobe Premiere",
-            isVideoVertical: false,
-        },
-    ];
+    const filterOptions = useMemo<
+        Array<{ key: ProjectFilter; label: string }>
+    >(
+        () => [
+            {
+                key: "all",
+                label: t("projects.allProjects"),
+            },
+            {
+                key: "motionGraphics",
+                label: t("projects.tags.motionGraphics"),
+            },
+            {
+                key: "videoEditing",
+                label: t("projects.tags.videoEditing"),
+            },
+            {
+                key: "threeDAnimation",
+                label: t("projects.tags.threeDAnimation"),
+            },
+        ],
+        [t],
+    );
+
+    const projetos: ProjectData[] = useMemo(
+        () => [
+            {
+                imagem: vdnreel,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=GZpuNkwGRO4",
+                titulo: t("projects.vdnreel.title"),
+                descricao: t(
+                    "projects.vdnreel.description",
+                ),
+                tecnologias:
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    t("projects.tags.motionGraphics") +
+                    " - " +
+                    "Adobe Premiere" +
+                    " - " +
+                    "Adobe After Effects",
+                isVideoVertical: false,
+                filtros: ["videoEditing", "motionGraphics"],
+            },
+            {
+                imagem: cabonnetlogo,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=1HG4N6sBueM",
+                titulo: t("projects.cabonnetlogo.title"),
+                descricao: t(
+                    "projects.cabonnetlogo.description",
+                ),
+                tecnologias:
+                    t("projects.tags.motionGraphics") +
+                    " - " +
+                    "Adobe Premiere" +
+                    " - " +
+                    "Adobe After Effects",
+                isVideoVertical: false,
+                filtros: ["motionGraphics"],
+            },
+            {
+                imagem: mulheresFibra,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=LVmWN4tQHqo",
+                titulo: t("projects.mulheresNicnet.title"),
+                descricao: t(
+                    "projects.mulheresNicnet.description",
+                ),
+                tecnologias:
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    t("projects.tags.motionGraphics") +
+                    " - " +
+                    "Adobe Premiere" +
+                    " - " +
+                    "Adobe After Effects",
+                isVideoVertical: false,
+                filtros: ["videoEditing", "motionGraphics"],
+            },
+            {
+                imagem: grupoNicnet,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=zQpzY8lM6Zw",
+                titulo: t("projects.grupoNicnet.title"),
+                descricao: t(
+                    "projects.grupoNicnet.description",
+                ),
+                tecnologias:
+                    t("projects.tags.motionGraphics") +
+                    " - " +
+                    "Adobe After Effects" +
+                    " - " +
+                    "Logo Reveal" +
+                    " - " +
+                    t("projects.tags.threeDAnimation"),
+                isVideoVertical: false,
+                filtros: [
+                    "motionGraphics",
+                    "threeDAnimation",
+                ],
+            },
+            {
+                imagem: ibiLogo,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=lATSMNC58as",
+                titulo: t("projects.ibiLogo.title"),
+                descricao: t(
+                    "projects.ibiLogo.description",
+                ),
+                tecnologias:
+                    t("projects.tags.motionGraphics") +
+                    " - " +
+                    "Adobe After Effects" +
+                    " - " +
+                    "Logo Reveal",
+                isVideoVertical: false,
+                filtros: ["motionGraphics"],
+            },
+            {
+                imagem: rib170,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=sjuzn5re97Y",
+                titulo: t("projects.rib170.title"),
+                descricao: t("projects.rib170.description"),
+                tecnologias:
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    "Adobe Premiere" +
+                    " - " +
+                    t("projects.tags.motionGraphics") +
+                    " - " +
+                    "Adobe After Effects",
+                isVideoVertical: false,
+                filtros: ["videoEditing", "motionGraphics"],
+            },
+            {
+                imagem: rio,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=LsOkxqUQFsg",
+                titulo: t("projects.rio2025.title"),
+                descricao: t(
+                    "projects.rio2025.description",
+                ),
+                tecnologias:
+                    t("projects.tags.travelVlog") +
+                    " - " +
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    "Adobe Premiere",
+                isVideoVertical: false,
+                filtros: ["videoEditing"],
+            },
+            {
+                imagem: introAP,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=Ots8SDvPsc8",
+                titulo: t("projects.introAP.title"),
+                descricao: t(
+                    "projects.introAP.description",
+                ),
+                tecnologias:
+                    t("projects.tags.intro") +
+                    " - " +
+                    t("projects.tags.motionGraphics") +
+                    " - " +
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    "Kdenlive",
+                isVideoVertical: false,
+                filtros: ["motionGraphics", "videoEditing"],
+            },
+            {
+                imagem: gemeos,
+                videoUrl: normalizeYoutubeUrl(
+                    "https://youtube.com/shorts/04lpdQqdJcA?si=lqvXdOEwJEGm3PEt",
+                ),
+                titulo: t("projects.gemeos2025.title"),
+                descricao: t(
+                    "projects.gemeos2025.description",
+                ),
+                tecnologias:
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    t("projects.tags.cinematic") +
+                    " - " +
+                    t("projects.tags.birthdayFilm") +
+                    " - " +
+                    "Kdenlive" +
+                    " - " +
+                    "Microsoft Clipchamp",
+                isVideoVertical: true,
+                filtros: ["videoEditing"],
+            },
+            {
+                imagem: seashore,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=yEevkBzwt8c",
+                titulo: t("projects.vlogSeashore.title"),
+                descricao: t(
+                    "projects.vlogSeashore.description",
+                ),
+                tecnologias:
+                    t("projects.tags.travelVlog") +
+                    " - " +
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    "HitFilm Express",
+                isVideoVertical: false,
+                filtros: ["videoEditing"],
+            },
+            {
+                imagem: cravinhosNatal,
+                videoUrl:
+                    "https://youtube.com/shorts/zP-0ken1cqg?si=QmYclXZq3WlwbVrY",
+                titulo: t(
+                    "projects.natalCravinhos2025.title",
+                ),
+                descricao: t(
+                    "projects.natalCravinhos2025.description",
+                ),
+                tecnologias:
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    t("projects.tags.cinematic") +
+                    " - " +
+                    t("projects.tags.cityFilm") +
+                    " - " +
+                    "Kdenlive" +
+                    " - " +
+                    "Microsoft Clipchamp",
+                isVideoVertical: true,
+                filtros: ["videoEditing"],
+            },
+            {
+                imagem: titanic,
+                videoUrl:
+                    "https://www.youtube.com/watch?v=rQaELZsSNr0",
+                titulo: t(
+                    "projects.titanicAnimation.title",
+                ),
+                descricao: t(
+                    "projects.titanicAnimation.description",
+                ),
+                tecnologias:
+                    t("projects.tags.animation") +
+                    " - " +
+                    t("projects.tags.videoEditing") +
+                    " - " +
+                    "Cinema 4D" +
+                    " - " +
+                    "Adobe Premiere",
+                isVideoVertical: false,
+                filtros: [
+                    "threeDAnimation",
+                    "videoEditing",
+                ],
+            },
+        ],
+        [t],
+    );
+
+    const filteredProjetos = useMemo(() => {
+        if (activeFilter === "all") {
+            return projetos;
+        }
+
+        return projetos.filter((projeto) =>
+            projeto.filtros.includes(activeFilter),
+        );
+    }, [activeFilter, projetos]);
 
     return (
         <div className="meus-projetos" id="meus-projetos">
@@ -266,13 +348,30 @@ const ProjetosAudiovisual = () => {
                 />
             </div>
 
+            <div
+                className="project-filters"
+                aria-label={t("projects.filterProjects")}
+            >
+                {filterOptions.map(({ key, label }) => (
+                    <button
+                        key={key}
+                        type="button"
+                        aria-pressed={activeFilter === key}
+                        className={`project-filter-btn ${activeFilter === key ? "is-active" : ""}`}
+                        onClick={() => setActiveFilter(key)}
+                    >
+                        {label}
+                    </button>
+                ))}
+            </div>
+
             <h3>{t("projects.allProjects")}</h3>
 
             <div className="project-grid" id="projetos">
-                {projetos.map((projeto, index) => (
+                {filteredProjetos.map((projeto, index) => (
                     <button
                         type="button"
-                        key={index}
+                        key={`${projeto.titulo}-${index}`}
                         className="project-grid-item"
                         onClick={() =>
                             setSelectedProject(projeto)
