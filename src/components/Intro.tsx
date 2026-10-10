@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "../assets/styles/intro-sobre.scss";
+import LogoCachos from "./LogoCachos";
 
 interface TypingIntroProps {
   typingText?: string;
@@ -34,6 +35,7 @@ const TypingIntro: React.FC<TypingIntroProps> = ({ typingText: fullText, content
   return (
     <div className="intro" id="intro">
       <div className="saudacao">
+        <LogoCachos />
         <div className="name-container">
           <h1>
             Rick{" "}
