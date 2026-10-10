@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/styles/intro-sobre.scss";
 
 const LogoCachos = () => {
