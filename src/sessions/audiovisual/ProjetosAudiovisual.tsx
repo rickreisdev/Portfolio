@@ -17,6 +17,7 @@ import ibiLogo from "../../assets/imagens/ibi.png";
 import grupoNicnet from "../../assets/imagens/grupoNicnet.jpg";
 import rib170 from "../../assets/imagens/ribeirao170.jpg";
 import vdnreel from "../../assets/imagens/vdn.jpg";
+import cabonnetlogo from "../../assets/imagens/cabonnet.jpg";
 
 interface ProjectData {
     imagem: string;
@@ -35,15 +36,25 @@ const ProjetosAudiovisual = () => {
     const projetos: ProjectData[] = [
         {
             imagem: vdnreel,
-            videoUrl:
-                "https://youtu.be/GZpuNkwGRO4",
+            videoUrl: "https://www.youtube.com/watch?v=GZpuNkwGRO4",
             titulo: t("projects.vdnreel.title"),
-            descricao: t(
-                "projects.vdnreel.description",
-            ),
+            descricao: t("projects.vdnreel.description"),
             tecnologias:
                 t("projects.tags.videoEditing") +
                 " - " +
+                "Motion Graphics" +
+                " - " +
+                "Adobe Premiere" +
+                " - " +
+                "Adobe After Effects",
+            isVideoVertical: false,
+        },
+        {
+            imagem: cabonnetlogo,
+            videoUrl: "https://www.youtube.com/watch?v=1HG4N6sBueM",
+            titulo: t("projects.cabonnetlogo.title"),
+            descricao: t("projects.cabonnetlogo.description"),
+            tecnologias:
                 "Motion Graphics" +
                 " - " +
                 "Adobe Premiere" +

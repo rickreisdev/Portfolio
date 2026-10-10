@@ -268,6 +268,10 @@
       "vdnreel": {
         "title": "Vai de Nicnet! - Motion Reel",
         "description": "Reel que reúne as principais peças de motion graphics feitas para a campanha 'Vai de Nicnet!' da Nicnet."
+      },
+      "cabonnetlogo": {
+        "title": "Cabonnet Logo Reveal",
+        "description": "Motion graphics de logo reveal para a Cabonnet."
       }
     },
     "contact": {
