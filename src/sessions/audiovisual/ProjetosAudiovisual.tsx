@@ -15,7 +15,8 @@ import introAP from "../../assets/imagens/introAP.png";
 import mulheresFibra from "../../assets/imagens/mulheresDeFibrajpg.jpg";
 import ibiLogo from "../../assets/imagens/ibi.png";
 import grupoNicnet from "../../assets/imagens/grupoNicnet.jpg";
-import rib170 from "../../assets/imagens/ribeirao170.jpg"
+import rib170 from "../../assets/imagens/ribeirao170.jpg";
+import vdnreel from "../../assets/imagens/vdn.jpg";
 
 interface ProjectData {
     imagem: string;
@@ -32,6 +33,24 @@ const ProjetosAudiovisual = () => {
         useState<ProjectData | null>(null);
 
     const projetos: ProjectData[] = [
+        {
+            imagem: vdnreel,
+            videoUrl:
+                "https://youtu.be/GZpuNkwGRO4",
+            titulo: t("projects.vdnreel.title"),
+            descricao: t(
+                "projects.vdnreel.description",
+            ),
+            tecnologias:
+                t("projects.tags.videoEditing") +
+                " - " +
+                "Motion Graphics" +
+                " - " +
+                "Adobe Premiere" +
+                " - " +
+                "Adobe After Effects",
+            isVideoVertical: false,
+        },
         {
             imagem: mulheresFibra,
             videoUrl:
