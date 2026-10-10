@@ -1,9 +1,9 @@
 {
     "translation": {
         "metadata": {
-            "tituloHome": "Rick Reis | Video Editor and Audiovisual Creator",
+            "tituloHome": "Rick Reis | Video Editor & Motion Designer",
             "tituloHomeDev": "Rick Reis | Technology & Systems",
-            "tituloHomeAudiovisual": "Rick Reis | Video Editor and Audiovisual Creator",
+            "tituloHomeAudiovisual": "Rick Reis | Video Editor & Motion Designer",
             "descHome": "Portfolio of Rick Reis focused on video editing and audiovisual projects for digital platforms. Also has knowledge in technology and system development.",
             "descHomeDev": "Portfolio of Rick Reis focused on technology and web systems, including system support, maintenance, problem analysis, and technical projects.",
             "descHomeAudiovisual": "Portfolio of Rick Reis in the audiovisual field, focusing on video editing, visual identity, and creative projects for digital environments."
@@ -24,18 +24,18 @@
             "footerLabel": "Developed by"
         },
         "intro": {
-            "introLabel": "Video Editor & Audiovisual Creator",
+            "introLabel": "Video Editor & Motion Designer",
             "introLabelDev": "Technology & Systems",
-            "introLabelAudiovisual": "Audiovisual Creator",
+            "introLabelAudiovisual": "Video Editor & Motion Designer",
             "introDesc": "Creativity, video editing, and technology applied to digital projects",
             "introDescDev": "Technical solutions, web systems and technology support.",
             "introDescAudiovisual": "Passionate about creativity and art",
-            "resumoDesc1": "I am a video editor and audiovisual creator with a degree in Systems Analysis and Development and knowledge in technology. My background combines technical thinking with creative expression to develop digital projects with structure, clarity, and attention to detail.",
+            "resumoDesc1": "I am a video editor and motion designer with a degree in Systems Analysis and Development and knowledge in technology. My background combines technical thinking with creative expression to develop digital projects with structure, clarity, and attention to detail.",
             "resumoDesc2": "I develop projects in the audiovisual field focusing on video editing, visual identity, and digital content. This combination of creativity and technology allows me to structure ideas, tell visual stories, and create experiences that balance aesthetics and communication.",
             "resumoDesc3": "On this website, you will find my projects and experiences, reflecting a creative, technical, and visually driven profile.",
             "resumoDescDev1": "With experience in professional, academic, and personal projects, I work with technology applied to web systems, application maintenance, and technical support. I have a foundation in HTML, CSS, JavaScript, React, Next.js, PHP, and SQL, focusing on reading, maintaining, and evolving existing systems.",
             "resumoDescDev2": "Throughout my professional career, I have contributed to the maintenance and evolution of systems used by a large number of users, supporting the stability, efficiency, and quality of services. I highlight my ability to solve problems, learn quickly, and collaborate with multidisciplinary teams, always balancing technical quality and delivery deadlines.",
-            "resumoDescAudiovisual1": "I have experience in video editing, motion graphics, title sequences, and visual elements using tools such as Premiere, Photoshop, Figma and Cinema 4D, applying creativity and technique to transform ideas into engaging visual content.",
+            "resumoDescAudiovisual1": "I have experience in video editing, motion graphics, title sequences, and visual elements using tools such as Premiere, Photoshop, After Effects, Figma and Cinema 4D, applying creativity and technique to transform ideas into engaging visual content.",
             "resumoBtnSobreLabel": "Learn more about me",
             "resumoBtnSobreLabelDev": "Technical experience",
             "resumoBtnProjetosLabel": "Check out my projects",
@@ -102,7 +102,7 @@
                 "description": "Development of motion graphics and animations for personal projects, academic work, and collaborations, applying principles of rhythm, movement, and visual storytelling. 3D object modeling and animation using Cinema 4D, with a focus on composition and motion. Integration of visual elements and effects into YouTube edits, with attention to synchronization between image and music. Production of motion design studies and recreation of stingers, applying editing techniques and visual identity concepts inspired by professional productions."
             },
             "nicnet": {
-                "title": "Jr. Marketing Assistant / Video Editor & Motion Designer",
+                "title": "Video Editor & Motion Designer",
                 "date": "February 2026 - Present",
                 "description": "Responsible for the production and editing of institutional, advertising, and internal communication videos. Manage the full video workflow, including planning, footage organization, editing, visual adjustments, and final delivery aligned with the company’s branding and marketing strategy. Support digital campaigns by creating engaging audiovisual content tailored for multiple platforms."
             }

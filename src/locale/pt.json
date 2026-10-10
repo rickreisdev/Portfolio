@@ -1,9 +1,9 @@
 {
   "translation": {
     "metadata": {
-      "tituloHome": "Rick Reis | Editor de Vídeo e Criador Audiovisual",
+      "tituloHome": "Rick Reis | Editor de Vídeo e Motion Designer",
       "tituloHomeDev": "Rick Reis | Tecnologia e Sistemas",
-      "tituloHomeAudiovisual": "Rick Reis | Editor de Vídeo e Criador Audiovisual",
+      "tituloHomeAudiovisual": "Rick Reis | Editor de Vídeo e Motion Designer",
       "descHome": "Portfólio de Rick Reis com foco em edição de vídeo e projetos audiovisuais para ambientes digitais. Possui conhecimento em tecnologia e desenvolvimento de sistemas.",
       "descHomeDev": "Portfólio de Rick Reis com foco em tecnologia e sistemas web, incluindo suporte a sistemas, manutenção, análise de problemas e projetos técnicos.",
       "descHomeAudiovisual": "Portfólio de Rick Reis na área audiovisual, com foco em edição de vídeo, identidade visual e projetos criativos para ambientes digitais."
@@ -24,18 +24,18 @@
       "footerLabel": "Desenvolvido por"
     },
     "intro": {
-      "introLabel": "Editor de Vídeo e Criador Audiovisual",
+      "introLabel": "Editor de Vídeo e Motion Designer",
       "introLabelDev": "Tecnologia e Sistemas",
-      "introLabelAudiovisual": "Criador Audiovisual",
+      "introLabelAudiovisual": "Editor de Vídeo & Motion Designer",
       "introDesc": "Criatividade, edição de vídeo e tecnologia aplicadas a projetos digitais",
       "introDescDev": "Soluções técnicas, sistemas web e suporte tecnológico",
       "introDescAudiovisual": "Apaixonado por criatividade e arte",
-      "resumoDesc1": "Sou editor de vídeo e criador audiovisual com formação em Análise e Desenvolvimento de Sistemas e conhecimento em tecnologia. Minha trajetória une pensamento técnico e sensibilidade criativa para desenvolver projetos digitais com organização, clareza e atenção aos detalhes.",
+      "resumoDesc1": "Sou editor de vídeo e motion designer com formação em Análise e Desenvolvimento de Sistemas e conhecimento em tecnologia. Minha trajetória une pensamento técnico e sensibilidade criativa para desenvolver projetos digitais com organização, clareza e atenção aos detalhes.",
       "resumoDesc2": "Desenvolvo projetos na área de audiovisual com foco em edição de vídeo, identidade visual e conteúdo para ambientes digitais. A combinação entre criatividade e conhecimento tecnológico me permite estruturar ideias, contar histórias visuais e criar experiências que unem estética e comunicação.",
       "resumoDesc3": "Neste site você encontra meus projetos e experiências, refletindo um perfil criativo, técnico e orientado à construção de conteúdos visuais impactantes.",
       "resumoDescDev1": "Com experiência em projetos profissionais, acadêmicos e pessoais, atuo com tecnologia aplicada a sistemas web, manutenção de aplicações e suporte técnico. Possuo base em HTML, CSS, JavaScript, React, Next.js, PHP e SQL, com foco na leitura, manutenção e evolução de sistemas existentes.",
       "resumoDescDev2": "Ao longo da minha trajetória profissional, contribuí para a sustentação e evolução de sistemas utilizados por um grande volume de usuários, apoiando a estabilidade, eficiência e qualidade dos serviços. Destaco minha capacidade de resolver problemas, aprender rapidamente e colaborar com equipes multidisciplinares, sempre equilibrando qualidade técnica e prazos de entrega.",
-      "resumoDescAudiovisual1": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, Figma e Cinema 4D para transformar ideias em conteúdos visuais envolventes.",
+      "resumoDescAudiovisual1": "Tenho experiência em edição de vídeos, criação de motion graphics, vinhetas e elementos visuais, utilizando ferramentas como Premiere, Photoshop, After Effects, Figma e Cinema 4D para transformar ideias em conteúdos visuais envolventes.",
       "resumoBtnSobreLabel": "Conheça mais sobre mim",
       "resumoBtnSobreLabelDev": "Experiência técnica",
       "resumoBtnProjetosLabel": "Confira os meus projetos",
@@ -102,7 +102,7 @@
         "description": "Desenvolvimento de motion graphics e animações para vídeos autorais, projetos acadêmicos e colaborações, aplicando princípios de ritmo, movimento e narrativa visual. Atuação em modelagem e animação de objetos em Cinema 4D, com foco em composição e movimento. Integração de elementos visuais e efeitos em edições para YouTube, com atenção ao sincronismo entre imagem e música. Produção de estudos de motion design e recriação de vinhetas, aplicando técnicas de edição e identidade visual inspiradas em produções profissionais."
       },
       "nicnet": {
-        "title": "Assistente de Marketing Jr / Editor de Vídeo & Motion Designer",
+        "title": "Editor de Vídeo & Motion Designer",
         "date": "Fevereiro 2026 - Atual",
         "description": "Responsável pela produção e edição de vídeos institucionais, publicitários e de comunicação interna da empresa. Atuo em todo o fluxo de criação, incluindo planejamento, organização de material bruto, edição, ajustes visuais e entrega final alinhada à identidade da marca e às estratégias de marketing. Apoio campanhas digitais por meio da criação de conteúdos audiovisuais adaptados para diferentes plataformas."
       }
