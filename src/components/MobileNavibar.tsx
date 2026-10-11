@@ -180,7 +180,7 @@ const MobileNavbar: React.FC = () => {
                     </ul>
                 )}
 
-                {pathname.startsWith("/audiovisual") || pathname === '/' && (
+                {(pathname.startsWith("/audiovisual") || pathname === '/') && (
                     <ul
                         className="paginas"
                         ref={paginasRef}

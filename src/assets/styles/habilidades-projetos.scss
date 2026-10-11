@@ -561,13 +561,13 @@
 
     .grid-hover h3 {
         margin: 0;
-        font-size: 1.55rem;
+        font-size: 2rem;
         line-height: 1.2;
     }
 
     .grid-hover p {
         margin: 10px 0 0;
-        font-size: 0.95rem;
+        font-size: 1rem;
         line-height: 1.4;
         max-height: 4.5rem;
         overflow: hidden;
@@ -618,13 +618,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: auto;
-        height: 33px;
+        height: 5rem;
         flex-shrink: 0;
-        padding: 0 1rem;
+        padding: 0 2rem;
         border-radius: 19.5px;
         background: $verde-quaternario;
-        box-shadow: 0px 4px 1px 0px #fff;
         cursor: pointer;
         transition: $transicao-botao-hover3;
         text-decoration: none;
@@ -632,7 +630,7 @@
 
         h2 {
             color: #fff;
-            font-size: 15.5px;
+            font-size: 2rem;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
@@ -644,7 +642,6 @@
             transform: scale(1.2);
             border-radius: 19.5px;
             background-color: #1ee61e;
-            box-shadow: 0px 3px 1px 0px #fff;
         }
 
         &:hover h2 {
