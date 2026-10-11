@@ -1,0 +1,128 @@
+@media screen and (max-width: 767px) {
+    .btnTopo {
+        bottom: 50px;
+        padding: 7px 10px;
+    }
+
+    .intro h1 {
+        font-size: clamp(3.2rem, 7vw, 4rem);
+    }
+
+    .saudacao h2 {
+        font-size: clamp(1.8rem, 4vw, 2.5rem);
+    }
+
+    .resumo-container {
+        margin: 0 1.5rem;
+
+        .resumo-desc {
+            margin: 0;
+            font-size: clamp(1.7rem, 3vw, 2rem);
+        }
+    }
+
+    .meus-projetos {
+        .box-projeto {
+            display: flex;
+            flex-direction: column !important;
+            align-items: center;
+            justify-content: center;
+            width: 100% !important;
+            min-width: 0 !important;
+            height: auto !important;
+            padding: 0 !important;
+
+            .img-projeto {
+                width: 100%;
+                height: clamp(18rem, 55vw, 28rem);
+                padding: 0.8rem;
+            }
+
+            .detalhes-projeto {
+                width: 100%;
+                height: auto;
+                padding: 1.6rem;
+
+                .nome-projeto,
+                p,
+                h4 {
+                    max-width: 100% !important;
+                }
+
+                p {
+                    max-height: none;
+                }
+
+                .btns-projeto {
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+            }
+        }
+
+        .project-grid {
+            grid-template-columns: 1fr;
+            gap: 16px;
+            padding-bottom: 20px;
+        }
+
+        .project-grid-item {
+            max-width: 600px;
+        }
+
+        .grid-image {
+            min-height: 200px;
+            border-radius: 20px;
+        }
+
+        .grid-hover h3 {
+            font-size: 1.45rem;
+        }
+    }
+
+    .sobre-container .sobre {
+        margin-inline: 1.5rem;
+    }
+
+    .contato {
+        margin: 4rem 1.5rem;
+
+        .contato-container {
+            height: auto;
+            padding-inline: 0;
+        }
+
+        .content-contato {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .experiencia {
+        .box-experiencia {
+            height: auto !important;
+            min-height: 0;
+            flex-direction: column;
+            padding: 2rem 1.2rem;
+
+            .detalhes-experiencia {
+                width: 100%;
+
+                p {
+                    max-width: 100% !important;
+                    margin: 1.5rem 0;
+                }
+
+                .btns-experiencia {
+                    width: 100%;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+
+        .box-formacao {
+            max-height: none;
+            height: auto;
+        }
+    }
+}

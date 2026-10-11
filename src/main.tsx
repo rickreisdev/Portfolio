@@ -10,11 +10,6 @@ import "./lib/i18n";
 import { HelmetProvider } from "react-helmet-async";
 
 import "./assets/styles/global.scss";
-import "./assets/styles/media-query/query1085px.scss";
-import "./assets/styles/media-query/query-375px.scss";
-import "./assets/styles/media-query/query-400px.scss";
-import "./assets/styles/media-query/query485px.scss";
-import "./assets/styles/media-query/query710px.scss";
 import "./assets/styles/media-query/query2560px.scss";
 import "./assets/styles/media-query/query1343-1085px.scss";
 import "./assets/styles/media-query/query-1343minpx.scss";
@@ -29,6 +24,9 @@ import SobreAudiovisual from "./sessions/audiovisual/SobreAudiovisual";
 import HabilidadesAudiovisual from "./sessions/audiovisual/HabilidadesAudiovisual";
 import ProjetosAudiovisual from "./sessions/audiovisual/ProjetosAudiovisual";
 
+import "./assets/styles/media-query/query1085px.scss";
+import "./assets/styles/media-query/query767px.scss";
+import "./assets/styles/media-query/query-mobile.scss";
 
 ReactDOM.createRoot(
     document.getElementById("root")!

@@ -17,7 +17,7 @@ const ExperienciaAudiovisual = () => {
                 descricao={t(
                     "experience.nicnet.description",
                 )}
-                tecnologias="Premiere"
+                tecnologias="Premiere - After Effects, Photoshop, Illustrator"
             />
 
             <BoxExperiencia
