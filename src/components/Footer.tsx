@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "../assets/styles/footer.scss";
-import logo from "../assets/imagens/logo-rickreis-white.png";
+import logo from "../assets/SVGs/icon-cachos.svg";
 
 const Footer: React.FC = () => {
     const { t } = useTranslation();
